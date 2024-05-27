@@ -1,0 +1,41 @@
+type = customizablemenus
+
+net.minecraftforge.fml.client.GuiModList {
+}
+
+net.minecraft.client.gui.GuiOptions {
+}
+
+net.minecraft.client.gui.GuiMultiplayer {
+}
+
+net.minecraft.client.gui.GuiScreenResourcePacks {
+}
+
+net.minecraft.client.gui.GuiScreenOptionsSounds {
+}
+
+com.feed_the_beast.ftblib.lib.gui.GuiWrapper {
+}
+
+net.minecraft.client.gui.GuiIngameMenu {
+}
+
+net.minecraft.client.gui.inventory.GuiContainerCreative {
+}
+
+net.minecraft.client.gui.GuiMainMenu {
+}
+
+net.minecraft.client.gui.GuiWorldSelection {
+}
+
+net.minecraft.client.gui.GuiYesNo {
+}
+
+net.minecraft.client.gui.GuiVideoSettings {
+}
+
+mod.acgaming.universaltweaks.util.compat.UTCompatScreen {
+}
+
