@@ -1,16 +1,13 @@
 {
   "name": "gregtech.veins.ore.monazite",
-  "weight": 30,
+  "weight": 20,
   "density": 0.8,
-  "min_height": 20,
   "max_height": 40,
+  "min_height": 10,
   "vein_populator": {
     "type": "surface_rock",
     "material": "monazite"
   },
-  "dimension_filter": [
-    "is_nether"
-  ],
   "generator": {
     "type": "layered",
     "radius": [
@@ -25,13 +22,13 @@
         "primary": "ore:bastnasite"
       },
       {
-        "secondary": "ore:bastnasite"
+        "secondary": "ore:gadolinite"
       },
       {
         "between": "ore:monazite"
       },
       {
-	"sporadic": "ore:neodymium"
+        "sporadic": "ore:monazite"
       }
     ]
   }
