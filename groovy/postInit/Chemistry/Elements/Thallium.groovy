@@ -1,0 +1,47 @@
+ROASTER_RECIPES = recipemap('roaster_recipes')
+BLAST_RECIPES = recipemap('electric_blast_furnace')
+CRYSTALLIZATION_RECIPES = recipemap('crystallization_recipes')
+EXTRACTOR_RECIPES = recipemap('extractor')
+CHEMICAL_BATH_RECIPES = recipemap('chemical_bath')
+MIXER_RECIPES = recipemap('mixer')
+CENTRIFUGE_RECIPES = recipemap('centrifuge')
+VACUUM_RECIPES = recipemap('vacuum_freezer')
+CHEMICAL_RECIPES = recipemap('chemical_reactor')
+DEHYDRATOR_RECIPES = recipemap('dehydrator_recipes')
+BURNER_REACTOR_RECIPES = recipemap('burner_reactor_recipes')
+HIGH_TEMP_DISTILLATION_RECIPES = recipemap('high_temp_distillation_recipes')
+DISTILLATION_RECIPES = recipemap('distillation_tower')
+ELECTROLYTIC_CELL_RECIPES = recipemap('electrolytic_cell_recipes')
+
+
+
+        ROASTER_RECIPES.recipeBuilder()
+                .inputs(metaitem('dustPyrite')* 3)
+                .fluidInputs(fluid('oxygen')*6000)
+                .outputs(item('minecraft:iron_ingot'))
+                .chancedOutput(metaitem('dustThalliumSulfate')*7 , 200, 0)
+                .fluidOutputs(fluid('sulfur_dioxide')*1000)
+                .duration(100)
+                .EUt(400)
+                .buildAndRegister();
+
+        ROASTER_RECIPES.recipeBuilder()
+                .inputs(metaitem('dustGalena')* 4)
+                .fluidInputs(fluid('oxygen')*6000)
+                .outputs(metaitem('ingotLead'))
+                .chancedOutput(metaitem('dustThalliumSulfate')*7 , 200, 0)
+                .fluidOutputs(fluid('sulfur_dioxide')*1000)
+                .duration(100)
+                .EUt(320)
+                .buildAndRegister();
+
+        ELECTROLYZER_RECIPES.recipeBuilder()
+                .inputs(metaitem('dustThalliumSulfate')*7)
+                .fluidInputs(fluid('water')*1000)
+                .notConsumable(metaitem('stickPlatinum'))
+                .outputs(metaitem('dustThallium')*2)
+                .fluidOutputs(fluid('sulfuric_acid')*1000)
+                .fluidOutputs(fluid('oxygen')*1000)
+                .duration(200)
+                .EUt(60)
+                .buildAndRegister();
