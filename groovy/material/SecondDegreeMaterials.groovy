@@ -24,7 +24,6 @@ public class SecondDegreeMaterials {
 
         StyreneSuspension = new Material.Builder(12000, GTBUtil.gtb("styrene_suspension"))
                 .fluid()
-                .components(Sytrene * 1, Water * 1)
                 .colorAverage()
                 .build();
 
