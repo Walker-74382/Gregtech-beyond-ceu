@@ -1,11 +1,12 @@
 {
-  "packName": "PlaceHolder name",
-  "packId": "placeholdername",
+  "packName": "GregTech Beyond",
+  "packId": "gregtech_beyond",
   "version": "1.0.0",
   "debug": false,
-  "classes": {
-    "preInit": []
-  },
+  "classes": [
+    "globals/",
+    "material/"
+  ],
   "loaders": {
     "preInit": [
       "preInit/"
