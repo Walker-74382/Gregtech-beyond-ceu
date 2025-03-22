@@ -1,22 +1,6 @@
-ROASTER_RECIPES = recipemap('roaster_recipes')
-BLAST_RECIPES = recipemap('electric_blast_furnace')
-CRYSTALLIZATION_RECIPES = recipemap('crystallization_recipes')
-EXTRACTOR_RECIPES = recipemap('extractor')
-MIXER_RECIPES = recipemap('mixer')
-CENTRIFUGE_RECIPES = recipemap('centrifuge')
-VACUUM_RECIPES = recipemap('vacuum_freezer')
-CHEMICAL_RECIPES = recipemap('chemical_reactor')
-DEHYDRATOR_RECIPES = recipemap('dehydrator_recipes')
-BURNER_REACTOR_RECIPES = recipemap('burner_reactor_recipes')
-HIGH_TEMP_DISTILLATION_RECIPES = recipemap('high_temp_distillation_recipes')
-DISTILLATION_RECIPES = recipemap('distillation_tower')
-ELECTROLYTIC_CELL_RECIPES = recipemap('electrolytic_cell_recipes')
-OXIDATION_FURNACE_RECIPES = recipemap('oxidation_furnace_recipes')
-GRAVITY_SEPARATOR_RECIPES = recipemap('gravity_separator_recipes')
-FROTH_FLOTATION_UNIT_RECIPES = recipemap('froth_flotation_unit_recipes')
-CLARIFIER_RECIPES = recipemap('clarifier_recipes')
-CHEMICAL_PLANT_RECIPES = recipemap('chemical_plant_recipes')
-ARC_FURNACE_RECIPES = recipemap('arc_furnace')
+import static gregtech.api.recipes.RecipeMaps.*;
+import static gtb.api.recipes.GTBRecipeMaps.*;
+
 
         GRAVITY_SEPARATOR_RECIPES.recipeBuilder()
                 .inputs(metaitem('dustCelestine'))

@@ -1,13 +1,6 @@
-import globals.Globals
+import static gregtech.api.recipes.RecipeMaps.*;
+import static gtb.api.recipes.GTBRecipeMaps.*;
 
-ROASTER_RECIPES = recipemap('roaster_recipes')
-BLAST_RECIPES = recipemap('electric_blast_furnace')
-CRYSTALLIZATION_RECIPES = recipemap('crystallization_recipes')
-EXTRACTOR_RECIPES = recipemap('extractor')
-CHEMICAL_BATH_RECIPES = recipemap('chemical_bath')
-MIXER_RECIPES = recipemap('mixer')
-CENTRIFUGE_RECIPES = recipemap('centrifuge')
-VACUUM_RECIPES = recipemap('vacuum_freezer')
 
    //  GTRecipeHandler.removeRecipesByInputs(ELECTROLYZER_RECIPES,
        //         new ItemStack[] {

@@ -1,7 +1,6 @@
-import globals.Globals
+import static gregtech.api.recipes.RecipeMaps.*;
+import static gtb.api.recipes.GTBRecipeMaps.*;
 
-LASER_ENGRAVER_RECIPES = recipemap('laser_engraver')
-CHEMICAL_BATH_RECIPES = recipemap('chemical_bath')
 
         LASER_ENGRAVER_RECIPES.recipeBuilder()
                 .inputs(metaitem('engraved.crystal_chip'))

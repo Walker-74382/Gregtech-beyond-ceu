@@ -1,11 +1,6 @@
-import globals.Globals
+import static gregtech.api.recipes.RecipeMaps.*;
+import static gtb.api.recipes.GTBRecipeMaps.*;
 
-ROASTER_RECIPES = recipemap('roaster_recipes')
-BLAST_RECIPES = recipemap('electric_blast_furnace')
-CRYSTALLIZATION_RECIPES = recipemap('crystallization_recipes')
-EXTRACTOR_RECIPES = recipemap('extractor')
-HIGH_TEMP_DISTILLATION_RECIPES = recipemap('high_temp_distillation_recipes')
-FLUID_SOLIDFICATION_RECIPES = recipemap('fluid_solidifier')
 
 
         EXTRACTOR_RECIPES.recipeBuilder()

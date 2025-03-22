@@ -1,6 +1,5 @@
-ASSEMBLY_LINE_RECIPES = recipemap('assembly_line')
-CIRCUIT_ASSEMBLER_RECIPES = recipemap('circuit_assembler')
-
+import static gregtech.api.recipes.RecipeMaps.*;
+import static gtb.api.recipes.GTBRecipeMaps.*;
 
         ASSEMBLY_LINE_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('polybenzimidazole')*1152)

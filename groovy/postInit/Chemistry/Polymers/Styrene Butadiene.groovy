@@ -1,8 +1,5 @@
-MIXER_RECIPES = recipemap('mixer')
-DRYER_RECIPES = recipemap('dryer_recipes')
-POLYMERIZATION_TANK_RECIPES = recipemap('polymerization_tank_recipes')
-DEHYDRATOR_RECIPES = recipemap('dehydrator_recipes')
-THERMAL_PRESS_RECIPES = recipemap('thermal_press_recipes')
+import static gregtech.api.recipes.RecipeMaps.*;
+import static gtb.api.recipes.GTBRecipeMaps.*;
 
 
 // Raw Styrene-Butadiene Rubber Dust * 27
@@ -22,7 +19,7 @@ mods.gregtech.large_chemical_reactor.removeByInput(240, null, [fluid('butadiene'
         DEHYDRATOR_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('polymerized_styrene_butadiene_solution')*5000)
                 .fluidOutputs(fluid('diluted_sulfuric_acid')*1000)
-                outputs(metaitem('dustRawStyreneButadieneRubber')* 12)
+                .outputs(metaitem('dustRawStyreneButadieneRubber')* 12)
                 .duration(1200)
                 .EUt(20)
                 .buildAndRegister();

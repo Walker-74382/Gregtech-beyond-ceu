@@ -1,7 +1,5 @@
-ASSEMBLER_RECIPES = recipemap('assembler')
-BLAST_RECIPES = recipemap('electric_blast_furnace')
-FORGE_HAMMER_RECIPES = recipemap('forge_hammer')
-EXTRUDER_RECIPES = recipemap('extruder')
+import static gregtech.api.recipes.RecipeMaps.*;
+import static gtb.api.recipes.GTBRecipeMaps.*;
 
         ASSEMBLER_RECIPES.recipeBuilder()
                 .inputs(metaitem('plateSteel')* 8)

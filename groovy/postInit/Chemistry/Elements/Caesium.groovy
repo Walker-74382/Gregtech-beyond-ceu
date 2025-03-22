@@ -1,10 +1,6 @@
-import globals.Globals
+import static gregtech.api.recipes.RecipeMaps.*;
+import static gtb.api.recipes.GTBRecipeMaps.*;
 
-GRAVITY_SEPARATOR_RECIPES = recipemap('gravity_separator_recipes')
-MIXER = recipemap('mixer')
-FROTH_FLOTATION_UNIT_RECIPES = recipemap('froth_flotation_unit_recipes')
-CLARIFIER_RECIPES = recipemap('clarifier_recipes')
-CHEMICAL_BATH_RECIPES = recipemap('chemical_bath')
 
 
         GRAVITY_SEPARATOR_RECIPES.recipeBuilder()
@@ -14,7 +10,7 @@ CHEMICAL_BATH_RECIPES = recipemap('chemical_bath')
                 .EUt(800)
                 .buildAndRegister();
 
-        MIXER.recipeBuilder()
+        MIXER_RECIPES.recipeBuilder()
                 .inputs(metaitem('siftedPollucite')* 4)
                 .fluidInputs(fluid('distilled_water') *1000)
                 .fluidOutputs(fluid('impure_pollucite_slurry') *1000)

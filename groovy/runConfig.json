@@ -4,7 +4,6 @@
   "version": "1.0.0",
   "debug": false,
   "classes": [
-    "globals/",
     "material/"
   ],
   "loaders": {

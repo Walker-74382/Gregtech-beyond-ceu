@@ -1,31 +1,7 @@
-import globals.Globals
+import static gregtech.api.recipes.RecipeMaps.*;
+import static gtb.api.recipes.GTBRecipeMaps.*;
 
-ROASTER_RECIPES = recipemap('roaster_recipes')
-BLAST_RECIPES = recipemap('electric_blast_furnace')
-CRYSTALLIZATION_RECIPES = recipemap('crystallization_recipes')
-EXTRACTOR_RECIPES = recipemap('extractor')
-CHEMICAL_BATH_RECIPES = recipemap('chemical_bath')
-MIXER_RECIPES = recipemap('mixer')
-CENTRIFUGE_RECIPES = recipemap('centrifuge')
-VACUUM_RECIPES = recipemap('vacuum_freezer')
-FROTH_FLOTATION_UNIT_RECIPES = recipemap('froth_flotation_unit_recipes')
-CLARIFIER_RECIPES = recipemap('clarifier_recipes')
-FUSION_RECIPES = recipemap('fusion_reactor')
-BEDROCK_PUMP_RECIPES = recipemap('bedrock_pump_recipes')
-ELECTROLYZER_RECIPES = recipemap('electrolyzer')
-CHEMICAL_PLANT_RECIPES = recipemap('chemical_plant_recipes')
-CHEMICAL_RECIPES = recipemap('chemical_reactor')
-LARGE_CHEMICAL_RECIPES = recipemap('large_chemical_reactor')
-DISTILLATION_RECIPES = recipemap('distillation_tower')
-DIGESTER_RECIPES = recipemap('digester_recipes')
-SIFTER_RECIPES = recipemap('sifter')
-LASER_ENGRAVER_RECIPES = recipemap('laser_engraver')
-NEUTRON_ACCELERATOR_RECIPES = recipemap('neutron_accelerator_recipes')
-VACUUM_DISTILLATION_TOWER_RECIPES = recipemap('vacuum_distillation_tower_recipes')
-BIO_REACTOR_RECIPES = recipemap('bio_reactor_recipes')
-
-
-LARGE_CHEMICAL_RECIPES.recipeBuilder()
+        LARGE_CHEMICAL_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('naphthalene')*1000)
                 .fluidInputs(fluid('sodium_cyanide')*1000)
                 .fluidInputs(fluid('bromine')*2000)

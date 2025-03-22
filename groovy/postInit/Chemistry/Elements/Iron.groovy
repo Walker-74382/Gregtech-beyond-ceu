@@ -1,17 +1,5 @@
-import globals.Globals
-
-
-ROASTER_RECIPES = recipemap('roaster_recipes')
-BLAST_RECIPES = recipemap('electric_blast_furnace')
-CRYSTALLIZATION_RECIPES = recipemap('crystallization_recipes')
-EXTRACTOR_RECIPES = recipemap('extractor')
-CHEMICAL_BATH_RECIPES = recipemap('chemical_bath')
-MIXER_RECIPES = recipemap('mixer')
-CENTRIFUGE_RECIPES = recipemap('centrifuge')
-VACUUM_RECIPES = recipemap('vacuum_freezer')
-CHEMICAL_RECIPES = recipemap('chemical_reactor')
-DEHYDRATOR_RECIPES = recipemap('dehydrator_recipes')
-PRIMITIVE_BLAST_FURNACE_RECIPES = recipemap('primitive_blast_furnace')
+import static gregtech.api.recipes.RecipeMaps.*;
+import static gtb.api.recipes.GTBRecipeMaps.*;
 
         BLAST_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('hydrogen')*1000)

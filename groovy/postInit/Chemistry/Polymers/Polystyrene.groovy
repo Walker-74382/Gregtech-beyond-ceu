@@ -1,6 +1,5 @@
-MIXER_RECIPES = recipemap('mixer')
-DRYER_RECIPES = recipemap('dryer_recipes')
-POLYMERIZATION_TANK_RECIPES = recipemap('polymerization_tank_recipes')
+import static gregtech.api.recipes.RecipeMaps.*;
+import static gtb.api.recipes.GTBRecipeMaps.*;
 
 MIXER_RECIPES.recipeBuilder()
     .fluidInputs(fluid('water')*1000)

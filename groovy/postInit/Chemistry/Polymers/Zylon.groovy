@@ -1,13 +1,5 @@
-import globals.Globals
-
-MIXER_RECIPES = recipemap('mixer')
-BLAST_RECIPES = recipemap('electric_blast_furnace')
-CHEMICAL_RECIPES = recipemap('chemical_reactor')
-LARGE_CHEMICAL_RECIPES = recipemap('large_chemical_reactor')
-ELECTROLYZER_RECIPES = recipemap('electrolyzer')
-POLYMERIZATION_TANK_RECIPES = recipemap('polymerization_tank_recipes')
-CENTRIFUGE_RECIPES = recipemap('centrifuge')
-
+import static gregtech.api.recipes.RecipeMaps.*;
+import static gtb.api.recipes.GTBRecipeMaps.*;
 
         MIXER_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('ortho_xylene')*1000)

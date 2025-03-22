@@ -1,23 +1,6 @@
-ROASTER_RECIPES = recipemap('roaster_recipes')
-BLAST_RECIPES = recipemap('electric_blast_furnace')
-CRYSTALLIZATION_RECIPES = recipemap('crystallization_recipes')
-EXTRACTOR_RECIPES = recipemap('extractor')
-CHEMICAL_BATH_RECIPES = recipemap('chemical_bath')
-MIXER_RECIPES = recipemap('mixer')
-CENTRIFUGE_RECIPES = recipemap('centrifuge')
-VACUUM_RECIPES = recipemap('vacuum_freezer')
-CHEMICAL_RECIPES = recipemap('chemical_reactor')
-DEHYDRATOR_RECIPES = recipemap('dehydrator_recipes')
-BURNER_REACTOR_RECIPES = recipemap('burner_reactor_recipes')
-HIGH_TEMP_DISTILLATION_RECIPES = recipemap('high_temp_distillation_recipes')
-DISTILLATION_RECIPES = recipemap('distillation_tower')
-ELECTROLYTIC_CELL_RECIPES = recipemap('electrolytic_cell_recipes')
-DIGESTER_RECIPES = recipemap('digester_recipes')
-DISSOLUTION_TANK_RECIPES = recipemap('dissolution_tank_recipes')
-SIFTER_RECIPES = recipemap('sifter')
-DILUTION_TANK_RECIPES = recipemap('dilution_tank_recipes')
-DILUTION_REFRIGERATOR_RECIPES = recipemap('dilution_refrigerator_recipes')
-CRYOGENIC_DISTILLATION_PLANT_RECIPES = recipemap('cryogenic_distillation_plant_recipes')
+import static gregtech.api.recipes.RecipeMaps.*;
+import static gtb.api.recipes.GTBRecipeMaps.*;
+
 
         ROASTER_RECIPES.recipeBuilder()
                 .inputs(metaitem('dustMolybdenite')*3)

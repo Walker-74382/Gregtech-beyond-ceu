@@ -1,5 +1,5 @@
-DISTILLATION_RECIPES = recipemap('distillation_tower')
-CHEMICAL_RECIPES = recipemap('chemical_reactor')
+import static gregtech.api.recipes.RecipeMaps.*;
+import static gtb.api.recipes.GTBRecipeMaps.*;
 
         DISTILLATION_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('coal_tar')*1000)
