@@ -23,7 +23,7 @@ public class SecondDegreeMaterials {
 
 
         StyreneSuspension = new Material.Builder(12000, GTBUtil.gtb("styrene_suspension"))
-                .fluid()
+                .dust()
                 .colorAverage()
                 .build();
 
