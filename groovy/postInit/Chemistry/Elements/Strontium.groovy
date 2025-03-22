@@ -1,0 +1,77 @@
+ROASTER_RECIPES = recipemap('roaster_recipes')
+BLAST_RECIPES = recipemap('electric_blast_furnace')
+CRYSTALLIZATION_RECIPES = recipemap('crystallization_recipes')
+EXTRACTOR_RECIPES = recipemap('extractor')
+MIXER_RECIPES = recipemap('mixer')
+CENTRIFUGE_RECIPES = recipemap('centrifuge')
+VACUUM_RECIPES = recipemap('vacuum_freezer')
+CHEMICAL_RECIPES = recipemap('chemical_reactor')
+DEHYDRATOR_RECIPES = recipemap('dehydrator_recipes')
+BURNER_REACTOR_RECIPES = recipemap('burner_reactor_recipes')
+HIGH_TEMP_DISTILLATION_RECIPES = recipemap('high_temp_distillation_recipes')
+DISTILLATION_RECIPES = recipemap('distillation_tower')
+ELECTROLYTIC_CELL_RECIPES = recipemap('electrolytic_cell_recipes')
+OXIDATION_FURNACE_RECIPES = recipemap('oxidation_furnace_recipes')
+GRAVITY_SEPARATOR_RECIPES = recipemap('gravity_separator_recipes')
+FROTH_FLOTATION_UNIT_RECIPES = recipemap('froth_flotation_unit_recipes')
+CLARIFIER_RECIPES = recipemap('clarifier_recipes')
+CHEMICAL_PLANT_RECIPES = recipemap('chemical_plant_recipes')
+ARC_FURNACE_RECIPES = recipemap('arc_furnace')
+
+        GRAVITY_SEPARATOR_RECIPES.recipeBuilder()
+                .inputs(metaitem('dustCelestine'))
+                .outputs(metaitem('siftedCelestine'))
+                .duration(140)
+                .EUt(70)
+                .buildAndRegister();
+
+        MIXER_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('distilled_water')*1000)
+                .inputs(metaitem('siftedCelestine')*4)
+                .fluidOutputs(fluid('impure_celestine_slurry')*1000)
+                .duration(180)
+                .EUt(90)
+                .buildAndRegister();
+
+        FROTH_FLOTATION_UNIT_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('impure_celestine_slurry')*1000)
+                .notConsumable(fluid('methyl_isobutyl_carbonyl')*1000)
+                .notConsumable(metaitem('dustSodiumAcetate')* 2)
+                .notConsumable(metaitem('dustSodiumIsobutylXanthate')* 2)
+                .fluidOutputs(fluid('celestine_slurry')*1000)
+                .duration(200)
+                .EUt(70)
+                .buildAndRegister();
+
+        CLARIFIER_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('celestine_slurry')*1000)
+                .outputs(metaitem('floatedCelestine')* 16)
+                .fluidOutputs(fluid('waste_water')*1000)
+                .duration(400)
+                .EUt(50)
+                .buildAndRegister();
+
+        CENTRIFUGE_RECIPES.recipeBuilder()
+                .inputs(metaitem('floatedCelestine')* 1)
+                .outputs(metaitem('dustSiliconDioxide'))
+                .fluidOutputs(fluid('strontium_sulfide_solution')*1000)
+                .duration(200)
+                .EUt(120)
+                .buildAndRegister();
+
+        CHEMICAL_BATH_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('strontium_sulfide_solution')*1000)
+                .inputs(metaitem('dustSodiumHydroxide')*3)
+                .fluidOutputs(fluid('sodium_hydroxide_solution')*1000)
+                .outputs(metaitem('dustStrontiumCarbonate')*2)
+                .duration(200)
+                .EUt(80)
+                .buildAndRegister();
+
+        BURNER_REACTOR_RECIPES.recipeBuilder()
+                .inputs(metaitem('dustStrontiumCarbonate')* 2)
+                .fluidInputs(fluid('oxygen')*1000)
+                .outputs(metaitem('dustStrontium'))
+                .duration(200)
+                .EUt(90)
+                .buildAndRegister();
