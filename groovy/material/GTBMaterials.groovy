@@ -16,27 +16,16 @@ import static material.UnknownCompositionMaterials.*;
 
 class GTBMaterials {
 
-
-//FD Materials
-
-
-
-
-
-
-//SD Materials
-
         public static Material StyreneSuspension;
 
-
-
-    
 
         public static void init() {
                 UnknownCompositionMaterials.register();
                 FirstDegreeMaterials.register();
                 SecondDegreeMaterials.register();
                 ThirdDegreeMaterials.register();
+
+
 }
 
 }

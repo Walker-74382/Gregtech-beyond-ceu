@@ -11,23 +11,29 @@ import gregtech.api.fluids.store.FluidStorageKeys;
 import gregtech.api.fluids.store.FluidStorage;
 import gregtech.api.unification.material.properties.*
 
-import gtb.api.utils.GTBUtils;
+import gtb.api.utils.GTBUtil;
 
 import static gregtech.api.unification.material.info.MaterialIconSet.*;
 import static gregtech.api.unification.material.info.MaterialFlags.*;
 import static gregtech.api.unification.material.Materials.*;
 import gregtech.api.unification.material.properties.BlastProperty.GasTier;
-import static gtb.api.unification.material.info.GTBMaterialFlags.*;
+import static  gtb.api.unification.materials.info.GTBMaterialFlags.*;
 import static gregtech.api.fluids.FluidConstants.*;
 
 
 public class ThirdDegreeMaterials {
 
+  public static void register() {
 
-    public static void register() {
+        log.infoMC('Registering Third Degree Materials!');
 
 
 
 
-    }
-    }
+
+
+
+  }
+
+
+}
