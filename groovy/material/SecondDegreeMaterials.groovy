@@ -51,35 +51,35 @@ public class SecondDegreeMaterials {
 
         PeekReactionMixture = new Material.Builder(10005, GTBUtil.gtb("peek_reaction_mixture"))
                 .fluid()
-                .color(0xB7D4D8)
+                .color(0x808687)
                 .build();
 
         PeekReactionMixture.setFormula("(C6H6O2)(C13H8OF2)(K2CO3)(C12H10O2S)", true)
 
         PostPolymerizationPeekMixture = new Material.Builder(10006, GTBUtil.gtb("post_polymerization_peek_mixture"))
                 .fluid()
-                .color(0xB7D4D8)
+                .color(0x6A6D6D)
                 .build();
 
         PostPolymerizationPeekMixture.setFormula("[(C6H6O2)(C13H8OF2)(K2CO3)(C12H10O2S)]n", true)
 
         FluorobenzeneMixture = new Material.Builder(10007, GTBUtil.gtb("fluorobenzene_mixture"))
                 .fluid()
-                .color(0xB7D4D8)
+                .color(0x4F6466)
                 .build();
 
         FluorobenzeneMixture.setFormula("(CS2)(C6H5F)", true)
 
         PrecipitatedPeekMixture = new Material.Builder(10008, GTBUtil.gtb("precipitated_peek_mixture"))
                 .fluid()
-                .color(0xB7D4D8)
+                .color(0x323333)
                 .build();
 
         PrecipitatedPeekMixture.setFormula("[(C6H6O2)(C13H8OF2)(K2CO3)]n", true)
 
         PolyetheretherketoneWaste = new Material.Builder(10009, GTBUtil.gtb("polyetheretherketone_waste"))
                 .fluid()
-                .color(0xB7D4D8)
+                .color(0x333636)
                 .build();
 
         PolyetheretherketoneWaste.setFormula("2(HF)(CH3OH)", true)
