@@ -15,7 +15,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .inputs(metaitem('dustOneThreeDinitrobenzene'))
                 .fluidInputs(fluid('hydrogen')*4000)
                 .notConsumable(metaitem('dustActivatedRaneyNickel'))
-                .outputs(metaitem('dustmPhenyleneDiamine')*16)
+                .outputs(metaitem('dustMPhenylDiamine')*16)
                 .duration(100)
                 .EUt(80)
                 .buildAndRegister();
@@ -41,8 +41,8 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
 
         CHEMICAL_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('nitrobenzene')*1000)
-                .fluidInputs(fluid('nitrationMixture')*1000)
-                .outputs(metaitem('dustdinitrobenzeneMixture')*2)
+                .fluidInputs(fluid('nitration_mixture')*1000)
+                .outputs(metaitem('dustDinitrobenzeneMixture')*2)
                 .duration(120)
                 .EUt(70)
                 .buildAndRegister();
@@ -56,8 +56,8 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .buildAndRegister();
 
         POLYMERIZATION_TANK_RECIPES.recipeBuilder()
-                .inputs(metaitem('dustm_phenylene_diamine')*4)
-                .inputs(metaitem('dustisophthaloyl_chloride')*4)
+                .inputs(metaitem('dustMPhenylDiamine')*4)
+                .inputs(metaitem('dustIsophthaloylChloride')*4)
                 .fluidOutputs(fluid('nomex_polymerization_base')*1000)
                 .duration(200)
                 .EUt(80)
@@ -65,8 +65,8 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
 
         TEXTILE_FACTORY_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('nomex_polymerization_base')*1000)
-                .input(ROTARRY_SPINNING_WHISKER)
-                .outputs(metaitem('dustplateNomex'))
+                .inputs(metaitem('rotarry_spinning_whisker'))
+                .outputs(metaitem('plateNomex'))
                 .duration(200)
                 .EUt(1200)
                 .buildAndRegister();
