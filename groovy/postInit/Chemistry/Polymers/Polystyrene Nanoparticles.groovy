@@ -4,8 +4,8 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
         MIXER_RECIPES.recipeBuilder()
                 .duration(160)
                 .EUt(960)
-                .notConsumable(metaitem('dustNickel')
-                .fluidInputs(fluid('Methanol')*1000)
+                .notConsumable(metaitem('dustNickel'))
+                .fluidInputs(fluid('methanol')*1000)
                 .fluidInputs(fluid('ammonia')*1000)
                 .fluidOutputs(fluid('amine_mixture')*2000)
                 .buildAndRegister();
@@ -95,8 +95,8 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
 
         CHEMICAL_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('styrene')*1000)
-                .fluidInputs(fluid('cetane_trimethyl_ammonium_bromide')*20))
-                .notConsumable(metaitem('dustAmmoniumPersulfat'))
+                .fluidInputs(fluid('cetane_trimethyl_ammonium_bromide')*20)
+                .notConsumable(metaitem('dustAmmoniumPersulfate'))
                 .outputs(metaitem('dustPolystyreneNanoParticles'))
                 .EUt(480)
                 .duration(50)
