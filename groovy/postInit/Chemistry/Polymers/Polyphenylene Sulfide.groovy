@@ -11,15 +11,15 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
 
         MIXER_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('sodium_sulfide_solution')*1000)
-                .fluidInputs(fluid('Dichlorobenzene')*1000)
-                .fluidOutputs(fluid('sodium_sulfide_dichloro_benzene_mixture')*2000)
+                .fluidInputs(fluid('dichlorobenzene')*1000)
+                .fluidOutputs(fluid('sodium_sulfide_solution_dichloro_benzene_mixture')*2000)
                 .duration(900)
                 .EUt(780)
                 .buildAndRegister();
 
         CHEMICAL_RECIPES.recipeBuilder()
                 .fluidOutputs(fluid('phenylene_sulfide_pre_polymer_mixture')*1000)
-                .fluidInputs(fluid('sodium_sulfide_dichloro_benzene_mixture')*1000)
+                .fluidInputs(fluid('sodium_sulfide_solution_dichloro_benzene_mixture')*1000)
                 .notConsumable(metaitem('dustAluminiumChloride'))
                 .outputs(metaitem('dustSalt')* 4)
                 .duration(120)
@@ -43,7 +43,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .buildAndRegister();
 
         POLYMERIZATION_TANK_RECIPES.recipeBuilder()
-                .inputs(metaitem('KaminskyCatalyst'))
+                .inputs(metaitem('dustKaminskyCatalyst'))
                 .fluidInputs(fluid('phenylene_sulfide_pre_polymer_mixture')*144)
                 .fluidInputs(fluid('polyphenylene_sulfide')*576)
                 .duration(500)
@@ -51,7 +51,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .buildAndRegister();
 
         POLYMERIZATION_TANK_RECIPES.recipeBuilder()
-                .inputs(metaitem('PhilipsCatalyst'))
+                .inputs(metaitem('dustPhilipsCatalyst'))
                 .fluidInputs(fluid('phenylene_sulfide_pre_polymer_mixture')*144)
                 .fluidInputs(fluid('polyphenylene_sulfide')*288)
                 .duration(500)
@@ -59,7 +59,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .buildAndRegister();
 
         POLYMERIZATION_TANK_RECIPES.recipeBuilder()
-                .inputs(metaitem('ZieglerNattaCatalyst'))
+                .inputs(metaitem('dustZieglerNattaCatalyst'))
                 .fluidInputs(fluid('phenylene_sulfide_pre_polymer_mixture')*144)
                 .fluidInputs(fluid('polyphenylene_sulfide')*432)
                 .duration(500)
