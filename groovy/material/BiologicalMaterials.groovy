@@ -479,6 +479,11 @@ public class BiologicalMaterials {
                 .dust()
                 .color(0xC1C1C1)
                 .build().setFormula("C8H4O3", true);
+
+        MilkResidueSlurry = new Material.Builder(12091, gregtechId("milk_residue_slurry"))
+                .fluid()
+                .color(0xD0CED2)
+                .build().setFormula("?", true);
   }
   
 }

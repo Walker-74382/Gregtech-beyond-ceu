@@ -90,7 +90,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
 
         CHEMICAL_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('extra_distilled_water')*1000)
-                .notConsumable(metaitem('dustStreptococcusPyogenes')*)
+                .notConsumable(metaitem('dustStreptococcusPyogenes'))
                 .inputs(item('minecraft:rotten_flesh'))
                 .fluidOutputs(fluid('rotten_solution')*1000)
                 .duration(200)

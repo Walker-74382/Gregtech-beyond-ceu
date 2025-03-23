@@ -106,6 +106,7 @@ public class GTBMaterial {
         public static Material PalmOil;
         public static Material BetaPineneSolution;
         public static Material PhthalicAnhydride;
+        public static Material MilkResidueSlurry;
 
         //First Degree Material
 
