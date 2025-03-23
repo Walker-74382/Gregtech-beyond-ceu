@@ -33,7 +33,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .buildAndRegister();
 
         CHEMICAL_RECIPES.recipeBuilder()
-                .inputs(metaitem('terephthalic_acid')* 3)
+                .inputs(metaitem('dustTerephthalicAcid')* 3)
                 .fluidInputs(fluid('bistrichloromethylbenzene')*1000)
                 .outputs(metaitem('dustTerephthaloylChloride')* 6)
                 .fluidOutputs(fluid('hydrochloric_acid')*2000)
@@ -72,7 +72,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
 
         // Ca + 2Cl -> CaCl2
         CHEMICAL_RECIPES.recipeBuilder()
-                .inputs(metaitem('Calcium'))
+                .inputs(metaitem('dustCalcium'))
                 .fluidInputs(fluid('chlorine')*2000)
                 .outputs(metaitem('dustCalciumChloride')* 3)
                 .duration(80)
@@ -81,9 +81,9 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
 
         // C6H4(NH2)2 + C6H4(COCl)2 -> [-CO-C6H4-CO-NH-C6H4-NH-]n + 2HCl
         LARGE_CHEMICAL_RECIPES.recipeBuilder()
-                .inputs(metaitem('CalciumChloride'))
-                .inputs(metaitem('para_phenylenediamine')* 8)
-                .inputs(metaitem('terephthaloyl_chloride')* 3)
+                .inputs(metaitem('dustCalciumChloride'))
+                .inputs(metaitem('dustParaPhenylenediamine')* 8)
+                .inputs(metaitem('dustTerephthaloylChloride')* 3)
                 .fluidInputs(fluid('n_methyl_pyrrolidone')*100)
                 .fluidInputs(fluid('sulfuric_acid')*500)
                 .outputs(metaitem('dustKevlarConcentrate')* 8)
@@ -92,7 +92,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
 
         MIXER_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('water')*1000)
-                .inputs(metaitem('KevlarConcentrate')* 2)
+                .inputs(metaitem('dustKevlarConcentrate')* 2)
                 .fluidOutputs(fluid('kevlar_concentrate')*2000)
                 .duration(20)
                 .EUt(800)
@@ -107,15 +107,15 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .buildAndRegister();
 
         MIXER_RECIPES.recipeBuilder()
-                .notConsumable(ROTARRY_SPINNING_WHISKER)
-                .inputs(metaitem('PurifiedKevlarConcentrate'))
+                .notConsumable(metaitem('rotarry_spinning_whisker'))
+                .inputs(metaitem('dustPurifiedKevlarConcentrate'))
                 .outputs(metaitem('dustKevlarBlend'))
                 .EUt(2000)
                 .duration(800)
                 .buildAndRegister();
 
         POLYMERIZATION_TANK_RECIPES.recipeBuilder()
-                .inputs(metaitem('KevlarBlend'))
+                .inputs(metaitem('dustKevlarBlend'))
                 .chancedOutput(metaitem('dustKevlar')*1, 3000, 100)
                 .fluidInputs(fluid('air')*1000)
                 .duration(200)
@@ -123,15 +123,15 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .buildAndRegister();
 
         POLYMERIZATION_TANK_RECIPES.recipeBuilder()
-                .inputs(metaitem('KevlarBlend'))
-                .chancedOutput(metaitem('dustKevlar')*1 3000, 100)
+                .inputs(metaitem('dustKevlarBlend'))
+                .chancedOutput(metaitem('dustKevlar')*1, 3000, 100)
                 .fluidInputs(fluid('oxygen')*1000)
                 .duration(200)
                 .EUt(80)
                 .buildAndRegister();
 
         POLYMERIZATION_TANK_RECIPES.recipeBuilder()
-                .inputs(metaitem('KevlarBlend'))
+                .inputs(metaitem('dustKevlarBlend'))
                 .outputs(metaitem('dustKevlar'))
                 .notConsumable(metaitem('dustKaminskyCatalyst'))
                 .duration(200)
@@ -139,7 +139,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .buildAndRegister();
 
         POLYMERIZATION_TANK_RECIPES.recipeBuilder()
-                .inputs(metaitem('KevlarBlend'))
+                .inputs(metaitem('dustKevlarBlend'))
                 .chancedOutput(metaitem('dustKevlar')*1, 8000, 100)
                 .notConsumable(metaitem('dustPhilipsCatalyst'))
                 .duration(200)
@@ -147,8 +147,8 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .buildAndRegister();
 
         POLYMERIZATION_TANK_RECIPES.recipeBuilder()
-                .inputs(metaitem('KevlarBlend'))
-                .chancedOutput(metaitem('dustKevlar')* 5000, 100)
+                .inputs(metaitem('dustKevlarBlend'))
+                .chancedOutput(metaitem('dustKevlar')*1, 5000, 100)
                 .notConsumable(metaitem('dustZieglerNattaCatalyst'))
                 .duration(200)
                 .EUt(80)
