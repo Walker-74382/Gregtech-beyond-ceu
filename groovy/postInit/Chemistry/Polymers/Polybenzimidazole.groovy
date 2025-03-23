@@ -3,8 +3,8 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
 
         CHEMICAL_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('diaminobenzidine')*1000)
-                .fluidInputs(fluid('diphenyl_isophtalate')*1000)
-                .outputs(metaitem('dustPolybenzimidazolePrePolymerFoam')*)
+                .fluidInputs(fluid('diphenyl_isophthalate') * 1000)
+                .outputs(metaitem('dustPolybenzimidazolePrePolymerFoam')*1)
                 .duration(120)
                 .EUt(800)
                 .buildAndRegister();
