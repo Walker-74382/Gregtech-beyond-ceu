@@ -4,7 +4,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
         CHEMICAL_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('water')*1000)
                 .fluidInputs(fluid('dimethyldichlorosilane')*1000)
-                .outputs(metaitem('dustDimethylsiloxane')* 3)
+                .fluidOutputs(fluid('dimethylsiloxane')* 1000)
                 .fluidOutputs(fluid('diluted_hydrochloric_acid')*1000)
                 .duration(120)
                 .EUt(80)
@@ -19,41 +19,41 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .buildAndRegister();
 
         POLYMERIZATION_TANK_RECIPES.recipeBuilder()
-                .inputs(metaitem('dustDimethylsiloxane'))
+                .fluidInputs(fluid('dimethylsiloxane')*1000)
                 .notConsumable(metaitem('dustKaminskyCatalyst'))
-                .outputs(metaitem('dustPolydimethylsiloxane'))
+                .outputs(metaitem('dustPolydimethylsiloxane')*3)
                 .duration(120)
                 .EUt(120)
                 .buildAndRegister();
 
         POLYMERIZATION_TANK_RECIPES.recipeBuilder()
-                .inputs(metaitem('dustDimethylsiloxane'))
+                .fluidInputs(fluid('dimethylsiloxane')*1000)
                 .notConsumable(metaitem('dustPhilipsCatalyst'))
-                .outputs(metaitem('dustPolydimethylsiloxane'))
+                .outputs(metaitem('dustPolydimethylsiloxane')*3)
                 .duration(120)
                 .EUt(120)
                 .buildAndRegister();
 
         POLYMERIZATION_TANK_RECIPES.recipeBuilder()
-                .inputs(metaitem('dustDimethylsiloxane'))
+                .fluidInputs(fluid('dimethylsiloxane')*1000)
                 .notConsumable(metaitem('dustZieglerNattaCatalyst'))
-                .outputs(metaitem('dustPolydimethylsiloxane'))
+                .outputs(metaitem('dustPolydimethylsiloxane')*3)
                 .duration(120)
                 .EUt(120)
                 .buildAndRegister();
 
         POLYMERIZATION_TANK_RECIPES.recipeBuilder()
-                .inputs(metaitem('dustDimethylsiloxane'))
+                .fluidInputs(fluid('dimethylsiloxane')*1000)
                 .fluidInputs(fluid('oxygen')*1000)
-                .outputs(metaitem('dustPolydimethylsiloxane'))
+                .outputs(metaitem('dustPolydimethylsiloxane')*3)
                 .duration(120)
                 .EUt(120)
                 .buildAndRegister();
 
         POLYMERIZATION_TANK_RECIPES.recipeBuilder()
-                .inputs(metaitem('dustDimethylsiloxane'))
+                .fluidInputs(fluid('dimethylsiloxane')*1000)
                 .fluidInputs(fluid('air')*1000)
-                .outputs(metaitem('dustPolydimethylsiloxane'))
+                .outputs(metaitem('dustPolydimethylsiloxane')*3)
                 .duration(120)
                 .EUt(120)
                 .buildAndRegister();
