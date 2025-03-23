@@ -102,7 +102,7 @@ public class FirstDegreeMaterials {
         AluminiumBromide.setFormula("AlBr3", true)
 
         Fluorobenzene = new Material.Builder(8011, GTBUtil.gtb("fluorobenzene"))
-                .dust()
+                .fluid()
                 .color(0xD8AAAA)
                 .build();
 
