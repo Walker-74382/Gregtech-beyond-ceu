@@ -10,6 +10,7 @@ import gregtech.api.unification.material.event.PostMaterialEvent;
 import gregtech.common.items.behaviors.TooltipBehavior;
 
 eventManager.listen {
+    
     PostMaterialEvent event ->
 
         log.infoMC("Adding metaitems...")
