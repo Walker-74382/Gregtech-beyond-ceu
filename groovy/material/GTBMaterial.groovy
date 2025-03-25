@@ -14,7 +14,6 @@ import static material.SecondDegreeMaterials.*;
 import static material.BiologicalMaterials.*;
 
 public class GTBMaterial {
-        //Biological Materials
         
         public static Material CupriavidusNecator;
         public static Material BacterialGrowthMedium;
@@ -107,8 +106,23 @@ public class GTBMaterial {
         public static Material BetaPineneSolution;
         public static Material PhthalicAnhydride;
         public static Material MilkResidueSlurry;
-
-        //First Degree Material
+        public static Material Shewanella;
+        public static Material GeneTherapyFluid;
+        public static Material GenePlasmids;
+        public static Material MilkResidueSlurry;
+        public static Material BifidobacteriumBrave;
+        public static Material Chitosan;
+        public static Material MushroomSolution;
+        public static Material Chitin;
+        public static Material RapidlyReplicatingAnimalCells;
+        public static Material MycGene;
+        public static Material Oct4Gene;
+        public static Material Sox2Gene;
+        public static Material Kfl4Gene;
+        public static Material RottenSolution;
+        public static Material HomogenizedRottenMixture;
+        public static Material Cas9;
+        public static Material AnimalCells;
 
         public static Material PotassiumPersulfate;
         public static Material ParaPhenylenediamine;
@@ -124,8 +138,6 @@ public class GTBMaterial {
         public static Material Fluorobenzene;
         public static Material CarbonDisulfide;
 
-
-        //Second Degree Material
         public static Material StyreneSuspension;
         public static Material PolystyreneSuspension;
         public static Material PolyvinylAcetateSolution;
