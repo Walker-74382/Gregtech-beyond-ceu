@@ -480,86 +480,86 @@ public class BiologicalMaterials {
                 .color(0xC1C1C1)
                 .build().setFormula("C8H4O3", true);
 
-        Shewanella = new Material.Builder(12092(), GTBUtil.gtb("shewanella"))
+        Shewanella = new Material.Builder(12092, GTBUtil.gtb("shewanella"))
                 .dust()
                 .color(0x568358)
                 .build().setFormula("Bacteria", true);
 
-        GeneTherapyFluid = new Material.Builder(12093(), GTBUtil.gtb("gene_therapy_fluid"))
+        GeneTherapyFluid = new Material.Builder(12093, GTBUtil.gtb("gene_therapy_fluid"))
                 .liquid(new FluidBuilder())
                 .color(0x234B25)
                 .build().setFormula("?", true);
 
-        GenePlasmids = new Material.Builder(12094(), GTBUtil.gtb("gene_plasmids"))
+        GenePlasmids = new Material.Builder(12094, GTBUtil.gtb("gene_plasmids"))
                 .liquid(new FluidBuilder())
                 .color(0x576959)
                 .build().setFormula("?", true);
 
-        MilkResidueSlurry = new Material.Builder(12095(), GTBUtil.gtb("milk_residues_slurry"))
+        MilkResidueSlurry = new Material.Builder(12095, GTBUtil.gtb("milk_residue_slurry"))
                 .liquid(new FluidBuilder())
                 .color(0xDBDBDB).build();
 
-        BifidobacteriumBrave = new Material.Builder(12096(), GTBUtil.gtb("bifidobacterium_brave"))
+        BifidobacteriumBrave = new Material.Builder(12096, GTBUtil.gtb("bifidobacterium_brave"))
                 .dust()
                 .color(0x2B776E)
                 .build().setFormula("Bacteria", true);
 
-        Chitosan = new Material.Builder(12097(), GTBUtil.gtb("chitosan"))
+        Chitosan = new Material.Builder(12097, GTBUtil.gtb("chitosan"))
                 .liquid(new FluidBuilder())
                 .color(0xFFEB3B)
                 .build();
 
-        MushroomSolution = new Material.Builder(12098(), GTBUtil.gtb("mushroom_solution"))
+        MushroomSolution = new Material.Builder(12098, GTBUtil.gtb("mushroom_solution"))
                 .liquid(new FluidBuilder())
                 .color(0x614239)
                 .build();
 
-        Chitin = new Material.Builder(12099(), GTBUtil.gtb("chitin"))
+        Chitin = new Material.Builder(12099, GTBUtil.gtb("chitin"))
                 .liquid(new FluidBuilder())
                 .color(0xE3C338)
                 .build();
 
-        RapidlyReplicatingAnimalCells = new Material.Builder(12100(), GTBUtil.gtb("rapidly_replicating_animal_cells"))
+        RapidlyReplicatingAnimalCells = new Material.Builder(12100, GTBUtil.gtb("rapidly_replicating_animal_cells"))
                 .liquid(new FluidBuilder())
                 .color(0x9F87A8)
                 .build().setFormula("?", true);
 
-        MycGene = new Material.Builder(12101(), GTBUtil.gtb("myc_gene"))
+        MycGene = new Material.Builder(12101, GTBUtil.gtb("myc_gene"))
                 .liquid(new FluidBuilder())
                 .color(0x606F61)
                 .build();
 
-        Oct4Gene = new Material.Builder(12102(), GTBUtil.gtb("oct_4_gene"))
+        Oct4Gene = new Material.Builder(12102, GTBUtil.gtb("oct_4_gene"))
                 .liquid(new FluidBuilder())
                 .color(0x485649)
                 .build();
 
-        Sox2Gene = new Material.Builder(12103(), GTBUtil.gtb("sox_2_gene"))
+        Sox2Gene = new Material.Builder(12103, GTBUtil.gtb("sox_2_gene"))
                 .liquid(new FluidBuilder())
                 .color(0x3F5140)
                 .build();
 
-        Kfl4Gene = new Material.Builder(12104(), GTBUtil.gtb("kfl_4_gene"))
+        Kfl4Gene = new Material.Builder(12104, GTBUtil.gtb("kfl_4_gene"))
                 .liquid(new FluidBuilder())
                 .color(0x555F55)
                 .build();
 
-        RottenSolution = new Material.Builder(12105(), GTBUtil.gtb("rotten_solution"))
+        RottenSolution = new Material.Builder(12105, GTBUtil.gtb("rotten_solution"))
                 .liquid(new FluidBuilder())
                 .color(0x663020)
                 .build();
 
-        HomogenizedRottenMixture = new Material.Builder(12106(), GTBUtil.gtb("homogenized_rotten_mixture"))
+        HomogenizedRottenMixture = new Material.Builder(12106, GTBUtil.gtb("homogenized_rotten_mixture"))
                 .liquid(new FluidBuilder())
                 .color(0x842B10)
                 .build();
 
-        Cas9 = new Material.Builder(12107(), GTBUtil.gtb("cas_9"))
+        Cas9 = new Material.Builder(12107, GTBUtil.gtb("cas_9"))
                 .liquid(new FluidBuilder())
                 .color(0x2B3E1E)
                 .build();
 
-        AnimalCells = new Material.Builder(12108(), GTBUtil.gtb("animal_cells"))
+        AnimalCells = new Material.Builder(12108, GTBUtil.gtb("animal_cells"))
                 .liquid(new FluidBuilder())
                 .color(0xC07A7A)
                 .build().setFormula("?", true);

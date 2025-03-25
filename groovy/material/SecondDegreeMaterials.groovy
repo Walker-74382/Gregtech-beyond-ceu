@@ -83,7 +83,7 @@ public class SecondDegreeMaterials {
                 .color(0x333636)
                 .build();
 
-        PolyetheretherketoneWaste.setFormula("2[(HF)(CH3OH)]", true)
+        PolyetheretherketoneWaste.setFormula("2((HF)(CH3OH))", true)
     }
 
 }
