@@ -109,7 +109,6 @@ public class GTBMaterial {
         public static Material Shewanella;
         public static Material GeneTherapyFluid;
         public static Material GenePlasmids;
-        public static Material MilkResidueSlurry;
         public static Material BifidobacteriumBrave;
         public static Material Chitosan;
         public static Material MushroomSolution;

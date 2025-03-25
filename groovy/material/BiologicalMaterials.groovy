@@ -480,11 +480,6 @@ public class BiologicalMaterials {
                 .color(0xC1C1C1)
                 .build().setFormula("C8H4O3", true);
 
-        MilkResidueSlurry = new Material.Builder(12091, GTBUtil.gtb("milk_residue_slurry"))
-                .liquid(new FluidBuilder())
-                .color(0xD0CED2)
-                .build().setFormula("?", true);
-
         Shewanella = new Material.Builder(12092(), GTBUtil.gtb("shewanella"))
                 .dust()
                 .color(0x568358)
