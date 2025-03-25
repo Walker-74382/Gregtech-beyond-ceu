@@ -6,7 +6,7 @@ import gregtech.api.unification.material.Material;
 import gregtech.api.GregTechAPI;
 import gregtech.api.fluids.attribute.FluidAttributes;
 import gregtech.api.fluids.FluidBuilder;
-import gregtech.api.unification.material.properties.*
+import gregtech.api.unification.material.properties.*;
 import gtb.api.utils.GTBUtil;
 
 import static gregtech.api.unification.material.info.MaterialIconSet.*;
