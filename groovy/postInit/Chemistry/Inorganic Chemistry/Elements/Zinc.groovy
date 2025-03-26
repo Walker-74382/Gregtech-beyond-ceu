@@ -17,3 +17,11 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .duration(20)
                 .EUt(7)
                 .buildAndRegister();
+
+        ROASTER_RECIPES.recipeBuilder()
+                .inputs(metaitem('dustZincOxide')*2)
+                .outputs(metaitem('dustZinc'))
+                .circuitMeta(0)
+                .duration(20)
+                .EUt(7)
+                .buildAndRegister();
