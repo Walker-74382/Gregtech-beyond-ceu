@@ -135,8 +135,6 @@ eventManager.listen {
         customMetaItems.addItem(116, "unplanarized_nanocpu_wafer");
         customMetaItems.addItem(117, "boron_saturated_yarn");
         customMetaItems.addItem(118, "boron_retaining_yarn");
-        customMetaItems.addItem(119, "coolant_cell");
-        customMetaItems.addItem(181, "nak_coolant_cell");
         customMetaItems.addItem(121, "nickel_nitride_wafer");
         customMetaItems.addItem(122, "engraved_nor_wafer");
         customMetaItems.addItem(123, "engraved_nand_wafer");
@@ -192,6 +190,7 @@ eventManager.listen {
         customMetaItems.addItem(177, "yeem_petri");
         customMetaItems.addItem(178, "soy_bean");
         customMetaItems.addItem(180, "cupriavidus_necator_culture");
+        customMetaItems.addItem(181, "engraved_asoc_wafer");
         customMetaItems.addItem(182, "pad_petri_dish");
         customMetaItems.addItem(183, "uva_halide_lamp");
         customMetaItems.addItem(184, "lithium_foam_base");
@@ -252,6 +251,8 @@ eventManager.listen {
         customMetaItems.addItem(239, "dip_8_package");
         customMetaItems.addItem(240, "dip_8_microcontroller");
         customMetaItems.addItem(241, "zener_diode");
+        customMetaItems.addItem(242, "cracking_catalyst");
+        customMetaItems.addItem(243, "used_cracking_catalyst");
 
 
 
