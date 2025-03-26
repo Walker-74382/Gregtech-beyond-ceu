@@ -133,12 +133,20 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .EUt(700)
                 .buildAndRegister();
 
+        MIXER_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('raw_growth_medium')*1000)
+                .fluidInputs(fluid('sulfanilamide')*1000)
+                .fluidOutputs(fluid('sterilized_growth_medium')*1000)
+                .duration(200)
+                .EUt(1200)
+                .buildAndRegister();
+
         BACTERIAL_VAT_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('gene_therapy_fluid')*10000)
                 .fluidInputs(fluid('animal_cells')*10000)
                 .circuitMeta(1)
-                .fluidInputs(fluid('sterile_growth_medium')*10000)
-                .outputs(STEM_CELLS)
+                .fluidInputs(fluid('sterilized_growth_medium') * 1000)
+                .outputs(metaitem('stem_cells'))
                 .duration(2000)
                 .EUt(800)
                 .buildAndRegister();
@@ -148,8 +156,8 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .fluidInputs(fluid('animal_cells')*10000)
                 .circuitMeta(2)
                 .notConsumable(metaitem('stem_cell_lab_on_chip'))
-                .fluidInputs(fluid('sterile_growth_medium')*10000)
-                .outputs(metaitem('stem_cells'), 2)
+                .fluidInputs(fluid('sterilized_growth_medium')*10000)
+                .outputs(metaitem('stem_cells')* 2)
                 .duration(2000)
                 .EUt(800)
                 .buildAndRegister();
@@ -172,7 +180,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .buildAndRegister();
 
         BIO_REACTOR_RECIPES.recipeBuilder()
-                .fluidInputs(fluid('sterile_growth_medium')*1000)
+                .fluidInputs(fluid('sterilized_growth_medium')*1000)
                 .inputs(metaitem('stem_cells'))
                 .inputs(metaitem('lab_on_chip_base'))
                 .outputs(metaitem('stem_cell_lab_on_chip'))
@@ -205,7 +213,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
         CENTRIFUGE_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('blood')*1000)
                 .fluidOutputs(fluid('blood_cells')*500)
-                .fluidOutputs(plasma('blood_plasma')*500)
+                .fluidOutputs(fluid('plasma.blood_plasma') * 500)
                 .duration(200)
                 .EUt(90)
                 .buildAndRegister();

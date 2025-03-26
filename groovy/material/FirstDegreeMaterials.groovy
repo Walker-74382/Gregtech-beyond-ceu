@@ -1,7 +1,7 @@
 package material;
 
 
-import static material.GTBMaterial.*;
+import static material.GTBMaterials.*;
 
 import gregtech.api.unification.material.Material;
 import gregtech.api.GregTechAPI;

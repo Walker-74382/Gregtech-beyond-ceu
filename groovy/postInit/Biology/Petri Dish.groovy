@@ -5,7 +5,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
 
         DEHYDRATOR_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('one_four_butanediol')*1000)
-                .fluidOutputs(fluid('y_butyrolacetone')*1000)
+                .fluidOutputs(fluid('y_butyralacetone') * 1000)
                 .notConsumable(metaitem('dustCucrmgbaCatalyst')* 1)
                 .EUt(210)
                 .duration(80)
@@ -40,8 +40,8 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
 
         CHEMICAL_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('piranha_solution')*100)
-                .input(CONTAMINATED_STERILIZED_PETRI_DISH)
-                .output(MetaItems.PETRI_DISH)
+                .inputs(metaitem('contaminated_sterilized_petri_dish'))
+                .outputs(metaitem('petri_dish'))
                 .duration(800)
                 .EUt(900)
                 .buildAndRegister();
@@ -58,26 +58,26 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .buildAndRegister();
 
  CHEMICAL_RECIPES.recipeBuilder()
-                .notConsumable(PETRI_DISH_MOLD)
+                .notConsumable(metaitem('petri_dish_mold'))
                 .fluidInputs(fluid('polybenzimidazole')*144)
                 .fluidInputs(fluid('polytetrafluoroethylene')*144)
                 .fluidInputs(fluid('polyetheretherketone')*144)
-                .outputs(MetaItems.PETRI_DISH)
+                .outputs(metaitem('petri_dish'))
                 .duration(200)
                 .EUt(700)
                 .buildAndRegister();
 
         CHEMICAL_BATH_RECIPES.recipeBuilder()
-                .inputs(MetaItems.PETRI_DISH)
-                .outputs(STERILIZED_PETRI_DISH)
+                .inputs(metaitem('petri_dish'))
+                .outputs(metaitem('contaminated_sterilized_petri_dish'))
                 .fluidInputs(fluid('ethanol_100')*1000)
                 .duration(200)
                 .EUt(12)
                 .buildAndRegister();
 
         CHEMICAL_BATH_RECIPES.recipeBuilder()
-                .inputs(STERILIZED_PETRI_DISH)
-                .outputs(PLUS_STERILIZED_PETRI_DISH)
+                .inputs(metaitem('sterilized_petri_dish'))
+                .outputs(metaitem('plus_sterilized_petri_dish'))
                 .fluidInputs(fluid('butanol_100')*1000)
                 .fluidInputs(fluid('methanol_100')*1000)
                 .duration(200)
@@ -85,36 +85,28 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .buildAndRegister();
 
         CHEMICAL_RECIPES.recipeBuilder()
-                .inputs(PLUS_STERILIZED_PETRI_DISH)
+                .inputs(metaitem('plus_sterilized_petri_dish'))
                 .inputs(metaitem('dustCupriavidusNecatorBacteriaSample'))
-                .outputs(CUPRIAVIDUS_BACTERIA_SAMPLE_PETRI_DISH)
+                .outputs(metaitem('cupriavidus_bacteria_sample_petri_dish'))
                 .duration(40)
                 .EUt(200)
                 .buildAndRegister();
 
         CHEMICAL_RECIPES.recipeBuilder()
-                .inputs(CUPRIAVIDUS_BACTERIA_SAMPLE_PETRI_DISH)
+                .inputs(metaitem('cupriavidus_bacteria_sample_petri_dish'))
                 .fluidInputs(fluid('cuproquin')*1000)
-                .outputs(CUPRIAVIDUS_NECATOR_CULTURE)
+                .outputs(metaitem('cupriavidus_necator_culture'))
                 .duration(1200)
                 .EUt(80)
                 .buildAndRegister();
 
-        MIXER_RECIPES.recipeBuilder()
-                .fluidInputs(fluid('raw_growth_medium')*1000)
-                .fluidInputs(fluid('sulfanilamide')*1000)
-                .fluidOutputs(fluid('sterile_growth_medium')*1000)
-                .duration(200)
-                .EUt(1200)
-                .buildAndRegister();
-
         BIO_REACTOR_RECIPES.recipeBuilder()
-                .inputs(CUPRIAVIDUS_NECATOR_CULTURE)
+                .inputs(metaitem('cupriavidus_necator_culture'))
                 .fluidInputs(fluid('bacterial_growth_medium')*1000)
                 .fluidOutputs(fluid('depleted_bacterial_growth_medium')*1000)
                 .duration(200)
                 .outputs(metaitem('dustCupriavidusNecator')* 1)
-                .outputs(CONTAMINATED_STERILIZED_PETRI_DISH)
+                .outputs(metaitem('contaminated_sterilized_petri_dish'))
                 .EUt(120)
                 .buildAndRegister();
 
@@ -142,9 +134,9 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .buildAndRegister();
 
         MIXER_RECIPES.recipeBuilder()
-                .fluidInputs(fluid('basic_fibroblast_growth_medium')*1000)
+                .fluidInputs(fluid('basic_fibroglast_growth_medium')*1000)
                 .fluidInputs(fluid('ammonium_nitrate')*1000)
-                .fluidInputs(fluid('epidermal_growth_factor')*1000)
+                .fluidInputs(fluid('epidermal_growth_factora')*1000)
                 .fluidInputs(fluid('b_27_supplement')*1000)
                 .inputs(metaitem('dustAgar')* 4)
                 .inputs(metaitem('dustGlutamine')* 20)
@@ -154,10 +146,10 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .buildAndRegister();
 
         CENTRIFUGE_RECIPES.recipeBuilder()
-                .fluidInputs(fluid('blood_plasma')*1000)
+                .fluidInputs(fluid('plasma.blood_plasma')*1000)
                 .fluidOutputs(fluid('catalase')*200)
-                .fluidOutputs(fluid('basic_fibroblast_growth_medium')*200)
-                .fluidOutputs(fluid('epidermal_growth_factor')*200)
+                .fluidOutputs(fluid('basic_fibroglast_growth_medium')*200)
+                .fluidOutputs(fluid('epidermal_growth_factora')*200)
                 .duration(200)
                 .EUt(120)
                 .buildAndRegister();
@@ -238,7 +230,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .inputs(metaitem('dustYeast')* 1)
                 .fluidInputs(fluid('biomass')*1000)
                 .fluidOutputs(fluid('linoleic_acid')*1000)
-                .notConsumable(ULTRASONIC_HOMOGENIZER)
+                .notConsumable(metaitem('ultrasonic_homogenizer'))
                 .duration(2000)
                 .EUt(7)
                 .buildAndRegister();
@@ -252,7 +244,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .buildAndRegister();
 
         MACERATOR_RECIPES.recipeBuilder()
-                .inputs(APPLE)
+                .inputs(item('minecraft:apple'))
                 .outputs(metaitem('dustYeast'))
                 .EUt(12)
                 .duration(80)

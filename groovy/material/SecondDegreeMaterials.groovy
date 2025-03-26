@@ -1,6 +1,6 @@
 package material;
 
-import static material.GTBMaterial.*;
+import static material.GTBMaterials.*;
 
 import gregtech.api.unification.material.Material;
 import gregtech.api.GregTechAPI;
@@ -84,6 +84,13 @@ public class SecondDegreeMaterials {
                 .build();
 
         PolyetheretherketoneWaste.setFormula("2((HF)(CH3OH))", true)
+
+        Polyetheretherketone = new Material.Builder(10010, GTBUtil.gtb("Polyetheretherketone"))
+                .liquid(new FluidBuilder())
+                .color(0x333636)
+                .build();
+
+        Polyetheretherketone.setFormula("[(C19H12O3)]n", true)
     }
 
 }

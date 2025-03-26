@@ -1,7 +1,7 @@
 package material;
 
 
-import static material.GTBMaterial.*;
+import static material.GTBMaterials.*;
 
 import gregtech.api.unification.material.Material;
 import gregtech.api.GregTechAPI;
@@ -549,7 +549,7 @@ public class BiologicalMaterials {
                 .color(0x663020)
                 .build();
 
-        HomogenizedRottenMixture = new Material.Builder(12106, GTBUtil.gtb("homogenized_rotten_mixture"))
+        HomogenizedRottenSolution = new Material.Builder(12106, GTBUtil.gtb("homogenized_rotten_solution"))
                 .liquid(new FluidBuilder())
                 .color(0x842B10)
                 .build();

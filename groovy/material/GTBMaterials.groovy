@@ -13,7 +13,8 @@ import static material.FirstDegreeMaterials.*;
 import static material.SecondDegreeMaterials.*;
 import static material.BiologicalMaterials.*;
 
-public class GTBMaterial {
+
+class GTBMaterials {
         
         public static Material CupriavidusNecator;
         public static Material BacterialGrowthMedium;
@@ -119,7 +120,7 @@ public class GTBMaterial {
         public static Material Sox2Gene;
         public static Material Kfl4Gene;
         public static Material RottenSolution;
-        public static Material HomogenizedRottenMixture;
+        public static Material HomogenizedRottenSolution;
         public static Material Cas9;
         public static Material AnimalCells;
 
@@ -147,13 +148,14 @@ public class GTBMaterial {
         public static Material PurifiedPeekMixture;
         public static Material PrecipitatedPeekMixture;
         public static Material PolyetheretherketoneWaste;
+        public static Material Polyetheretherketone;
 
 
 
-public static void init() {
-        FirstDegreeMaterials.register();
-        SecondDegreeMaterials.register();
-        BiologicalMaterials.register();
+        public static void init() {
+                FirstDegreeMaterials.register();
+                SecondDegreeMaterials.register();
+                BiologicalMaterials.register();
 
         }
 

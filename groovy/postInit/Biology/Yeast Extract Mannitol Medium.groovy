@@ -3,34 +3,34 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
 
 
         ASSEMBLER_RECIPES.recipeBuilder()
-                .input(GLASS_TUBE)
-                .input(stick, Steel)
-                .output(SYRINGE)
+                .inputs(metaitem('component.glass.tube'))
+                .inputs(metaitem('stickSteel'))
+                .outputs(metaitem('syringe'))
                 .duration(120)
                 .EUt(70)
                 .buildAndRegister();
 
         CHEMICAL_RECIPES.recipeBuilder()
-                .input(SYRINGE)
+                .inputs(metaitem('syringe'))
                 .fluidInputs(fluid('butanol_100')*1000)
                 .fluidInputs(fluid('methanol_100')*1000)
-                .output(STERILIZED_SYRINGE)
+                .outputs(metaitem('sterilized_syringe'))
                 .duration(120)
                 .EUt(90)
                 .buildAndRegister();
 
         CHEMICAL_RECIPES.recipeBuilder()
-                .input(MUTTON)
-                .input(STERILIZED_SYRINGE)
-                .output(SHEEP_BLOOD_SYRINGE)
+                .inputs(item('minecraft:mutton'))
+                .inputs(metaitem('sterilized_syringe'))
+                .outputs(metaitem('sheep_blood_syringe'))
                 .duration(120)
                 .EUt(90)
                 .buildAndRegister();
 
         EXTRACTOR_RECIPES.recipeBuilder()
-                .input(SHEEP_BLOOD_SYRINGE)
+                .inputs(metaitem('sheep_blood_syringe'))
                 .fluidOutputs(fluid('sheep_blood')*1000)
-                .output(SYRINGE)
+                .outputs(metaitem('syringe'))
                 .duration(120)
                 .EUt(800)
                 .buildAndRegister();
@@ -96,14 +96,14 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
 
         CHEMICAL_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('phenyl_ethyl_alcohol_blood_agar')*100)
-                .input(PLUS_STERILIZED_PETRI_DISH)
-                .output(PAD_PETRI_DISH)
+                .inputs(metaitem('plus_sterilized_petri_dish'))
+                .outputs(metaitem('pad_petri_dish'))
                 .duration(900)
                 .EUt(560)
                 .buildAndRegister();
 
         BIO_REACTOR_RECIPES.recipeBuilder()
-                .input(PAD_PETRI_DISH)
+                .inputs(metaitem('pad_petri_dish'))
                 .inputs(metaitem('dustIriditus'))
                 .fluidOutputs(fluid('xerizin')*100)
                 .duration(120)
@@ -111,21 +111,21 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .buildAndRegister();
 
         TEXTILE_FACTORY_RECIPES.recipeBuilder()
-                .input(COTTON)
-                .output(COTTON_SHEET)
+                .inputs(metaitem('cotton'))
+                .outputs(metaitem('cotton_sheet'))
                 .duration(200)
                 .EUt(120)
                 .buildAndRegister();
 
         TEXTILE_FACTORY_RECIPES.recipeBuilder()
-                .input(COTTON_SHEET)
-                .output(CHEESE_CLOTH)
+                .inputs(metaitem('cotton_sheet'))
+                .outputs(metaitem('cheese_cloth'))
                 .duration(200)
                 .EUt(120)
                 .buildAndRegister();
 
         CHEMICAL_RECIPES.recipeBuilder()
-                .notConsumable(CHEESE_CLOTH)
+                .notConsumable(metaitem('cheese_cloth'))
                 .fluidInputs(fluid('heated_milk_slurry')*1000)
                 .fluidOutputs(fluid('peptone_mixture')*400)
                 .outputs(metaitem('dustSolidMilkResidues'))
@@ -161,15 +161,15 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
 
         MIXER_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('distilled_water')*1000)
-                .input(PANCREAS)
+                .inputs(metaitem('pancreas'))
                 .fluidOutputs(fluid('homogenized_pancreas_mixture')*1000)
-                .notConsumable(ULTRASONIC_HOMOGENIZER)
+                .notConsumable(metaitem('ultrasonic_homogenizer'))
                 .duration(120)
                 .EUt(800)
                 .buildAndRegister();
 
         MACERATOR_RECIPES.recipeBuilder()
-                .input(SOY_BEAN)
+                .inputs(metaitem('soy_bean'))
                 .outputs(metaitem('dustCrushedSoybean')* 1)
                 .duration(50)
                 .EUt(60)
@@ -202,7 +202,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
 
         BIO_REACTOR_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('bean_slurry')*1000)
-                .notConsumable(YEEM_PETRI)
+                .notConsumable(metaitem('yeem_petri'))
                 .duration(200)
                 .outputs(metaitem('dustRhizobium')*1)
                 .EUt(400)
@@ -210,8 +210,8 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
 
         CHEMICAL_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('yeem_solution')*100)
-                .input(PLUS_STERILIZED_PETRI_DISH)
-                .output(YEEM_PETRI)
+                .inputs(metaitem('plus_sterilized_petri_dish'))
+                .outputs(metaitem('yeem_petri'))
                 .duration(120)
                 .EUt(120)
                 .buildAndRegister();
@@ -247,23 +247,23 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
         CHEMICAL_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('nutrient_rich_solution')*1000)
                 .inputs(metaitem('dustYeast')*1)
-                .input(PLUS_STERILIZED_PETRI_DISH)
-                .outputs(GROWN_YEAST_CULTURE)
+                .inputs(metaitem('plus_sterilized_petri_dish'))
+                .outputs(metaitem('grown_yeast_culture'))
                 .duration(120)
                 .EUt(800)
                 .buildAndRegister();
 
         CENTRIFUGE_RECIPES.recipeBuilder()
-                .input(GROWN_YEAST_CULTURE)
-                .outputs(YEAST_CELLS)
+                .inputs(metaitem('grown_yeast_culture'))
+                .outputs(metaitem('yeast_cells'))
                 .fluidOutputs(fluid('waste_water')*12)
                 .duration(700)
                 .EUt(812)
                 .buildAndRegister();
 
         CHEMICAL_RECIPES.recipeBuilder()
-                .input(YEAST_CELLS)
-                .outputs(CONTAMINATED_STERILIZED_PETRI_DISH)
+                .inputs(metaitem('yeast_cells'))
+                .outputs(metaitem('contaminated_sterilized_petri_dish'))
                 .fluidOutputs(fluid('yeast_extract')*1000)
                 .fluidInputs(fluid('water')*1000)
                 .duration(700)
