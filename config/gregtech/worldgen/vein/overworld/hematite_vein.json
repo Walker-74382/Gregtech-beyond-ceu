@@ -1,12 +1,12 @@
 {
-  "name": "gregtech.veins.ore.mica",
-  "weight": 20,
+  "name": "gregtech.veins.ore.hematite",
+  "weight": 40,
   "density": 0.25,
-  "max_height": 40,
-  "min_height": 20,
+  "max_height": 60,
+  "min_height": 40,
   "vein_populator": {
     "type": "surface_rock",
-    "material": "mica"
+    "material": "hematite"
   },
   "generator": {
     "type": "layered",
@@ -19,16 +19,16 @@
     "type": "layered",
     "values": [
       {
-        "primary": "ore:kyanite"
+        "primary": "ore:hematite"
       },
       {
-        "secondary": "ore:mica"
+        "secondary": "ore:andradite"
       },
       {
-        "between": "ore:bauxite"
+        "between": "ore:wollastonite"
       },
       {
-        "sporadic": "ore:pollucite"
+        "sporadic": "ore:hematite"
       }
     ]
   }
