@@ -78,3 +78,10 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .duration(200)
                 .EUt(80)
                 .buildAndRegister()
+
+
+// Tungstic Acid Dust * 7
+mods.gregtech.chemical_bath.removeByInput(960, [metaitem('dustTungstate') * 7], [fluid('hydrochloric_acid') * 2000 * 2000])
+
+// Tungsten Dust * 1
+mods.gregtech.electrolyzer.removeByInput(960, [metaitem('dustTungsticAcid') * 7], null)
