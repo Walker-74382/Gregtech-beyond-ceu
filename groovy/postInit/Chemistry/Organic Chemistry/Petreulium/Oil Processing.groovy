@@ -42,12 +42,12 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .fluidOutputs(fluid('ethane')*300).fluidOutputs(fluid('methane')*350)
                 .fluidOutputs(fluid('butane')*150).EUt(70).duration(200).buildAndRegister();
 
-        DISTILLATION_RECIPES.recipeBuilder().fluidInputs(fluid('steam_cracked_butane')*1000)
+        DISTILLATION_RECIPES.recipeBuilder().fluidInputs(fluid('steamcracked_butane')*1000)
                 .fluidOutputs(fluid('ethylene')*350).fluidOutputs(fluid('methane')*150)
                 .fluidOutputs(fluid('hydrogen')*100).fluidOutputs(fluid('butadiene')*150)
                 .fluidOutputs(fluid('propene')*250).duration(200).EUt(70).buildAndRegister();
 
-        DISTILLATION_RECIPES.recipeBuilder().fluidInputs(fluid('steam_cracked_ethane')*2000)
+        DISTILLATION_RECIPES.recipeBuilder().fluidInputs(fluid('steamcracked_ethane')*2000)
                 .fluidOutputs(fluid('ethylene')*500).fluidOutputs(fluid('propylene')*200)
                 .fluidOutputs(fluid('butane')*100).fluidOutputs(fluid('hydrogen')*200)
                 .fluidOutputs(fluid('methane')*500).fluidOutputs(fluid('ethane')*300)
@@ -55,14 +55,8 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
 
         DISTILLATION_RECIPES.recipeBuilder().fluidInputs(fluid('fuel_oil')*1000)
                 .fluidOutputs(fluid('propane')*150).fluidOutputs(fluid('ethane')*100)
-                .fluidOutputs(fluid('methane')*100).fluidOutputs(fluid('Hexane')*300)
+                .fluidOutputs(fluid('methane')*100).fluidOutputs(fluid('hexane')*300)
                 .fluidOutputs(fluid('pentane')*250).fluidOutputs(fluid('butane')*250).duration(200)
-                .EUt(480).buildAndRegister();
-
-        DISTILLATION_RECIPES.recipeBuilder().fluidInputs(fluid('kerosene')*1000)
-                .fluidOutputs(fluid('propane')*250).fluidOutputs(fluid('ethane')*200)
-                .fluidOutputs(fluid('methane')*100).fluidOutputs(fluid('Hexane')*100)
-                .fluidOutputs(fluid('pentane')*150).fluidOutputs(fluid('butane')*250).duration(200)
                 .EUt(480).buildAndRegister();
 
         CRACKING_RECIPES.recipeBuilder().fluidInputs(fluid('kerosene')*1000)
@@ -87,7 +81,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .fluidOutputs(fluid('naphtha')*125).fluidOutputs(fluid('toluene')*80).duration(200).EUt(80)
                 .buildAndRegister();
 
-        DISTILLATION_RECIPES.recipeBuilder().fluidInputs(fluid('lightly_steam_cracked_naphtha')*1000)
+        DISTILLATION_RECIPES.recipeBuilder().fluidInputs(fluid('lightly_steamcracked_naphtha')*1000)
                 .fluidOutputs(fluid('ethane')*35)
                 .fluidOutputs(fluid('ethylene')*200)
                 .fluidOutputs(fluid('methane')*200)
@@ -104,7 +98,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .EUt(120)
                 .buildAndRegister();
 
-        DISTILLATION_RECIPES.recipeBuilder().fluidInputs(fluid('severely_steam_cracked_naphtha')*1000)
+        DISTILLATION_RECIPES.recipeBuilder().fluidInputs(fluid('severely_steamcracked_naphtha')*1000)
                 .fluidOutputs(fluid('ethane')*65)
                 .fluidOutputs(fluid('ethylene')*500)
                 .fluidOutputs(fluid('methane')*500)
@@ -124,7 +118,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
         DISTILLATION_RECIPES.recipeBuilder().fluidInputs(fluid('fraction_c_5')*1000)
                 .fluidOutputs(fluid('dicyclopentadiene')*200)
                 .fluidOutputs(fluid('pentane')*400)
-                .fluidOutputs(fluid('Isoprene')*400).duration(200).EUt(12).buildAndRegister();
+                .fluidOutputs(fluid('isoprene')*400).duration(200).EUt(12).buildAndRegister();
 
         CENTRIFUGE_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('dicyclopentadiene')*1000)
@@ -138,7 +132,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
         DILUTION_TANK_RECIPES.recipeBuilder().fluidInputs(fluid('water')*2000)
                 .fluidInputs(fluid('oil_heavy')*500).fluidOutputs(fluid('diluted_oil')*2500).EUt(80)
                 .duration(100).buildAndRegister();
-        DILUTION_TANK_RECIPES.recipeBuilder().fluidInputs(fluid('water')*1500).fluidInputs(fluid('raw_oil')*1000)
+        DILUTION_TANK_RECIPES.recipeBuilder().fluidInputs(fluid('water')*1500).fluidInputs(fluid('oil_medium')*1000)
                 .fluidOutputs(fluid('diluted_oil')*2500).EUt(80).duration(100).buildAndRegister();
         DILUTION_TANK_RECIPES.recipeBuilder().fluidInputs(fluid('water')*1300)
                 .fluidInputs(fluid('oil_light')*1200).fluidOutputs(fluid('diluted_oil')*2500).EUt(80)
@@ -148,7 +142,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
 
         MIXER_RECIPES.recipeBuilder().fluidInputs(fluid('water')*1500).fluidInputs(fluid('oil_heavy')*500)
                 .fluidOutputs(fluid('diluted_oil')*2000).EUt(10).duration(100).buildAndRegister();
-        MIXER_RECIPES.recipeBuilder().fluidInputs(fluid('water')*1000).fluidInputs(fluid('raw_oil')*1000)
+        MIXER_RECIPES.recipeBuilder().fluidInputs(fluid('water')*1000).fluidInputs(fluid('oil_medium')*1000)
                 .fluidOutputs(fluid('diluted_oil')*2000).EUt(10).duration(100).buildAndRegister();
         MIXER_RECIPES.recipeBuilder().fluidInputs(fluid('water')*800).fluidInputs(fluid('oil_light')*1200)
                 .fluidOutputs(fluid('diluted_oil')*2000).EUt(10).duration(100).buildAndRegister();
@@ -156,18 +150,18 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .fluidOutputs(fluid('diluted_oil')*2000).EUt(10).duration(100).buildAndRegister();
 
         FISCHER_TROPSCH_REACTOR_RECIPES.recipeBuilder().fluidInputs(fluid('distilled_water')*2000)
-                .fluidInputs(fluid('refinery_gas')*8000).notConsumable(dust, CobaltOxide, 1)
-                .outputs(PARAFFIN_WAX, 1).fluidOutputs(fluid('diesel')*1000)
+                .fluidInputs(fluid('refinery_gas')*8000).notConsumable(metaitem('dustCobaltOxide')* 1)
+                .outputs(metaitem('paraffin_wax')* 1).fluidOutputs(fluid('diesel')*1000)
                 .fluidOutputs(fluid('gasoline')*500).fluidOutputs(fluid('water')*2000)
                 .fluidOutputs(fluid('sulfuric_acid')*1000).fluidOutputs(fluid('ethylene')*1500)
-                .fluidOutputs(fluid('Ethanol')*1500).fluidOutputs(fluid('methane')*2000)
+                .fluidOutputs(fluid('ethanol')*1500).fluidOutputs(fluid('methane')*2000)
                 .fluidOutputs(fluid('formaldehyde')*500).duration(200).EUt(5000).buildAndRegister();
 
         VACUUM_DISTILLATION_TOWER_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('sulfuric_oil_residues')*1000)
                 .fluidOutputs(fluid('lubricant_mixture')*850)
                 .fluidOutputs(fluid('sulfuric_fuel_oil')*200)
-                .outputs(BITUMINOUS_RESIDUES, 1)
+                .outputs(metaitem('bituminous_residues')* 1)
                 .fluidOutputs(fluid('sulfuric_diesel')*200)
                 .fluidOutputs(fluid('sulfuric_kerosene')*150)
                 .fluidOutputs(fluid('sulfuric_naphtha')*100)
@@ -184,7 +178,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .buildAndRegister();
 
         EXTRACTOR_RECIPES.recipeBuilder()
-                .inputs(PARAFFIN_WAX)
+                .inputs(metaitem('paraffin_wax'))
                 .fluidOutputs(fluid('resin')*1000)
                 .duration(20)
                 .EUt(8)
@@ -192,7 +186,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
 
         CRYSTALLIZATION_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('slack_wax')*1000)
-                .outputs(PARAFFIN_WAX, 4)
+                .outputs(metaitem('paraffin_wax')* 4)
                 .fluidOutputs(fluid('lubricant')*250)
                 .duration(200)
                 .EUt(12)
@@ -207,23 +201,23 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
 
         FLUID_SOLIDFICATION_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('resin')*100)
-                .outputs(STICKY_RESIN, 1)
+                .outputs(metaitem('rubber_drop')* 1)
                 .duration(200)
                 .EUt(12)
                 .buildAndRegister();
 
         CENTRIFUGE_RECIPES.recipeBuilder()
-                .inputs(STICKY_RESIN, 1)
+                .inputs(metaitem('rubber_drop')* 1)
                 .fluidOutputs(fluid('resin')*100)
                 .duration(120)
                 .EUt(80)
                 .buildAndRegister();
 
         COKER_RECIPES.recipeBuilder()
-                .inputs(BITUMINOUS_RESIDUES, 1)
+                .inputs(metaitem('bituminous_residues')* 1)
                 .fluidInputs(fluid('steam')*1000)
                 .fluidOutputs(fluid('sulfuric_oil_residues')*150)
-                .outputs(dust, Coke, 4)
+                .outputs(metaitem('dustCoke')* 4)
                 .duration(200)
                 .EUt(99)
                 .buildAndRegister();
@@ -245,7 +239,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .buildAndRegister();
 
         DISTILLATION_RECIPES.recipeBuilder()
-                .fluidInputs(fluid('severely_steam_cracked_naphtha')*1000)
+                .fluidInputs(fluid('severely_steamcracked_naphtha')*1000)
                 .fluidOutputs(fluid('ethylene')*500)
                 .fluidOutputs(fluid('methane')*500)
                 .fluidOutputs(fluid('propene')*300)
@@ -263,7 +257,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .buildAndRegister();
 
         DISTILLATION_RECIPES.recipeBuilder()
-                .fluidInputs(fluid('lightly_steam_cracked_naphtha')*1000)
+                .fluidInputs(fluid('lightly_steamcracked_naphtha')*1000)
                 .fluidOutputs(fluid('ethylene')*200)
                 .fluidOutputs(fluid('methane')*200)
                 .fluidOutputs(fluid('propene')*200)
@@ -297,8 +291,8 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .buildAndRegister();
 
         SINTERING_OVEN_RECIPES.recipeBuilder()
-                .inputs(BITUMINOUS_RESIDUES, 1)
-                .outputs(BITUMEN_CRYSTAL, 1)
+                .inputs(metaitem('bituminous_residues')* 1)
+                .outputs(metaitem('bitumen_crystal')* 1)
                 .duration(500)
                 .EUt(480)
                 .buildAndRegister();
@@ -306,8 +300,8 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
         MIXER_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('water')*288)
                 .inputs(metaitem('dustQuartzSand')* 2)
-                .inputs(BITUMEN_CRYSTAL, 2)
-                .outputs(ASPHALT, 6)
+                .inputs(metaitem('bitumen_crystal')* 2)
+                .outputs(metaitem('asphalt')* 6)
                 .duration(500)
                 .EUt(480)
                 .buildAndRegister();
@@ -315,8 +309,18 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
         MIXER_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('water')*288)
                 .inputs(metaitem('dustAndesite')* 1)
-                .inputs(BITUMEN_CRYSTAL, 1)
-                .outputs(ASPHALT, 2)
+                .inputs(metaitem('bitumen_crystal')* 1)
+                .outputs(metaitem('asphalt')*2)
                 .duration(500)
                 .EUt(480)
                 .buildAndRegister();
+
+        // Sulfuric Heavy Fuel * 15
+mods.gregtech.distillation_tower.removeByInput(96, null, [fluid('oil') * 50 * 50])
+// Butane Gas * 60
+mods.gregtech.distillation_tower.removeByInput(120, null, [fluid('refinery_gas') * 1000 * 1000])
+
+
+
+
+// Fixed Bed Reactor for Hydrotreating Carbons Co-Mo Catalyst
