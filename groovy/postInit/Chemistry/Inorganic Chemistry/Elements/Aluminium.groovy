@@ -99,3 +99,13 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
 // Aluminium Dust * 6
 mods.gregtech.electrolyzer.removeByInput(60, [metaitem('dustBauxite') * 15], null)
 
+
+        //Aluminium Salt
+
+        CHEMICAL_BATH_RECIPES.recipeBuilder()
+                .inputs(metaitem('dustAluminiumSalt')*2)
+                .fluidInputs(fluid('distilled_water')*1000)
+                .fluidOutputs(fluid('aluminium_salt_solution')*1000)
+                .duration(60)
+                .EUt(7)
+                .buildAndRegister();
