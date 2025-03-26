@@ -135,7 +135,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
 
         MIXER_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('raw_growth_medium')*1000)
-                .fluidInputs(fluid('sulfanilamide')*1000)
+                .fluidInputs(fluid('sulfanilamide')*1000) //TODO CLEANROOM PROPERTIES
                 .fluidOutputs(fluid('sterilized_growth_medium')*1000)
                 .duration(200)
                 .EUt(1200)
@@ -217,3 +217,6 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .duration(200)
                 .EUt(90)
                 .buildAndRegister();
+
+        // Sterilized Growth Medium * 100
+mods.gregtech.fluid_heater.removeByInput(7680, [metaitem('circuit.integrated').withNbt(['Configuration': 1])], [fluid('raw_growth_medium') * 100 * 100])
