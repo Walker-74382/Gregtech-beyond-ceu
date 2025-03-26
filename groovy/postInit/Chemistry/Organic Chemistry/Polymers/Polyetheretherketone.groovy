@@ -105,7 +105,7 @@ CHEMICAL_RECIPES.recipeBuilder() //CSTR TODO
     //(C6H4(OH)2)(C13H8OF2)(K2CO3)(C12H10O2S) + 2(N) -> [(C6H4(OH)2)(C13H8OF2)(K2CO3)(C12H10O2S)]n
 POLYMERIZATION_TANK_RECIPES.recipeBuilder()
     .fluidInputs(fluid('peek_reaction_mixture')*1000)
-    .fluidInputs(fluid('nitrogen'*2000))
+    .fluidInputs(fluid('nitrogen')*2000)
     .notConsumable(metaitem('dustZieglerNattaCatalyst'))
     .fluidOutputs(fluid('post_polymerization_peek_mixture')*1000) //
     .duration(200)
@@ -115,7 +115,7 @@ POLYMERIZATION_TANK_RECIPES.recipeBuilder()
     //6[(C6H4(OH)2)(C13H8OF2)(K2CO3)(C12H10O2S)]n -> 2(C12H10O2S) + 4[(C6H4(OH)2)(C13H8OF2)(K2CO3)]n
 
 VACUUM_RECIPES.recipeBuilder()
-    .fluidInputs(fluid('post_polymerization_peek_mixture'*5000)) 
+    .fluidInputs(fluid('post_polymerization_peek_mixture')*5000) 
     .fluidOutputs(fluid('diphenyl_sulfone')*2000) //
     .fluidOutputs(fluid('precipitated_peek_mixture')*3000) //
     .duration(200)
