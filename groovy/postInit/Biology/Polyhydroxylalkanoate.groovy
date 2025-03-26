@@ -27,7 +27,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .buildAndRegister();
 
         CHEMICAL_RECIPES.recipeBuilder()
-                .inputs(metaitem('dustFormaldehyde')* 1)
+                .fluidInputs(fluid('formaldehyde')* 1000)
                 .fluidOutputs(fluid('methylene_diphosphoric_acid')*1000)
                 .fluidInputs(fluid('orthophosphoric_acid')*1000)
                 .duration(200)
@@ -36,7 +36,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
 
         CHEMICAL_RECIPES.recipeBuilder()
                 .fluidOutputs(fluid('ethylenediamine')*1000)
-                .fluidOutputs(fluid('Water')*1000)
+                .fluidOutputs(fluid('water')*1000)
                 .fluidInputs(fluid('ammonia')*1000)
                 .fluidInputs(fluid('ethanolamine')*1000)
                 .notConsumable(metaitem('dustPalladium')* 1)
@@ -66,14 +66,14 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .inputs(metaitem('dustGlucose')* 1)
                 .notConsumable(metaitem('dustCupriavidusNecator'))
                 .fluidInputs(fluid('palm_oil')*20)
-                .fluidInputs(fluid('y_butyrolacetone')*20)
-                .fluidOutputs(fluid('polyhydroxyl_alkanoate')*100)
+                .fluidInputs(fluid('y_butyralacetone')*20)
+                .fluidOutputs(fluid('polyhydroxylalkanoate')*100)
                 .duration(200)
                 .EUt(700)
                 .buildAndRegister();
 
         FLUID_SOLIDFICATION_RECIPES.recipeBuilder()
-                .fluidInputs(fluid('polyhydroxyl_alkanoate')*1000)
+                .fluidInputs(fluid('polyhydroxylalkanoate')*1000)
                 .outputs(metaitem('plateBioPlastic'))
                 .notConsumable(metaitem('shape.mold.plate'))
                 .duration(240)
