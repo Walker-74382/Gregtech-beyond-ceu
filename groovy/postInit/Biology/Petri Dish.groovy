@@ -57,7 +57,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .EUt(800)
                 .buildAndRegister();
 
- CHEMICAL_RECIPES.recipeBuilder()
+        CHEMICAL_RECIPES.recipeBuilder()
                 .notConsumable(metaitem('petri_dish_mold'))
                 .fluidInputs(fluid('polybenzimidazole')*144)
                 .fluidInputs(fluid('polytetrafluoroethylene')*144)
@@ -256,4 +256,13 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .fluidInputs(fluid('ammonia')*1000)
                 .duration(120)
                 .EUt(90)
+                .buildAndRegister();
+
+        ASSEMBLER_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('plastic')*72)
+                .inputs(metaitem('petri_dish'))
+                .inputs(item('gregtech:cable_single', 2))
+                .outputs(metaitem('electrically_wired_petri_dish'))
+                .duration(100)
+                .EUt(70)
                 .buildAndRegister();
