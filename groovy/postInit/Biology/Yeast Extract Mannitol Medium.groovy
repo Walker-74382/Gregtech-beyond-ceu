@@ -52,8 +52,8 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .buildAndRegister();
 
         CHEMICAL_RECIPES.recipeBuilder()
-                .notConsumable(SHAPE_MOLD_CYLINDER)
-                .outputs(metaitem('dustSolidifiedSterileDefibernatedsheep_blood')* 1)
+                .notConsumable(metaitem('shape.mold.cylinder'))
+                .outputs(metaitem('dustSolidifiedSterileDefibernatedSheepBlood'))
                 .notConsumable(fluid('ethylene_oxide')*200)
                 .fluidInputs(fluid('defibernated_sheep_blood')*1000)
                 .duration(120)
@@ -88,14 +88,14 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
 
         AUTOCLAVE_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('dissolved_phenyl_ethyl_alcohol_agar')*1000)
-                .inputs(metaitem('dustSolidifiedSterileDefibernatedsheep_blood')* 1)
-                .fluidOutputs(fluid('phenyl_ethyl_alcohol_blood_agar')*1000)
+                .inputs(metaitem('dustSolidifiedSterileDefibernatedSheepBlood'))
+                .fluidOutputs(fluid('phenyl_ethyl_alcohol_agar')*1000)
                 .duration(120)
                 .EUt(120)
                 .buildAndRegister();
 
         CHEMICAL_RECIPES.recipeBuilder()
-                .fluidInputs(fluid('phenyl_ethyl_alcohol_blood_agar')*100)
+                .fluidInputs(fluid('phenyl_ethyl_alcohol_agar')*100)
                 .inputs(metaitem('plus_sterilized_petri_dish'))
                 .outputs(metaitem('pad_petri_dish'))
                 .duration(900)
@@ -186,13 +186,13 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
 
         DEHYDRATOR_RECIPES.recipeBuilder()
                 .inputs(metaitem('dustDefattedSoybeanFlour')* 1)
-                .outputs(metaitem('dustPapaicDigestOfSoybeanMeal')* 1)
+                .outputs(metaitem('dustPapairDigestOfSoybeanMeal'))
                 .duration(800)
                 .EUt(12)
                 .buildAndRegister();
 
         CHEMICAL_BATH_RECIPES.recipeBuilder()
-                .inputs(metaitem('dustPapaicDigestOfSoybeanMeal')* 1)
+                .inputs(metaitem('dustPapairDigestOfSoybeanMeal'))
                 .fluidOutputs(fluid('bean_slurry')*1000)
                 .fluidInputs(fluid('water')*1000)
                 .outputs(metaitem('dustWood')* 1)
@@ -303,7 +303,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .buildAndRegister();
 
         CHEMICAL_RECIPES.recipeBuilder()
-                .fluidInputs(fluid('distiled_water')*1000)
+                .fluidInputs(fluid('distilled_water')*1000)
                 .inputs(metaitem('dustYeastExtractMannitolMedium')* 1)
                 .fluidOutputs(fluid('yeem_solution')*1000)
                 .duration(800)
@@ -313,7 +313,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
         CHEMICAL_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('sodium_hydroxide_solution')*1000)
                 .inputs(metaitem('dustFructose')* 6)
-                .notConsumable(fluid('dustSodiumBorohydride')* 1)
+                .notConsumable(metaitem('dustSodiumBorohydride')* 1)
                 .duration(200)
                 .fluidOutputs(fluid('mannitol')*1000)
                 .EUt(120)
@@ -322,7 +322,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
         CHEMICAL_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('sodium_hydroxide_solution')*1000)
                 .inputs(metaitem('dustGlucose')*6)
-                .notConsumable(metaitem('dustSodiumBorohydride')* 1)
+                .notConsumable(metaitem('dustSodiumBorohydride'))
                 .duration(200)
                 .fluidOutputs(fluid('mannitol')*1000)
                 .EUt(120)
@@ -358,15 +358,15 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .buildAndRegister();
 
         MACERATOR_RECIPES.recipeBuilder()
-                .inputs(BARLEY)
-                .outputs(metaitem('dustGristPowder')*)
+                .inputs(metaitem('barley'))
+                .outputs(metaitem('dustGristPowder'))
                 .duration(200)
                 .EUt(70)
                 .buildAndRegister();
 
         CHEMICAL_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('hot_water')*1000)
-                .inputs(metaitem('dustGristPowder')*)
+                .inputs(metaitem('dustGristPowder'))
                 .fluidOutputs(fluid('hot_grist_solution')*1000)
                 .duration(1280)
                 .EUt(80)
