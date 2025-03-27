@@ -37,16 +37,6 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .EUt(70)
                 .buildAndRegister();
 
-        CHEMICAL_RECIPES.recipeBuilder()
-                .fluidInputs(fluid('oxygen')*2000)
-                .fluidInputs(fluid('titanium_tetrachloride')*1000)
-                .fluidInputs(fluid('nitrogen_pentoxide')*1000)
-                .fluidOutputs(fluid('chlorine')*4000)
-                .outputs(metaitem('dustBariumTitanate')*17)
-                .duration(200)
-                .EUt(700)
-                .buildAndRegister();
-
         VACUUM_FURNACE_RECIPES.recipeBuilder()
                 .inputs(metaitem('dustCupronickel'))
                 .outputs(metaitem('ingotCupronickel'))
