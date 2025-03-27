@@ -17,6 +17,8 @@ public class MaterialPropertyAddition {
 
         
         Flerovium.setProperty(PropertyKey.DUST, new DustProperty());
+        Phosphate.addFlags(GENERATE_ORE);
+        Andradite.addFlags(GENERATE_ORE);
 
 
 
