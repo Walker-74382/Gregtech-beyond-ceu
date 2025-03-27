@@ -15,10 +15,6 @@ public class MaterialPropertyAddition {
 
   public static void register() {
 
-
-        
-        //Flerovium.setProperty(PropertyKey.DUST, new DustProperty());
-
         event_manager.listen { PostMaterialEvent event ->
         material('nether_star').setProperty(PropertyKey.FLUID, new FluidProperty())
         material('blue_alloy').addFlags("generate_fine_wire")
@@ -41,6 +37,7 @@ public class MaterialPropertyAddition {
         material('iridium').addFlags("generate_round")
 
         material('flerovium').addFlags("generate_dust")
+        material('barium').addFlags("generate_ingot")
         }
   }
 }

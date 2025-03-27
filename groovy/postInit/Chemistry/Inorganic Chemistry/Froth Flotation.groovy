@@ -16,7 +16,7 @@ mods.gregtech.mixer.removeByInput(1920, [metaitem('crushedGreenSapphire') * 2], 
             .inputs(metaitem('crushedGreenSapphire') * 2)
             .fluidInputs(fluid('aqua_regia')*3000)
             .fluidOutputs(fluid('impure_green_sapphire_slurry')*3000)
-            .duraiton(200)
+            .duration(200)
             .EUt(1800)
             .buildAndRegister();
 
@@ -24,7 +24,7 @@ mods.gregtech.mixer.removeByInput(1920, [metaitem('crushedGreenSapphire') * 2], 
             .inputs(metaitem('crushedSapphire') * 2)
             .fluidInputs(fluid('aqua_regia')*3000)
             .fluidOutputs(fluid('impure_sapphire_slurry')*3000)
-            .duraiton(200)
+            .duration(200)
             .EUt(1800)
             .buildAndRegister();
 
@@ -32,7 +32,7 @@ mods.gregtech.mixer.removeByInput(1920, [metaitem('crushedGreenSapphire') * 2], 
             .inputs(metaitem('crushedRuby') * 2)
             .fluidInputs(fluid('aqua_regia')*3000)
             .fluidOutputs(fluid('impure_ruby_slurry')*3000)
-            .duraiton(200)
+            .duration(200)
             .EUt(1800)
             .buildAndRegister();
 

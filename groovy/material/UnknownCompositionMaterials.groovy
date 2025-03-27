@@ -409,7 +409,7 @@ public class UnknownCompositionMaterials {
                 .color(0x3949AB)
                 .build().setFormula("C5H4O2", true);
 
-        BTEX = new Material.Builder(14586, GTBUtil.gtb("btex"))
+        Btex = new Material.Builder(14586, GTBUtil.gtb("btex"))
                 .liquid(new FluidBuilder())
                 .color(0x605C35)
                 .build();
@@ -771,6 +771,21 @@ public class UnknownCompositionMaterials {
         LiquidOzone = new Material.Builder(14657, GTBUtil.gtb("liquid_ozone"))
                 .fluid()
                 .color(0x0288D1)
+                .build();
+
+        ImpureSapphireSlurry = new Material.Builder(14658, GTBUtil.gtb("impure_sapphire_slurry"))
+                .fluid()
+                .color(0x3979C1)
+                .build();
+
+        ImpureGreenSapphireSlurry = new Material.Builder(14659, GTBUtil.gtb("impure_green_sapphire_slurry"))
+                .fluid()
+                .color(0x60B164)
+                .build();
+
+        ImpureRubySlurry = new Material.Builder(14660, GTBUtil.gtb("impure_ruby_slurry"))
+                .fluid()
+                .color(0xCF5F5F)
                 .build();
         
 

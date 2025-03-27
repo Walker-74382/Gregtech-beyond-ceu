@@ -5,7 +5,7 @@ import static gregtech.common.items.MetaItems.*;
 import static gtb.api.unification.materials.GTBMaterials.*;
 import static net.minecraft.init.Items.*;
 import static material.GTBMaterials.*;
-
+import static gregtech.api.unification.ore.OrePrefix.*;
 import net.minecraft.init.Blocks.*;
 
 import gregtech.api.recipes.ModHandler;

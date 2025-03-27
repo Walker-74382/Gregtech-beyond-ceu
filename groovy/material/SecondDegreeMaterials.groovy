@@ -115,32 +115,26 @@ public class SecondDegreeMaterials {
         Dimethylformamide = new Material.Builder(10014, GTBUtil.gtb("dimethylformamide")) // TODO DMF Tooltip
                 .fluid()
                 .color(0x42BDFF)
-                .flags(DISABLE_DECOMPOSITION)
-                .components(Carbon, 3, Hydrogen, 7, Nitrogen, 1, Oxygen, 1)
+                
                 .build()
                 .setFormula("(CH3)2NC(O)H", true);
 
         Oxydianiline = new Material.Builder(10015, GTBUtil.gtb("oxydianiline"))
                 .dust()
                 .color(0xF0E130)
-                .flags(DISABLE_DECOMPOSITION)
-                .components(Carbon, 12, Hydrogen, 12, Nitrogen, 2, Oxygen, 1)
                 .build()
                 .setFormula("O(C6H4NH2)2", true);
 
         KaptonK = new Material.Builder(10016, GTBUtil.gtb("kapton_k"))
                 .ingot().fluid()
                 .color(0xFFCE52)
-                .flags(DISABLE_DECOMPOSITION, NO_SMASHING, NO_SMELTING, GENERATE_PLATE, GENERATE_FOIL)
-                .components(Carbon, 12, Hydrogen, 12, Nitrogen, 2, Oxygen, 1)
+                .flags(GENERATE_PLATE, GENERATE_FOIL)
                 .build()
                 .setFormula("(C7H2N2O4)(O(C6H4)2)", true);
 
         BiphenylTetracarboxylicAcidDianhydride = new Material.Builder(10017, GTBUtil.gtb("biphenyl_tetracarboxylic_acid_dianhydride"))
                         .dust()
                         .color(0xFF7F50)
-                        .flags(DISABLE_DECOMPOSITION)
-                        .components(Carbon, 16, Hydrogen, 6, Oxygen, 6)
                         .build()
                         .setFormula("(C8H3O3)2", true);
 
@@ -148,8 +142,7 @@ public class SecondDegreeMaterials {
                 .ingot()
                 .fluid()
                 .color(0xFFDF8C)
-                .flags(DISABLE_DECOMPOSITION, GENERATE_PLATE, NO_SMASHING, NO_SMELTING, GENERATE_FOIL)
-                .components(Carbon, 12, Hydrogen, 12, Nitrogen, 2, Oxygen, 1)
+                .flags(GENERATE_PLATE, GENERATE_FOIL)
                 .build()
                 .setFormula("[O(C6H4NH2)2]n", true);
 
@@ -167,8 +160,7 @@ public class SecondDegreeMaterials {
         Kevlar = new Material.Builder(10021, GTBUtil.gtb("kevlar"))
                 .ingot().fluid()
                 .color(0xF0F078)
-                .flags(DISABLE_DECOMPOSITION, NO_SMASHING, NO_SMELTING, GENERATE_PLATE, GENERATE_FOIL)
-                .components(Carbon, 14, Hydrogen, 10, Nitrogen, 2, Oxygen, 2)
+                .flags(GENERATE_PLATE, GENERATE_FOIL)
                 .build()
                 .setFormula("(C6H4)2(CO)2(NH)2", true);
 
@@ -177,7 +169,6 @@ public class SecondDegreeMaterials {
                 .fluid()
                 .color(0xcfc532)
                 .iconSet(SHINY)
-                .components(Carbon, 14, Hydrogen, 10, Nitrogen, 2, Oxygen, 2)
                 .build()
                 .setFormula("(C6H4)2(CO)2(NH)2", true);
 
@@ -186,7 +177,6 @@ public class SecondDegreeMaterials {
                 .fluid()
                 .color(0xcfc532)
                 .iconSet(SHINY)
-                .components(Carbon, 14, Hydrogen, 10, Nitrogen, 2, Oxygen, 2)
                 .build()
                 .setFormula("((C6H4)2(CO)2(NH)2)+", true);
 
@@ -195,7 +185,6 @@ public class SecondDegreeMaterials {
                 .fluid()
                 .color(0xcfc532)
                 .iconSet(SHINY)
-                .components(Carbon, 14, Hydrogen, 10, Nitrogen, 2, Oxygen, 2)
                 .build()
                 .setFormula("(C6H4)2(CO)2(NH)2", true);
 
@@ -203,8 +192,6 @@ public class SecondDegreeMaterials {
                 .dust()
                 .color(0x336040)
                 .iconSet(FINE)
-                .flags(DISABLE_DECOMPOSITION)
-                .components(Carbon, 10, Hydrogen, 14)
                 .build()
                 .setFormula("C6H2(CH3)4", true);
 
@@ -212,15 +199,12 @@ public class SecondDegreeMaterials {
                 .dust()
                 .color(0xF0EAD6)
                 .iconSet(ROUGH)
-                .flags(DISABLE_DECOMPOSITION)
-                .components(Carbon, 10, Hydrogen, 2, Oxygen, 6)
                 .build()
                 .setFormula("C6H2(C2O3)2", true);
 
         Bistrichloromethylbenzene = new Material.Builder(10027, GTBUtil.gtb("bistrichloromethylbenzene"))
                 .fluid()
                 .color(0xCF8498)
-                .components(Carbon, 8, Hydrogen, 4, Chlorine, 6)
                 .build()
                 .setFormula("C6H4(CCl3)2", true);
 
@@ -228,7 +212,6 @@ public class SecondDegreeMaterials {
                 .dust()
                 .color(0x5ACCDA)
                 .iconSet(ROUGH)
-                .components(Carbon, 8, Hydrogen, 6, Oxygen, 4)
                 .build()
                 .setFormula("C6H4(CO2H)2", true);
 
@@ -236,33 +219,35 @@ public class SecondDegreeMaterials {
                 .dust()
                 .color(0xFAC4DA)
                 .iconSet(SHINY)
-                .components(Carbon, 8, Hydrogen, 4, Oxygen, 2, Chlorine, 2)
                 .build()
                 .setFormula("C6H4(COCl)2", true);
 
         Butanediol = new Material.Builder(10030, GTBUtil.gtb("butanediol"))
                 .fluid()
                 .color(0xAAC4DA)
-                .flags(DISABLE_DECOMPOSITION)
-                .components(Carbon, 4, Hydrogen, 10, Oxygen, 2)
+                
                 .build()
                 .setFormula("C4H8(OH)2", true);
 
         FusedColumbite = new Material.Builder(10031, GTBUtil.gtb("fused_columbite"))
                 .dust()
-                .color(0xB3A460).build().setFormula("(Fe2O3)(NaO)Nb2O5", true);
+                .color(0xB3A460)
+                .build().setFormula("(Fe2O3)(NaO)Nb2O5", true);
 
         ColumbiteMinorOxideResidue = new Material.Builder(10032, GTBUtil.gtb("columbite_minor_oxide_residue"))
                 .dust()
-                .color(0x8B7B33).build().setFormula("(BaO)(SnO2)(WO3)(Al2O3)", true);
+                .color(0x8B7B33)
+                .build().setFormula("(BaO)(SnO2)(WO3)(Al2O3)", true);
 
         LeachedColumbite = new Material.Builder(10033, GTBUtil.gtb("leached_columbite"))
                 .dust()
-                .color(0x9E925E).build().setFormula("(Nb2O5)9Ta2O5?", true);
+                .color(0x9E925E)
+                .build().setFormula("(Nb2O5)9Ta2O5?", true);
 
         TantaliteMinorOxideResidue = new Material.Builder(10034, GTBUtil.gtb("tantalite_minor_oxide_residue"))
                 .dust()
-                .color(0xFDD835).build().setFormula("(BaO)(ZrO2)(TiO2)(SiO2)", true);
+                .color(0xFDD835)
+                .build().setFormula("(BaO)(ZrO2)(TiO2)(SiO2)", true);
 
         FusedTantalite = new Material.Builder(10035, GTBUtil.gtb("fused_tantalite"))
                 .dust()
@@ -380,19 +365,19 @@ public class SecondDegreeMaterials {
 
         DilutedCaesiumSolution = new Material.Builder(10062, GTBUtil.gtb("diluted_caesium_solution"))
                 .fluid()
-                .flags(DISABLE_DECOMPOSITION)
+                
                 .color(0x302C2B)
                 .build().setFormula("Cs(H2O)", true);
 
         DilutedRubidiumSolution = new Material.Builder(10063, GTBUtil.gtb("diluted_rubidium_solution"))
                 .fluid()
-                .flags(DISABLE_DECOMPOSITION)
+                
                 .color(0xB71C1C)
                 .build().setFormula("Rb(H2O)", true);
 
         MagnesiumChlorideSolution = new Material.Builder(10064, GTBUtil.gtb("magnesium_chloride_solution"))
                 .fluid()
-                .flags(DISABLE_DECOMPOSITION)
+                
                 .color(0xBA68C8)
                 .build().setFormula("(MgCl)(H2O)", true);
 
@@ -594,34 +579,26 @@ public class SecondDegreeMaterials {
         RoastedSphalerite = new Material.Builder(10103, GTBUtil.gtb("roasted_sphalerite"))
                 .dust()
                 .color(0xAC8B5C)
-                .flags(DISABLE_DECOMPOSITION)
                 .iconSet(FINE)
-                .components(Gallium, 1, GermaniumDioxide, 1)
-                .build();
+                .build().setFormula("GaGeO2", true);
 
         WaelzOxide = new Material.Builder(10104, GTBUtil.gtb("waelz_oxide"))
                 .dust()
                 .color(0xB8B8B8)
-                .flags(DISABLE_DECOMPOSITION)
                 .iconSet(FINE)
-                .components(Zinc, 1, GermaniumDioxide, 1)
-                .build();
+                .build().setFormula("ZnGeO2", true);
 
         ImpureGermaniumDioxide = new Material.Builder(10105, GTBUtil.gtb("impure_germanium_dioxide"))
                 .dust()
                 .color(0x666666)
-                .flags(DISABLE_DECOMPOSITION)
                 .iconSet(ROUGH)
-                .components(GermaniumDioxide, 1)
                 .build().setFormula("GeO2?", true);
 
         ZincRichSphalerite = new Material.Builder(10106, GTBUtil.gtb("zinc_rich_sphalerite"))
                 .dust()
                 .color(0xABA3A3)
                 .iconSet(METALLIC)
-                .flags(DISABLE_DECOMPOSITION)
-                .components(Sphalerite, 1, Zinc, 2)
-                .build();
+                .build().setFormula("ZnS?", true);
   }
 
 }

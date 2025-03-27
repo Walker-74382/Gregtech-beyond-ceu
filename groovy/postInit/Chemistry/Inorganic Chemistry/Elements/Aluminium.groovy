@@ -111,8 +111,8 @@ mods.gregtech.electrolyzer.removeByInput(60, [metaitem('dustBauxite') * 15], nul
                 .buildAndRegister();
 
         ELECTROLYTIC_CELL_RECIPES.recipeBuilder()
-                .notConsumable(metaitem('rodIron'))
-                .notConsumable(metaitem('rodCobalt'))
+                .notConsumable(metaitem('stickIron'))
+                .notConsumable(metaitem('stickCobalt'))
                 .notConsumable(fluid('sodium_hydroxide_solution')*864)
                 .fluidInputs(fluid('aluminium_salt_solution')*1000)
                 .outputs(metaitem('dustAluminium'))

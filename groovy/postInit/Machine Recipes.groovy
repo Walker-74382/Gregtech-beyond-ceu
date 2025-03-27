@@ -11,19 +11,19 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .fluidInputs(fluid('alumino_silicate_wool_solution')*288)
                 .buildAndRegister();
 
-        cracfting.addShaped("gregtech:catalytic_reformation_unit_machine", item('gregtech:machine', 3007),[
-                ["ore('plateEglinSteel'), ore('circuitEv') ,ore('plateEglinSteel')"],
-                ["ore('circuitEv'), item('gregtech:machine', 988) , ore('circuitEv')"],
-                ["ore('plateEglinSteel') , ore('circuitEv') ,ore('plateEglinSteel')"]])
+        crafting.addShaped("gregtech:catalytic_reformation_unit_machine", item('gregtech:machine', 3007), [
+                [ore('plateEglinSteel'), ore('circuitEv') , ore('plateEglinSteel')],
+                [ore('circuitEv'), metaitem('hull.ev') , ore('circuitEv')],
+                [ore('plateEglinSteel') , ore('circuitEv') , ore('plateEglinSteel')]])
             
-        cracfting.addShaped("gregtech:solid_fuel_generator_machine", item('gregtech:machine', 3008),[
-                ["ore('plateLowQualitySteel'), ore('rotorBronze'), ore('plateLowQualitySteel')"],
-                ["ore('rotorBronze'), item('gregtech:machine_casing'), ore('rotorBronze')"],
-                ["ore('plateLowQualitySteel'), ore('rotorBronze') ,ore('plateLowQualitySteel')"]])
+        crafting.addShaped("gregtech:solid_fuel_generator_machine", item('gregtech:machine', 3008),[
+                [ore('plateLowQualitySteel'), ore('rotorBronze'), ore('plateLowQualitySteel')],
+                [ore('rotorBronze'), item('gregtech:machine_casing'), ore('rotorBronze')],
+                [ore('plateLowQualitySteel'), ore('rotorBronze') ,ore('plateLowQualitySteel')]])
 
-        
+
         ASSEMBLER_RECIPES.recipeBuilder()
-                .inputs(NEODYMIUM_MAGNET, 2)
+                .inputs(metaitem('neodymium_magnet')*2)
                 .inputs(ore('circuitHv'))
                 .inputs(item('gregtech:machine', 985))
                 .inputs(metaitem('plateSteel')* 2)
@@ -34,9 +34,9 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .buildAndRegister();
 
         ASSEMBLER_RECIPES.recipeBuilder()
-                .inputs(metaitem('plateSiliconCarbide')*4)
+                .inputs(metaitem('platePurifiedSiliconCarbide')*4)
                 .inputs(ore('circuitHv')* 2)
-                .inputs(metaitem('frameSiliconCarbide'))
+                .inputs(item('gregtech:meta_block_frame_524', 14))
                 .inputs(metaitem('electric.pump.hv')*2)
                 .inputs(metaitem('voltage_coil.mv'))
                 .outputs(metaitem('gtb:high_temp_distillation_tower'))

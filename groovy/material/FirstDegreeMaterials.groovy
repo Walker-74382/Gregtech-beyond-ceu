@@ -146,8 +146,7 @@ public class FirstDegreeMaterials {
         PotassiumDisulfate = new Material.Builder(8018, GTBUtil.gtb("potassium_disulfate"))
                 .dust()
                 .color(0xD84315)
-                .components(Potassium, 2, Sulfur, 2, Oxygen, 7)
-                .build();
+                .build().setFormula("K2S2O7", true);
 
         SodiumRuthenate = new Material.Builder(8019, GTBUtil.gtb("sodium_ruthenate"))
                 .dust()
@@ -682,79 +681,59 @@ public class FirstDegreeMaterials {
         SodiumSulfideSolution = new Material.Builder(8120, GTBUtil.gtb("sodium_sulfide_solution"))
                 .fluid()
                 .color(0xF9A825)
-                .flags(DISABLE_DECOMPOSITION)
                 .build().setFormula("Na2S(H2O)", true);
 
         ZincOxide = new Material.Builder(8121, GTBUtil.gtb("zinc_oxide"))
                 .dust()
                 .color(0xB85C34)
-                .flags(DISABLE_DECOMPOSITION)
-                .components(Zinc, 1, Oxygen, 1)
-                .build();
+                .build().setFormula("ZnO", true);
 
         GermaniumTetrachloride = new Material.Builder(8122, GTBUtil.gtb("germanium_tetrachloride"))
                 .fluid()
                 .color(0x787878)
-                .flags(DISABLE_DECOMPOSITION)
-                .components(Germanium, 1, Chlorine, 4)
-                .build();
+                .build().setFormula("GeCl4", true);
 
         GermaniumDioxide = new Material.Builder(8123, GTBUtil.gtb("germanium_dioxide"))
                 .dust()
                 .color(0x666666)
-                .flags(DISABLE_DECOMPOSITION)
-                .components(Germanium, 1, Oxygen, 2)
-                .build();
+                .build().setFormula("GeO2", true);
 
         RoastedSphalerite = new Material.Builder(8124, GTBUtil.gtb("roasted_sphalerite"))
                 .dust()
                 .color(0x666666)
-                .flags(DISABLE_DECOMPOSITION)
-                .components(Germanium, 1, Oxygen, 2)
-                .build();
+                .build().setFormula("GeO2?", true);
 
-        // TODO move to first degree
         WaelzSlag = new Material.Builder(8125, GTBUtil.gtb("waelz_slag"))
                 .dust()
                 .color(0xAC8B5C)
-                .flags(DISABLE_DECOMPOSITION)
                 .iconSet(ROUGH)
-                .components(Gallium, 1, Zinc, 1, Sulfur, 1, Oxygen, 4)
-                .build();
+                .build().setFormula("GaZnSO4", true);
 
         WaelzOxide = new Material.Builder(8126, GTBUtil.gtb("waelz_oxide"))
                 .dust()
                 .color(0xB8B8B8)
-                .flags(DISABLE_DECOMPOSITION)
-                .iconSet(FINE)
                 .iconSet(FINE)
                 .build();
 
         StannicChloride = new Material.Builder(8127, GTBUtil.gtb("stannic_chloride"))
                 .fluid()
                 .color(0x33BBF5)
-                .flags(DISABLE_DECOMPOSITION)
-                .components(Tin, 1, Chlorine, 4)
-                .build();
+                .build().setFormula("SnCl4");
 
         RubidiumChlorostannate = new Material.Builder(8128, GTBUtil.gtb("rubidium_chlorostannate"))
                 .dust()
                 .color(0xBD888A)
-                .flags(DISABLE_DECOMPOSITION)
                 .iconSet(METALLIC)
                 .build();
 
         CaesiumChlorostannate = new Material.Builder(8129, GTBUtil.gtb("caesium_chlorostannate"))
                 .dust()
                 .color(0xBDAD88)
-                .flags(DISABLE_DECOMPOSITION)
                 .iconSet(SHINY)
-                .components(Caesium, 2, Tin, 1, Chlorine, 6)
-                .build();
+                .build().setFormula("Cs2SnCl6");
 
         TinFourChloride = new Material.Builder(8130, GTBUtil.gtb("tin_four_chloride"))
                 .dust()
-                .flags(DISABLE_DECOMPOSITION)
                 .color(0xA9C6DE)
                 .build().setFormula("SnCl2", true);
 
@@ -762,41 +741,32 @@ public class FirstDegreeMaterials {
                 .dust()
                 .color(0x9C222C)
                 .iconSet(METALLIC)
-                .flags(DISABLE_DECOMPOSITION)
-                .components(Thallium, 2, Sulfur, 1, Oxygen, 4)
-                .build();
+                .build().setFormula("Tl2SO4", true);
 
         MolybdenumTrioxide = new Material.Builder(8132, GTBUtil.gtb("molybdenum_trioxide"))
                 .dust()
                 .color(0xCBCFDA)
                 .iconSet(ROUGH)
-                .flags(DISABLE_DECOMPOSITION)
-                .components(Molybdenum, 1, Oxygen, 3)
-                .build();
+                .build().setFormula("MoO3", true);
 
         PerrhenicAcid = new Material.Builder(8133, GTBUtil.gtb("perrhenic_acid"))
                 .dust()
                 .color(0xE6DC70)
                 .iconSet(SHINY)
-                .flags(DISABLE_DECOMPOSITION)
-                .components(Hydrogen, 1, Rhenium, 1, Oxygen, 4)
-                .build();
+                .build().setFormula("HReO4", true);
 
         AmmoniumPerrhenate = new Material.Builder(8134, GTBUtil.gtb("ammonium_perrhenate"))
                 .dust()
                 .color(0xA69970)
                 .iconSet(METALLIC)
-                .flags(DISABLE_DECOMPOSITION)
-                .components(Nitrogen, 1, Hydrogen, 4, Rhenium, 1, Oxygen, 4)
-                .build();
+                .build().setFormula("NH4ReO4", true);
 
         LeadChloride = new Material.Builder(8135, GTBUtil.gtb("lead_chloride"))
                 .dust()
                 .color(0xF3F3F3)
                 .iconSet(ROUGH)
-                .components(Lead, 1, Chlorine, 2)
                 .color(0xC1A86B)
-                .build();
+                .build().setFormula("PbCl2", true);
 
         MethylAluminoxane = new Material.Builder(8136, GTBUtil.gtb("methyl_aluminoxane"))
                 .dust()
@@ -1141,33 +1111,25 @@ public class FirstDegreeMaterials {
                 .dust()
                 .color(0xC6C9BE)
                 .iconSet(ROUGH)
-                .flags(DISABLE_DECOMPOSITION)
-                .components(Sodium, 2, Tellurium, 1, Oxygen, 3)
-                .build();
+                .build().setFormula("Na2TeO3", true);
 
         TelluriumDioxide = new Material.Builder(8241, GTBUtil.gtb("tellurium_dioxide"))
                 .dust()
                 .color(0xE3DDB8)
                 .iconSet(METALLIC)
-                .flags(DISABLE_DECOMPOSITION)
-                .components(Tellurium, 1, Oxygen, 2)
-                .build();
+                .build().setFormula("TeO2", true);
 
         SeleniumDioxide = new Material.Builder(8242, GTBUtil.gtb("selenium_dioxide"))
                 .dust()
                 .color(0xE0DDD8)
                 .iconSet(METALLIC)
-                .flags(DISABLE_DECOMPOSITION)
-                .components(Selenium, 1, Oxygen, 2)
-                .build();
+                .build().setFormula("SeO2", true);
 
         SelenousAcid = new Material.Builder(8243, GTBUtil.gtb("selenous_acid"))
                 .dust()
                 .color(0xE0E083)
                 .iconSet(SHINY)
-                .flags(DISABLE_DECOMPOSITION)
-                .components(Hydrogen, 2, Selenium, 1, Oxygen, 3)
-                .build();
+                .build().setFormula("H2SeO3", true);
 
         CalciumDioxide = new Material.Builder(8244, GTBUtil.gtb("calcium_dioxide"))
                 .dust()
@@ -1895,8 +1857,7 @@ public class FirstDegreeMaterials {
                         .flags(GENERATE_PLATE, GENERATE_FRAME)
                         .color(0x434343).build().setFormula("Fe20C", true);
 
-        PurifiedSiliconCarbide = new Material.Builder(8398,
-                GTBUtil.gtb("purified_silicon_carbide"))
+        PurifiedSiliconCarbide = new Material.Builder(8398, GTBUtil.gtb("purified_silicon_carbide"))
                         .dust()
                         .ingot()
                         .flags(GENERATE_PLATE, GENERATE_FRAME)
@@ -2061,31 +2022,26 @@ public class FirstDegreeMaterials {
         Tetrabromoethane = new Material.Builder(8429, GTBUtil.gtb("tetrabromoethane"))
                 .fluid()
                 .color(0x5AAADA)
-                .components(Carbon, 2, Hydrogen, 2, Bromine, 4)
-                .build();
+                .build().setFormula("C2H2Br4");
 
         GammaButyrolactone = new Material.Builder(8430, GTBUtil.gtb("gamma_butyrolactone"))
                 .fluid()
                 .color(0xAF04D6)
-                .components(Carbon, 4, Hydrogen, 6, Oxygen, 2)
-                .build();
+                .build().setFormula("C4H6O2", true);
 
         NMethylPyrrolidone = new Material.Builder(8431, GTBUtil.gtb("n_methyl_pyrrolidone"))
                 .fluid()
                 .color(0xA504D6)
-                .components(Carbon, 5, Hydrogen, 9, Nitrogen, 1, Oxygen, 1)
-                .build();
+                .build().setFormula("C5H9NO", true);
 
         Aminophenol = new Material.Builder(8432, GTBUtil.gtb("aminophenol"))
                 .fluid()
                 .color(0xFF7F50)
-                .components(Carbon, 6, Hydrogen, 7, Nitrogen, 1, Oxygen, 1)
                 .build().setFormula("HOC6H4NH2", true);
 
         Nitroaniline = new Material.Builder(8433, GTBUtil.gtb("nitroaniline"))
                 .fluid()
                 .color(0x2A6E68)
-                .components(Carbon, 6, Hydrogen, 6, Nitrogen, 2, Oxygen, 2)
                 .build().setFormula("H2NC6H4NO2", true);
 
         PhosphorusOxychloride = new Material.Builder(8434, GTBUtil.gtb("phosphorus_oxychloride"))
@@ -2315,6 +2271,11 @@ public class FirstDegreeMaterials {
                 .flags(GENERATE_PLATE, GENERATE_FRAME)
                 .color(0x333537)
                 .build().setFormula("Ad", true);
+
+        OneButene = new Material.Builder(8482, GTBUtil.gtb("1_butene"))
+                .fluid()
+                .color(0xBA8B7D)
+                .build().setFormula("C4H8", true);
 
 
 

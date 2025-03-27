@@ -5,13 +5,13 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .inputs(metaitem('dustBarite')*6)
                 .inputs(metaitem('dustCarbon')*2)
                 .fluidOutputs(fluid('carbon_dioxide')*2000)
-                .outputs(metaitem('barium_sulfide')*2)
+                .outputs(metaitem('dustBariumSulfide')*2)
                 .duration(300)
                 .EUt(80)
                 .buildAndRegister();
         
         CHEMICAL_RECIPES.recipeBuilder()
-                .inputs(metaitem('barium_sulfide')*2)
+                .inputs(metaitem('dustBariumSulfide')*2)
                 .fluidInputs(fluid('carbon_dioxide')*1000)
                 .fluidInputs(fluid('water')*1000)
                 .fluidOutputs(fluid('hydrogen_sulfide')*1000)
@@ -52,9 +52,9 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
         CENTRIFUGE_RECIPES.recipeBuilder()
                 .inputs(metaitem('dustWitherite')*5)
                 .outputs(metaitem('dustBariumCarbonate')*5)
-                .chancedoutput(metaitem('dustBarite')*1, 44, 0)
-                .chancedoutput(metaitem('dustGalena')*1, 77, 0)
-                .chancedoutput(metaitem('dustCalcite')*1, 10, 0)
+                .chancedOutput(metaitem('dustBarite')*1, 44, 0)
+                .chancedOutput(metaitem('dustGalena')*1, 77, 0)
+                .chancedOutput(metaitem('dustCalcite')*1, 10, 0)
                 .duration(290)
                 .EUt(150)
                 .buildAndRegister();
