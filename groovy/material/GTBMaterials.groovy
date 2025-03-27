@@ -44,7 +44,9 @@ class GTBMaterials {
         public static Material BariumCarbonate;
         public static Material BariumAluminate;
         public static Material PurifiedKevlarConcentrate;
-
+        public static Material ImpureRubySlurry;
+        public static Material ImpureGreenSapphireSlurry;
+        public static Material ImpureSapphireSlurry;
 
 
         //Unknown Materials
@@ -127,7 +129,7 @@ class GTBMaterials {
         public static Material SulfuricFuelOil;
         public static Material FuelOil;
         public static Material Furfural;
-        public static Material BTEX;
+        public static Material Btex;
         public static Material EthanolWaterAzeotrope;
         public static Material FuselOil;
         public static Material ImpureEthanol;
@@ -262,9 +264,7 @@ class GTBMaterials {
         public static Material ZincOreCokePellets;
         public static Material MetalRichSlagSlurry;
         public static Material PreciousMetal;
-        public static Material ImpureGreenSapphireSlurry;
-        public static Material ImpureRubySlurry;
-        public static Material ImpureSapphireSlurry;
+        public static Material OneButene;
         
         //Biology Materials
 
@@ -397,6 +397,7 @@ class GTBMaterials {
         public static Material SilicaGel;
         public static Material Zblan;
         public static Material KevlarConcentrate;
+
 
 
 
