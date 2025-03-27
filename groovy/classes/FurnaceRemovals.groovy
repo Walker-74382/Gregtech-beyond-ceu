@@ -11,7 +11,7 @@ import net.minecraft.init.Blocks.*;
 import gregtech.api.recipes.ModHandler;
 import gregtech.api.unification.OreDictUnifier;
 
-public class FurnaceRemoveals {
+class FurnaceRemovals {
 
     public static void init() {
         // Bornite
