@@ -55,7 +55,7 @@ public class FantasyMaterials {
                         .color(0xa1c9a5)
                         .build().setFormula("Nq*H2SbF7");
 
-        CrystalFluix = new Material.Builder(32001, "crystal_fluix")
+        CrystalFluix = new Material.Builder(14013, "crystal_fluix")
                         .gem().fluid()
                         .color(0x975CF7).iconSet("certus") //make it a bit brighter
                         .components(material('silicon')*1, material('redstone')*1, material('nether_quartz')*1, material('certus_quartz')*1)

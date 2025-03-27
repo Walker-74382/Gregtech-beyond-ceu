@@ -253,7 +253,13 @@ eventManager.listen {
         customMetaItems.addItem(241, "zener_diode");
         customMetaItems.addItem(242, "cracking_catalyst");
         customMetaItems.addItem(243, "used_cracking_catalyst");
-
-
-
+        customMetaItems.addItem(300, "entropycore");
+        customMetaItems.addItem(301, "boule.fluix");
+        customMetaItems.addItem(302, "wafer.fluix");
+        customMetaItems.addItem(303, "wafer.simple_fluix_systematic_chip");
+        customMetaItems.addItem(304, "wafer.basic_fluix_systematic_chip");
+        customMetaItems.addItem(305, "wafer.complex_fluix_systematic_chip");
+        customMetaItems.addItem(306, "plate.simple_fluix_systematic_chip");
+        customMetaItems.addItem(307, "plate.basic_fluix_systematic_chip");
+        customMetaItems.addItem(308, "plate.complex_fluix_systematic_chip");
 }

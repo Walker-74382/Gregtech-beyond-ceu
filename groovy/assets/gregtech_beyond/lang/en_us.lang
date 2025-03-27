@@ -1203,3 +1203,14 @@ gregtech.material.liquid_argon=Liquid Argon
 gregtech.material.liquid_neon=Liquid Neon
 gregtech.material.cold_gaseous_oxygen=Cold Gaseous Oxygen
 gregtech.material.hydrogen_peroxide=Hydrogen Peroxide
+
+gregtech.material.crystal_fluix=Crystallized Fluix
+item.entropycore.name=Entropy Core
+item.boule.fluix.name=Fluixcrystalline Boule
+item.wafer.fluix.name=Fluix Wafer
+item.wafer.simple_fluix_systematic_chip.name=Simple FSC Wafer
+item.wafer.basic_fluix_systematic_chip.name=Basic FSC Wafer
+item.wafer.complex_fluix_systematic_chip.name=Complex FSC Wafer
+item.plate.simple_fluix_systematic_chip.name=Simple FSC
+item.plate.basic_fluix_systematic_chip.name=Basic FSC
+item.plate.complex_fluix_systematic_chip.name=Complex FSC
