@@ -20,15 +20,14 @@ public class OreMaterials {
   public static void register() {
 
 
-
         AluminiumSalt = new Material.Builder(16001, GTBUtil.gtb("aluminium_salt"))
                 .dust()
                 .ore()
                 .color(0x81C784)
                 .build().setFormula('Al(NaCl)', true);
 
-        AluminiumSaltSoluton = new Material.Builder(16002, GTBUtil.gtb("aluminium_salt_solution"))
-                .fluid()
+        AluminiumSaltSolution = new Material.Builder(16002, GTBUtil.gtb("aluminium_salt_solution"))
+                .liquid(new FluidBuilder())
                 .color(0x81C784)
                 .build().setFormula('Al(NaCl)(H2O)', true);
 
@@ -56,12 +55,12 @@ public class OreMaterials {
                 .build().setFormula('CuCo2SO4', true);
 
         CarroliteSulfuricSolution = new Material.Builder(16007, GTBUtil.gtb("carrolite_sulfuric_solution"))
-                .fluid()
+                .liquid(new FluidBuilder())
                 .color(0x81C784)
                 .build().setFormula('(CuCo2SO2)(HSO4)', true);
 
         ImpureCobaltSulfideSolution = new Material.Builder(16008, GTBUtil.gtb("impure_cobalt_sulfide_solution"))
-                .fluid()
+                .liquid(new FluidBuilder())
                 .color(0x81C784)
                 .build().setFormula('(CuCo2SO2)(HSO4)', true);
 
