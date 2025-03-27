@@ -249,3 +249,38 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .duration(200)
                 .EUt(80)
                 .buildAndRegister();
+
+// Cupronickel Ingot * 2
+mods.gregtech.alloy_smelter.removeByInput(16, [metaitem('ingotAnnealedCopper'), metaitem('ingotNickel')], null)
+// Cupronickel Ingot * 2
+mods.gregtech.alloy_smelter.removeByInput(16, [metaitem('dustAnnealedCopper'), metaitem('dustNickel')], null)
+// Cupronickel Ingot * 2
+mods.gregtech.alloy_smelter.removeByInput(16, [metaitem('ingotAnnealedCopper'), metaitem('dustNickel')], null)
+// Cupronickel Ingot * 2
+mods.gregtech.alloy_smelter.removeByInput(16, [metaitem('dustAnnealedCopper'), metaitem('ingotNickel')], null)
+// Cupronickel Ingot * 2
+mods.gregtech.alloy_smelter.removeByInput(16, [metaitem('ingotCopper'), metaitem('ingotNickel')], null)
+// Cupronickel Ingot * 2
+mods.gregtech.alloy_smelter.removeByInput(16, [metaitem('dustCopper'), metaitem('dustNickel')], null)
+// Cupronickel Ingot * 2
+mods.gregtech.alloy_smelter.removeByInput(16, [metaitem('ingotCopper'), metaitem('dustNickel')], null)
+// Cupronickel Ingot * 2
+mods.gregtech.alloy_smelter.removeByInput(16, [metaitem('dustCopper'), metaitem('ingotNickel')], null)
+
+
+// Invar Ingot * 3
+mods.gregtech.alloy_smelter.removeByInput(16, [item('minecraft:iron_ingot') * 2 * 2, metaitem('dustNickel')], null)
+// Invar Ingot * 3
+mods.gregtech.alloy_smelter.removeByInput(16, [metaitem('dustIron') * 2, metaitem('ingotNickel')], null)
+// Invar Ingot * 3
+mods.gregtech.alloy_smelter.removeByInput(16, [item('minecraft:iron_ingot') * 2 * 2, metaitem('ingotNickel')], null)
+// Invar Ingot * 3
+mods.gregtech.alloy_smelter.removeByInput(16, [metaitem('dustIron') * 2, metaitem('dustNickel')], null)
+// Invar Ingot * 3
+mods.gregtech.alloy_smelter.removeByInput(16, [metaitem('ingotWroughtIron') * 2, metaitem('dustNickel')], null)
+// Invar Ingot * 3
+mods.gregtech.alloy_smelter.removeByInput(16, [metaitem('dustWroughtIron') * 2, metaitem('ingotNickel')], null)
+// Invar Ingot * 3
+mods.gregtech.alloy_smelter.removeByInput(16, [metaitem('ingotWroughtIron') * 2, metaitem('ingotNickel')], null)
+// Invar Ingot * 3
+mods.gregtech.alloy_smelter.removeByInput(16, [metaitem('dustWroughtIron') * 2, metaitem('dustNickel')], null)

@@ -115,3 +115,8 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .duration(200)
                 .EUt(12)
                 .buildAndRegister();
+
+// Nickel Dust * 1
+mods.gregtech.electrolyzer.removeByInput(30, [metaitem('dustGarnierite') * 2], null)
+// Copper Dust * 1
+mods.gregtech.electrolyzer.removeByInput(30, [metaitem('dustCupricOxide') * 2], null)

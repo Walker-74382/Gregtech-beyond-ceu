@@ -32,3 +32,6 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .duration(200)
                 .EUt(70)
                 .buildAndRegister()
+
+// Lead Dust * 1
+mods.gregtech.electrolyzer.removeByInput(30, [metaitem('dustGalena') * 2], null)
