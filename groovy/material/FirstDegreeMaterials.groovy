@@ -2171,6 +2171,7 @@ public class FirstDegreeMaterials {
 
         Rhodocrosite = new Material.Builder(8451, GTBUtil.gtb("rhodocrosite"))
                 .dust()
+                .ore()
                 .color(0xC62828).build().setFormula("MnCO3", true);
 
         CassiteriteCokePellets = new Material.Builder(8452, GTBUtil.gtb("cassiterite_coke_pellets"))
@@ -2320,17 +2321,6 @@ public class FirstDegreeMaterials {
                 .flags(GENERATE_PLATE, GENERATE_FRAME)
                 .color(0x333537)
                 .build().setFormula("Ad", true);
-
-        AluminiumSalt = new Material.Builder(8482(), GTBUtil.gtb("aluminium_salt"))
-                .dust()
-                .ore()
-                .color(0x81C784)
-                .build().setFormula('Al(NaCl)', true);
-
-        AluminiumSaltSoluton = new Material.Builder(8483(), GTBUtil.gtb("aluminium_salt_solution"))
-                .fluid()
-                .color(0x81C784)
-                .build().setFormula('Al(NaCl)(H2O)', true);
 
 
 
