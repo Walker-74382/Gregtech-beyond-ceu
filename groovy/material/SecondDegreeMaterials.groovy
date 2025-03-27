@@ -136,8 +136,7 @@ public class SecondDegreeMaterials {
                 .build()
                 .setFormula("(C7H2N2O4)(O(C6H4)2)", true);
 
-        BiphenylTetracarboxylicAcidDianhydride = new Material.Builder(10017(),
-                GTBUtil.gtb("biphenyl_tetracarboxylic_acid_dianhydride"))
+        BiphenylTetracarboxylicAcidDianhydride = new Material.Builder(10017, GTBUtil.gtb("biphenyl_tetracarboxylic_acid_dianhydride"))
                         .dust()
                         .color(0xFF7F50)
                         .flags(DISABLE_DECOMPOSITION)
@@ -177,7 +176,7 @@ public class SecondDegreeMaterials {
                 .dust()
                 .fluid()
                 .color(0xcfc532)
-                .iconSet(MaterialIconSet.SHINY)
+                .iconSet(SHINY)
                 .components(Carbon, 14, Hydrogen, 10, Nitrogen, 2, Oxygen, 2)
                 .build()
                 .setFormula("(C6H4)2(CO)2(NH)2", true);
@@ -186,7 +185,7 @@ public class SecondDegreeMaterials {
                 .dust()
                 .fluid()
                 .color(0xcfc532)
-                .iconSet(MaterialIconSet.SHINY)
+                .iconSet(SHINY)
                 .components(Carbon, 14, Hydrogen, 10, Nitrogen, 2, Oxygen, 2)
                 .build()
                 .setFormula("((C6H4)2(CO)2(NH)2)+", true);
@@ -195,7 +194,7 @@ public class SecondDegreeMaterials {
                 .dust()
                 .fluid()
                 .color(0xcfc532)
-                .iconSet(MaterialIconSet.SHINY)
+                .iconSet(SHINY)
                 .components(Carbon, 14, Hydrogen, 10, Nitrogen, 2, Oxygen, 2)
                 .build()
                 .setFormula("(C6H4)2(CO)2(NH)2", true);
@@ -203,7 +202,7 @@ public class SecondDegreeMaterials {
         Durene = new Material.Builder(10025, GTBUtil.gtb("durene"))
                 .dust()
                 .color(0x336040)
-                .iconSet(MaterialIconSet.FINE)
+                .iconSet(FINE)
                 .flags(DISABLE_DECOMPOSITION)
                 .components(Carbon, 10, Hydrogen, 14)
                 .build()
@@ -212,7 +211,7 @@ public class SecondDegreeMaterials {
         PyromelliticDianhydride = new Material.Builder(10026, GTBUtil.gtb("pyromellitic_dianhydride")) // TODO
                 .dust()
                 .color(0xF0EAD6)
-                .iconSet(MaterialIconSet.ROUGH)
+                .iconSet(ROUGH)
                 .flags(DISABLE_DECOMPOSITION)
                 .components(Carbon, 10, Hydrogen, 2, Oxygen, 6)
                 .build()
@@ -228,7 +227,7 @@ public class SecondDegreeMaterials {
         TerephthalicAcid = new Material.Builder(10028, GTBUtil.gtb("terephthalic_acid"))
                 .dust()
                 .color(0x5ACCDA)
-                .iconSet(MaterialIconSet.ROUGH)
+                .iconSet(ROUGH)
                 .components(Carbon, 8, Hydrogen, 6, Oxygen, 4)
                 .build()
                 .setFormula("C6H4(CO2H)2", true);
@@ -236,7 +235,7 @@ public class SecondDegreeMaterials {
         TerephthaloylChloride = new Material.Builder(10029, GTBUtil.gtb("terephthaloyl_chloride"))
                 .dust()
                 .color(0xFAC4DA)
-                .iconSet(MaterialIconSet.SHINY)
+                .iconSet(SHINY)
                 .components(Carbon, 8, Hydrogen, 4, Oxygen, 2, Chlorine, 2)
                 .build()
                 .setFormula("C6H4(COCl)2", true);
@@ -472,14 +471,14 @@ public class SecondDegreeMaterials {
         Photopolymer = new Material.Builder(10079, GTBUtil.gtb("photopolymer"))
                 .fluid()
                 .dust()
-                .flags(MaterialFlags.GENERATE_PLATE)
+                .flags(GENERATE_PLATE)
                 .color(0xAFC896)
                 .build().setFormula("(P(H2O))n", true);
 
         BioPlastic = new Material.Builder(10080, GTBUtil.gtb("bio_plastic"))
                 .fluid()
                 .dust()
-                .flags(MaterialFlags.GENERATE_PLATE)
+                .flags(GENERATE_PLATE)
                 .color(0xAFC896)
                 .build().setFormula("P(H2O)", true);
 
@@ -557,12 +556,12 @@ public class SecondDegreeMaterials {
                 .build().setFormula("(NaCl)2RuO4", true);
 
         AcidicIridiumDioxide = new Material.Builder(10095, GTBUtil.gtb("acidic_iridium_dioxide"))
-                .liquid(new FluidBuilder().attributes(ACID))
+                .liquid(new FluidBuilder())
                 .color(0xD4CAB0)
                 .build().setFormula("(HCl)2(IrO2)2", true);
 
         PalladiumEnrichedAmmonia = new Material.Builder(10096, GTBUtil.gtb("palladium_enriched_ammonia"))
-                .liquid(new FluidBuilder().attributes(ACID))
+                .liquid(new FluidBuilder())
                 .color(0x7B7C7C)
                 .build().setFormula("Pd(NH3)?", true);
 
@@ -582,10 +581,6 @@ public class SecondDegreeMaterials {
                 .color(0xE8D6D1)
                 .build().setFormula("(H)6(CO)", true);
 
-        Pikyonium = new Material.Builder(10100, GTBUtil.gtb("pikyonium"))
-                .ingot()
-                .build().setFormula("(Ni2NbAl2(Ni4Cr))8((Fe4(FeAlCr)(Fe2Ni05)10SSiC)5?4Ce3Sb2Pt2Yb(FeW)4", true);
-
         CalciumSalts = new Material.Builder(10101, GTBUtil.gtb("calcium_salts"))
                 .dust()
                 .color(0xCBBB94)
@@ -600,7 +595,7 @@ public class SecondDegreeMaterials {
                 .dust()
                 .color(0xAC8B5C)
                 .flags(DISABLE_DECOMPOSITION)
-                .iconSet(MaterialIconSet.FINE)
+                .iconSet(FINE)
                 .components(Gallium, 1, GermaniumDioxide, 1)
                 .build();
 
@@ -608,7 +603,7 @@ public class SecondDegreeMaterials {
                 .dust()
                 .color(0xB8B8B8)
                 .flags(DISABLE_DECOMPOSITION)
-                .iconSet(MaterialIconSet.FINE)
+                .iconSet(FINE)
                 .components(Zinc, 1, GermaniumDioxide, 1)
                 .build();
 
@@ -616,14 +611,14 @@ public class SecondDegreeMaterials {
                 .dust()
                 .color(0x666666)
                 .flags(DISABLE_DECOMPOSITION)
-                .iconSet(MaterialIconSet.ROUGH)
+                .iconSet(ROUGH)
                 .components(GermaniumDioxide, 1)
                 .build().setFormula("GeO2?", true);
 
         ZincRichSphalerite = new Material.Builder(10106, GTBUtil.gtb("zinc_rich_sphalerite"))
                 .dust()
                 .color(0xABA3A3)
-                .iconSet(MaterialIconSet.METALLIC)
+                .iconSet(METALLIC)
                 .flags(DISABLE_DECOMPOSITION)
                 .components(Sphalerite, 1, Zinc, 2)
                 .build();
