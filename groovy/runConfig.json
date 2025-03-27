@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "debug": false,
   "classes": [
-    "material/",
-    "classes/"
+    "classes/FurnaceRemovals.groovy",
+    "material/"
   ],
   "loaders": {
     "preInit": [
