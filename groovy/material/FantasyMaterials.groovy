@@ -34,61 +34,32 @@ public class FantasyMaterials {
                 .build();
 
         DegenerateRhenium.setFormula("Re*", true)
-        
-        AwakenedDraconium = new Material.Builder(14002, GTBUtil.gtb("awakened_draconium"))
-                .ingot()
-                .build().setFormula("AwDr", true);
-
-        Adamantium = new Material.Builder(14003, GTBUtil.gtb("adamantium"))
-                .ingot()
-                .build().setFormula("Ad", true);
-
-        CosmicNeutronium = new Material.Builder(14004, GTBUtil.gtb("cosmic_neutronium"))
-                .ingot()
-                .build().setFormula("SpNt", true);
-
-        Infinity = new Material.Builder(14005, GTBUtil.gtb("infinity"))
-                .ingot()
-                .build().setFormula("If", true);
-
-        Eternal = new Material.Builder(14006, GTBUtil.gtb("eternal"))
-                .ingot()
-                .build().setFormula("Et*", true);
-
-        TemporallyConstrainedAntiMatter = new Material.Builder(14007,
-                GTBUtil.gtb("temporally_constrained_anti_matter"))
-                        .ingot()
-                        .build().setFormula("Am**", true);
-
-        CataclysmInducedMixedMatter = new Material.Builder(14008,
-                GTBUtil.gtb("cataclysm_induced_mixed_matter"))
-                        .ingot()
-                        .build().setFormula("Mm***", true);
 
         NaquadahWaste = new Material.Builder(14009,
                 GTBUtil.gtb("naquadah_waste"))
                         .fluid()
-                        .color(0x2d690b).build().setFormule("Nq?");
+                        .color(0x2d690b).build().setFormula("Nq?");
 
-        RareNaquadahWaste = new Material.Builder(14010,
-                GTBUtil.gtb("rare_naquadah_waste"))
+        RareNaquadahWaste = new Material.Builder(14010, GTBUtil.gtb("rare_naquadah_waste"))
                         .fluid()
-                        .color(0x0c2100).setFormule("Nq*?").build();
+                        .color(0x0c2100)
+                        .build().setFormula("Nq*?");
 
-        NaqHydrochloricAcid = new Material.Builder(14011,
-                GTBUtil.gtb("naq_hydrochloric_acid"))
+        NaqHydrochloricAcid = new Material.Builder(14011, GTBUtil.gtb("naq_hydrochloric_acid"))
                         .fluid()
-                        .color(0x1d4f00).setFormule("Nq(HCl)").build();
+                        .color(0x1d4f00)
+                        .build().setFormula("Nq(HCl)");
 
-        RareNaqFluoroantimonicAcid = new Material.Builder(14012,
-                GTBUtil.gtb("rare_naq_fluoroantimonic_acid"))
+        RareNaqFluoroantimonicAcid = new Material.Builder(14012, GTBUtil.gtb("rare_naq_fluoroantimonic_acid"))
                         .fluid()
-                        .color(0xa1c9a5).setFormule("Nq*H2SbF7").build();
+                        .color(0xa1c9a5)
+                        .build().setFormula("Nq*H2SbF7");
 
 
 
 
 
 
-
-  }}
+  }
+ 
+ }
