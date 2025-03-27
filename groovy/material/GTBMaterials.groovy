@@ -39,6 +39,11 @@ class GTBMaterials {
         public static Material Tenorite;
         public static Material Witherite;
         public static Material Cuprite;
+        public static Material AluminiumSaltSolution;
+        public static Material AluminiumSalt;
+        public static Material BariumCarbonate;
+        public static Material BariumAluminate;
+        public static Material PurifiedKevlarConcentrate;
 
 
 
@@ -257,7 +262,9 @@ class GTBMaterials {
         public static Material ZincOreCokePellets;
         public static Material MetalRichSlagSlurry;
         public static Material PreciousMetal;
-        public static Material StyreneSuspension;
+        public static Material ImpureGreenSapphireSlurry;
+        public static Material ImpureRubySlurry;
+        public static Material ImpureSapphireSlurry;
         
         //Biology Materials
 
@@ -350,7 +357,6 @@ class GTBMaterials {
         public static Material YButyrolacetone;
         public static Material PalmOil;
         public static Material BetaPineneSolution;
-        public static Material PhthalicAnhydride;
         public static Material MilkResidueSlurry;
         public static Material Shewanella;
         public static Material GeneTherapyFluid;
@@ -389,10 +395,18 @@ class GTBMaterials {
         public static Material PotassiumCarbonate;
         public static Material VanadiumTrichloride;
         public static Material SilicaGel;
+        public static Material Zblan;
+        public static Material KevlarConcentrate;
+
 
 
         //Second Degree Materials
 
+        public static Material FullerenePolymerMatrix;
+        public static Material FullerenePolymerTetrix;
+        public static Material Grisium;
+        public static Material Nomex;
+        public static Material SilverAlloy;
         public static Material StyreneSuspension;
         public static Material PolystyreneSuspension;
         public static Material PolyvinylAcetateSolution;
@@ -425,7 +439,6 @@ class GTBMaterials {
         public static Material KaptonE;
         public static Material KaptonK;
         public static Material Nitroaniline;
-        public static Material Dimethylformamide;
         public static Material Aminophenol;
         public static Material BiphenylTetracarboxylicAcidDianhydride;
         public static Material Oxydianiline;
@@ -443,6 +456,7 @@ class GTBMaterials {
         public static Material TerephthalicAcid;
         public static Material TerephthaloylChloride;
         public static Material Kevlar;
+        public static Material KevlarBlend;
         public static Material PurifiedSiliconCarbide;
         public static Material LowQualitySteel;
         public static Material EglinSteelBase;
@@ -693,7 +707,6 @@ class GTBMaterials {
         public static Material NHeptane;
         public static Material NOctane;
         public static Material ZSM5;
-        public static Material OXylene;
         public static Material PXylene;
         public static Material MPXylene;
         public static Material MXylene;
@@ -898,7 +911,6 @@ class GTBMaterials {
         public static Material DegenerateRhenium;
         public static Material AwakenedDraconium;
         public static Material Adamantium;
-        public static Material Pikyonium;
         public static Material CosmicNeutronium;
         public static Material Infinity;
         public static Material Eternal;
