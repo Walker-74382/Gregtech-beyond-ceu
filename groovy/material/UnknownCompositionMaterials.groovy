@@ -52,7 +52,7 @@ public class UnknownCompositionMaterials {
                 .fluid()
                 .color(0x442A62).build();
 
-        PolymerizedStyreneButadieneSolution = new Material.Builder(14508(), GTBUtil.gtb("polymerized_styrene_butadiene_solution"))
+        PolymerizedStyreneButadieneSolution = new Material.Builder(14508, GTBUtil.gtb("polymerized_styrene_butadiene_solution"))
                 .fluid()
                 .color(0x454545)
                 .build();
@@ -544,11 +544,6 @@ public class UnknownCompositionMaterials {
                 .color(0x516B95)
                 .build();
 
-        LiquidOzone = new Material.Builder(14612, GTBUtil.gtb("liquid_ozone"))
-                .fluid()
-                .color(0x0288D1)
-                .build();
-
         TriniumSolution = new Material.Builder(14613, GTBUtil.gtb("trinium_solution"))
                 .fluid()
                 .color(0xB8BCBE)
@@ -772,6 +767,11 @@ public class UnknownCompositionMaterials {
                 .dust()
                 .color(0x7F9099)
                 .build().setFormula("NiS2?", true);
+
+        LiquidOzone = new Material.Builder(14657, GTBUtil.gtb("liquid_ozone"))
+                .fluid()
+                .color(0x0288D1)
+                .build();
         
 
 
