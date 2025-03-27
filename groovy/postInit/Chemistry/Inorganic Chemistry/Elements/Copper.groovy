@@ -93,3 +93,71 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .duration(200)
                 .EUt(90)
                 .buildAndRegister();
+
+// Copper Dust * 2
+mods.gregtech.electrolyzer.removeByInput(30, [metaitem('dustChalcocite') * 3], null)
+// Copper Dust * 5
+mods.gregtech.electrolyzer.removeByInput(60, [metaitem('dustBornite') * 10], null)
+// Copper Dust * 3
+mods.gregtech.electrolyzer.removeByInput(60, [metaitem('dustTetrahedrite') * 8], null)
+
+        BLAST_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('oxygen')*42000)
+                .inputs(metaitem('dustCarrolite')*12)
+                .outputs(metaitem('dustRoastedCarrolite')*21)
+                .fluidOutputs(fluid('sulfur_dioxide')*14000)
+                .blastFurnaceTemp(1100)
+                .duration(400)
+                .EUt(116)
+                .buildAndRegister()
+
+        MIXER_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('sulfuric_acid')*13000)
+                .inputs(metaitem('dustRoastedCarrolite')*21)
+                .outputs(metaitem('dustBandedIron')*5)
+                .fluidOutputs(fluid('carrolite_sulfuric_solution')*7500)
+                .duration(600)
+                .EUt(16)
+                .buildAndRegister()
+
+        ELECTROLYZER_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('carrolite_sulfuric_solution')*2500)
+                .notConsumable(metaitem('wireFineCopper'))
+                .fluidOutputs(fluid('oxygen')*1000)
+                .fluidOutputs(fluid('impure_cobalt_sulfate_solution')*2000)
+                .duration(600)
+                .EUt(16)
+                .buildAndRegister()
+
+        DEHYDRATOR_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('impure_cobalt_sulfate_solution')*12000)
+                .inputs(metaitem('dustQuickline')*53)
+                .inputs(metaitem('dustSodiumhydrosulfide')*6)
+                .outputs(metaitem('dustSodiumSulfate')*7)
+                .outputs(metaitem('dustGypsum')*114)
+                .outputs(metaitem('dustCobaltOxideHydroxide')*48)
+                .outputs(metaitem('dustAlumina')*3)
+                .outputs(metaitem('dustNickelSulfide')*4)
+                .duration(500)
+                .EUt(26)
+                .buildAndRegister()
+
+        ARC_FURNACE_RECIPES.recipeBuilder()
+                .inputs(metaitem('dustCobaltOxideHydroxide')*4)
+                .fluidInputs(fluid('hydrogen')*1000)
+                .outputs(metaitem('dustCobaltOxide'))
+                .duration(200)
+                .EUt(56)
+                .buildAndRegister()
+
+        CHEMICAL_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('hydrogen')*2000)
+                .inputs(metaitem('dustNickelSulfide')*2)
+                .outputs(metaitem('dustNickel'))
+                .fluidOutputs(fluid('hydrogen_sulfide')*1000)
+                .duration(200)
+                .EUt(56)
+                .buildAndRegister()
+
+// Copper Dust * 2
+mods.gregtech.electrolyzer.removeByInput(60, [metaitem('dustMalachite') * 10], null)
