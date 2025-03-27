@@ -106,6 +106,14 @@ public class FurnaceRemoveals {
         ModHandler.removeFurnaceSmelting(OreDictUnifier.get(crushedPurified, Pentlandite));
         ModHandler.removeFurnaceSmelting(OreDictUnifier.get(ore, Pentlandite));
 
+        ModHandler.removeFurnaceSmelting(OreDictUnifier.get(dustImpure, Galena));
+        ModHandler.removeFurnaceSmelting(OreDictUnifier.get(dust, Galena));
+        ModHandler.removeFurnaceSmelting(OreDictUnifier.get(dustPure, Galena));
+        ModHandler.removeFurnaceSmelting(OreDictUnifier.get(crushed, Galena));
+        ModHandler.removeFurnaceSmelting(OreDictUnifier.get(crushedCentrifuged, Galena));
+        ModHandler.removeFurnaceSmelting(OreDictUnifier.get(crushedPurified, Galena));
+        ModHandler.removeFurnaceSmelting(OreDictUnifier.get(ore, Galena));
+
         ModHandler.removeFurnaceSmelting(OreDictUnifier.get(dustImpure, Garnierite));
         ModHandler.removeFurnaceSmelting(OreDictUnifier.get(dust, Garnierite));
         ModHandler.removeFurnaceSmelting(OreDictUnifier.get(dustPure, Garnierite));
@@ -114,14 +122,28 @@ public class FurnaceRemoveals {
         ModHandler.removeFurnaceSmelting(OreDictUnifier.get(crushedPurified, Garnierite));
         ModHandler.removeFurnaceSmelting(OreDictUnifier.get(ore, Garnierite));
 
+        ModHandler.removeFurnaceSmelting(OreDictUnifier.get(dustImpure, Cassiterite));
+        ModHandler.removeFurnaceSmelting(OreDictUnifier.get(dust, Cassiterite));
+        ModHandler.removeFurnaceSmelting(OreDictUnifier.get(dustPure, Cassiterite));
+        ModHandler.removeFurnaceSmelting(OreDictUnifier.get(crushed, Cassiterite));
+        ModHandler.removeFurnaceSmelting(OreDictUnifier.get(crushedCentrifuged, Cassiterite));
+        ModHandler.removeFurnaceSmelting(OreDictUnifier.get(crushedPurified, Cassiterite));
+        ModHandler.removeFurnaceSmelting(OreDictUnifier.get(ore, Cassiterite));
+
+        ModHandler.removeFurnaceSmelting(OreDictUnifier.get(dustImpure, CassiteriteSand));
+        ModHandler.removeFurnaceSmelting(OreDictUnifier.get(dust, CassiteriteSand));
+        ModHandler.removeFurnaceSmelting(OreDictUnifier.get(dustPure, CassiteriteSand));
+        ModHandler.removeFurnaceSmelting(OreDictUnifier.get(crushed, CassiteriteSand));
+        ModHandler.removeFurnaceSmelting(OreDictUnifier.get(crushedCentrifuged, CassiteriteSand));
+        ModHandler.removeFurnaceSmelting(OreDictUnifier.get(crushedPurified, CassiteriteSand));
+        ModHandler.removeFurnaceSmelting(OreDictUnifier.get(ore, CassiteriteSand));
+
         ModHandler.addSmeltingRecipe(OreDictUnifier.get(dustImpure, Platinum), OreDictUnifier.get(ingot, PlatinumRaw));
         ModHandler.addSmeltingRecipe(OreDictUnifier.get(dust, Platinum), OreDictUnifier.get(ingot, PlatinumRaw));
         ModHandler.addSmeltingRecipe(OreDictUnifier.get(dustPure, Platinum), OreDictUnifier.get(ingot, PlatinumRaw));
         ModHandler.addSmeltingRecipe(OreDictUnifier.get(crushed, Platinum), OreDictUnifier.get(ingot, PlatinumRaw));
-        ModHandler.addSmeltingRecipe(OreDictUnifier.get(crushedCentrifuged, Platinum),
-                OreDictUnifier.get(ingot, PlatinumRaw));
-        ModHandler.addSmeltingRecipe(OreDictUnifier.get(crushedPurified, Platinum),
-                OreDictUnifier.get(ingot, PlatinumRaw));
+        ModHandler.addSmeltingRecipe(OreDictUnifier.get(crushedCentrifuged, Platinum), OreDictUnifier.get(ingot, PlatinumRaw));
+        ModHandler.addSmeltingRecipe(OreDictUnifier.get(crushedPurified, Platinum), OreDictUnifier.get(ingot, PlatinumRaw));
         ModHandler.addSmeltingRecipe(OreDictUnifier.get(ore, Platinum), OreDictUnifier.get(ingot, PlatinumRaw));
 
         ModHandler.removeFurnaceSmelting(OreDictUnifier.get(dust, BorosilicateGlass));
