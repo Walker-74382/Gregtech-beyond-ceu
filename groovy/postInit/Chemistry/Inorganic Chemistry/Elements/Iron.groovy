@@ -84,3 +84,15 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .duration(200)
                 .EUt(9)
                 .buildAndRegister();
+
+// Iron Dust * 3
+mods.gregtech.electrolyzer.removeByInput(30, [metaitem('dustMagnetite') * 7], null)
+
+// Iron Dust * 1
+mods.gregtech.centrifuge.removeByInput(30, [metaitem('dustBrownLimonite') * 4], null)
+
+// Iron Dust * 1
+mods.gregtech.centrifuge.removeByInput(30, [metaitem('dustYellowLimonite') * 4], null)
+
+// Iron Dust * 2
+mods.gregtech.electrolyzer.removeByInput(30, [metaitem('dustBandedIron') * 5], null)
