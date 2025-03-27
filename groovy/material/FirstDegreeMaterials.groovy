@@ -189,7 +189,7 @@ public class FirstDegreeMaterials {
                 .color(0x8F8F8F)
                 .build().setFormula("C16H34", true);
 
-        NOctane = new Material.Builder(8026, GTBUtil.gtb("noctane"))
+        NOctane = new Material.Builder(8006, GTBUtil.gtb("noctane"))
                 .fluid()
                 .color(0xE57373)
                 .build().setFormula("C8H18", true);
@@ -206,11 +206,6 @@ public class FirstDegreeMaterials {
                 .build().setFormula("C7H16", true);
 
         MXylene = new Material.Builder(8029, GTBUtil.gtb("mxylene"))
-                .fluid()
-                .color(0x353535)
-                .build().setFormula("C8H10", true);
-
-        OXylene = new Material.Builder(8030, GTBUtil.gtb("oxylene"))
                 .fluid()
                 .color(0x353535)
                 .build().setFormula("C8H10", true);
@@ -528,8 +523,7 @@ public class FirstDegreeMaterials {
                 .color(0xB71C1C)
                 .build().setFormula("HCl", true);
 
-        DopedNanotubeDepositionMixture = new Material.Builder(8092,
-                GTBUtil.gtb("doped_nanotube_deposition_mixture"))
+        DopedNanotubeDepositionMixture = new Material.Builder(8092, GTBUtil.gtb("doped_nanotube_deposition_mixture"))
                         .dust()
                         .color(0x1B5E20)
                         .build().setFormula("HCl", true);
@@ -543,7 +537,7 @@ public class FirstDegreeMaterials {
                 .fluid()
                 .dust()
                 .ingot()
-                .flags(GENERATE_PLATE, MaterialFlags.GENERATE_FRAME, MaterialFlags.GENERATE_FOIL)
+                .flags(GENERATE_PLATE, GENERATE_FRAME, GENERATE_FOIL)
                 .color(0x313031)
                 .build().setFormula("(PdFeC153C36NO2)n", true);
 
@@ -551,7 +545,7 @@ public class FirstDegreeMaterials {
                 .fluid()
                 .dust()
                 .ingot()
-                .flags(GENERATE_PLATE, MaterialFlags.GENERATE_FRAME, MaterialFlags.GENERATE_FOIL)
+                .flags(GENERATE_PLATE, GENERATE_FRAME, GENERATE_FOIL)
                 .color(0x1D181E)
                 .build().setFormula("(C61HRhNO2)n", true);
 
@@ -681,7 +675,7 @@ public class FirstDegreeMaterials {
                 .fluid()
                 .dust()
                 .ingot()
-                .flags(GENERATE_PLATE, MaterialFlags.GENERATE_FRAME, MaterialFlags.GENERATE_FOIL)
+                .flags(GENERATE_PLATE, GENERATE_FRAME, GENERATE_FOIL)
                 .color(0x575979)
                 .build().setFormula("Ti9C9K9Li9S9H5", true);
 
@@ -724,7 +718,7 @@ public class FirstDegreeMaterials {
                 .dust()
                 .color(0xAC8B5C)
                 .flags(DISABLE_DECOMPOSITION)
-                .iconSet(MaterialIconSet.ROUGH)
+                .iconSet(ROUGH)
                 .components(Gallium, 1, Zinc, 1, Sulfur, 1, Oxygen, 4)
                 .build();
 
@@ -732,8 +726,8 @@ public class FirstDegreeMaterials {
                 .dust()
                 .color(0xB8B8B8)
                 .flags(DISABLE_DECOMPOSITION)
-                .iconSet(MaterialIconSet.FINE)
-                .iconSet(MaterialIconSet.FINE)
+                .iconSet(FINE)
+                .iconSet(FINE)
                 .build();
 
         StannicChloride = new Material.Builder(8127, GTBUtil.gtb("stannic_chloride"))
@@ -747,14 +741,14 @@ public class FirstDegreeMaterials {
                 .dust()
                 .color(0xBD888A)
                 .flags(DISABLE_DECOMPOSITION)
-                .iconSet(MaterialIconSet.METALLIC)
+                .iconSet(METALLIC)
                 .build();
 
         CaesiumChlorostannate = new Material.Builder(8129, GTBUtil.gtb("caesium_chlorostannate"))
                 .dust()
                 .color(0xBDAD88)
                 .flags(DISABLE_DECOMPOSITION)
-                .iconSet(MaterialIconSet.SHINY)
+                .iconSet(SHINY)
                 .components(Caesium, 2, Tin, 1, Chlorine, 6)
                 .build();
 
@@ -767,7 +761,7 @@ public class FirstDegreeMaterials {
         ThalliumSulfate = new Material.Builder(8131, GTBUtil.gtb("thallium_sulfate"))
                 .dust()
                 .color(0x9C222C)
-                .iconSet(MaterialIconSet.METALLIC)
+                .iconSet(METALLIC)
                 .flags(DISABLE_DECOMPOSITION)
                 .components(Thallium, 2, Sulfur, 1, Oxygen, 4)
                 .build();
@@ -775,7 +769,7 @@ public class FirstDegreeMaterials {
         MolybdenumTrioxide = new Material.Builder(8132, GTBUtil.gtb("molybdenum_trioxide"))
                 .dust()
                 .color(0xCBCFDA)
-                .iconSet(MaterialIconSet.ROUGH)
+                .iconSet(ROUGH)
                 .flags(DISABLE_DECOMPOSITION)
                 .components(Molybdenum, 1, Oxygen, 3)
                 .build();
@@ -783,7 +777,7 @@ public class FirstDegreeMaterials {
         PerrhenicAcid = new Material.Builder(8133, GTBUtil.gtb("perrhenic_acid"))
                 .dust()
                 .color(0xE6DC70)
-                .iconSet(MaterialIconSet.SHINY)
+                .iconSet(SHINY)
                 .flags(DISABLE_DECOMPOSITION)
                 .components(Hydrogen, 1, Rhenium, 1, Oxygen, 4)
                 .build();
@@ -791,7 +785,7 @@ public class FirstDegreeMaterials {
         AmmoniumPerrhenate = new Material.Builder(8134, GTBUtil.gtb("ammonium_perrhenate"))
                 .dust()
                 .color(0xA69970)
-                .iconSet(MaterialIconSet.METALLIC)
+                .iconSet(METALLIC)
                 .flags(DISABLE_DECOMPOSITION)
                 .components(Nitrogen, 1, Hydrogen, 4, Rhenium, 1, Oxygen, 4)
                 .build();
@@ -799,7 +793,7 @@ public class FirstDegreeMaterials {
         LeadChloride = new Material.Builder(8135, GTBUtil.gtb("lead_chloride"))
                 .dust()
                 .color(0xF3F3F3)
-                .iconSet(MaterialIconSet.ROUGH)
+                .iconSet(ROUGH)
                 .components(Lead, 1, Chlorine, 2)
                 .color(0xC1A86B)
                 .build();
@@ -1146,7 +1140,7 @@ public class FirstDegreeMaterials {
         SodiumTellurite = new Material.Builder(8240, GTBUtil.gtb("sodium_tellurite"))
                 .dust()
                 .color(0xC6C9BE)
-                .iconSet(MaterialIconSet.ROUGH)
+                .iconSet(ROUGH)
                 .flags(DISABLE_DECOMPOSITION)
                 .components(Sodium, 2, Tellurium, 1, Oxygen, 3)
                 .build();
@@ -1154,7 +1148,7 @@ public class FirstDegreeMaterials {
         TelluriumDioxide = new Material.Builder(8241, GTBUtil.gtb("tellurium_dioxide"))
                 .dust()
                 .color(0xE3DDB8)
-                .iconSet(MaterialIconSet.METALLIC)
+                .iconSet(METALLIC)
                 .flags(DISABLE_DECOMPOSITION)
                 .components(Tellurium, 1, Oxygen, 2)
                 .build();
@@ -1162,7 +1156,7 @@ public class FirstDegreeMaterials {
         SeleniumDioxide = new Material.Builder(8242, GTBUtil.gtb("selenium_dioxide"))
                 .dust()
                 .color(0xE0DDD8)
-                .iconSet(MaterialIconSet.METALLIC)
+                .iconSet(METALLIC)
                 .flags(DISABLE_DECOMPOSITION)
                 .components(Selenium, 1, Oxygen, 2)
                 .build();
@@ -1170,7 +1164,7 @@ public class FirstDegreeMaterials {
         SelenousAcid = new Material.Builder(8243, GTBUtil.gtb("selenous_acid"))
                 .dust()
                 .color(0xE0E083)
-                .iconSet(MaterialIconSet.SHINY)
+                .iconSet(SHINY)
                 .flags(DISABLE_DECOMPOSITION)
                 .components(Hydrogen, 2, Selenium, 1, Oxygen, 3)
                 .build();
@@ -1379,13 +1373,13 @@ public class FirstDegreeMaterials {
                 .fluid()
                 .dust()
                 .ingot()
-                .flags(MaterialFlags.GENERATE_FOIL, GENERATE_PLATE)
+                .flags(GENERATE_FOIL, GENERATE_PLATE)
                 .color(0x605856).build().setFormula("AgCuAu", true);
 
         SinteredSilver = new Material.Builder(8293, GTBUtil.gtb("sintered_silver"))
                 .dust()
                 .ingot()
-                .flags(MaterialFlags.GENERATE_ROD)
+                .flags(GENERATE_ROD)
                 .color(0x9D9A9A).build().setFormula("Ag", true);
 
         VanadiumPentoxide = new Material.Builder(8294, GTBUtil.gtb("vanadium_pentoxide"))
@@ -1627,7 +1621,7 @@ public class FirstDegreeMaterials {
         Zircon = new Material.Builder(8347,
                 GTBUtil.gtb("zircon"))
                         .fluid()
-                        .flags(GTBMaterialFlags.GENERATE_FLOATED, GTBMaterialFlags.GENERATE_SIFTED)
+                        .flags(GENERATE_FLOATED, GENERATE_SIFTED)
                         .ore()
                         .gem()
                         .dust()
@@ -1761,7 +1755,7 @@ public class FirstDegreeMaterials {
                         .fluid()
                         .color(0x79847A).build().setFormula("SiCl4", true);
 
-        IndiumHydroxide = new Material.Builder(8372,
+        IndiumHydroxide = new Material.Builder(8030,
                 GTBUtil.gtb("indium_hydroxide"))
                         .dust()
                         .color(0x652F6E).build().setFormula("In(HO)3", true);
@@ -1854,7 +1848,7 @@ public class FirstDegreeMaterials {
         ZincFlue = new Material.Builder(8390,
                 GTBUtil.gtb("zinc_flue"))
                         .dust()
-                        .iconSet(MaterialIconSet.SAND)
+                        .iconSet(SAND)
                         .color(0xA1A1A0).build().setFormula("?", true);
 
         ZincExhaustMixture = new Material.Builder(8391,
@@ -1865,7 +1859,7 @@ public class FirstDegreeMaterials {
         ZincOreCokePellets = new Material.Builder(8392,
                 GTBUtil.gtb("zinc_ore_coke_pellets"))
                         .dust()
-                        .iconSet(MaterialIconSet.ROUGH)
+                        .iconSet(ROUGH)
                         .color(0x61605A).build().setFormula("(H2O)(ZnS)C", true);
 
         PreciousMetal = new Material.Builder(8393,
@@ -1916,13 +1910,13 @@ public class FirstDegreeMaterials {
         DeionizedPalladium = new Material.Builder(8400,
                 GTBUtil.gtb("deionized_palladium"))
                         .dust()
-                        .iconSet(MaterialIconSet.SHINY)
+                        .iconSet(SHINY)
                         .color(0xDFDFDF).build().setFormula("Pd(NH3)H2O", true);
 
         DriedPalladium = new Material.Builder(8401,
                 GTBUtil.gtb("dried_palladium"))
                         .dust()
-                        .iconSet(MaterialIconSet.DULL)
+                        .iconSet(DULL)
                         .color(0xDFDFDF).build().setFormula("Pd(NH3)", true);
 
         RichAmine = new Material.Builder(8402,
@@ -2013,7 +2007,7 @@ public class FirstDegreeMaterials {
         MolecularSieve = new Material.Builder(8419,
                 GTBUtil.gtb("molecular_sieve"))
                         .dust()
-                        .iconSet(MaterialIconSet.SHINY)
+                        .iconSet(SHINY)
                         .color(0x666666).build();
 
         ImpurePolluciteSlurry = new Material.Builder(8420,
@@ -2049,7 +2043,7 @@ public class FirstDegreeMaterials {
 
         
         FormicAcid = new Material.Builder(8426, GTBUtil.gtb("formic_acid"))
-                .liquid(new FluidBuilder().attributes(ACID))
+                .liquid(new FluidBuilder())
                 .color(0xD15918)
                 .build().setFormula("CH20H2", true);
 
@@ -2156,13 +2150,13 @@ public class FirstDegreeMaterials {
         Columbite = new Material.Builder(8448, GTBUtil.gtb("columbite"))
                 .dust()
                 .ore()
-                .flags(GTBMaterialFlags.GENERATE_FLOATED, GTBMaterialFlags.GENERATE_SIFTED)
+                .flags(GENERATE_FLOATED, GENERATE_SIFTED)
                 .color(0xFDD835).build().setFormula("FeNb2O6", true);
 
         Celestine = new Material.Builder(8449, GTBUtil.gtb("celestine"))
                 .dust()
                 .ore()
-                .flags(GTBMaterialFlags.GENERATE_FLOATED, GTBMaterialFlags.GENERATE_SIFTED)
+                .flags(GENERATE_FLOATED, GENERATE_SIFTED)
                 .color(0xA7CFF1).build().setFormula("SrSO4", true);
 
         ManganeseSulfate = new Material.Builder(8450, GTBUtil.gtb("manganese_sulfate"))
@@ -2254,68 +2248,68 @@ public class FirstDegreeMaterials {
                 .color(0x2196F3)
                 .build().setFormula("O2", true);
 
-        CrudeNeon = new Material.Builder(8469(), GTBUtil.gtb("crude_neon"))
+        CrudeNeon = new Material.Builder(8469, GTBUtil.gtb("crude_neon"))
                 .fluid()
                 .color(0xF9A825)
                 .build().setFormula("Ne", true);
 
         
-        ColdAir = new Material.Builder(8470(), GTBUtil.gtb("cold_air"))
+        ColdAir = new Material.Builder(8470, GTBUtil.gtb("cold_air"))
                 .fluid()
                 .color(0xBBDEFB)
                 .build().setFormula('Kr', true);
 
-        SupercooledLiquidNitrogen = new Material.Builder(8471(), GTBUtil.gtb("supercooled_liquid_nitrogen"))
+        SupercooledLiquidNitrogen = new Material.Builder(8471, GTBUtil.gtb("supercooled_liquid_nitrogen"))
                 .fluid()
                 .color(0x4FC3F7)
                 .build().setFormula('N2', true);
 
-        UntreatedLiquidOxygen = new Material.Builder(8472(), GTBUtil.gtb("untreated_liquid_oxygen"))
+        UntreatedLiquidOxygen = new Material.Builder(8472, GTBUtil.gtb("untreated_liquid_oxygen"))
                 .fluid()
                 .color(0x6CA4BE)
                 .build().setFormula('O2', true);
 
-        ColdWasteGasouesNitrogen = new Material.Builder(8473(), GTBUtil.gtb("cold_waste_gaseous_nitrogen"))
+        ColdWasteGasouesNitrogen = new Material.Builder(8473, GTBUtil.gtb("cold_waste_gaseous_nitrogen"))
                 .fluid()
                 .color(0x5C7884)
                 .build().setFormula('N2', true);
 
-        ColdGasouesNitrogen = new Material.Builder(8474(), GTBUtil.gtb("cold_gaseous_nitrogen"))
+        ColdGasouesNitrogen = new Material.Builder(8474, GTBUtil.gtb("cold_gaseous_nitrogen"))
                 .fluid()
                 .color(0x5C7884)
                 .build().setFormula('N2', true);
 
-        ArgonRichGas = new Material.Builder(8475(), GTBUtil.gtb("argon_rich_gas"))
+        ArgonRichGas = new Material.Builder(8475, GTBUtil.gtb("argon_rich_gas"))
                 .fluid()
                 .color(0x6B976D)
                 .build().setFormula('Ar', true);
 
-        CrudeArgonVapor = new Material.Builder(8476(), GTBUtil.gtb("crude_argon_vapor"))
+        CrudeArgonVapor = new Material.Builder(8476, GTBUtil.gtb("crude_argon_vapor"))
                 .fluid()
                 .color(0x388E3C)
                 .build().setFormula('Ar', true);
 
-        SupercooledOxygen = new Material.Builder(8477(), GTBUtil.gtb("supercooled_oxygen"))
+        SupercooledOxygen = new Material.Builder(8477, GTBUtil.gtb("supercooled_oxygen"))
                 .fluid()
                 .color(0x32312F)
                 .build().setFormula('Kr', true);
 
-        LiquidWasteNitrogen = new Material.Builder(8478(), GTBUtil.gtb("liquid_waste_nitrogen"))
+        LiquidWasteNitrogen = new Material.Builder(8478, GTBUtil.gtb("liquid_waste_nitrogen"))
                 .fluid()
                 .color(0x29B6F6)
                 .build().setFormula('N2', true);
 
-        LiquidKrypton = new Material.Builder(8479(), GTBUtil.gtb("liquid_krypton"))
+        LiquidKrypton = new Material.Builder(8479, GTBUtil.gtb("liquid_krypton"))
                 .fluid()
                 .color(0x0277BD)
                 .build().setFormula('Kr', true);
 
-        CrudeKrypton = new Material.Builder(8480(), GTBUtil.gtb("crude_krypton"))
+        CrudeKrypton = new Material.Builder(8480, GTBUtil.gtb("crude_krypton"))
                 .fluid()
                 .color(0x81C784)
                 .build().setFormula('Kr', true);
 
-        Adamantium = new Material.Builder(8481(), GTBUtil.gtb("adamantium"))
+        Adamantium = new Material.Builder(8481, GTBUtil.gtb("adamantium"))
                 .fluid()
                 .dust()
                 .flags(GENERATE_PLATE, GENERATE_FRAME)
