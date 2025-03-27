@@ -15,8 +15,32 @@ import static material.BiologicalMaterials.*;
 import static material.MaterialPropertyAddition.*; 
 import static material.FantasyMaterials.*;
 import static material.UnknownCompositionMaterials.*;
+import static material.OreMaterials.*;
 
 class GTBMaterials {
+
+        //Ore Materials
+
+        public static Material Hematite;
+        public static Material Enargite;
+        public static Material Carrolite;
+        public static Material CarroliteSulfuricSolution;
+        public static Material CobaltOxideHydroxide;
+        public static Material ImpureCobaltSulfideSolution;
+        public static Material SodiumHydrosulfide;
+        public static Material RoastedCarrolite;
+        public static Material Vermiculite;
+        public static Material Dolomite;
+        public static Material Wollastonite;
+        public static Material Prasolite;
+        public static Material Serpentine;
+        public static Material NickelferousLimonite;
+        public static Material Tennanite;
+        public static Material Tenorite;
+        public static Material Witherite;
+        public static Material Cuprite;
+
+
 
         //Unknown Materials
 
@@ -888,7 +912,7 @@ class GTBMaterials {
                 MaterialPropertyAddition.register();
                 FantasyMaterials.register();
                 UnknownCompositionMaterials.register();
-
+                OreMaterials.register();
         }
 
 
