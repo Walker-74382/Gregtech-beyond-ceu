@@ -17,6 +17,7 @@ public class MaterialPropertyAddition {
 
         
         Flerovium.setProperty(PropertyKey.DUST, new DustProperty());
+        Barium.setProperty(PropertyKey.INGOT, new IngotProperty());
 
 
 
