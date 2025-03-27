@@ -43,7 +43,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .fluidOutputs(fluid('benzene')*300)
                 .fluidOutputs(fluid('ethylbenzene')*200)
                 .fluidOutputs(fluid('toluene')*500)
-                .fluidOutputs(fluid('oxylene')*200)
+                .fluidOutputs(fluid('ortho_xylene')*200)
                 .fluidOutputs(fluid('opxylene')*800)
                 .duration(500)
                 .EUt(120)
