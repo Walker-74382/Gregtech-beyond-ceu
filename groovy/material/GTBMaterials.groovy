@@ -917,6 +917,7 @@ class GTBMaterials {
         public static Material Eternal;
         public static Material TemporallyConstrainedAntiMatter;
         public static Material CataclysmInducedMixedMatter;
+        public static Material CrystalFluix;
 
         public static void init() {
                 FirstDegreeMaterials.register();
