@@ -1,0 +1,19 @@
+item.gtna.entropycore.name=Entropy Core
+
+item.gtna.boule.fluix.name=Fluixcrystalline Boule
+item.gtna.wafer.fluix.name=Fluix Wafer
+item.gtna.wafer.simple_fluix_systematic_chip.name=Simple FSC Wafer
+item.gtna.wafer.basic_fluix_systematic_chip.name=Basic FSC Wafer
+item.gtna.wafer.complex_fluix_systematic_chip.name=Complex FSC Wafer
+item.gtna.plate.simple_fluix_systematic_chip.name=Simple FSC
+item.gtna.plate.basic_fluix_systematic_chip.name=Basic FSC
+item.gtna.plate.complex_fluix_systematic_chip.name=Complex FSC
+
+item.gtna.boule.fluix.tooltip=Strangely, it resonates with energy and matter.
+item.gtna.wafer.fluix.tooltip=Strangely, it resonates with energy and matter.
+item.gtna.wafer.simple_fluix_systematic_chip.tooltip=Raw Simple Fluix Chip
+item.gtna.wafer.basic_fluix_systematic_chip.tooltip=Raw Basic Fluix Chip
+item.gtna.wafer.complex_fluix_systematic_chip.tooltip=Raw Complex Fluix Chip
+item.gtna.plate.simple_fluix_systematic_chip.tooltip=Simple Fluix Systematic Chip
+item.gtna.plate.basic_fluix_systematic_chip.tooltip=Basic Fluix Systematic Chip
+item.gtna.plate.complex_fluix_systematic_chip.tooltip=Complex Fluix Systematic Chip

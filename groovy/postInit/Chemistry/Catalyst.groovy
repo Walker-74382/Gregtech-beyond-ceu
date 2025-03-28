@@ -160,7 +160,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
 
         ASSEMBLER_RECIPES.recipeBuilder()
                 .inputs(metaitem('plateFullerenePolymerTetrix')*6)
-                .inputs(item('gregtech:meta_block_frame_505', 14))
+                .inputs(metaitem('frameFullerenePolymerMatrix'))
                 .circuitMeta(6)
                 .outputs(item('gtb:gtb_multiblock_casing', 11))
                 .duration(200)
