@@ -115,6 +115,7 @@ mods.gregtech.electrolyzer.removeByInput(60, [metaitem('dustBauxite') * 15], nul
                 .notConsumable(metaitem('stickCobalt'))
                 .notConsumable(fluid('sodium_hydroxide_solution')*864)
                 .fluidInputs(fluid('aluminium_salt_solution')*1000)
+                .fluidOutputs(fluid('water')*1000)
                 .outputs(metaitem('dustAluminium'))
                 .outputs(metaitem('dustSalt'))
                 .duration(260)
