@@ -305,7 +305,7 @@ public class FirstDegreeMaterials {
 
         ActivatedCarbon = new Material.Builder(8050, GTBUtil.gtb("activated_carbon"))
                 .dust()
-                .color(0x9DD6D0)
+                .color(0x313131)
                 .build().setFormula("C", true);
 
         HotWater = new Material.Builder(8051, GTBUtil.gtb("hot_water"))
@@ -718,19 +718,19 @@ public class FirstDegreeMaterials {
         StannicChloride = new Material.Builder(8127, GTBUtil.gtb("stannic_chloride"))
                 .fluid()
                 .color(0x33BBF5)
-                .build().setFormula("SnCl4");
+                .build().setFormula("SnCl4", true);
 
         RubidiumChlorostannate = new Material.Builder(8128, GTBUtil.gtb("rubidium_chlorostannate"))
                 .dust()
                 .color(0xBD888A)
                 .iconSet(METALLIC)
-                .build();
+                .build().setFormula("Rb2SnCl6", true);
 
         CaesiumChlorostannate = new Material.Builder(8129, GTBUtil.gtb("caesium_chlorostannate"))
                 .dust()
                 .color(0xBDAD88)
                 .iconSet(SHINY)
-                .build().setFormula("Cs2SnCl6");
+                .build().setFormula("Cs2SnCl6", true);
 
         TinFourChloride = new Material.Builder(8130, GTBUtil.gtb("tin_four_chloride"))
                 .dust()
@@ -2022,7 +2022,7 @@ public class FirstDegreeMaterials {
         Tetrabromoethane = new Material.Builder(8429, GTBUtil.gtb("tetrabromoethane"))
                 .fluid()
                 .color(0x5AAADA)
-                .build().setFormula("C2H2Br4");
+                .build().setFormula("C2H2Br4", true);
 
         GammaButyrolactone = new Material.Builder(8430, GTBUtil.gtb("gamma_butyrolactone"))
                 .fluid()
