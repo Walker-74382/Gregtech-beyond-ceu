@@ -73,3 +73,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .EUt(180)
                 .buildAndRegister()
 
+// Iron Dust * 1
+mods.gregtech.electrolyzer.removeByInput(60, [metaitem('dustChromite') * 7], null)
+// Chrome Dust * 1
+mods.gregtech.electrolyzer.removeByInput(30, [metaitem('dustChromiumTrioxide') * 4], null)

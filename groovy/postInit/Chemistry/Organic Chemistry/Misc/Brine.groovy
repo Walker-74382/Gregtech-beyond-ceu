@@ -57,10 +57,10 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .duration(120)
                 .EUt(700)
                 .buildAndRegister();
+ //               .notConsumable(item('zbgt:zbgt_meta_item', 140))
 
         CRYSTALLIZATION_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('concentrated_brine')*1000)
-                .notConsumable(item('zbgt:zbgt_meta_item', 140))
                 .outputs(metaitem('dustPotassiumMagnesiumSalts')*30)
                 .outputs(metaitem('dustSodiumSalts')*4)
                 .outputs(metaitem('dustCalciumSalts')*13)

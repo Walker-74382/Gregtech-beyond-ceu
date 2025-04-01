@@ -238,4 +238,4 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
 
 
 // Yttrium Dust * 2
-mods.gregtech.electrolyzer.removeByInput(30, [metaitem('dustYttriumOxide') * 5], null)
+mods.gregtech.electrolyzer.removeByInput(30, [metaitem('dustYttriumOxide') * 2], null)
