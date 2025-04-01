@@ -34,8 +34,7 @@ class GTBMaterials {
         public static Material Wollastonite;
         public static Material Prasolite;
         public static Material Serpentine;
-        public static Material NickelferousLimonite;
-        public static Material Tennanite;
+        public static Material NickeliferousLimonite;
         public static Material Tenorite;
         public static Material Witherite;
         public static Material Cuprite;
@@ -47,6 +46,7 @@ class GTBMaterials {
         public static Material ImpureRubySlurry;
         public static Material ImpureGreenSapphireSlurry;
         public static Material ImpureSapphireSlurry;
+        public static Material Xenotime;
 
 
         //Unknown Materials
@@ -397,6 +397,9 @@ class GTBMaterials {
         public static Material SilicaGel;
         public static Material Zblan;
         public static Material KevlarConcentrate;
+        public static Material DriedNickeliferousLimonite;
+        public static Material HematiteCokePellets;
+        public static Material PigIron;
 
 
 
@@ -907,6 +910,8 @@ class GTBMaterials {
         public static Material CopperSulfide;
         public static Material SodiumIodate;
         public static Material SinteredSilver;
+        public static Material CopperSulfateSolution;
+
         //Fantasy Materials
 
         public static Material DegenerateRhenium;
@@ -917,6 +922,7 @@ class GTBMaterials {
         public static Material Eternal;
         public static Material TemporallyConstrainedAntiMatter;
         public static Material CataclysmInducedMixedMatter;
+        public static Material CrystalFluix;
 
         public static void init() {
                 FirstDegreeMaterials.register();
