@@ -75,6 +75,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .inputs(metaitem('wireFineElectrum')* 8)
                 .fluidInputs(fluid('tin')* 144)
                 .inputs(metaitem('dip_8_microcontroller'))
+                .outputs(metaitem('circuit.nano_processor'))
                 .duration(300)
                 .EUt(490)
                 .buildAndRegister()
