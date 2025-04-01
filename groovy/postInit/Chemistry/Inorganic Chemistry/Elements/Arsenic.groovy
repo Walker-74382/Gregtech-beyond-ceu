@@ -50,3 +50,25 @@ mods.gregtech.electrolyzer.removeByInput(30, [metaitem('dustArsenicTrioxide') * 
                 .blastFurnaceTemp(1200)
                 .EUt(70)
                 .buildAndRegister();
+
+        //Tenannite Processing
+
+
+        GRAVITY_SEPARATOR_RECIPES.recipeBuilder()
+                .inputs(metaitem('dustTennanite'))
+                .outputs(metaitem('siftedTennanite'))
+                .chancedOutput(metaitem('dustPyrite')*1, 4000, 0)
+                .chancedOutput(metaitem('dustQuartzite')*1, 2000, 0)
+                .duration(250)
+                .EUt(270)
+                .buildAndRegister();
+
+        ROASTER_RECIPES.recipeBuilder()
+                .inputs(metaitem('siftedTennanite')*17)
+                .fluidInputs(fluid('oxygen')*37000)
+                .outputs(metaitem('dustCupricOxide')*24)
+                .outputs(metaitem('dustArsenicTrioxide')*4)
+                .fluidOutputs(fluid('sulfur_dioxide')*26000)
+                .duration(250)
+                .EUt(270)
+                .buildAndRegister();
