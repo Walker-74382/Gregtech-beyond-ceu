@@ -233,11 +233,6 @@ public class UnknownCompositionMaterials {
                 .color(0x677753)
                 .build();
 
-        CeriumOxideFiltrate = new Material.Builder(14548, GTBUtil.gtb("cerium_oxide_filtrate"))
-                .dust()
-                .color(0x689F38)
-                .build().setFormula("CeO2?", true);
-
         ThoriumConcentrate = new Material.Builder(14549, GTBUtil.gtb("thorium_concentrate"))
                 .dust()
                 .color(0x354D21)
