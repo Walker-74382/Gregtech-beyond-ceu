@@ -12,7 +12,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
 
         ROASTER_RECIPES.recipeBuilder()
                 .inputs(metaitem('dustTitaniumDioxide')*2)
-                .outputs(metaitem('dustTitanium'))
+                .outputs(metaitem('dustTitanium')) //Sponge Titanium
                 .fluidOutputs(fluid('steam')*1000)
                 .duration(200)
                 .EUt(120)
