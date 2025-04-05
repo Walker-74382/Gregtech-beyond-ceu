@@ -54,3 +54,13 @@ DISTILLATION_RECIPES.recipeBuilder()
     .duration(500)
     .EUt(500)
     .buildAndRegister();
+
+
+// Liquid Polyvinyl Chloride (PVC) * 3240
+mods.gregtech.large_chemical_reactor.removeByInput(30, [metaitem('circuit.integrated').withNbt(['Configuration': 2])], [fluid('air') * 7500 * 7500, fluid('vinyl_chloride') * 2160 * 2160, fluid('titanium_tetrachloride') * 100 * 100])
+// Liquid Polyvinyl Chloride (PVC) * 4320
+mods.gregtech.large_chemical_reactor.removeByInput(30, [metaitem('circuit.integrated').withNbt(['Configuration': 2])], [fluid('oxygen') * 7500 * 7500, fluid('vinyl_chloride') * 2160 * 2160, fluid('titanium_tetrachloride') * 100 * 100])
+// Liquid Polyvinyl Chloride (PVC) * 144
+mods.gregtech.chemical_reactor.removeByInput(30, [metaitem('circuit.integrated').withNbt(['Configuration': 1])], [fluid('air') * 1000 * 1000, fluid('vinyl_chloride') * 144 * 144])
+// Liquid Polyvinyl Chloride (PVC) * 216
+mods.gregtech.chemical_reactor.removeByInput(30, [metaitem('circuit.integrated').withNbt(['Configuration': 1])], [fluid('oxygen') * 1000 * 1000, fluid('vinyl_chloride') * 144 * 144])
