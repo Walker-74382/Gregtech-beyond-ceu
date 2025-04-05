@@ -102,7 +102,7 @@ mods.gregtech.electrolyzer.removeByInput(30, [metaitem('dustBandedIron') * 5], n
 
         MIXER_RECIPES.recipeBuilder()
                 .inputs(metaitem('dustCoke'))
-                .inputs(metaitem('dustHematite'))
+                .inputs(metaitem('dustHematite')) // needs limestone input
                 .outputs(metaitem('dustHematiteCokePellets'))
                 .duration(200)
                 .EUt(8)
@@ -112,6 +112,7 @@ mods.gregtech.electrolyzer.removeByInput(30, [metaitem('dustBandedIron') * 5], n
                 .inputs(metaitem('dustHematiteCokePellets'))
                 .fluidInputs(fluid('carbon_monoxide')*2000)
                 .fluidOutputs(fluid('carbon_dioxide')*3000)
+                .outputs(metaitem('dustSiliconDioxide'))
                 .outputs(metaitem('ingotPigIron'))
                 .blastFurnaceTemp(800)
                 .duration(200)
@@ -119,3 +120,5 @@ mods.gregtech.electrolyzer.removeByInput(30, [metaitem('dustBandedIron') * 5], n
                 .buildAndRegister();
 
         //MIDREX PROCESS
+
+        
