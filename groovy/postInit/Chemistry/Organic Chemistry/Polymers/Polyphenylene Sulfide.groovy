@@ -29,7 +29,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
         POLYMERIZATION_TANK_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('air')*1000)
                 .fluidInputs(fluid('phenylene_sulfide_pre_polymer_mixture')*144)
-                .fluidInputs(fluid('polyphenylene_sulfide')*144)
+                .fluidOutputs(fluid('polyphenylene_sulfide')*144)
                 .duration(500)
                 .EUt(800)
                 .buildAndRegister();
@@ -37,7 +37,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
         POLYMERIZATION_TANK_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('oxygen')*1000)
                 .fluidInputs(fluid('phenylene_sulfide_pre_polymer_mixture')*144)
-                .fluidInputs(fluid('polyphenylene_sulfide')*144)
+                .fluidOutputs(fluid('polyphenylene_sulfide')*144)
                 .duration(500)
                 .EUt(800)
                 .buildAndRegister();
@@ -45,7 +45,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
         POLYMERIZATION_TANK_RECIPES.recipeBuilder()
                 .inputs(metaitem('dustKaminskyCatalyst'))
                 .fluidInputs(fluid('phenylene_sulfide_pre_polymer_mixture')*144)
-                .fluidInputs(fluid('polyphenylene_sulfide')*576)
+                .fluidOutputs(fluid('polyphenylene_sulfide')*576)
                 .duration(500)
                 .EUt(800)
                 .buildAndRegister();
@@ -53,7 +53,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
         POLYMERIZATION_TANK_RECIPES.recipeBuilder()
                 .inputs(metaitem('dustPhilipsCatalyst'))
                 .fluidInputs(fluid('phenylene_sulfide_pre_polymer_mixture')*144)
-                .fluidInputs(fluid('polyphenylene_sulfide')*288)
+                .fluidOutputs(fluid('polyphenylene_sulfide')*288)
                 .duration(500)
                 .EUt(800)
                 .buildAndRegister();
@@ -61,7 +61,12 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
         POLYMERIZATION_TANK_RECIPES.recipeBuilder()
                 .inputs(metaitem('dustZieglerNattaCatalyst'))
                 .fluidInputs(fluid('phenylene_sulfide_pre_polymer_mixture')*144)
-                .fluidInputs(fluid('polyphenylene_sulfide')*432)
+                .fluidOutputs(fluid('polyphenylene_sulfide')*432)
                 .duration(500)
                 .EUt(800)
                 .buildAndRegister();
+
+// Salt * 4
+mods.gregtech.chemical_reactor.removeByInput(360, [metaitem('dustSodiumSulfide') * 3], [fluid('dichlorobenzene') * 1000 * 1000, fluid('air') * 16000 * 16000])
+// Salt * 4
+mods.gregtech.chemical_reactor.removeByInput(360, [metaitem('dustSodiumSulfide') * 3], [fluid('dichlorobenzene') * 1000 * 1000, fluid('oxygen') * 8000 * 8000])
