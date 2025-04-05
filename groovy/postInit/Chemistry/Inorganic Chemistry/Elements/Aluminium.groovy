@@ -121,3 +121,51 @@ mods.gregtech.electrolyzer.removeByInput(60, [metaitem('dustBauxite') * 15], nul
                 .duration(260)
                 .EUt(7)
                 .buildAndRegister();
+
+        //Kaolinite
+
+        ELECTROMAGNETIC_SEPARATOR_RECIPES.recipeBuilder()
+                .inputs(metaitem('dustKaolinite'))
+                .chancedOutput(metaitem('dustHematite')*1, 2000, 0)
+                .outputs(metaitem('dustBeneficatedKaolinite'))
+                .duration(200)
+                .EUt(80)
+                .buildAndRegister()
+        
+        BLAST_RECIPES.recipeBuilder()           //ROTARY KILN
+                .inputs(metaitem('dustBeneficatedKaolinite'))
+                .outputs(metaitem('dustFusedMetakaolin'))
+                .fluidOutputs(fluid('water')*2000)
+                .blastFurnaceTemp(900)
+                .EUt(100)
+                .duration(200)
+                .buildAndRegister()
+
+        CENTRIFUGE_RECIPES.recipeBuilder()
+                .inputs(metaitem('dustMetakaolin'))
+                .fluidOutputs(fluid('chlorine')*3000)
+                .outputs(metaitem('dustSiliconDioxide'))
+                .outputs(metaitem('dustAlumina'))
+                .EUt(120)
+                .duration(200)
+                .buildAndRegister()
+
+        CHEMICAL_BATH_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('hydrochloric_acid')*6000)
+                .inputs(metaitem('dustFusedMetakaolin'))
+                .fluidOutputs(fluid('water')*3000)
+                .outputs(metaitem('dustMetakaolin')*2)
+                .EUt(90)
+                .duration(300)
+                .buildAndRegister()
+
+        ELECTROLYTIC_CELL_RECIPES.recipeBuilder()
+                .inputs(metaitem('dustAlumina')*2)
+                .inputs(metaitem('dustCarbon')*3)
+                .notConsumable(fluid('cryolite')*1000)
+                .fluidOutputs(fluid('aluminium')*576)
+                .fluidOutputs(fluid('carbon_dioxide')*3000)
+                .EUt(70)
+                .duration(250)
+                .buildAndRegister()
+        
