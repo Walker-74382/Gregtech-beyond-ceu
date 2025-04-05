@@ -52,9 +52,9 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
         CENTRIFUGE_RECIPES.recipeBuilder()
                 .inputs(metaitem('dustWitherite')*5)
                 .outputs(metaitem('dustBariumCarbonate')*5)
-                .chancedOutput(metaitem('dustBarite')*1, 44, 0)
-                .chancedOutput(metaitem('dustGalena')*1, 77, 0)
-                .chancedOutput(metaitem('dustCalcite')*1, 10, 0)
+                .chancedOutput(metaitem('dustBarite')*1, 440, 0)
+                .chancedOutput(metaitem('dustGalena')*1, 770, 0)
+                .chancedOutput(metaitem('dustCalcite')*1, 100, 0)
                 .duration(290)
                 .EUt(150)
                 .buildAndRegister();
