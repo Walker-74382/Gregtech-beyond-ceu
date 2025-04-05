@@ -23,9 +23,6 @@ mods.gregtech.electrolyzer.removeByInput(30, [metaitem('dustMagnesia') * 2], nul
                 .EUt(90)
                 .buildAndRegister()
 
-// Magnesium Dust * 1
-mods.gregtech.electrolyzer.removeByInput(12, [metaitem('dustMagnesiumSulfate') * 6], null)
-
         ARC_FURNACE_RECIPES.recipeBuilder()
                 .inputs(metaitem('dustMagnesiumSulfate')*6)
                 .inputs(metaitem('dustCarbon')*2)
@@ -35,6 +32,13 @@ mods.gregtech.electrolyzer.removeByInput(12, [metaitem('dustMagnesiumSulfate') *
                 .duration(200)
                 .EUt(190)
                 .buildAndRegister()
-                
+
 // Magnesium Dust * 1
 mods.gregtech.electrolyzer.removeByInput(30, [metaitem('dustMagnesiumChloride') * 3], null)
+
+        DEHYDRATOR_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('magnesium')*144)
+                .outputs(metaitem('dustMagnesium'))
+                .duration(100)
+                .EUt(70)
+                .buildAndRegister();
