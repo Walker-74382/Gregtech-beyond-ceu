@@ -5,6 +5,8 @@ import gregtech.api.unification.material.Material;
 import gregtech.api.GregTechAPI;
 import gregtech.api.unification.material.properties.*;
 
+import static gregtech.api.unification.material.Materials.*;
+
 import static gregtech.api.unification.material.info.MaterialIconSet.*;
 import static gregtech.api.unification.material.info.MaterialFlags.*;
 import static gregtech.api.unification.material.Materials.*;
@@ -46,8 +48,19 @@ class GTBMaterials {
         public static Material ImpureRubySlurry;
         public static Material ImpureGreenSapphireSlurry;
         public static Material ImpureSapphireSlurry;
-        public static Material Xenotime;
-
+        public static Material PregnantCobaltLeachSolution;
+        public static Material ImpurePrasoliteSlurry;
+        public static Material PurifiedPrasoliteSlurry;
+        public static Material LigniteCoal;
+        public static Material Anthracite;
+        public static Material Kaolinite;
+        public static Material Sylvanite;
+        public static Material BeneficatedKaolinite;
+        public static Material Cryolite;
+        public static Material Metakaolin;
+        public static Material FusedMetakaolin;
+        public static Material PurifiedXenotimeSlurry;
+        public static Material ImpureXenotimeSlurry;
 
         //Unknown Materials
 
@@ -377,6 +390,16 @@ class GTBMaterials {
 
         //First Degree Materials
 
+        public static Material SlightlyEnrichedWater;
+        public static Material SlightlyDepletedHydrogenSulfide;
+        public static Material ModeratelyEnrichedHydrogenSulfide;
+        public static Material ModeratelyDepletedSteam;
+        public static Material HeavilyEnrichedWater;
+        public static Material HeavilyDepletedHydrogenSulfide;
+        public static Material SeverelyEnrichedHydrogenSulfide;
+        public static Material SeverelyDepletedSteam;
+        public static Material DepletedHydrogenSulfide;
+        public static Material HeavyWater;
         public static Material PotassiumPersulfate;
         public static Material ParaPhenylenediamine;
         public static Material Bromotoluene;
@@ -404,8 +427,20 @@ class GTBMaterials {
 
 
 
-        //Second Degree Materials
+        //Second Degree Material
 
+        public static Material AmmoniumBisulfate;
+        public static Material PToluenesulfonicAcid;
+        public static Material PhenolFormaldehydePrecursor;
+        public static Material PhenolFormaldehydeOligomer;
+        public static Material NovolacEpoxyResin;
+        public static Material MethacrylicAcid;
+        public static Material NovolacVinylEsterSolution;
+        public static Material NovolacVinylEster;
+        public static Material NovolacEpoxyVinylEster;
+        public static Material AcetoneCyanohydrin;
+        public static Material MethacrylamideSulfate;
+        public static Material MethylMethacrylate;
         public static Material FullerenePolymerMatrix;
         public static Material FullerenePolymerTetrix;
         public static Material Grisium;
@@ -822,7 +857,6 @@ class GTBMaterials {
         public static Material ImpureMonaziteOreByproductSlurry;
         public static Material MuddyMonaziteOreByproducts;
         public static Material DilutedCeriumFiltrate;
-        public static Material CeriumOxideFiltrate;
         public static Material CooledRareEarthFiltrate;
         public static Material NeutralizedRareEarthFiltrate;
         public static Material RareEarthFiltrate;
@@ -924,6 +958,23 @@ class GTBMaterials {
         public static Material CataclysmInducedMixedMatter;
         public static Material CrystalFluix;
 
+
+        public static void changeFormulas() {
+            log.infoMC("Changing Formulas!");
+
+                Phosphorus.setFormula("P4", true);
+                DilutedHydrochloricAcid.setFormula("(H2O)2(HCl)", true);
+                DilutedSulfuricAcid.setFormula("(H2SO4)(H2O)", true);
+                AquaRegia.setFormula("(HNO3)(HCl)3", true);
+                Tantalite.setFormula("(Fe,Mn)Ta2O6", true);
+                Polycaprolactam.setFormula("[C6H11NO]n", true);
+                Polyethylene.setFormula("[C2H4]n", true);
+                Polytetrafluoroethylene.setFormula("[C2F4]n", true);
+                PolyphenyleneSulfide.setFormula("[C6H4O]n", true);
+                PolyvinylAcetate.setFormula("[C4H6O2]n", true);
+                PolyvinylChloride.setFormula("[C2H3Cl]n", true);
+        }
+
         public static void init() {
                 FirstDegreeMaterials.register();
                 SecondDegreeMaterials.register();
@@ -932,6 +983,8 @@ class GTBMaterials {
                 FantasyMaterials.register();
                 UnknownCompositionMaterials.register();
                 OreMaterials.register();
+                changeFormulas();
+
         }
 
 

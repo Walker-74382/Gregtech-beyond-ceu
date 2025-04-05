@@ -40,7 +40,13 @@ public class MaterialPropertyAddition {
             BlueAlloy.addFlags(GENERATE_FINE_WIRE);
 
 
+
+            Nickel.addFlags(GENERATE_ROD);
+
+
             Phosphate.setProperty(PropertyKey.ORE, new OreProperty());
+            Andradite.setProperty(PropertyKey.ORE, new OreProperty());
+            Zinc.setProperty(PropertyKey.ORE, new OreProperty());
       
       }
   }
