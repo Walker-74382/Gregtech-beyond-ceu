@@ -12,9 +12,8 @@ class Globals {
     public static mod_priority = [
         "minecraft",
         "gregtech",
-        "gcym",
-        "galacticraft"
-    ]
+        "gcym"
+        ]
 
 
 
