@@ -43,3 +43,22 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .duration(200)
                 .EUt(120)
                 .buildAndRegister();
+
+        ASSEMBLER_RECIPES.recipeBuilder()
+                .inputs(item('gregtech:metal_casing', 4))
+                .inputs(metaitem('item_casingStainlessSteel')*4)
+                .fluidInputs(fluid('novolac_epoxy_vinyl_ester') * 250)
+                .outputs(item('gtb:gtb_multiblock_casing', 13))
+                .duration(240)
+                .EUt(220)
+                .buildAndRegister();
+
+        crafting.addShaped("gregtech:hot_tower", item('gregtech:machine', 3049),[
+                [metaitem('circuit.nano_processor'), metaitem('electric.pump.hv'), metaitem('circuit.nano_processor')],
+                [item('gtb:gtb_multiblock_casing', 13) , item('gregtech:wire_coil', 2), item('gtb:gtb_multiblock_casing', 13) ],
+                [metaitem('circuit.nano_processor'), metaitem('electric.pump.hv') ,metaitem('circuit.nano_processor')]])
+
+        crafting.addShaped("gregtech:cold_tower", item('gregtech:machine', 3050),[
+                [metaitem('circuit.nano_processor'), metaitem('electric.pump.hv'), metaitem('circuit.nano_processor')],
+                [item('gtb:gtb_multiblock_casing', 13) , item('gtb:cooling_coil'), item('gtb:gtb_multiblock_casing', 13) ],
+                [metaitem('circuit.nano_processor'), metaitem('electric.pump.hv') ,metaitem('circuit.nano_processor')]])
