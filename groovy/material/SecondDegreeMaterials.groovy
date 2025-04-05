@@ -599,6 +599,65 @@ public class SecondDegreeMaterials {
                 .color(0xABA3A3)
                 .iconSet(METALLIC)
                 .build().setFormula("ZnS?", true);
+
+        PhenolFormaldehydePrecursor = new Material.Builder(10107, GTBUtil.gtb("phenol_formaldehyde_precursor"))
+                .fluid()
+                .color(0xE8C181)
+                .build().setFormula("(C6H4OH-CH2)3", true);
+
+        PhenolFormaldehydeOligomer = new Material.Builder(10108, GTBUtil.gtb("phenol_formaldehyde_oligomer"))
+                .fluid()
+                .color(0xE6B565)
+                .build().setFormula("C6H5OH(CH2O)n", true);
+
+        NovolacEpoxyResin = new Material.Builder(10109, GTBUtil.gtb("novolac_epoxy_resin"))
+                .fluid()
+                .color(0xA58859)
+                .build().setFormula("C6H4(OH)(CH2)(OCH2CH(OH)CH2)n", true);
+
+        MethacrylicAcid = new Material.Builder(10110, GTBUtil.gtb("methacrylic_acid"))
+                .fluid()
+                .color(0x71B5EC)
+                .build().setFormula("C4H6O2", true);
+
+        NovolacVinylEsterSolution = new Material.Builder(10111, GTBUtil.gtb("novolac_vinyl_ester_solution"))
+                .fluid()
+                .color(0xCB9338)
+                .build().setFormula("[C6H3(OH)(H2O)(CH2)(OCOC(CH3)=CH2)]n", true);
+
+        NovolacVinylEster = new Material.Builder(10112, GTBUtil.gtb("novolac_vinyl_ester"))
+                .fluid()
+                .color(0xDA972B)
+                .build().setFormula("[C6H3(OH)(CH2)(OCOC(CH3)=CH2)]n", true);
+
+        NovolacEpoxyVinylEster = new Material.Builder(10113, GTBUtil.gtb("novolac_epoxy_vinyl_ester"))
+                .fluid()
+                .color(0xB57A1C)
+                .build().setFormula("[C6H3(CH2)(OCH2CH(OH)CH2OCOC(CH3)=CH2)]n", true);
+
+        AcetoneCyanohydrin = new Material.Builder(10114, GTBUtil.gtb("acetone_cyanohydrin"))
+                .fluid()
+                .color(0x8790BF)
+                .build().setFormula("C4H7NO", true);
+
+        MethacrylamideSulfate = new Material.Builder(10115, GTBUtil.gtb("methacrylamide_sulfate"))
+                .fluid()
+                .color(0x87BBD4)
+                .build().setFormula("(C4H7NO)(H2SO4)", true);
+
+        MethylMethacrylate = new Material.Builder(10116, GTBUtil.gtb("methyl_methacrylate"))
+                .fluid()
+                .color(0xA7D9F1)
+                .build().setFormula("C5H8O2", true);
+        
+        PToluenesulfonicAcid = new Material.Builder(10117, GTBUtil.gtb("p_toluenesulfonic_acid"))
+                .fluid()
+                .color(0x7A706C)
+                .build().setFormula("C7H8O3S", true);
+
+
+
+        
   }
 
 }
