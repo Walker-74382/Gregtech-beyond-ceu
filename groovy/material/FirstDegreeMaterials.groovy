@@ -771,7 +771,7 @@ public class FirstDegreeMaterials {
         MethylAluminoxane = new Material.Builder(8136, GTBUtil.gtb("methyl_aluminoxane"))
                 .dust()
                 .color(0x508B91)
-                .build().setFormula("AlCH30", true);
+                .build().setFormula("AlCH3O", true);
 
         RecrystallizedZirconiumDioxide = new Material.Builder(8137,
                 GTBUtil.gtb("recrystallized_zirconium_dioxide"))
@@ -2276,6 +2276,63 @@ public class FirstDegreeMaterials {
                 .fluid()
                 .color(0xBA8B7D)
                 .build().setFormula("C4H8", true);
+        
+        AmmoniumBisulfate = new Material.Builder(8483, GTBUtil.gtb("ammonium_bisulfate"))
+                .fluid()
+                .dust()
+                .color(0x65798D)
+                .build().setFormula("NH4HSO4", true);
+
+        SlightlyEnrichedWater = new Material.Builder(8484, GTBUtil.gtb("slightly_enriched_water"))
+                .fluid()
+                .color(0x6296C4)
+                .build().setFormula("H*DO", true);
+
+        SlightlyDepletedHydrogenSulfide = new Material.Builder(8485, GTBUtil.gtb("slightly_depleted_hydrogen_sulfide"))
+                .fluid()
+                .color(0xE28C41)
+                .build().setFormula("H2S", true);
+
+        ModeratelyEnrichedHydrogenSulfide = new Material.Builder(8486, GTBUtil.gtb("moderately_enriched_hydrogen_sulfide"))
+                .fluid()
+                .color(0xC2722B)
+                .build().setFormula("H*DS", true);
+
+        ModeratelyDepletedSteam = new Material.Builder(8487, GTBUtil.gtb("moderately_depleted_steam"))
+                .fluid()
+                .color(0xC5D1DA)
+                .build().setFormula("H2S", true);
+
+        HeavilyEnrichedWater = new Material.Builder(8488, GTBUtil.gtb("heavily_enriched_water"))
+                .fluid()
+                .color(0x4183BD)
+                .build().setFormula("HD*O", true);
+
+        HeavilyDepletedHydrogenSulfide = new Material.Builder(8489, GTBUtil.gtb("heavily_depleted_hydrogen_sulfide"))
+                .fluid()
+                .color(0xC07E44)
+                .build().setFormula("H2S", true);
+
+        SeverelyEnrichedHydrogenSulfide = new Material.Builder(8490, GTBUtil.gtb("severely_enriched_hydrogen_sulfide"))
+                .fluid()
+                .color(0xB56A28)
+                .build().setFormula("HD**S", true);
+
+        SeverelyDepletedSteam = new Material.Builder(8491, GTBUtil.gtb("severely_depleted_steam"))
+                .fluid()
+                .color(0xD2D9DE)
+                .build().setFormula("H2O", true);
+
+        DepletedHydrogenSulfide = new Material.Builder(8492, GTBUtil.gtb("depleted_hydrogen_sulfide"))
+                .fluid()
+                .color(0xC47E40)
+                .build().setFormula("H2-S", true);
+
+        HeavyWater = new Material.Builder(8493, GTBUtil.gtb("heavy_water"))
+                .fluid()
+                .color(0x215B8E)
+                .build().setFormula("D2O", true);
+
 
 
 
