@@ -14,7 +14,6 @@ import static gregtech.api.unification.material.info.MaterialFlags.*;
 import static gregtech.api.unification.material.Materials.*;
 import static gtb.api.unification.materials.info.GTBMaterialFlags.*;
 
-
 public class OreMaterials {
         
   public static void register() {
@@ -138,13 +137,7 @@ public class OreMaterials {
                 .color(0xD5D5C7)
                 .build().setFormula('Cu2O', true);
 
-        Xenotime = new Material.Builder(16023, GTBUtil.gtb("xenotime"))
-                .dust()
-                .ore()
-                .color(0xF98B69)
-                .build().setFormula('REE', true);
-
-        DriedNickeliferousLimonite = new Material.Builder(16024, GTBUtil.gtb("xenotime"))
+        DriedNickeliferousLimonite = new Material.Builder(16024, GTBUtil.gtb("dried_nickeliferous_limonite"))
                 .dust()
                 .color(0xBEAEA0)
                 .build().setFormula('Ni?', true);
@@ -166,10 +159,73 @@ public class OreMaterials {
                 .build().setFormula('Fe', true);
 
         CopperSulfateSolution = new Material.Builder(16028, GTBUtil.gtb("copper_sulfate_solution"))
-                .dust()
-                .ingot()
-                .color(0xCCC2CD)
+                .fluid()
+                .color(0xDDAF86)
                 .build().setFormula('(CuO2)(SO4)', true);
+
+        ImpurePrasoliteSlurry = new Material.Builder(16029, GTBUtil.gtb("impure_prasolite_slurry"))
+                .fluid()
+                .color(0x859779)
+                .build().setFormula('?', true);
+
+        PurifiedPrasoliteSlurry = new Material.Builder(16030, GTBUtil.gtb("purified_prasolite_slurry"))
+                .fluid()
+                .color(0x677E57)
+                .build().setFormula('?', true);
+
+        LigniteCoal = new Material.Builder(16031, GTBUtil.gtb("lignite_coal"))
+                .ore()
+                .dust()
+                .color(0x956C5F)
+                .build().setFormula('C39H35O10NS', true);
+
+        Anthracite = new Material.Builder(16032, GTBUtil.gtb("anthracite"))
+                .ore()
+                .dust()
+                .color(0x646261)
+                .build().setFormula('C240H90O4NS', true);
+
+        Kaolinite = new Material.Builder(16033, GTBUtil.gtb("kaolinite"))
+                .ore()
+                .dust()
+                .color(0x5E90AA)
+                .build().setFormula('Al2Si2O5(OH)4', true);
+
+        Sylvanite = new Material.Builder(16034, GTBUtil.gtb("sylvanite"))
+                .ore()
+                .dust()
+                .color(0x717171)
+                .build().setFormula('AuAgTe4', true);
+
+        BeneficatedKaolinite = new Material.Builder(16035, GTBUtil.gtb("beneficated_kaolinite"))
+                .dust()
+                .color(0x7294B5)
+                .build().setFormula('Al2Si2O5(OH)4*', true);
+
+        Cryolite = new Material.Builder(16036, GTBUtil.gtb("cryolite"))
+                .fluid()
+                .color(0x58D0E0)
+                .build().setFormula('Na3AlF6', true);
+
+        FusedMetakaolin = new Material.Builder(16037, GTBUtil.gtb("fused_metakaolin"))
+                .dust()
+                .color(0x84AABB)
+                .build().setFormula('Al2O3⋅2SiO', true);
+
+        Metakaolin = new Material.Builder(16038, GTBUtil.gtb("metakaolin"))
+                .dust()
+                .color(0x7C9CAB)
+                .build().setFormula('Al2O3', true);
+
+        ImpureXenotimeSlurry = new Material.Builder(16039, GTBUtil.gtb("impure_xenotime_slurry"))
+                .fluid()
+                .color(0xDD6C2E)
+                .build().setFormula('REE*', true);
+
+        PurifiedXenotimeSlurry = new Material.Builder(16040, GTBUtil.gtb("purified_xenotime_slurry"))
+                .fluid()
+                .color(0xD07341)
+                .build().setFormula('REE*', true);
 
 
 
