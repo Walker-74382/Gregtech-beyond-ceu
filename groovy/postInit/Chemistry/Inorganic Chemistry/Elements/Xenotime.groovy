@@ -7,7 +7,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .inputs(metaitem('dustXenotime'))
                 .outputs(metaitem('siftedXenotime'))
                 .chancedOutput(metaitem('dustZircon')*1, 1000, 0)
-                .chancedOutput(metaitem('dustQuartz')*1, 2500, 0)
+                .chancedOutput(metaitem('dustNetherQuartz')*1, 2500, 0)
                 .duration(400)
                 .EUt(180)
                 .buildAndRegister();
