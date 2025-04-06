@@ -877,6 +877,7 @@ class GTBMaterials {
         public static Material RoastedHafniumZirconiumSlag;
         public static Material ZirconiumOxide;
         public static Material CeriumOxide;
+        public static Material CeriumOxideFiltrate;
         public static Material RutherfordiumOxide;
         public static Material ThoriumPhosphateCake;
         public static Material UraniumFiltrate;

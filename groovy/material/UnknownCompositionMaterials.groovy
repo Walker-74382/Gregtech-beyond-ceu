@@ -281,11 +281,7 @@ public class UnknownCompositionMaterials {
         MuddyMonaziteOreByproducts = new Material.Builder(14559, GTBUtil.gtb("muddy_monazite_ore_byproducts"))
                 .dust()
                 .color(0x5C423A).build().setFormula("???", true);
-
-        CeriumOxideFiltrate = new Material.Builder(14560, GTBUtil.gtb("cerium_oxide_filtrate"))
-                .fluid()
-                .color(0x43A047).build().setFormula("CeO2?", true);
-
+                
         CooledRareEarthFiltrate = new Material.Builder(14561, GTBUtil.gtb("cooled_rare_earth_filtrate"))
                 .fluid()
                 .color(0x936E62).build().setFormula("??", true);
@@ -783,7 +779,10 @@ public class UnknownCompositionMaterials {
                 .color(0xCF5F5F)
                 .build();
         
-
+        CeriumOxideFiltrate = new Material.Builder(14661, GTBUtil.gtb("cerium_oxide_filtrate"))
+                .dust()
+                .color(0xC8DCB1)
+                .build();
 
   }
 
