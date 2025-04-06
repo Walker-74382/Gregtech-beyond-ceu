@@ -782,7 +782,7 @@ public class UnknownCompositionMaterials {
         CeriumOxideFiltrate = new Material.Builder(14661, GTBUtil.gtb("cerium_oxide_filtrate"))
                 .dust()
                 .color(0xC8DCB1)
-                .build();
+                .build().setFormula("CeO2?", true);
 
   }
 
