@@ -148,6 +148,7 @@ public class UnknownCompositionMaterials {
 
         PlatinumMetallicPowder = new Material.Builder(14528, GTBUtil.gtb("platinum_metallic_powder"))
                 .dust()
+                .ore()
                 .color(0xFAD28F)
                 .build().setFormula("Pt?", true);
 
@@ -716,6 +717,7 @@ public class UnknownCompositionMaterials {
 
         PalladiumMetallicPowder = new Material.Builder(14648, GTBUtil.gtb("palladium_metallic_powder"))
                 .dust()
+                .ore()
                 .color(0x616161)
                 .build().setFormula("Pd?", true);
 
@@ -783,6 +785,11 @@ public class UnknownCompositionMaterials {
                 .dust()
                 .color(0xC8DCB1)
                 .build().setFormula("CeO2?", true);
+        
+        HeavyOilResidues = new Material.Builder(14662, GTBUtil.gtb("heavy_oil_residues"))
+                .fluid()
+                .color(0x545454)
+                .build().setFormula("?", true);
 
   }
 
