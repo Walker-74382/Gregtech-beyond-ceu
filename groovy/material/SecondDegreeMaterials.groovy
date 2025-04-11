@@ -654,6 +654,11 @@ public class SecondDegreeMaterials {
                 .fluid()
                 .color(0x7A706C)
                 .build().setFormula("C7H8O3S", true);
+        
+        BariumHydroxide = new Material.Builder(10118, GTBUtil.gtb("barium_hydroxide"))
+                .dust()
+                .color(0x95B876)
+                .build().setFormula("Ba(OH)2", true);
 
 
 
