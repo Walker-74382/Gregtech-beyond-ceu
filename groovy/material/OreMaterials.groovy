@@ -227,6 +227,22 @@ public class OreMaterials {
                 .color(0xD07341)
                 .build().setFormula('REE*', true);
 
+        Fluorite = new Material.Builder(16041, GTBUtil.gtb("fluorite"))
+                .dust()
+                .ore()
+                .color(0x669969)
+                .build().setFormula('CaF2', true);
+
+        CalciumSulfate = new Material.Builder(16042, GTBUtil.gtb("calcium_sulfate"))
+                .dust()
+                .color(0xDD7520)
+                .build().setFormula('CaSO4', true);
+
+        DissolvedCalciumChloride = new Material.Builder(16043, GTBUtil.gtb("dissolved_calcium_chloride"))
+                .fluid()
+                .color(0x9BAFC3)
+                .build().setFormula('(CaCl2)(H2O)', true);
+
 
 
 

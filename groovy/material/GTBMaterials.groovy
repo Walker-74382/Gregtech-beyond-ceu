@@ -179,14 +179,14 @@ class GTBMaterials {
         public static Material CubicZirconia;
         public static Material AcidicLeachedPyrochlore;
         public static Material LeachedPyrochlore;
-        public static Material PotasssiumFluoroNiobate;
+        public static Material PotassiumFluoroniobate;
         public static Material FluorotantalicAcid;
         public static Material TributylPhosphate;
         public static Material MethylIsobutylKetone;
         public static Material NbTaSeparationMixture;
-        public static Material HeptafluoroTantalate;
-        public static Material OxypentafluoroNiobate;
-        public static Material PotasssiumFluoroTantalate;
+        public static Material Heptafluorotantalate;
+        public static Material Oxypentafluoroniobate;
+        public static Material PotassiumFluorotantalate;
         public static Material AcetoneSolution;
         public static Material DilutedAcetone;
         public static Material TitaniumDioxide;
@@ -278,7 +278,13 @@ class GTBMaterials {
         public static Material MetalRichSlagSlurry;
         public static Material PreciousMetal;
         public static Material OneButene;
-        
+        public static Material Fluorite;
+        public static Material CalciumSulfate;
+        public static Material DissolvedCalciumChloride;
+        public static Material BlackPlatinum;
+        public static Material RawPlatinumSolution;
+
+
         //Biology Materials
 
         public static Material CupriavidusNecator;
@@ -423,8 +429,16 @@ class GTBMaterials {
         public static Material DriedNickeliferousLimonite;
         public static Material HematiteCokePellets;
         public static Material PigIron;
-
-
+        public static Material SodiumOleate;
+        public static Material LeadNitrate;
+        public static Material BariumHydroxide;
+        public static Material MesitylOxide;
+        public static Material HeavyOilResidues;
+        public static Material NiobiumOxide;
+        public static Material TantalumOxide;
+        public static Material PotassiumFluorotantalateSolution;
+        public static Material PotassiumFluoroniobateSolution;
+        public static Material PhosphorylChloride;
 
 
         //Second Degree Material
