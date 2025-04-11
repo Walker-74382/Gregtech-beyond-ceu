@@ -569,3 +569,20 @@ mods.gregtech.cracker.removeByInput(360, [metaitem('circuit.integrated').withNbt
 mods.gregtech.cracker.removeByInput(180, [metaitem('circuit.integrated').withNbt(['Configuration': 2])], [fluid('ethylene') * 1000 * 1000, fluid('hydrogen') * 4000 * 4000])
 // Steam-Cracked Ethylene Gas * 1000
 mods.gregtech.cracker.removeByInput(360, [metaitem('circuit.integrated').withNbt(['Configuration': 2])], [fluid('ethylene') * 1000 * 1000, fluid('steam') * 1000 * 1000])
+
+
+
+// Hydro-Cracked Butene Gas * 1000
+mods.gregtech.cracker.removeByInput(180, [metaitem('circuit.integrated').withNbt(['Configuration': 2])], [fluid('butene') * 1000 * 1000, fluid('hydrogen') * 4000 * 4000])
+// Hydro-Cracked Butadiene Gas * 1000
+mods.gregtech.cracker.removeByInput(180, [metaitem('circuit.integrated').withNbt(['Configuration': 2])], [fluid('butadiene') * 1000 * 1000, fluid('hydrogen') * 4000 * 4000])
+// Lightly Hydro-Cracked Light Fuel * 1000
+mods.gregtech.cracker.removeByInput(120, [metaitem('circuit.integrated').withNbt(['Configuration': 1])], [fluid('light_fuel') * 1000 * 1000, fluid('hydrogen') * 2000 * 2000])
+// Severely Hydro-Cracked Light Fuel * 1000
+mods.gregtech.cracker.removeByInput(240, [metaitem('circuit.integrated').withNbt(['Configuration': 2])], [fluid('light_fuel') * 1000 * 1000, fluid('hydrogen') * 6000 * 6000])
+// Severely Hydro-Cracked Naphtha * 1000
+mods.gregtech.cracker.removeByInput(240, [metaitem('circuit.integrated').withNbt(['Configuration': 2])], [fluid('naphtha') * 1000 * 1000, fluid('hydrogen') * 6000 * 6000])
+// Lightly Hydro-Cracked Refinery Gas Gas * 1000
+mods.gregtech.cracker.removeByInput(120, [metaitem('circuit.integrated').withNbt(['Configuration': 1])], [fluid('refinery_gas') * 1000 * 1000, fluid('hydrogen') * 2000 * 2000])
+// Severely Hydro-Cracked Refinery Gas Gas * 1000
+mods.gregtech.cracker.removeByInput(240, [metaitem('circuit.integrated').withNbt(['Configuration': 2])], [fluid('refinery_gas') * 1000 * 1000, fluid('hydrogen') * 6000 * 6000])
