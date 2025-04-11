@@ -324,3 +324,31 @@ mods.gregtech.distillation_tower.removeByInput(120, null, [fluid('refinery_gas')
 
 
 // Fixed Bed Reactor for Hydrotreating Carbons Co-Mo Catalyst
+
+
+
+
+// Fuel Oil Processing
+        
+        VIS_BREAKER_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('fuel_oil')*1000)
+                .fluidOutputs(fluid('slack_wax')*600)
+                .fluidOutputs(fluid('heavy_oil_residues')*400)
+                .duration(400)
+                .EUt(70)
+                .buildAndRegister();
+
+        VIS_BREAKER_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('heavy_oil_residues')*1000)
+                .fluidOutputs(fluid('fraction_c_5')*400)
+                .fluidOutputs(fluid('desalted_oil')*600)
+                .duration(600)
+                .EUt(170)
+                .buildAndRegister();
+
+//Removals
+
+// Heavy Fuel * 75
+mods.gregtech.distillation_tower.removeByInput(120, null, [fluid('lightly_steamcracked_naphtha') * 1000 * 1000])
+// Heavy Fuel * 25
+mods.gregtech.distillation_tower.removeByInput(120, null, [fluid('severely_steamcracked_naphtha') * 1000 * 1000])
