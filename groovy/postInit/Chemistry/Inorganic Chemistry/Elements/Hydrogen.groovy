@@ -83,3 +83,11 @@ mods.gregtech.centrifuge.removeByInput(20, null, [fluid('hydrogen') * 160 * 160]
                 .duration(200)
                 .EUt(280)
                 .buildAndRegister();
+        
+        CONDENSATION_UNIT_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('depleted_hydrogen_sulfide')*1000)
+                .fluidOutputs(fluid('hydrogen_sulfide')*1000)
+                .fluidOutputs(fluid('water')*200)
+                .duration(150)
+                .EUt(280)
+                .buildAndRegister();
