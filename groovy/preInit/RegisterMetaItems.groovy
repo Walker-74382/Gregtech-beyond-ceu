@@ -260,6 +260,7 @@ eventManager.listen {
         customMetaItems.addItem(248, "luv_voltage_regulator");
         customMetaItems.addItem(249, "zpm_voltage_regulator");
         customMetaItems.addItem(250, "uv_voltage_regulator");
+        customMetaItems.addItem(251, "graphite_electrode");
         customMetaItems.addItem(300, "entropycore");
         customMetaItems.addItem(301, "boule.fluix");
         customMetaItems.addItem(302, "wafer.fluix");
