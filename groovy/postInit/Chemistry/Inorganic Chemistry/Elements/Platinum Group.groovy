@@ -165,7 +165,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
 
         SIFTER_RECIPES.recipeBuilder()
                 .inputs(metaitem('dustPalladiumSalt')* 1)
-                .outputs(metaitem('dustPalladiumMetallicPowder')* 1)
+                .chancedOutput(metaitem('dustPalladiumMetallicPowder')* 1, 5000, 100)
                 .duration(200)
                 .EUt(12)
                 .buildAndRegister();
@@ -270,5 +270,36 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .outputs(metaitem('dustPalladium')* 1)
                 .fluidOutputs(fluid('ammonia')*1000)
                 .EUt(500)
+                .duration(300)
+                .buildAndRegister();
+
+        // Raw Platinum Powder * 3
+mods.gregtech.centrifuge.removeByInput(480, [metaitem('dustPlatinumGroupSludge') * 6], [fluid('aqua_regia') * 1200 * 1200])
+// Platinum Dust * 1
+mods.gregtech.electrolyzer.removeByInput(120, [metaitem('dustPlatinumRaw') * 3], null)
+
+        MIXER_RECIPES.recipeBuilder()   
+                .fluidInputs(fluid('diluted_hydrochloric_acid')*2000)
+                .inputs(metaitem('dustPlatinumRaw')*3)
+                .fluidOutputs(fluid('raw_platinum_solution')*1000)
+                .duration(300)
+                .EUt(80)
+                .buildAndRegister();
+
+        CHEMICAL_RECIPES.recipeBuilder()        //Bubble Column Reactor
+                .fluidInputs(fluid('raw_platinum_solution')*1000)
+                .fluidInputs(fluid('hydrogen')*2000)
+                .fluidOutputs(fluid('hydrochloric_acid')*3000)
+                .fluidOutputs(fluid('water')*1000)
+                .outputs(metaitem('dustBlackPlatinum'))
+                .EUt(200)
+                .duration(300)
+                .buildAndRegister();
+
+        CHEMICAL_BATH_RECIPES.recipeBuilder()
+                .inputs(metaitem('dustBlackPlatinum'))
+                .outputs(metaitem('dustPlatinum'))
+                .notConsumable(fluid('ethanol')*2000)
+                .EUt(200)
                 .duration(300)
                 .buildAndRegister();
