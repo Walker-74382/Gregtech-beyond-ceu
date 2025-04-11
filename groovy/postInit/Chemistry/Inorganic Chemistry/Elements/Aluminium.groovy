@@ -160,10 +160,10 @@ mods.gregtech.electrolyzer.removeByInput(60, [metaitem('dustBauxite') * 15], nul
                 .buildAndRegister()
 
         ELECTROLYTIC_CELL_RECIPES.recipeBuilder()
-                .inputs(metaitem('dustAlumina')*2)
+                .inputs(metaitem('dustAlumina')*5)
                 .inputs(metaitem('dustCarbon')*3)
                 .notConsumable(fluid('cryolite')*1000)
-                .fluidOutputs(fluid('aluminium')*576)
+                .fluidOutputs(fluid('aluminium')*288)
                 .fluidOutputs(fluid('carbon_dioxide')*3000)
                 .EUt(70)
                 .duration(250)
