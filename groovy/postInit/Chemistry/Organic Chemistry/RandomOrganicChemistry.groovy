@@ -117,7 +117,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .buildAndRegister();
 
         ELECTROLYZER_RECIPES.recipeBuilder()
-                .inputs(metaitem('dustPotassiumBromide')*2)
+                .inputs(metaitem('dustPotassiumBromide'))
                 .outputs(metaitem('dustPotassium'))
                 .fluidOutputs(fluid('bromine')*1000)
                 .duration(200)
@@ -191,3 +191,25 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .duration(200)
                 .EUt(80)
                 .buildAndRegister();
+
+        CHEMICAL_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('chlorobenzene')*1000)
+                .inputs(metaitem('dustPotassiumFluoride'))
+                .fluidOutputs(fluid('fluorobenzene')*1000)
+                .outputs(metaitem('dustRockSalt'))
+                .duration(200)
+                .EUt(80)
+                .buildAndRegister();
+
+        CHEMICAL_RECIPES.recipeBuilder() // CSTR
+                .fluidInputs(fluid('hydrofluoric_acid')*2000)
+                .inputs(metaitem('dustPotassiumCarbonate'))
+                .outputs(metaitem('dustPotassiumFluoride')*2)
+                .fluidOutputs(fluid('water')*1000)
+                .fluidOutputs(fluid('carbon_dioxide')*1000)
+                .duration(200)
+                .EUt(80)
+                .buildAndRegister();
+
+// Hydrochloric Acid * 1000
+mods.gregtech.chemical_reactor.removeByInput(7, null, [fluid('chlorine') * 1000 * 1000, fluid('hydrogen') * 1000 * 1000])
