@@ -60,8 +60,8 @@ public class FantasyMaterials {
                         .fluid()
                         .color(0x975CF7).iconSet("certus") //make it a bit brighter
                         .flags("GENERATE_PLATE", "CRYSTALLIZABLE", "GENERATE_BOLT_SCREW")
+                        .components(material('silicon')*1, material('redstone')*1, material('nether_quartz')*1, material('certus_quartz')*1)
                         .build();
-
 
 
 

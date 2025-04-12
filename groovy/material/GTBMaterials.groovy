@@ -973,7 +973,6 @@ class GTBMaterials {
         public static Material CataclysmInducedMixedMatter;
         public static Material CrystalFluix;
 
-
         public static void changeFormulas() {
             log.infoMC("Changing Formulas!");
 
@@ -989,6 +988,7 @@ class GTBMaterials {
                 PolyvinylAcetate.setFormula("[C4H6O2]n", true);
                 PolyvinylChloride.setFormula("[C2H3Cl]n", true);
         }
+
 
         public static void init() {
                 FirstDegreeMaterials.register();
