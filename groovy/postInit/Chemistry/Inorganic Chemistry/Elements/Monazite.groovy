@@ -288,3 +288,12 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .duration(200)
                 .EUt(80)
                 .buildAndRegister();
+
+mods.gregtech.centrifuge.removeByInput(20, [metaitem('dustRareEarth')], null)
+
+// Rare Earth * 1
+mods.gregtech.electrolyzer.removeByInput(30, [metaitem('dustMonazite') * 2], null)
+// Rare Earth * 1
+mods.gregtech.packer.removeByInput(12, [metaitem('dustTinyRareEarth') * 9, metaitem('circuit.integrated').withNbt(['Configuration': 1])], null)
+// Rare Earth * 1
+mods.gregtech.packer.removeByInput(12, [metaitem('dustSmallRareEarth') * 4, metaitem('circuit.integrated').withNbt(['Configuration': 1])], null)

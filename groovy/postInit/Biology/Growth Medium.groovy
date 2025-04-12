@@ -71,7 +71,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .EUt(780)
                 .buildAndRegister();
 
-        ENZYMATIC_HYDROLISIS_RECIPES.recipeBuilder()
+        ENZYMATIC_HYDROLYSIS_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('rapidly_replicating_animal_cells')*1000)
                 .fluidOutputs(fluid('myc_gene')*1000)
                 .fluidOutputs(fluid('oct_4_gene')*1000)
@@ -106,7 +106,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .EUt(700)
                 .buildAndRegister();
 
-        ENZYMATIC_HYDROLISIS_RECIPES.recipeBuilder()
+        ENZYMATIC_HYDROLYSIS_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('homogenized_rotten_solution')*1000)
                 .fluidOutputs(fluid('cas_9')*1000)
                 .duration(200)
@@ -188,7 +188,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .EUt(120)
                 .buildAndRegister();
 
-        ENZYMATIC_HYDROLISIS_RECIPES.recipeBuilder()
+        ENZYMATIC_HYDROLYSIS_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('blood_cells')*1000)
                 .fluidOutputs(fluid('animal_cells')*1000)
                 .duration(200)

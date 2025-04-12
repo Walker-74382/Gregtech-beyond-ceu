@@ -40,3 +40,6 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .duration(120)
                 .EUt(700)
                 .buildAndRegister();
+
+// Phenol * 1000
+mods.gregtech.chemical_reactor.removeByInput(7680, null, [fluid('diaminobenzidine') * 1000 * 1000, fluid('diphenyl_isophthalate') * 1000 * 1000])

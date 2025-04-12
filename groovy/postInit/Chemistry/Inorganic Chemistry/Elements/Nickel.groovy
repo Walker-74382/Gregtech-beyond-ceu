@@ -120,3 +120,25 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
 mods.gregtech.electrolyzer.removeByInput(30, [metaitem('dustGarnierite') * 2], null)
 // Copper Dust * 1
 mods.gregtech.electrolyzer.removeByInput(30, [metaitem('dustCupricOxide') * 2], null)
+
+
+
+
+//Nickeliferous Limonite
+
+        ROTARY_EVAPORATOR_RECIPES.recipeBuilder()
+                .inputs(metaitem('dustNickeliferousLimonite')*2)
+                .fluidOutputs(fluid('water')*1000)
+                .outputs(metaitem('dustDriedNickeliferousLimonite'))
+                .duration(200)
+                .EUt(12)
+                .buildAndRegister();
+
+        AUTOCLAVE_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('sulfuric_acid')*1000)
+                .inputs(metaitem('dustDriedNickeliferousLimonite'))
+                .outputs(metaitem('dustHematite'))
+                .fluidOutputs(fluid('pregnant_cobalt_leach_solution')*1000)
+                .duration(40)
+                .EUt(50)
+                .buildAndRegister();

@@ -7,10 +7,10 @@ import material.GTBMaterials;
 
 log.infoMC("Registering new material event listener")
 
-eventManager.listen(EventPriority.LOWEST) {
+eventManager.listen(EventPriority.HIGHEST) {
     MaterialEvent event ->
 
         log.infoMC("Starting new material registration")
         
-        GTBMaterials.init();
-}
+        GTBMaterials.init()
+} 

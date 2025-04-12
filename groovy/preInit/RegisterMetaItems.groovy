@@ -253,6 +253,14 @@ eventManager.listen {
         customMetaItems.addItem(241, "zener_diode");
         customMetaItems.addItem(242, "cracking_catalyst");
         customMetaItems.addItem(243, "used_cracking_catalyst");
+        customMetaItems.addItem(244, "mv_voltage_regulator");
+        customMetaItems.addItem(245, "hv_voltage_regulator");
+        customMetaItems.addItem(246, "ev_voltage_regulator");
+        customMetaItems.addItem(247, "iv_voltage_regulator");
+        customMetaItems.addItem(248, "luv_voltage_regulator");
+        customMetaItems.addItem(249, "zpm_voltage_regulator");
+        customMetaItems.addItem(250, "uv_voltage_regulator");
+        customMetaItems.addItem(251, "graphite_electrode");
         customMetaItems.addItem(300, "entropycore");
         customMetaItems.addItem(301, "boule.fluix");
         customMetaItems.addItem(302, "wafer.fluix");
@@ -262,4 +270,6 @@ eventManager.listen {
         customMetaItems.addItem(306, "plate.simple_fluix_systematic_chip");
         customMetaItems.addItem(307, "plate.basic_fluix_systematic_chip");
         customMetaItems.addItem(308, "plate.complex_fluix_systematic_chip");
+
+
 }

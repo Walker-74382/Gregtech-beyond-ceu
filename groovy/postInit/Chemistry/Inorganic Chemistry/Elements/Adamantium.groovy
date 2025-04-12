@@ -140,7 +140,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .buildAndRegister()
 
         CHEMICAL_PLANT_RECIPES.recipeBuilder()
-                .fluidInputs(fluid('plasma.adamantium_phosphorus_hydrogen_plasma'))
+                .fluidInputs(fluid('plasma.adamantium_phosphorus_hydrogen_plasma')*1000)
                 .outputs(metaitem('dustPhosphorus'))
                 .outputs(metaitem('dustAdamantiumPentoxide')* 2)
                 .fluidOutputs(fluid('gaseous_adamantane')*800)

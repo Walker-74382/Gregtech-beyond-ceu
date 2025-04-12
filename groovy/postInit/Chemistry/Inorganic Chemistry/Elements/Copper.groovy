@@ -161,3 +161,30 @@ mods.gregtech.electrolyzer.removeByInput(60, [metaitem('dustTetrahedrite') * 8],
 
 // Copper Dust * 2
 mods.gregtech.electrolyzer.removeByInput(60, [metaitem('dustMalachite') * 10], null)
+
+
+        //Cuprite Leaching
+
+        CHEMICAL_BATH_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('sulfuric_acid')*1000)
+                .inputs(metaitem('dustCuprite'))
+                .fluidOutputs(fluid('copper_sulfate_solution')*1000)
+                .duration(160)
+                .EUt(25)
+                .buildAndRegister()
+
+        BLAST_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('copper_sulfate_solution')*1000)
+                .outputs(metaitem('dustCupricOxide'))
+                .fluidOutputs(fluid('sulfur_trioxide')*1000)
+                .duration(300)
+                .EUt(40)
+                .buildAndRegister()
+
+        CHEMICAL_BATH_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('sulfuric_acid')*1000)
+                .inputs(metaitem('dustTenorite'))
+                .fluidOutputs(fluid('copper_sulfate_solution')*1000)
+                .duration(160)
+                .EUt(25)
+                .buildAndRegister()

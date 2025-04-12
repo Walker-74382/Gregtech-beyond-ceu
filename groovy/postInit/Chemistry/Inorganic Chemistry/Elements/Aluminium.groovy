@@ -115,8 +115,57 @@ mods.gregtech.electrolyzer.removeByInput(60, [metaitem('dustBauxite') * 15], nul
                 .notConsumable(metaitem('stickCobalt'))
                 .notConsumable(fluid('sodium_hydroxide_solution')*864)
                 .fluidInputs(fluid('aluminium_salt_solution')*1000)
+                .fluidOutputs(fluid('water')*1000)
                 .outputs(metaitem('dustAluminium'))
                 .outputs(metaitem('dustSalt'))
                 .duration(260)
                 .EUt(7)
                 .buildAndRegister();
+
+        //Kaolinite
+
+        ELECTROMAGNETIC_SEPARATOR_RECIPES.recipeBuilder()
+                .inputs(metaitem('dustKaolinite'))
+                .chancedOutput(metaitem('dustHematite')*1, 2000, 0)
+                .outputs(metaitem('dustBeneficatedKaolinite'))
+                .duration(200)
+                .EUt(80)
+                .buildAndRegister()
+        
+        BLAST_RECIPES.recipeBuilder()           //ROTARY KILN
+                .inputs(metaitem('dustBeneficatedKaolinite'))
+                .outputs(metaitem('dustFusedMetakaolin'))
+                .fluidOutputs(fluid('water')*2000)
+                .blastFurnaceTemp(900)
+                .EUt(100)
+                .duration(200)
+                .buildAndRegister()
+
+        CENTRIFUGE_RECIPES.recipeBuilder()
+                .inputs(metaitem('dustMetakaolin'))
+                .fluidOutputs(fluid('chlorine')*3000)
+                .outputs(metaitem('dustSiliconDioxide'))
+                .outputs(metaitem('dustAlumina'))
+                .EUt(120)
+                .duration(200)
+                .buildAndRegister()
+
+        CHEMICAL_BATH_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('hydrochloric_acid')*6000)
+                .inputs(metaitem('dustFusedMetakaolin'))
+                .fluidOutputs(fluid('water')*3000)
+                .outputs(metaitem('dustMetakaolin')*2)
+                .EUt(90)
+                .duration(300)
+                .buildAndRegister()
+
+        ELECTROLYTIC_CELL_RECIPES.recipeBuilder()
+                .inputs(metaitem('dustAlumina')*5)
+                .inputs(metaitem('dustCarbon')*3)
+                .notConsumable(fluid('cryolite')*1000)
+                .fluidOutputs(fluid('aluminium')*288)
+                .fluidOutputs(fluid('carbon_dioxide')*3000)
+                .EUt(70)
+                .duration(250)
+                .buildAndRegister()
+        

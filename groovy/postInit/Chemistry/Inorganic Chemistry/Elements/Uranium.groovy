@@ -132,3 +132,6 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .duration(200)
                 .EUt(700)
                 .buildAndRegister();
+
+// Uranium Hexafluoride Gas * 1000
+mods.gregtech.chemical_reactor.removeByInput(30, [metaitem('dustUraninite') * 3], [fluid('hydrofluoric_acid') * 4000 * 4000, fluid('fluorine') * 2000 * 2000])

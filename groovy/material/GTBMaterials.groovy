@@ -5,6 +5,8 @@ import gregtech.api.unification.material.Material;
 import gregtech.api.GregTechAPI;
 import gregtech.api.unification.material.properties.*;
 
+import static gregtech.api.unification.material.Materials.*;
+
 import static gregtech.api.unification.material.info.MaterialIconSet.*;
 import static gregtech.api.unification.material.info.MaterialFlags.*;
 import static gregtech.api.unification.material.Materials.*;
@@ -34,8 +36,7 @@ class GTBMaterials {
         public static Material Wollastonite;
         public static Material Prasolite;
         public static Material Serpentine;
-        public static Material NickelferousLimonite;
-        public static Material Tennanite;
+        public static Material NickeliferousLimonite;
         public static Material Tenorite;
         public static Material Witherite;
         public static Material Cuprite;
@@ -47,7 +48,19 @@ class GTBMaterials {
         public static Material ImpureRubySlurry;
         public static Material ImpureGreenSapphireSlurry;
         public static Material ImpureSapphireSlurry;
-
+        public static Material PregnantCobaltLeachSolution;
+        public static Material ImpurePrasoliteSlurry;
+        public static Material PurifiedPrasoliteSlurry;
+        public static Material LigniteCoal;
+        public static Material Anthracite;
+        public static Material Kaolinite;
+        public static Material Sylvanite;
+        public static Material BeneficatedKaolinite;
+        public static Material Cryolite;
+        public static Material Metakaolin;
+        public static Material FusedMetakaolin;
+        public static Material PurifiedXenotimeSlurry;
+        public static Material ImpureXenotimeSlurry;
 
         //Unknown Materials
 
@@ -166,14 +179,14 @@ class GTBMaterials {
         public static Material CubicZirconia;
         public static Material AcidicLeachedPyrochlore;
         public static Material LeachedPyrochlore;
-        public static Material PotasssiumFluoroNiobate;
+        public static Material PotassiumFluoroniobate;
         public static Material FluorotantalicAcid;
         public static Material TributylPhosphate;
         public static Material MethylIsobutylKetone;
         public static Material NbTaSeparationMixture;
-        public static Material HeptafluoroTantalate;
-        public static Material OxypentafluoroNiobate;
-        public static Material PotasssiumFluoroTantalate;
+        public static Material Heptafluorotantalate;
+        public static Material Oxypentafluoroniobate;
+        public static Material PotassiumFluorotantalate;
         public static Material AcetoneSolution;
         public static Material DilutedAcetone;
         public static Material TitaniumDioxide;
@@ -265,7 +278,13 @@ class GTBMaterials {
         public static Material MetalRichSlagSlurry;
         public static Material PreciousMetal;
         public static Material OneButene;
-        
+        public static Material Fluorite;
+        public static Material CalciumSulfate;
+        public static Material DissolvedCalciumChloride;
+        public static Material BlackPlatinum;
+        public static Material RawPlatinumSolution;
+
+
         //Biology Materials
 
         public static Material CupriavidusNecator;
@@ -377,6 +396,16 @@ class GTBMaterials {
 
         //First Degree Materials
 
+        public static Material SlightlyEnrichedWater;
+        public static Material SlightlyDepletedHydrogenSulfide;
+        public static Material ModeratelyEnrichedHydrogenSulfide;
+        public static Material ModeratelyDepletedSteam;
+        public static Material HeavilyEnrichedWater;
+        public static Material HeavilyDepletedHydrogenSulfide;
+        public static Material SeverelyEnrichedHydrogenSulfide;
+        public static Material SeverelyDepletedSteam;
+        public static Material DepletedHydrogenSulfide;
+        public static Material HeavyWater;
         public static Material PotassiumPersulfate;
         public static Material ParaPhenylenediamine;
         public static Material Bromotoluene;
@@ -397,12 +426,35 @@ class GTBMaterials {
         public static Material SilicaGel;
         public static Material Zblan;
         public static Material KevlarConcentrate;
+        public static Material DriedNickeliferousLimonite;
+        public static Material HematiteCokePellets;
+        public static Material PigIron;
+        public static Material SodiumOleate;
+        public static Material LeadNitrate;
+        public static Material BariumHydroxide;
+        public static Material MesitylOxide;
+        public static Material HeavyOilResidues;
+        public static Material NiobiumOxide;
+        public static Material TantalumOxide;
+        public static Material PotassiumFluorotantalateSolution;
+        public static Material PotassiumFluoroniobateSolution;
+        public static Material PhosphorylChloride;
 
 
+        //Second Degree Material
 
-
-        //Second Degree Materials
-
+        public static Material AmmoniumBisulfate;
+        public static Material PToluenesulfonicAcid;
+        public static Material PhenolFormaldehydePrecursor;
+        public static Material PhenolFormaldehydeOligomer;
+        public static Material NovolacEpoxyResin;
+        public static Material MethacrylicAcid;
+        public static Material NovolacVinylEsterSolution;
+        public static Material NovolacVinylEster;
+        public static Material NovolacEpoxyVinylEster;
+        public static Material AcetoneCyanohydrin;
+        public static Material MethacrylamideSulfate;
+        public static Material MethylMethacrylate;
         public static Material FullerenePolymerMatrix;
         public static Material FullerenePolymerTetrix;
         public static Material Grisium;
@@ -819,7 +871,6 @@ class GTBMaterials {
         public static Material ImpureMonaziteOreByproductSlurry;
         public static Material MuddyMonaziteOreByproducts;
         public static Material DilutedCeriumFiltrate;
-        public static Material CeriumOxideFiltrate;
         public static Material CooledRareEarthFiltrate;
         public static Material NeutralizedRareEarthFiltrate;
         public static Material RareEarthFiltrate;
@@ -840,6 +891,7 @@ class GTBMaterials {
         public static Material RoastedHafniumZirconiumSlag;
         public static Material ZirconiumOxide;
         public static Material CeriumOxide;
+        public static Material CeriumOxideFiltrate;
         public static Material RutherfordiumOxide;
         public static Material ThoriumPhosphateCake;
         public static Material UraniumFiltrate;
@@ -907,6 +959,8 @@ class GTBMaterials {
         public static Material CopperSulfide;
         public static Material SodiumIodate;
         public static Material SinteredSilver;
+        public static Material CopperSulfateSolution;
+
         //Fantasy Materials
 
         public static Material DegenerateRhenium;
@@ -919,6 +973,23 @@ class GTBMaterials {
         public static Material CataclysmInducedMixedMatter;
         public static Material CrystalFluix;
 
+        public static void changeFormulas() {
+            log.infoMC("Changing Formulas!");
+
+                Phosphorus.setFormula("P4", true);
+                DilutedHydrochloricAcid.setFormula("(H2O)2(HCl)", true);
+                DilutedSulfuricAcid.setFormula("(H2SO4)(H2O)", true);
+                AquaRegia.setFormula("(HNO3)(HCl)3", true);
+                Tantalite.setFormula("(Fe,Mn)Ta2O6", true);
+                Polycaprolactam.setFormula("[C6H11NO]n", true);
+                Polyethylene.setFormula("[C2H4]n", true);
+                Polytetrafluoroethylene.setFormula("[C2F4]n", true);
+                PolyphenyleneSulfide.setFormula("[C6H4O]n", true);
+                PolyvinylAcetate.setFormula("[C4H6O2]n", true);
+                PolyvinylChloride.setFormula("[C2H3Cl]n", true);
+        }
+
+
         public static void init() {
                 FirstDegreeMaterials.register();
                 SecondDegreeMaterials.register();
@@ -927,6 +998,8 @@ class GTBMaterials {
                 FantasyMaterials.register();
                 UnknownCompositionMaterials.register();
                 OreMaterials.register();
+                changeFormulas();
+
         }
 
 

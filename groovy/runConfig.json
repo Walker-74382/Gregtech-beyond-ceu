@@ -4,6 +4,8 @@
   "version": "1.0.0",
   "debug": false,
   "classes": [
+    "classes/MaterialFlagChanges.groovy",
+    "globals/Globals.groovy",
     "classes/FurnaceRemovals.groovy",
     "material/"
   ],

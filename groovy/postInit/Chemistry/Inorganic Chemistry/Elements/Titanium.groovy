@@ -12,7 +12,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
 
         ROASTER_RECIPES.recipeBuilder()
                 .inputs(metaitem('dustTitaniumDioxide')*2)
-                .outputs(metaitem('dustTitanium'))
+                .outputs(metaitem('dustTitanium')) //Sponge Titanium
                 .fluidOutputs(fluid('steam')*1000)
                 .duration(200)
                 .EUt(120)
@@ -86,3 +86,8 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .duration(460)
                 .EUt(800)
                 .buildAndRegister();
+
+// Hot Titanium Ingot * 1
+mods.gregtech.electric_blast_furnace.removeByInput(480, [metaitem('dustMagnesium') * 2], [fluid('titanium_tetrachloride') * 1000 * 1000])
+// Carbon Monoxide Gas * 2000
+mods.gregtech.chemical_reactor.removeByInput(480, [metaitem('dustCarbon') * 2, metaitem('dustRutile')], [fluid('chlorine') * 4000 * 4000])

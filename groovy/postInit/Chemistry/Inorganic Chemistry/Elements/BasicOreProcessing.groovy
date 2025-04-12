@@ -235,7 +235,3 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .duration(200)
                 .EUt(8)
                 .buildAndRegister()
-
-
-// Yttrium Dust * 2
-mods.gregtech.electrolyzer.removeByInput(30, [metaitem('dustYttriumOxide') * 5], null)
