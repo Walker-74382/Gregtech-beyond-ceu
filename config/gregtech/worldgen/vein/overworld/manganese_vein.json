@@ -6,7 +6,7 @@
   "min_height": 20,
   "vein_populator": {
     "type": "surface_rock",
-    "material": "pyrolusite"
+    "material": "grossular"
   },
   "generator": {
     "type": "layered",
