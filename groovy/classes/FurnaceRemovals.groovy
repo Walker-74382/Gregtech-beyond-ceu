@@ -172,6 +172,7 @@ class FurnaceRemovals {
         ModHandler.removeFurnaceSmelting(OreDictUnifier.get(dust, Nomex));
         ModHandler.removeFurnaceSmelting(OreDictUnifier.get(dust, Kevlar));
         ModHandler.removeFurnaceSmelting(OreDictUnifier.get(dust, KaptonE));
+        ModHandler.removeFurnaceSmelting(OreDictUnifier.get(dust, Cupronickel));
 
         ModHandler.removeFurnaceSmelting(OreDictUnifier.get(dust, Cupronickel));
 
