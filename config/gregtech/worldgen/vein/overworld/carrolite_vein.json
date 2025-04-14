@@ -6,7 +6,7 @@
   "min_height": 40,
   "vein_populator": {
     "type": "surface_rock",
-    "material": "copper",
+    "material": "copper"
   },
   "generator": {
     "type": "layered",
