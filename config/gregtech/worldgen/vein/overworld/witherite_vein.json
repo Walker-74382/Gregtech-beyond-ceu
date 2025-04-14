@@ -1,12 +1,12 @@
 {
-  "name": "gregtech.veins.ore.whiterite",
+  "name": "gregtech.veins.ore.witherite",
   "weight": 40,
   "density": 0.25,
   "max_height": 60,
   "min_height": 40,
   "vein_populator": {
     "type": "surface_rock",
-    "material": "whiterite"
+    "material": "witherite"
   },
   "generator": {
     "type": "layered",
