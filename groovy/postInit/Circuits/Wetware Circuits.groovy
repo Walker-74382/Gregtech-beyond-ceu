@@ -55,3 +55,6 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .duration(200)
                 .EUt(12000)
                 .buildAndRegister();
+                
+// Neuro Processing Unit * 1
+mods.gregtech.circuit_assembler.removeByInput(80000, [metaitem('circuit_board.wetware'), metaitem('stem_cells') * 16, metaitem('pipeSmallFluidPolybenzimidazole') * 8, metaitem('plateElectrum') * 8, metaitem('foilSiliconeRubber') * 16, metaitem('boltHsse') * 8], [fluid('sterilized_growth_medium') * 250 * 250])

@@ -149,6 +149,8 @@ DISTILLATION_RECIPES.recipeBuilder()
     .EUt(400)
     .buildAndRegister();
 
+// Polycaprolactam Bar * 1
+mods.gregtech.extruder.removeByInput(28, [metaitem('dustPolycaprolactam'), metaitem('shape.extruder.ingot')], null)
 
 
 

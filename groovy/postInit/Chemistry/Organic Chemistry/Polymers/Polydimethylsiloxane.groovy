@@ -57,3 +57,6 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .duration(120)
                 .EUt(120)
                 .buildAndRegister();
+
+// Polydimethylsiloxane Dust * 3
+mods.gregtech.chemical_reactor.removeByInput(96, null, [fluid('dimethyldichlorosilane') * 1000 * 1000, fluid('water') * 1000 * 1000])

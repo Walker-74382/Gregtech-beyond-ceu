@@ -1704,3 +1704,59 @@ for (pdopant in PDopant.pdopants) {
                 .duration(800)
                 .EUt(70)
                 .buildAndRegister();
+
+// RAM Wafer * 1
+mods.gregtech.laser_engraver.removeByInput(120, [metaitem('wafer.silicon'), metaitem('glass_lens.green')], null)
+// RAM Wafer * 4
+mods.gregtech.laser_engraver.removeByInput(480, [metaitem('wafer.phosphorus'), metaitem('glass_lens.green')], null)
+// RAM Wafer * 8
+mods.gregtech.laser_engraver.removeByInput(1920, [metaitem('wafer.naquadah'), metaitem('glass_lens.green')], null)
+// RAM Wafer * 16
+mods.gregtech.laser_engraver.removeByInput(7680, [metaitem('wafer.neutronium'), metaitem('glass_lens.green')], null)
+// Integrated Logic Circuit Wafer * 1
+mods.gregtech.laser_engraver.removeByInput(120, [metaitem('wafer.silicon'), metaitem('glass_lens.red')], null)
+// Integrated Logic Circuit Wafer * 4
+mods.gregtech.laser_engraver.removeByInput(480, [metaitem('wafer.phosphorus'), metaitem('glass_lens.red')], null)
+// Integrated Logic Circuit Wafer * 8
+mods.gregtech.laser_engraver.removeByInput(1920, [metaitem('wafer.naquadah'), metaitem('glass_lens.red')], null)
+// Integrated Logic Circuit Wafer * 16
+mods.gregtech.laser_engraver.removeByInput(7680, [metaitem('wafer.neutronium'), metaitem('glass_lens.red')], null)
+// CPU Wafer * 1
+mods.gregtech.laser_engraver.removeByInput(120, [metaitem('wafer.silicon'), metaitem('glass_lens.light_blue')], null)
+// CPU Wafer * 4
+mods.gregtech.laser_engraver.removeByInput(480, [metaitem('wafer.phosphorus'), metaitem('glass_lens.light_blue')], null)
+// CPU Wafer * 8
+mods.gregtech.laser_engraver.removeByInput(1920, [metaitem('wafer.naquadah'), metaitem('glass_lens.light_blue')], null)
+// CPU Wafer * 16
+mods.gregtech.laser_engraver.removeByInput(7680, [metaitem('wafer.neutronium'), metaitem('glass_lens.light_blue')], null)
+// Simple SoC Wafer * 1
+mods.gregtech.laser_engraver.removeByInput(120, [metaitem('wafer.silicon'), metaitem('glass_lens.cyan')], null)
+// Simple SoC Wafer * 4
+mods.gregtech.laser_engraver.removeByInput(480, [metaitem('wafer.phosphorus'), metaitem('glass_lens.cyan')], null)
+// Simple SoC Wafer * 8
+mods.gregtech.laser_engraver.removeByInput(1920, [metaitem('wafer.naquadah'), metaitem('glass_lens.cyan')], null)
+// Simple SoC Wafer * 16
+mods.gregtech.laser_engraver.removeByInput(7680, [metaitem('wafer.neutronium'), metaitem('glass_lens.cyan')], null)
+// ULPIC Wafer * 1
+mods.gregtech.laser_engraver.removeByInput(120, [metaitem('wafer.silicon'), metaitem('glass_lens.blue')], null)
+// ULPIC Wafer * 4
+mods.gregtech.laser_engraver.removeByInput(480, [metaitem('wafer.phosphorus'), metaitem('glass_lens.blue')], null)
+// ULPIC Wafer * 8
+mods.gregtech.laser_engraver.removeByInput(1920, [metaitem('wafer.naquadah'), metaitem('glass_lens.blue')], null)
+// ULPIC Wafer * 16
+mods.gregtech.laser_engraver.removeByInput(7680, [metaitem('wafer.neutronium'), metaitem('glass_lens.blue')], null)
+// LPIC Wafer * 1
+mods.gregtech.laser_engraver.removeByInput(120, [metaitem('wafer.silicon'), metaitem('glass_lens.orange')], null)
+// LPIC Wafer * 4
+mods.gregtech.laser_engraver.removeByInput(480, [metaitem('wafer.phosphorus'), metaitem('glass_lens.orange')], null)
+// LPIC Wafer * 8
+mods.gregtech.laser_engraver.removeByInput(1920, [metaitem('wafer.naquadah'), metaitem('glass_lens.orange')], null)
+// LPIC Wafer * 16
+mods.gregtech.laser_engraver.removeByInput(7680, [metaitem('wafer.neutronium'), metaitem('glass_lens.orange')], null)
+// NAND Wafer * 1
+mods.gregtech.laser_engraver.removeByInput(480, [metaitem('wafer.phosphorus'), metaitem('glass_lens.gray')], null)
+// NAND Wafer * 4
+mods.gregtech.laser_engraver.removeByInput(1920, [metaitem('wafer.naquadah'), metaitem('glass_lens.gray')], null)
+// NAND Wafer * 8
+mods.gregtech.laser_engraver.removeByInput(7680, [metaitem('wafer.neutronium'), metaitem('glass_lens.gray')], null)
+

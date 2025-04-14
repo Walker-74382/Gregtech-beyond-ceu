@@ -13,3 +13,5 @@ POLYMERIZATION_TANK_RECIPES.recipeBuilder()
 
 // Liquid Polyvinyl Butyral * 144
 mods.gregtech.chemical_reactor.removeByInput(480, null, [fluid('butyraldehyde') * 250 * 250, fluid('polyvinyl_acetate') * 144 * 144])
+// Liquid Polyvinyl Butyral * 144
+mods.gregtech.large_chemical_reactor.removeByInput(480, null, [fluid('butyraldehyde') * 250 * 250, fluid('polyvinyl_acetate') * 144 * 144])
