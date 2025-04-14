@@ -243,6 +243,36 @@ public class OreMaterials {
                 .color(0x9BAFC3)
                 .build().setFormula('(CaCl2)(H2O)', true);
 
+        IronCalciumSilicaSlag = new Material.Builder(16044, GTBUtil.gtb("iron_calcium_silica_slag"))
+                .dust()
+                .color(0x8B8583)
+                .build().setFormula('Fe?', true);
+
+        AluminiumChromiumSulfate = new Material.Builder(16045, GTBUtil.gtb("aluminium_chromium_sulfate"))
+                .dust()
+                .color(0x878490)
+                .build().setFormula('AlCrSO4?', true);
+
+        ChromiumIIIOxide = new Material.Builder(16046, GTBUtil.gtb("chromium_iii_oxide"))
+                .dust()
+                .color(0x8CAF6C)
+                .iconSet(ROUGH)
+                .build().setFormula('Cr2O3', true);
+
+        IronCalciumHydroxides = new Material.Builder(16047, GTBUtil.gtb("iron_calcium_hydroxides"))
+                .dust()
+                .iconSet(ROUGH)
+                .color(0x3E3D3D)
+                .build().setFormula('FeCaHO?', true);
+
+        CalciumCarbide = new Material.Builder(16048, GTBUtil.gtb("calcium_carbide"))
+                .dust()
+                .iconSet(ROUGH)
+                .color(0x3E3D3D)
+                .build().setFormula('CaC2', true);
+
+
+
 
 
 
