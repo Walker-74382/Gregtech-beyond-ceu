@@ -1,43 +1,35 @@
 {
-  "name": "gregtech.veins.ore.olivine",
+  "name": "gregtech.veins.ore.nickel",
   "weight": 40,
   "density": 0.25,
-  "max_height": 60,
-  "min_height": 40,
+  "max_height": 40,
+  "min_height": 10,
   "vein_populator": {
     "type": "surface_rock",
-    "material": "olivine"
+    "material": "nickel"
   },
   "generator": {
-    "type": "ellipsoid",
-    "radius": [13, 13]
+    "type": "layered",
+    "radius": [
+      14,
+      16
+    ]
   },
   "filler": {
-    "type": "simple",
-    "value": {
-      "type": "weight_random",
-      "values": [
-        {
-          "weight": 5,
-          "value": "ore:prasiolite"
-        },
-        {
-          "weight": 30,
-          "value": "ore:bentonite"
-        },
-        {
-          "weight": 30,
-          "value": "ore:magnesite"
-        },
-        {
-          "weight": 30,
-          "value": "ore:olivine"
-        },
-        {
-          "weight": 10,
-          "value": "ore:glauconite"
-        }
-      ]
-    }
+    "type": "layered",
+    "values": [
+      {
+        "primary": "ore:prasolite"
+      },
+      {
+        "secondary": "ore:bentonite"
+      },
+      {
+        "between": "ore:olivine"
+      },
+      {
+        "sporadic": "ore:glauconite_sand"
+      }
+    ]
   }
 }
