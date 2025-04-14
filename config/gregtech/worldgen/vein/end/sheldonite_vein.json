@@ -6,7 +6,7 @@
   "max_height": 50,
   "vein_populator": {
     "type": "surface_rock",
-    "material": "platinum"
+    "material": "platinum_metallic_powder"
   },
   "dimension_filter": [
     "name:the_end"
@@ -28,10 +28,10 @@
         "secondary": "ore:cooperite"
       },
       {
-        "between": "ore:platinum"
+        "between": "ore:platinum_metallic_powder"
       },
       {
-        "sporadic": "ore:palladium"
+        "sporadic": "ore:palladium_metallic_powder"
       }
     ]
   }
