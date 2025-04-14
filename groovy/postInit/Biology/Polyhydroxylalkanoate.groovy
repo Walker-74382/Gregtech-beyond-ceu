@@ -45,14 +45,6 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .buildAndRegister();
 
         CHEMICAL_RECIPES.recipeBuilder()
-                .fluidInputs(fluid('ethylene_oxide')*1000)
-                .fluidInputs(fluid('ammonia')*1000)
-                .fluidOutputs(fluid('ethanolamine')*1000)
-                .duration(200)
-                .EUt(800)
-                .buildAndRegister();
-
-        CHEMICAL_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('ethylenediamine')*1000)
                 .fluidInputs(fluid('sodium_hydroxide_solution')*1000)
                 .fluidInputs(fluid('methylene_diphosphoric_acid')*1000)
