@@ -42,30 +42,40 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .fluidOutputs(fluid('ethane')*300).fluidOutputs(fluid('methane')*350)
                 .fluidOutputs(fluid('butane')*150).EUt(70).duration(200).buildAndRegister();
 
-        DISTILLATION_RECIPES.recipeBuilder().fluidInputs(fluid('steamcracked_butane')*1000)
-                .fluidOutputs(fluid('ethylene')*350).fluidOutputs(fluid('methane')*150)
-                .fluidOutputs(fluid('hydrogen')*100).fluidOutputs(fluid('butadiene')*150)
-                .fluidOutputs(fluid('propene')*250).duration(200).EUt(70).buildAndRegister();
+        DISTILLATION_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('steamcracked_butane')*1000)
+                .fluidOutputs(fluid('ethylene')*350)
+                .fluidOutputs(fluid('methane')*150)
+                .fluidOutputs(fluid('hydrogen')*100)
+                .fluidOutputs(fluid('butadiene')*150)
+                .fluidOutputs(fluid('propene')*250)
+                .duration(200)
+                .EUt(70).buildAndRegister();
 
-        DISTILLATION_RECIPES.recipeBuilder().fluidInputs(fluid('steamcracked_ethane')*2000)
-                .fluidOutputs(fluid('ethylene')*500).fluidOutputs(fluid('propylene')*200)
-                .fluidOutputs(fluid('butane')*100).fluidOutputs(fluid('hydrogen')*200)
-                .fluidOutputs(fluid('methane')*500).fluidOutputs(fluid('ethane')*300)
-                .fluidOutputs(fluid('nonene')*200).duration(200).EUt(800).buildAndRegister();
+        DISTILLATION_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('steamcracked_ethane')*2000)
+                .fluidOutputs(fluid('ethylene')*500)
+                .fluidOutputs(fluid('propylene')*200)
+                .fluidOutputs(fluid('butane')*100)
+                .fluidOutputs(fluid('hydrogen')*200)
+                .fluidOutputs(fluid('methane')*500)
+                .fluidOutputs(fluid('ethane')*300)
+                .fluidOutputs(fluid('nonene')*200)
+                .duration(200)
+                .EUt(249)
+                .buildAndRegister();
 
-        DISTILLATION_RECIPES.recipeBuilder().fluidInputs(fluid('fuel_oil')*1000)
-                .fluidOutputs(fluid('propane')*150).fluidOutputs(fluid('ethane')*100)
-                .fluidOutputs(fluid('methane')*100).fluidOutputs(fluid('hexane')*300)
-                .fluidOutputs(fluid('pentane')*250).fluidOutputs(fluid('butane')*250).duration(200)
-                .EUt(480).buildAndRegister();
-
-        CRACKING_RECIPES.recipeBuilder().fluidInputs(fluid('kerosene')*1000)
-                .fluidInputs(fluid('steam')*1000).fluidOutputs(fluid('steam_cracked_kerosene')*1000)
-                .duration(200).EUt(12).buildAndRegister();
-
-        CRACKING_RECIPES.recipeBuilder().fluidInputs(fluid('kerosene')*1000)
-                .fluidInputs(fluid('hydrogen')*1000).fluidOutputs(fluid('hydro_cracked_kerosene')*1000)
-                .duration(200).EUt(12).buildAndRegister();
+        DISTILLATION_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('fuel_oil')*1000)
+                .fluidOutputs(fluid('propane')*150)
+                .fluidOutputs(fluid('ethane')*100)
+                .fluidOutputs(fluid('methane')*100)
+                .fluidOutputs(fluid('hexane')*300)
+                .fluidOutputs(fluid('pentane')*250)
+                .fluidOutputs(fluid('butane')*250)
+                .duration(200)
+                .EUt(480)
+                .buildAndRegister();
 
         DISTILLATION_RECIPES.recipeBuilder().fluidInputs(fluid('hydro_cracked_kerosene')*1000)
                 .fluidOutputs(fluid('propane')*100).fluidOutputs(fluid('ethane')*75)
@@ -347,8 +357,3 @@ mods.gregtech.distillation_tower.removeByInput(120, null, [fluid('refinery_gas')
                 .buildAndRegister();
 
 //Removals
-
-// Heavy Fuel * 75
-mods.gregtech.distillation_tower.removeByInput(120, null, [fluid('lightly_steamcracked_naphtha') * 1000 * 1000])
-// Heavy Fuel * 25
-mods.gregtech.distillation_tower.removeByInput(120, null, [fluid('severely_steamcracked_naphtha') * 1000 * 1000])
