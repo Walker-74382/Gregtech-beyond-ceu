@@ -1,12 +1,17 @@
 import static gregtech.api.recipes.RecipeMaps.*;
 import static gtb.api.recipes.GTBRecipeMaps.*;
 
+// Naphthalene * 400
+mods.gregtech.distillation_tower.removeByInput(120, null, [fluid('coal_tar') * 1000 * 1000])
+
+
         DISTILLATION_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('coal_tar')*1000)
                 .fluidOutputs(fluid('phenol')*100)
                 .fluidOutputs(fluid('naphthalene')*400)
                 .fluidOutputs(fluid('anthracene')*100)
                 .fluidOutputs(fluid('hydrogen_sulfide')*200)
+                .fluidOutputs(fluid('creosote')*200)
                 .chancedOutput(metaitem('dustCoke')*1, 2000, 20)
                 .duration(100)
                 .EUt(780)
