@@ -35,3 +35,22 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .duration(80)
                 .EUt(120)
                 .buildAndRegister()
+
+        //High Purity Cadmium
+
+        MIXER_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('salt_water')*1000)
+                .inputs(metaitem('ingotCadmium'))
+                .fluidOutputs(fluid('cadmium_rich_solution')*1000)
+                .duration(80)
+                .EUt(120)
+                .buildAndRegister()
+
+        ELECTROWINNING_CELL.recipeBuilder()
+                .fluidInputs(fluid('cadmium_rich_solution')*1000)
+                .notConsumable(metaitem('graphite_electrode'))
+                .outputs(metaitem('dustHighPurityCadmium'))
+                .fluidOutputs(fluid('water')*1000)
+                .duration(80)
+                .EUt(120)
+                .buildAndRegister()

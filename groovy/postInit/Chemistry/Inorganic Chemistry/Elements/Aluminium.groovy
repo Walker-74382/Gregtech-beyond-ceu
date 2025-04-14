@@ -89,13 +89,6 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .EUt(80)
                 .buildAndRegister();
 
-        EXTRACTOR_RECIPES.recipeBuilder()
-                .inputs(metaitem('dustAlumina'))
-                .fluidOutputs(fluid('alumina')*144)
-                .duration(60)
-                .EUt(7)
-                .buildAndRegister();
-
 // Aluminium Dust * 6
 mods.gregtech.electrolyzer.removeByInput(60, [metaitem('dustBauxite') * 15], null)
 
