@@ -22,16 +22,6 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .EUt(20)
                 .buildAndRegister();
 
-        LARGE_CHEMICAL_RECIPES.recipeBuilder()
-                .fluidInputs(fluid('ethanol_water_azeotrope')*1000)
-                .fluidInputs(fluid('sulfuric_acid')*1000)
-                .fluidOutputs(fluid('diluted_sulfuric_acid')*800)
-                .fluidOutputs(fluid('ethylene')*1200)
-                .duration(200)
-                .circuitMeta(1)
-                .EUt(40)
-                .buildAndRegister();
-
         DISTILLATION_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('fusel_oil')*1000)
                 .fluidOutputs(fluid('water')*120)
