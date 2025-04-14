@@ -25,10 +25,10 @@
         "secondary": "ore:coal"
       },
       {
-        "between": "ore:lignite"
+        "between": "ore:lignite_coal"
       },
       {
-        "sporadic": "ore:lignite"
+        "sporadic": "ore:anthracite"
       }
     ]
   }
