@@ -25,7 +25,7 @@
         "primary": "ore:bauxite"
       },
       {
-        "secondary": "ore:ilmenite"
+        "secondary": "ore:aluminium_salt"
       },
       {
         "between": "ore:aluminium"
