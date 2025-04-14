@@ -264,12 +264,12 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
         CHEMICAL_RECIPES.recipeBuilder()
                 .inputs(metaitem('yeast_cells'))
                 .outputs(metaitem('contaminated_sterilized_petri_dish'))
-                .fluidOutputs(fluid('yeast_extract')*1000)
+                .fluidOutputs(fluid('yeast_mixture')*1000)
                 .fluidInputs(fluid('water')*1000)
                 .duration(700)
                 .EUt(812)
                 .buildAndRegister();
-
+                
         ROTARY_EVAPORATOR_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('yeast_mixture')*1000)
                 .fluidOutputs(fluid('yeast_extract')*1000)
