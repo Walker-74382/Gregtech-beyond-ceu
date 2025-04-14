@@ -22,13 +22,13 @@
         "primary": "ore:sphalerite"
       },
       {
-        "secondary": "ore:zinc"
+        "secondary": "ore:galena"
       },
       {
-        "between": "ore:galena"
+        "between": "ore:celestine"
       },
       {
-        "sporadic": "ore:galena"
+        "sporadic": "ore:zinc"
       }
     ]
   }
