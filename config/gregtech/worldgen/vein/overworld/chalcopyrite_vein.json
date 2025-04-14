@@ -6,7 +6,7 @@
   "min_height": 40,
   "vein_populator": {
     "type": "surface_rock",
-    "material": "chalcopyrite",
+    "material": "chalcopyrite"
   },
   "generator": {
     "type": "layered",
