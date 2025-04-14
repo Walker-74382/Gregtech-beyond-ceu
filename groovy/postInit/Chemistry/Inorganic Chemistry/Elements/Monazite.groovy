@@ -263,24 +263,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .duration(200)
                 .EUt(800)
                 .buildAndRegister();
-
-        CHEMICAL_RECIPES.recipeBuilder()
-                .fluidInputs(fluid('acetone')*2000)
-                .notConsumable(metaitem('dustCalciumHydroxide')* 2)
-                .fluidOutputs(fluid('diacetone_alcohol')*1000)
-                .duration(200)
-                .EUt(800)
-                .buildAndRegister();
-
-        CHEMICAL_RECIPES.recipeBuilder()
-                .fluidInputs(fluid('diacetone_alcohol')*1000)
-                .fluidInputs(fluid('hydrogen')*1000)
-                .notConsumable(metaitem('dustZincChloride')* 1)
-                .fluidOutputs(fluid('amido_ethyl_alkyl_imidazole') * 1000)
-                .duration(200)
-                .EUt(800)
-                .buildAndRegister();
-
+                
         ELECTROLYZER_RECIPES.recipeBuilder()
                 .inputs(metaitem('dustHafniumOxide')* 2)
                 .outputs(metaitem('dustHafnium'))
