@@ -182,7 +182,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
         BIO_REACTOR_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('sterilized_growth_medium')*1000)
                 .inputs(metaitem('stem_cells'))
-                .inputs(metaitem('lab_on_chip_base'))
+                .inputs(metaitem('lab_on_chip'))
                 .outputs(metaitem('stem_cell_lab_on_chip'))
                 .duration(200)
                 .EUt(120)
