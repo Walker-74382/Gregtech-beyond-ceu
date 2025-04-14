@@ -67,7 +67,8 @@ mods.gregtech.electrolyzer.removeByInput(60, [metaitem('dustTantalite') * 9], nu
                 .fluidInputs(fluid('sulfuric_acid')*4000)
                 .inputs(metaitem('dustFusedTantalite')*9)
                 .outputs(metaitem('dustLeachedTantalite')*17)
-                .outputs(metaitem('dustSodiumSulfate')*14) //Manganese Sulfate *12
+                .outputs(metaitem('dustSodiumSulfate')*14)
+                .outputs(metaitem('dustManganeseSulfate')*12)
                 .duration(320)                 
                 .EUt(300)
                 .buildAndRegister();
