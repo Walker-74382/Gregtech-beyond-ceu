@@ -243,3 +243,35 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .duration(120)
                 .EUt(70)
                 .buildAndRegister();
+
+        DRYER_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('air')*1000)
+                .fluidOutputs(fluid('dry_air')*1000)
+                .duration(200)
+                .EUt(8)
+                .buildAndRegister();
+
+        MIXER_RECIPES.recipeBuilder()
+                .inputs(metaitem('dustAlumina')*3)
+                .fluidInputs(fluid('methylcellulose')*1000)
+                .outputs(metaitem('dustAluminaCeramic'))
+                .duration(200)
+                .EUt(8)
+                .buildAndRegister();
+
+        FORMING_PRESS_RECIPES.recipeBuilder()
+                .inputs(metaitem('dustAluminaCeramic'))
+                .notConsumable(metaitem('shape.mold.plate'))
+                .outputs(metaitem('plateAluminaCeramic'))
+                .duration(200)
+                .EUt(28)
+                .buildAndRegister();
+        
+        ELECTROLYZER_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('oxygen')*6000)
+                .notConsumable(metaitem('plateAluminaCeramic'))
+                .fluidOutputs(fluid('ozone')*2000)
+                .duration(200)
+                .EUt(28)
+                .buildAndRegister();
+        
