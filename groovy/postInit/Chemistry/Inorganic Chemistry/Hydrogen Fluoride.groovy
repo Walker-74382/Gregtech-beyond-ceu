@@ -31,3 +31,11 @@ mods.gregtech.electrolyzer.removeByInput(30, [metaitem('dustQuicklime') * 2], nu
                 .duration(200)
                 .EUt(28)
                 .buildAndRegister();
+
+        MIXER_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('water')*1000)
+                .inputs(metaitem('dustCalciumChloride')*2)
+                .fluidOutputs(fluid('dissolved_calcium_chloride')*1000)
+                .duration(100)
+                .EUt(12)
+                .buildAndRegister();
