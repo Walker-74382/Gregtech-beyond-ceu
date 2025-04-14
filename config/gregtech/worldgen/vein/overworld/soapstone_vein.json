@@ -25,7 +25,7 @@
         "secondary": "ore:talc"
       },
       {
-        "between": "ore:glauconite"
+        "between": "ore:glauconite_sand"
       },
       {
         "sporadic": "ore:pentlandite"
