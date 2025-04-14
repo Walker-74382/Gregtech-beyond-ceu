@@ -66,13 +66,6 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .EUt(2000)
                 .buildAndRegister()
 
-        ELECTROLYZER_RECIPES.recipeBuilder()
-                .fluidInputs(fluid('oxygen')*6000)
-                .fluidOutputs(fluid('ozone')*2000)
-                .duration(800)
-                .EUt(7012)
-                .buildAndRegister()
-
         BLAST_RECIPES.recipeBuilder()
                 .inputs(metaitem('dustFineBedrockDust'))
                 .fluidInputs(fluid('liquid_ozone')*1000)
@@ -83,15 +76,20 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .buildAndRegister()
 
         CHEMICAL_BATH_RECIPES.recipeBuilder()
-                .inputs(metaitem('dustAdamantite')*2)
-                .fluidInputs(fluid('aqua_regia')*2000)
-                .fluidOutputs(fluid('trinium_solution')*1000)
-                .outputs(metaitem('dustEnrichedNaquadahNitrate'))
-                .outputs(metaitem('dustNaquadriaNitrate'))
+                .fluidInputs(fluid('aqua_regia')*1000)
+                .inputs(metaitem('dustAdamantite')* 2)
+                .outputs(metaitem('dustEnrichedNaquadahNitrate') * 2)
+                .outputs(metaitem('dustNaquadriaNitrate')* 2)
                 .outputs(metaitem('dustAdamantiumPentoxide'))
-                .duration(2000)
-                .EUt(700)
+                .fluidOutputs(fluid('trinium_solution')*1000)
+                .duration(1200)
+                .EUt(7800)
                 .buildAndRegister()
+
+
+// Liquid Adamantium Pentoxide * 144
+mods.gregtech.extractor.removeByInput(30, [metaitem('dustAdamantiumPentoxide')], null)
+
 
         EXTRACTOR_RECIPES.recipeBuilder()
                 .inputs(metaitem('dustAdamantiumPentoxide'))
@@ -157,17 +155,6 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .outputs(metaitem('dustAdamantite'))
                 .EUt(200)
                 .duration(8000)
-                .buildAndRegister()
-
-        CHEMICAL_BATH_RECIPES.recipeBuilder()
-                .fluidInputs(fluid('aqua_regia')*1000)
-                .inputs(metaitem('dustAdamantite')* 2)
-                .outputs(metaitem('dustEnrichedNaquadahNitrate') * 2)
-                .outputs(metaitem('dustNaquadriaNitrate')* 2)
-                .outputs(metaitem('dustAdamantiumPentoxide'))
-                .fluidOutputs(fluid('trinium_solution')*1000)
-                .duration(1200)
-                .EUt(7800)
                 .buildAndRegister()
 
         LARGE_CHEMICAL_RECIPES.recipeBuilder()
