@@ -283,6 +283,12 @@ class GTBMaterials {
         public static Material DissolvedCalciumChloride;
         public static Material BlackPlatinum;
         public static Material RawPlatinumSolution;
+        public static Material CadmiumRichSolution;
+        public static Material IronCalciumSilicaSlag;
+        public static Material AluminiumChromiumSulfate;
+        public static Material ChromiumIIIOxide;
+        public static Material IronCalciumHydroxides;
+        public static Material HighPurityCadmium;
 
 
         //Biology Materials
@@ -393,6 +399,11 @@ class GTBMaterials {
         public static Material HomogenizedRottenSolution;
         public static Material Cas9;
         public static Material AnimalCells;
+        public static Material PropargylChlorideSolution;
+        public static Material AluminaCeramic;
+        public static Material CalciumCarbide;
+        public static Material DryAir;
+        public static Material Methylcellulose;
 
         //First Degree Materials
 

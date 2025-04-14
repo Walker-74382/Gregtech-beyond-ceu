@@ -791,6 +791,11 @@ public class UnknownCompositionMaterials {
                 .color(0x545454)
                 .build().setFormula("?", true);
 
+        CadmiumRichSolution = new Material.Builder(14663, GTBUtil.gtb("cadmium_rich_solution"))
+                .fluid()
+                .color(0x3B3B3B)
+                .build().setFormula("Cd?", true);
+
   }
 
 }
