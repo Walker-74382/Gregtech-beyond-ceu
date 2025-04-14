@@ -2218,7 +2218,7 @@ public class FirstDegreeMaterials {
         ColdAir = new Material.Builder(8470, GTBUtil.gtb("cold_air"))
                 .fluid()
                 .color(0xBBDEFB)
-                .build().setFormula('Kr', true);
+                .build().setFormula('N70O22(CO2)5He2Ar(H2O)', true);
 
         SupercooledLiquidNitrogen = new Material.Builder(8471, GTBUtil.gtb("supercooled_liquid_nitrogen"))
                 .fluid()
@@ -2393,7 +2393,32 @@ public class FirstDegreeMaterials {
                 .iconSet(SHINY)
                 .build().setFormula("Pt", true);
 
+        HighPurityCadmium  = new Material.Builder(8504, GTBUtil.gtb("high_purity_cadmium"))
+                .dust()
+                .color(0x2A2A2A)
+                .iconSet(SHINY)
+                .build().setFormula("Cd*", true);
 
+        PropargylChlorideSolution  = new Material.Builder(8505, GTBUtil.gtb("propargyl_chloride_solution"))
+                .fluid()
+                .color(0xBBB07E)
+                .build().setFormula("(HC2CH2Cl)(HCL)(SO2)", true);
+
+        AluminaCeramic  = new Material.Builder(8506, GTBUtil.gtb("alumina_ceramic"))
+                .dust()
+                .flags(GENERATE_PLATE)
+                .color(0xA9B9C2)
+                .build().setFormula("Al2O3", true);
+
+        DryAir = new Material.Builder(8507, GTBUtil.gtb("dry_air"))
+                .fluid()
+                .color(0xC5CBCF)
+                .build().setFormula("N78O21Ar9", true);
+
+        Methylcellulose = new Material.Builder(8508, GTBUtil.gtb("methylcellulose"))
+                .fluid()
+                .color(0xC5CBCF)
+                .build().setFormula("N78O21Ar9", true);
 
 
 
