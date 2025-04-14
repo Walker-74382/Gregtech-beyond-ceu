@@ -2,7 +2,6 @@ import static gregtech.api.recipes.RecipeMaps.*;
 import static gtb.api.recipes.GTBRecipeMaps.*;
 
 
-    //Methanol
 
     // Methanol * 1000
 mods.gregtech.chemical_reactor.removeByInput(96, [metaitem('circuit.integrated').withNbt(['Configuration': 1])], [fluid('hydrogen') * 4000 * 4000, fluid('carbon_monoxide') * 1000 * 1000])
