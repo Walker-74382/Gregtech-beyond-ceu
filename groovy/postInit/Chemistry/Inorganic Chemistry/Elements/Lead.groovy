@@ -35,3 +35,16 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
 
 // Lead Dust * 1
 mods.gregtech.electrolyzer.removeByInput(30, [metaitem('dustGalena') * 2], null)
+
+
+                //Lead Chloride
+                
+
+        BLAST_RECIPES.recipeBuilder()
+                .inputs(metaitem('dustLeadChloride')*3)
+                .inputs(metaitem('dustIron'))
+                .fluidOutputs(fluid('iron_2_chloride')*1000)
+                .outputs(metaitem('dustLead'))
+                .duration(250)
+                .EUt(20)
+                .buildAndRegister()
