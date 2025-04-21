@@ -60,3 +60,5 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
 
 // Polydimethylsiloxane Dust * 3
 mods.gregtech.chemical_reactor.removeByInput(96, null, [fluid('dimethyldichlorosilane') * 1000 * 1000, fluid('water') * 1000 * 1000])
+// Liquid Silicone Rubber * 1296
+mods.gregtech.chemical_reactor.removeByInput(30, [metaitem('dustPolydimethylsiloxane') * 9, metaitem('dustSulfur')], null)
