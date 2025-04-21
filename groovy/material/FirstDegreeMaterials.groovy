@@ -567,11 +567,6 @@ public class FirstDegreeMaterials {
                 .color(0x4A4B4B)
                 .build().setFormula("NqTr", true);
 
-        ExtraDistilledWater = new Material.Builder(8099, GTBUtil.gtb("extra_distilled_water"))
-                .fluid()
-                .color(0x265399)
-                .build().setFormula("H20", true);
-
         Trichlorosilane = new Material.Builder(8100, GTBUtil.gtb("trichlorosilane"))
                 .fluid()
                 .color(0x444545)
@@ -1001,10 +996,6 @@ public class FirstDegreeMaterials {
                 .build().setFormula("C10H7CHO", true);
         HydrobromicAcid = new Material.Builder(8187, GTBUtil.gtb("hydrobromic_acid")).fluid().color(0xE89089)
                 .build().setFormula("HBr", true);
-        SodiumCyanide = new Material.Builder(8188, GTBUtil.gtb("sodium_cyanide")).fluid().color(0x3F51B5)
-                .build().setFormula("NaCN", true);
-        HydrogenCyanide = new Material.Builder(8189, GTBUtil.gtb("hydrogen_cyanide")).fluid().color(0xA4ABD2)
-                .build().setFormula("HCN", true);
         Dimethylsulfide = new Material.Builder(8190, GTBUtil.gtb("dimethylsulfide")).fluid().color(0xCD9ED4)
                 .build().setFormula("C2H6S", true);
         Methylamine = new Material.Builder(8191, GTBUtil.gtb("methylamine")).fluid().color(0x9C53A8).build()
@@ -1062,7 +1053,7 @@ public class FirstDegreeMaterials {
         Methylbenzophenanthrene = new Material.Builder(8216, GTBUtil.gtb("methylbenzophenanthrene")).dust()
                 .color(0x327F89).build().setFormula("RhN", true);
         TinChloride = new Material.Builder(8217, GTBUtil.gtb("tin_chloride")).dust().color(0x9A8FBA).build()
-                .setFormula("TnCl", true);
+                .setFormula("SnCl4", true);
         DisodiumPhosphate = new Material.Builder(8218, GTBUtil.gtb("disodium_phosphate")).dust()
                 .color(0x3A77AD).build().setFormula("Na2HPO4", true);
         Cyanonaphthalene = new Material.Builder(8219, GTBUtil.gtb("cyanonaphthalene")).dust().color(0x554B67)
@@ -1138,7 +1129,7 @@ public class FirstDegreeMaterials {
 
         SodiumNitride = new Material.Builder(8245, GTBUtil.gtb("sodium_nitride"))
                 .dust()
-                .color(0x2B4F77).build().setFormula("NaN2O", true);
+                .color(0x2B4F77).build().setFormula("NaNO2", true);
 
         NeodymiumOxide = new Material.Builder(8246, GTBUtil.gtb("neodymium_oxide"))
                 .dust()
@@ -2101,6 +2092,7 @@ public class FirstDegreeMaterials {
 
         BariumPeroxide = new Material.Builder(8447, GTBUtil.gtb("barium_peroxide"))
                 .dust()
+                .iconSet(SHINY)
                 .color(0x9C3734).build().setFormula("BaO5", true);
 
         Columbite = new Material.Builder(8448, GTBUtil.gtb("columbite"))
@@ -2119,7 +2111,7 @@ public class FirstDegreeMaterials {
 
         ManganeseSulfate = new Material.Builder(8450, GTBUtil.gtb("manganese_sulfate"))
                 .dust()
-                .color(0xDBD180).build().setFormula("MgSO2", true);
+                .color(0xDBD180).build().setFormula("MnSO2", true);
 
         Rhodocrosite = new Material.Builder(8451, GTBUtil.gtb("rhodocrosite"))
                 .dust()
@@ -2419,6 +2411,38 @@ public class FirstDegreeMaterials {
                 .fluid()
                 .color(0xC5CBCF)
                 .build().setFormula("N78O21Ar9", true);
+
+        MethylBromide = new Material.Builder(8509, GTBUtil.gtb("methyl_bromide"))
+                .fluid()
+                .color(0xAC887E)
+                .build().setFormula("CH3Br", true);
+
+        MethylmagnesiumBromide = new Material.Builder(8510, GTBUtil.gtb("methylmagnesium_bromide"))
+                .fluid()
+                .color(0x965D4B)
+                .build().setFormula("CH3MgBr", true);
+
+        DryDiethylEther = new Material.Builder(8511, GTBUtil.gtb("dry_diethyl_ether"))
+                .fluid()
+                .color(0xC96D52)
+                .build().setFormula("(C2H5)2O", true);
+
+        ChlorineVapor = new Material.Builder(8512, GTBUtil.gtb("chlorine_vapor"))
+                .fluid()
+                .color(0x76A9A3)
+                .build().setFormula("Cl", true);
+
+        Diamminesilver = new Material.Builder(8513, GTBUtil.gtb("diamminesilver"))
+                .fluid()
+                .color(0x849B98)
+                .build().setFormula("[Ag(NH3)2]+", true);
+
+        IronOxide = new Material.Builder(8514, GTBUtil.gtb("iron_oxide"))
+                .dust()
+                .color(0xD1C6B6)
+                .iconSet(ROUGH)
+                .build().setFormula("Fe2O3", true);
+
 
 
 
