@@ -146,11 +146,6 @@ public class SecondDegreeMaterials {
                 .build()
                 .setFormula("[O(C6H4NH2)2]n", true);
 
-        AcetoneSolution = new Material.Builder(10019, GTBUtil.gtb("acetone_solution"))
-                .fluid()
-                .color(0xD9D086).build()
-                .setFormula("(C3H6O)H?", true);
-
         DilutedAcetone = new Material.Builder(10020, GTBUtil.gtb("diluted_acetone"))
                 .fluid()
                 .color(0xBAD5E1).build()
@@ -246,11 +241,13 @@ public class SecondDegreeMaterials {
 
         TantaliteMinorOxideResidue = new Material.Builder(10034, GTBUtil.gtb("tantalite_minor_oxide_residue"))
                 .dust()
+                .iconSet(ROUGH)
                 .color(0xFDD835)
                 .build().setFormula("(BaO)(ZrO2)(TiO2)(SiO2)", true);
 
         FusedTantalite = new Material.Builder(10035, GTBUtil.gtb("fused_tantalite"))
                 .dust()
+                .iconSet(ROUGH)
                 .color(0x57382F).build().setFormula("(Fe2O3)(NaO)Ta2O5", true);
 
         LeachedTantalite = new Material.Builder(10036, GTBUtil.gtb("leached_tantalite"))

@@ -64,6 +64,9 @@ class GTBMaterials {
 
         //Unknown Materials
 
+        public static Material DryDiethylEther;
+        public static Material MethylmagnesiumBromide;
+        public static Material MethylBromide;
         public static Material CadmiumRichZinc;
         public static Material CrudeZinc;
         public static Material LiquidOxygen;
@@ -187,7 +190,6 @@ class GTBMaterials {
         public static Material Heptafluorotantalate;
         public static Material Oxypentafluoroniobate;
         public static Material PotassiumFluorotantalate;
-        public static Material AcetoneSolution;
         public static Material DilutedAcetone;
         public static Material TitaniumDioxide;
         public static Material GaseousTitaniumTetrachloride;
@@ -404,6 +406,9 @@ class GTBMaterials {
         public static Material CalciumCarbide;
         public static Material DryAir;
         public static Material Methylcellulose;
+        public static Material ChlorineVapor;
+        public static Material Diamminesilver;
+        public static Material IronOxide;
 
         //First Degree Materials
 
@@ -741,7 +746,6 @@ class GTBMaterials {
         public static Material SiliconCarbideVapor;
         public static Material SiliconCarbide;
         public static Material LiquidXenon;
-        public static Material ExtraDistilledWater;
         public static Material NaquadahDioxide;
         public static Material ElectronDegenerateRhenium;
         public static Material ElectronDegenerateRheniumPlasma;
