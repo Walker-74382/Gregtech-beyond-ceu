@@ -158,6 +158,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
 
         DRYER_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('bastnasite_rarer_earth_oxides_mixture')*1000)
+                .fluidOutputs(fluid('water')*1000)
                 .outputs(metaitem('dustDriedBastnasiteRarerEarthOxidesPulp'))
                 .outputs(metaitem('dustBastnasiteByproducts'))
                 .duration(200)
