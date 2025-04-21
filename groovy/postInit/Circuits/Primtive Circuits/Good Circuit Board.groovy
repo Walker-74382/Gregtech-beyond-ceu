@@ -25,3 +25,12 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .duration(299)
                 .EUt(12)
                 .buildAndRegister();
+
+// Good Circuit Board * 1
+mods.gregtech.chemical_reactor.removeByInput(30, [metaitem('foilSilver') * 4, metaitem('board.phenolic')], [fluid('sodium_persulfate') * 200 * 200])
+// Good Circuit Board * 1
+mods.gregtech.chemical_reactor.removeByInput(30, [metaitem('foilSilver') * 4, metaitem('board.phenolic')], [fluid('iron_iii_chloride') * 100 * 100])
+// Good Circuit Board * 1
+mods.gregtech.large_chemical_reactor.removeByInput(30, [metaitem('foilSilver') * 4, metaitem('board.phenolic')], [fluid('sodium_persulfate') * 200 * 200])
+// Good Circuit Board * 1
+mods.gregtech.large_chemical_reactor.removeByInput(30, [metaitem('foilSilver') * 4, metaitem('board.phenolic')], [fluid('iron_iii_chloride') * 100 * 100])
