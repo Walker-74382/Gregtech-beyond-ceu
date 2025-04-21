@@ -22,14 +22,14 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .fluidInputs(fluid('deaerated_water')*1000)
                 .fluidOutputs(fluid('deionized_water')*700)
                 .duration(400)
-                .EUt(600)
+                .EUt(100)
                 .buildAndRegister();
 
         UV_LIGHT_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('deionized_water')*1000)
                 .fluidOutputs(fluid('sterilized_water')*900)
                 .duration(400)
-                .EUt(600)
+                .EUt(100)
                 .buildAndRegister();
 
         DISTILLERY_RECIPES.recipeBuilder()
