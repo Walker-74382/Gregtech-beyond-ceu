@@ -106,6 +106,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
         DRYER_RECIPES.recipeBuilder()
                 .inputs(metaitem('dustSaturatedChlorinatedMonaziteFiltrate'))
                 .outputs(metaitem('dustDriedMonaziteFiltrate'))
+                .fluidOutputs(fluid('water')*1000)
                 .duration(400)
                 .EUt(800)
                 .buildAndRegister();
@@ -170,8 +171,9 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .EUt(80)
                 .buildAndRegister();
 
-        CHEMICAL_RECIPES.recipeBuilder()
+        DRYER_RECIPES.recipeBuilder()
                 .inputs(metaitem('dustWetHafniumZirconiumBlend'))
+                .fluidOutputs(fluid('water')*1000)
                 .outputs(metaitem('dustHafniumOxide')* 2)
                 .outputs(metaitem('dustZirconiumOxide')* 2)
                 .duration(900)
