@@ -39,7 +39,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .outputs(metaitem('barium_titanate_seed_crystal'))
                 .duration(200)
                 .EUt(1299)
-                .fluidInputs(fluid('extra_distilled_water')*1000)
+                .fluidInputs(fluid('sterilized_water')*1000)
                 .buildAndRegister();
 
         FLUID_HEATER_RECIPES.recipeBuilder()
@@ -432,7 +432,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
         CHEMICAL_BATH_RECIPES.recipeBuilder()
                 .inputs(metaitem('unplanarized_nanocpu_wafer'))
                 .fluidInputs(fluid('diluted_sulfuric_acid')*1000)
-                .outputs(metaitem('nano_cpu_wafer'))
+                .outputs(metaitem('wafer.nano_central_processing_unit'))
                 .duration(200)
                 .EUt(700)
                 .buildAndRegister();
@@ -714,7 +714,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .buildAndRegister();
 
         CHEMICAL_RECIPES.recipeBuilder()
-                .fluidInputs(fluid('nitrogen')*1000)
+                .fluidInputs(fluid('nitrogen')*3000)
                 .inputs(metaitem('dustNickel'))
                 .outputs(metaitem('dustNickelNitride'))
                 .duration(200)
@@ -722,7 +722,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .buildAndRegister();
 
         ELECTROLYZER_RECIPES.recipeBuilder()
-                .fluidOutputs(fluid('nitrogen')*1000)
+                .fluidOutputs(fluid('nitrogen')*3000)
                 .outputs(metaitem('dustNickel'))
                 .inputs(metaitem('dustNickelNitride'))
                 .duration(200)
@@ -1479,7 +1479,7 @@ for (pdopant in PDopant.pdopants) {
                         .inputs(metaitem('engraved_ic_wafer') * batchSize)
                         .inputs(metaitem(ndopant.metaItemName))
                         .inputs(metaitem(pdopant.metaItemName) )
-                        .outputs(metaitem('doped_power_ic_wafer') * batchSize)
+                        .outputs(metaitem('doped_ic_wafer') * batchSize)
                         .duration(800)
                         .EUt(100)
                         .buildAndRegister();
@@ -1487,7 +1487,7 @@ for (pdopant in PDopant.pdopants) {
                 CHEMICAL_BATH_RECIPES.recipeBuilder()
                         .fluidInputs(fluid('very_hot_nitrogen')*1000)
                         .fluidOutputs(fluid('nitrogen')*1000)
-                        .inputs(metaitem('doped_power_ic_wafer'))
+                        .inputs(metaitem('doped_ic_wafer'))
                         .outputs(metaitem('wafer.integrated_logic_circuit'))
                         .duration(200)
                         .EUt(12)
@@ -1759,4 +1759,51 @@ mods.gregtech.laser_engraver.removeByInput(480, [metaitem('wafer.phosphorus'), m
 mods.gregtech.laser_engraver.removeByInput(1920, [metaitem('wafer.naquadah'), metaitem('glass_lens.gray')], null)
 // NAND Wafer * 8
 mods.gregtech.laser_engraver.removeByInput(7680, [metaitem('wafer.neutronium'), metaitem('glass_lens.gray')], null)
+// Nano CPU Wafer * 1
+mods.gregtech.chemical_reactor.removeByInput(1920, [metaitem('wafer.central_processing_unit'), metaitem('carbon.fibers') * 16], [fluid('glowstone') * 576 * 576])
+// Qubit CPU Wafer * 1
+mods.gregtech.chemical_reactor.removeByInput(1920, [metaitem('wafer.nano_central_processing_unit'), metaitem('quantumeye') * 2], [fluid('gallium_arsenide') * 288 * 288])
+// Qubit CPU Wafer * 1
+mods.gregtech.chemical_reactor.removeByInput(1920, [metaitem('wafer.nano_central_processing_unit'), metaitem('dustIndiumGalliumPhosphide')], [fluid('radon') * 50 * 50])
 
+// Nano CPU Wafer * 1
+mods.gregtech.large_chemical_reactor.removeByInput(1920, [metaitem('wafer.central_processing_unit'), metaitem('carbon.fibers') * 16], [fluid('glowstone') * 576 * 576])
+// Monocrystalline Silicon Boule * 1
+mods.gregtech.electric_blast_furnace.removeByInput(120, [metaitem('dustSilicon') * 32, metaitem('dustSmallGalliumArsenide'), metaitem('circuit.integrated').withNbt(['Configuration': 2])], null)
+
+// SoC Wafer * 1
+mods.gregtech.laser_engraver.removeByInput(480, [metaitem('wafer.phosphorus'), metaitem('glass_lens.yellow')], null)
+// SoC Wafer * 4
+mods.gregtech.laser_engraver.removeByInput(1920, [metaitem('wafer.naquadah'), metaitem('glass_lens.yellow')], null)
+// SoC Wafer * 8
+mods.gregtech.laser_engraver.removeByInput(7680, [metaitem('wafer.neutronium'), metaitem('glass_lens.yellow')], null)
+// NOR Wafer * 1
+mods.gregtech.laser_engraver.removeByInput(480, [metaitem('wafer.phosphorus'), metaitem('glass_lens.pink')], null)
+// NOR Wafer * 4
+mods.gregtech.laser_engraver.removeByInput(1920, [metaitem('wafer.naquadah'), metaitem('glass_lens.pink')], null)
+// NOR Wafer * 8
+mods.gregtech.laser_engraver.removeByInput(7680, [metaitem('wafer.neutronium'), metaitem('glass_lens.pink')], null)
+// PIC Wafer * 1
+mods.gregtech.laser_engraver.removeByInput(480, [metaitem('wafer.phosphorus'), metaitem('glass_lens.brown')], null)
+// PIC Wafer * 4
+mods.gregtech.laser_engraver.removeByInput(1920, [metaitem('wafer.naquadah'), metaitem('glass_lens.brown')], null)
+// PIC Wafer * 8
+mods.gregtech.laser_engraver.removeByInput(7680, [metaitem('wafer.neutronium'), metaitem('glass_lens.brown')], null)
+// HPIC Wafer * 1
+mods.gregtech.chemical_reactor.removeByInput(7680, [metaitem('wafer.power_integrated_circuit'), metaitem('dustIndiumGalliumPhosphide') * 2], [fluid('vanadium_gallium') * 288 * 288])
+// HPIC Wafer * 1
+mods.gregtech.large_chemical_reactor.removeByInput(7680, [metaitem('wafer.power_integrated_circuit'), metaitem('dustIndiumGalliumPhosphide') * 2], [fluid('vanadium_gallium') * 288 * 288])
+// UHPIC * 1
+mods.gregtech.chemical_reactor.removeByInput(120, [metaitem('wafer.ultra_high_power_integrated_circuit')], [fluid('redstone') * 1000 * 1000])
+// UHPIC * 2
+mods.gregtech.cutter.removeByInput(30720, [metaitem('wafer.ultra_high_power_integrated_circuit')], [fluid('water') * 1000 * 1000])
+// UHPIC * 2
+mods.gregtech.cutter.removeByInput(30720, [metaitem('wafer.ultra_high_power_integrated_circuit')], [fluid('distilled_water') * 750 * 750])
+// UHPIC * 2
+mods.gregtech.cutter.removeByInput(30720, [metaitem('wafer.ultra_high_power_integrated_circuit')], [fluid('lubricant') * 250 * 250])
+// UHPIC Wafer * 1
+mods.gregtech.chemical_reactor.removeByInput(30720, [metaitem('wafer.high_power_integrated_circuit'), metaitem('dustIndiumGalliumPhosphide') * 8], [fluid('naquadah') * 576 * 576])
+// UHPIC Wafer * 1
+mods.gregtech.large_chemical_reactor.removeByInput(30720, [metaitem('wafer.high_power_integrated_circuit'), metaitem('dustIndiumGalliumPhosphide') * 8], [fluid('naquadah') * 576 * 576])
+// UHPIC * 1
+mods.gregtech.large_chemical_reactor.removeByInput(120, [metaitem('wafer.ultra_high_power_integrated_circuit')], [fluid('redstone') * 1000 * 1000])
