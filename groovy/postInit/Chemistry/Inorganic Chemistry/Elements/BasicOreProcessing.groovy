@@ -42,7 +42,8 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
 
         ROASTER_RECIPES.recipeBuilder()
                 .inputs(metaitem('dustIronSulfate')* 6)
-                .fluidOutputs(fluid('sulfur_trioxide')*5000)
+                .fluidOutputs(fluid('sulfur_trioxide')*1000)
+                .fluidOutputs(fluid('sulfur_dioxide')*1000)
                 .outputs(metaitem('dustIron'))
                 .circuitMeta(0)
                 .duration(200)
