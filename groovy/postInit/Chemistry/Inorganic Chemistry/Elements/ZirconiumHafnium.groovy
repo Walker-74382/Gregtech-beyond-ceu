@@ -111,3 +111,6 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .duration(100)
                 .EUt(80)
                 .buildAndRegister();
+
+// Hafnium Dust * 1
+mods.gregtech.electrolyzer.removeByInput(80, [metaitem('dustHafniumOxide') * 2], null)
