@@ -20,6 +20,11 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 [ore('plateLowQualitySteel'), ore('rotorBronze'), ore('plateLowQualitySteel')],
                 [ore('rotorBronze'), item('gregtech:machine_casing'), ore('rotorBronze')],
                 [ore('plateLowQualitySteel'), ore('rotorBronze') ,ore('plateLowQualitySteel')]])
+            
+        crafting.addShaped("gregtech:fractional_distillation_unit", item('gregtech:machine', 3054),[
+                [metaitem('pipeTinyFluidSteel'), ore('circuitHv'), metaitem('pipeTinyFluidSteel')],
+                [metaitem('electric.pump.hv'), metaitem('hull.hv'),metaitem('electric.pump.hv')],
+                [metaitem('pipeTinyFluidSteel'), ore('circuitHv') ,metaitem('pipeTinyFluidSteel')]])
 
 
         ASSEMBLER_RECIPES.recipeBuilder()
@@ -62,3 +67,11 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 [metaitem('circuit.nano_processor'), metaitem('electric.pump.hv'), metaitem('circuit.nano_processor')],
                 [item('gtb:gtb_multiblock_casing', 13) , item('gtb:cooling_coil'), item('gtb:gtb_multiblock_casing', 13) ],
                 [metaitem('circuit.nano_processor'), metaitem('electric.pump.hv') ,metaitem('circuit.nano_processor')]])
+
+        crafting.addShaped("gregtech:vacuum_furnace", item('gregtech:machine', 3003), [
+                [ore('circuitMv'), item('gtb:gtb_multiblock_casing', 8) , ore('circuitMv')],
+                [item('gtb:gtb_multiblock_casing', 8), item('gregtech:machine', 986) , item('gtb:gtb_multiblock_casing', 8)],
+                [ore('circuitMv'), item('gtb:gtb_multiblock_casing', 8) , ore('circuitMv')]])
+
+// Engraving Unit * 1
+mods.gregtech.assembler.removeByInput(700, [item('gregtech:machine_casing'), metaitem('electric.pump.iv') * 2,  * 2, metaitem('rotorTungstenSteel') * 4, metaitem('circuit.mainframe') * 4], [fluid('tungsten_steel') * 512 * 512])
