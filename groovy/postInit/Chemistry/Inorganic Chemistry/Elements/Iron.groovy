@@ -122,3 +122,28 @@ mods.gregtech.electrolyzer.removeByInput(30, [metaitem('dustBandedIron') * 5], n
         //MIDREX PROCESS
 
         
+
+
+        //Iron II Chloride
+
+        BLAST_RECIPES.recipeBuilder() //REDUCTION FURNACE
+                .fluidInputs(fluid('iron_2_chloride')*1000)
+                .fluidInputs(fluid('hydrogen')*2000)
+                .outputs(metaitem('ingotIron')) //IRON SPONGE
+                .fluidOutputs(fluid('hydrogen_chloride')*2000)
+                .blastFurnaceTemp(1100)
+                .duration(220)
+                .EUt(100)
+                .buildAndRegister();
+
+        //Iron Oxide Catalyst Fe2O3
+
+        BLAST_RECIPES.recipeBuilder()
+                .inputs(metaitem('dustIronSulfate')*12)
+                .outputs(metaitem('dustIronOxide'))
+                .fluidOutputs(fluid('sulfur_dioxide')*2000)
+                .fluidOutputs(fluid('sulfur_trioxide')*2000)
+                .fluidInputs(fluid('air')*1000)
+                .duration(220)
+                .EUt(100)
+                .buildAndRegister();
