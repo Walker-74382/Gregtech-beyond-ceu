@@ -357,3 +357,5 @@ mods.gregtech.distillation_tower.removeByInput(120, null, [fluid('refinery_gas')
                 .buildAndRegister();
 
 //Removals
+// Steam-Cracked Butene Gas * 500
+mods.gregtech.chemical_reactor.removeByInput(30, [metaitem('circuit.integrated').withNbt(['Configuration': 2])], [fluid('butene') * 1000 * 1000, fluid('steam') * 1000 * 1000])
