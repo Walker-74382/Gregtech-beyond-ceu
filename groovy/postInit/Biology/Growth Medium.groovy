@@ -6,6 +6,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
 
         DRYER_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('milk')*1000)
+                .fluidOutputs(fluid('water')*1000)
                 .circuitMeta(2)
                 .outputs(metaitem('dustSolidMilkResidues'))
                 .duration(200)
@@ -89,7 +90,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .buildAndRegister();
 
         CHEMICAL_RECIPES.recipeBuilder()
-                .fluidInputs(fluid('extra_distilled_water')*1000)
+                .fluidInputs(fluid('sterilized_water')*1000)
                 .notConsumable(metaitem('dustStreptococcusPyogenes'))
                 .inputs(item('minecraft:rotten_flesh'))
                 .fluidOutputs(fluid('rotten_solution')*1000)
