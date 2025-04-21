@@ -356,8 +356,8 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
         CHEMICAL_RECIPES.recipeBuilder()
                 .duration(80)
                 .EUt(120)
-                .inputs(metaitem('dustSilver'))
-                .fluidInputs(fluid('chlorine')*1000)
+                .inputs(metaitem('dustSilver')*2)
+                .fluidInputs(fluid('chlorine')*2000)
                 .outputs(metaitem('dustSilverChloride')*2)
                 .buildAndRegister();
 
