@@ -275,3 +275,9 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .EUt(28)
                 .buildAndRegister();
         
+        VACUUM_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('nitrogen')*1000)
+                .fluidOutputs(fluid('liquid_nitrogen')*1000)
+                .duration(200)
+                .EUt(28)
+                .buildAndRegister();
