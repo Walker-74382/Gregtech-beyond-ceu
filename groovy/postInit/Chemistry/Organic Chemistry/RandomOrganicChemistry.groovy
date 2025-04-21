@@ -213,3 +213,28 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
 
 // Hydrochloric Acid * 1000
 mods.gregtech.chemical_reactor.removeByInput(7, null, [fluid('chlorine') * 1000 * 1000, fluid('hydrogen') * 1000 * 1000])
+
+
+        //Ethyl Benzene
+
+        CHEMICAL_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('ethylene')*1000)
+                .fluidInputs(fluid('benzene')*1000)
+                .notConsumable(metaitem('dustZsm5'))
+                .notConsumable(metaitem('fume_hood'))
+                .fluidOutputs(fluid('ethyl_benzene')*1000)
+                .duration(200)
+                .EUt(80)
+                .buildAndRegister();
+
+        //Ethylbenzene Reduction for Styrene
+
+        BLAST_RECIPES.recipeBuilder()
+                .blastFurnaceTemp(1100)
+                .duration(300)
+                .EUt(80)
+                .fluidInputs(fluid('ethyl_benzene')*1000)
+                .notConsumable(metaitem('dustIronOxide'))
+                .fluidOutputs(fluid('hydrogen')*2000)
+                .fluidOutputs(fluid('styrene')*1000)
+                .buildAndRegister();
