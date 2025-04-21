@@ -162,3 +162,16 @@ mods.gregtech.electrolyzer.removeByInput(60, [metaitem('dustBauxite') * 15], nul
                 .duration(250)
                 .buildAndRegister()
         
+        //Modified Hall-Héroult Process
+
+        ELECTROLYTIC_CELL_RECIPES.recipeBuilder()
+                .inputs(metaitem('dustAluminiumTrifluoride')*8)
+                .inputs(metaitem('dustCarbon')*3)
+                .notConsumable(metaitem('graphite_electrode'))
+                .notConsumable(metaitem('carbon_lined_cathode'))
+                .fluidOutputs(fluid('carbon_dioxide')*3000)
+                .fluidOutputs(fluid('fluorine')*6000)
+                .fluidOutputs(fluid('aluminium')*288)
+                .EUt(70)
+                .duration(250)
+                .buildAndRegister()
