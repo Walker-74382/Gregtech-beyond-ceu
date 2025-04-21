@@ -217,3 +217,63 @@ mods.gregtech.electrolyzer.removeByInput(60, [metaitem('dustTantalite') * 9], nu
                 .EUt(240)
                 .buildAndRegister();
         
+        //Nb Ta from Cassiterite Coke
+
+        MIXER_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('water')*1000)
+                .inputs(metaitem('dustCassiterite')*2)
+                .inputs(metaitem('dustCoke'))
+                .outputs(metaitem('dustCassiteriteCokePellets')*5)
+                .duration(300)
+                .EUt(40)
+                .buildAndRegister();
+
+        BLAST_RECIPES.recipeBuilder()
+                .inputs(metaitem('dustCassiteriteCokePellets')*5)
+                .outputs(metaitem('ingotTin')*2)
+                .outputs(metaitem('dustTinSlag'))
+                .fluidOutputs(fluid('carbon_monoxide')*1000)
+                .EUt(120)
+                .duration(30)
+                .blastFurnaceTemp(1800)
+                .buildAndRegister();
+
+        CENTRIFUGE_RECIPES.recipeBuilder()
+                .inputs(metaitem('dustTinSlag')*6)
+                .outputs(metaitem('dustNbTaContainingDust')*4)
+                .outputs(metaitem('dustDarkAsh'))
+                .EUt(400)
+                .duration(230)
+                .buildAndRegister();
+
+
+        BLAST_RECIPES.recipeBuilder()
+                .inputs(metaitem('dustNbTaContainingDust')*4)
+                .inputs(metaitem('dustSiliconDioxide')*3)
+                .inputs(metaitem('dustCarbon'))
+                .outputs(metaitem('dustNiobiumTantalumDust')*14)
+                .fluidOutputs(fluid('carbon_dioxide')*2000)
+                .EUt(400)
+                .duration(230)
+                .buildAndRegister();
+
+
+        CENTRIFUGE_RECIPES.recipeBuilder()
+                .inputs(metaitem('dustNiobiumTantalumDust')*14)
+                .fluidInputs(fluid('hydrofluoric_acid')*19000)
+                .outputs(metaitem('dustAluminiumTrifluoride')*4)
+                .fluidOutputs(fluid('silicon_fluoride')*1000)
+                .fluidOutputs(fluid('nb_ta_fluoride_mix') * 1000)
+                .fluidOutputs(fluid('water')*7500)
+                .EUt(300)
+                .duration(430)
+                .buildAndRegister();
+
+        CENTRIFUGE_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('nb_ta_fluoride_mix')*2000)
+                .fluidInputs(fluid('nb_ta_separation_mixture')*200)
+                .fluidOutputs(fluid('oxypentafluoroniobate')*1000)
+                .fluidOutputs(fluid('heptafluorotantalate')*1000)
+                .EUt(300)
+                .duration(430)
+                .buildAndRegister();
