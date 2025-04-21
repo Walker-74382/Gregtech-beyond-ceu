@@ -23,8 +23,8 @@ eventManager.listen {
         customMetaItems.addItem(2, "moon");
         customMetaItems.addItem(3, "paraffin_wax");
         customMetaItems.addItem(4, "laser_assembly");
-        customMetaItems.addItem(5, "nano_cpu_wafer");
-        customMetaItems.addItem(6,"trenched_superconductor_layered_uhasoc_wafer");
+        customMetaItems.addItem(5, "meteorite");
+        customMetaItems.addItem(6, "trenched_superconductor_layered_uhasoc_wafer");
         customMetaItems.addItem(7, "monocrystalline_seed_crystal");
         customMetaItems.addItem(8, "polysilicon_wafer");
         customMetaItems.addItem(9, "n_doped_silicon_dioxide_wafer");
@@ -261,6 +261,10 @@ eventManager.listen {
         customMetaItems.addItem(249, "zpm_voltage_regulator");
         customMetaItems.addItem(250, "uv_voltage_regulator");
         customMetaItems.addItem(251, "graphite_electrode");
+        customMetaItems.addItem(252, "rare_meteorite");
+        customMetaItems.addItem(253, "satellite");
+        customMetaItems.addItem(254, "fume_hood");
+        customMetaItems.addItem(255, "carbon_lined_cathode");
         customMetaItems.addItem(300, "entropycore");
         customMetaItems.addItem(301, "boule.fluix");
         customMetaItems.addItem(302, "wafer.fluix");
