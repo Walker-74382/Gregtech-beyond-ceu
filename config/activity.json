@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Blocky_104",
+      "uniqueId": "51c49505-912e-4f4b-b690-26b93a45f9c2"
+    },
+    "time": 1744475592886,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/jLChh2w4uD"
+    }
+  }
+]

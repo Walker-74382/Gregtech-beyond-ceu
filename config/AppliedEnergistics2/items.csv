@@ -651,9 +651,30 @@ ae2stuff:visualiser, Network Visualisation Tool
 enderstorage:ender_storage:0, Ender Chest
 enderstorage:ender_storage:1, Ender Tank
 enderstorage:ender_pouch, Ender Pouch
+microblockcbe:saw_stone, Stone Saw
+microblockcbe:saw_iron, Iron Saw
+microblockcbe:saw_diamond, Diamond Saw
+microblockcbe:stone_rod, Stone Rod
+simplevoidworld:portal, Portal to the void
+wrcbe:wireless_logic:0, Wireless Transmitter
+wrcbe:wireless_logic:1, Wireless Receiver
+wrcbe:wireless_logic:2, Wireless Jammer
+wrcbe:material:0, Obsidian Stick
+wrcbe:material:1, Stone Bowl
+wrcbe:material:2, REther Pearl
+wrcbe:material:3, Wireless Transceiver
+wrcbe:material:4, Blaze Transceiver
+wrcbe:material:5, Receiver Dish
+wrcbe:material:6, Blaze Receiver Dish
+wrcbe:triangulator, Wireless Triangulator
+wrcbe:remote, Wireless Remote
+wrcbe:sniffer, Wireless Sniffer
+wrcbe:empty_map, Empty Wireless Map
+wrcbe:map:0, Wireless Map #0
+wrcbe:tracker, Wireless Tracker
+wrcbe:rep, REP
+wrcbe:p_sniffer, Private Sniffer
 forge:bucketfilled, %s Bucket
-appliedenergistics2:quartz_ore, Certus Quartz Ore
-appliedenergistics2:charged_quartz_ore, Charged Certus Quartz Ore
 appliedenergistics2:matrix_frame, Matrix Frame
 appliedenergistics2:quartz_block, Certus Quartz Block
 appliedenergistics2:quartz_pillar, Certus Quartz Pillar
@@ -964,8 +985,7 @@ appliedenergistics2:facade:0, Cable Facade - Brown Concrete Powder
 appliedenergistics2:facade:0, Cable Facade - Green Concrete Powder
 appliedenergistics2:facade:0, Cable Facade - Red Concrete Powder
 appliedenergistics2:facade:0, Cable Facade - Black Concrete Powder
-appliedenergistics2:facade:0, Cable Facade - Certus Quartz Ore
-appliedenergistics2:facade:0, Cable Facade - Charged Certus Quartz Ore
+appliedenergistics2:facade:0, Cable Facade - Portal to the void
 appliedenergistics2:facade:0, Cable Facade - Certus Quartz Block
 appliedenergistics2:facade:0, Cable Facade - Certus Quartz Pillar
 appliedenergistics2:facade:0, Cable Facade - Chiseled Certus Quartz Block
@@ -993,6 +1013,24 @@ appliedenergistics2:facade:0, Cable Facade - Brown Elevator
 appliedenergistics2:facade:0, Cable Facade - Green Elevator
 appliedenergistics2:facade:0, Cable Facade - Red Elevator
 appliedenergistics2:facade:0, Cable Facade - Black Elevator
+appliedenergistics2:facade:0, Cable Facade - Block of Black Iron
+appliedenergistics2:facade:0, Cable Facade - Block of Luminessence
+appliedenergistics2:facade:0, Cable Facade - Block of Nether Stars
+appliedenergistics2:facade:0, Cable Facade - Block of Crystaltine
+appliedenergistics2:facade:0, Cable Facade - Block of The Ultimate
+appliedenergistics2:facade:0, Cable Facade - Block of Ender
+appliedenergistics2:facade:0, Cable Facade - Block of Ender Stars
+appliedenergistics2:facade:0, Cable Facade - Block of Enhanced Ender
+appliedenergistics2:facade:0, Cable Facade - Black Iron Frame
+appliedenergistics2:facade:0, Cable Facade - Black Iron Lamp
+appliedenergistics2:facade:0, Cable Facade - Black Iron Lamp
+appliedenergistics2:facade:0, Cable Facade - Block of Black Iron
+appliedenergistics2:facade:0, Cable Facade - Block of Black Iron
+appliedenergistics2:facade:0, Cable Facade - Block of Black Iron
+appliedenergistics2:facade:0, Cable Facade - Block of Black Iron
+appliedenergistics2:facade:0, Cable Facade - Block of Black Iron
+appliedenergistics2:facade:0, Cable Facade - Block of Black Iron
+appliedenergistics2:facade:0, Cable Facade - Crafting Table
 appliedenergistics2:facade:0, Cable Facade - Long Distance Item Pipe
 appliedenergistics2:facade:0, Cable Facade - Long Distance Fluid Pipe
 appliedenergistics2:facade:0, Cable Facade - Hermetic Casing I
@@ -1510,39 +1548,13 @@ appliedenergistics2:facade:0, Cable Facade - Borderless Black Lamp
 appliedenergistics2:facade:0, Cable Facade - Borderless Black Lamp
 appliedenergistics2:facade:0, Cable Facade - Borderless Black Lamp
 appliedenergistics2:facade:0, Cable Facade - Borderless Black Lamp
-appliedenergistics2:facade:0, Cable Facade - Block of Quantium
-appliedenergistics2:facade:0, Cable Facade - Block of Indalloy 140
-appliedenergistics2:facade:0, Cable Facade - Block of MAR-M200 Steel
-appliedenergistics2:facade:0, Cable Facade - Block of Tanmolyium Beta-C
-appliedenergistics2:facade:0, Cable Facade - Block of Precious Metals Alloy
-appliedenergistics2:facade:0, Cable Facade - Block of Adamantium Alloy
-appliedenergistics2:facade:0, Cable Facade - Block of High Durability Compound Steel
-appliedenergistics2:facade:0, Cable Facade - Block of Ardite
-appliedenergistics2:facade:0, Cable Facade - Block of Enderium
-appliedenergistics2:facade:0, Cable Facade - Block of Energetic Alloy
-appliedenergistics2:facade:0, Cable Facade - Block of Inconel-792
-appliedenergistics2:facade:0, Cable Facade - Block of Grisium
-appliedenergistics2:facade:0, Cable Facade - Block of Nitinol 60
-appliedenergistics2:facade:0, Cable Facade - Block of Hastelloy-N
-appliedenergistics2:facade:0, Cable Facade - Block of Hastelloy-W
-appliedenergistics2:facade:0, Cable Facade - Block of Maraging Steel 250
-appliedenergistics2:facade:0, Cable Facade - Block of MAR-Ce-M200
-appliedenergistics2:facade:0, Cable Facade - Block of Artherium-Sn
-appliedenergistics2:facade:0, Cable Facade - Block of Dalisenite
-appliedenergistics2:facade:0, Cable Facade - Block of Manyullyn
-appliedenergistics2:facade:0, Cable Facade - Block of Signalum
-appliedenergistics2:facade:0, Cable Facade - Block of Vibrant Alloy
-appliedenergistics2:facade:0, Cable Facade - Block of Lumium
-appliedenergistics2:facade:0, Cable Facade - Block of Eglin Steel
-appliedenergistics2:facade:0, Cable Facade - Block of Fluxed Electrum
-appliedenergistics2:facade:0, Cable Facade - Block of Hikarium
-appliedenergistics2:facade:0, Cable Facade - Block of Pikyonium 64B
 appliedenergistics2:facade:0, Cable Facade - Block of Aluminium
 appliedenergistics2:facade:0, Cable Facade - Block of Americium
 appliedenergistics2:facade:0, Cable Facade - Block of Antimony
+appliedenergistics2:facade:0, Cable Facade - Block of Barium
 appliedenergistics2:facade:0, Cable Facade - Block of Beryllium
 appliedenergistics2:facade:0, Cable Facade - Block of Bismuth
-appliedenergistics2:facade:0, Cable Facade - Block of Cerium
+appliedenergistics2:facade:0, Cable Facade - Block of Cadmium
 appliedenergistics2:facade:0, Cable Facade - Block of Chrome
 appliedenergistics2:facade:0, Cable Facade - Block of Cobalt
 appliedenergistics2:facade:0, Cable Facade - Block of Copper
@@ -1709,10 +1721,11 @@ appliedenergistics2:facade:0, Cable Facade - Block of Blue Alloy
 appliedenergistics2:facade:0, Cable Facade - Block of Awakened Draconium
 appliedenergistics2:facade:0, Cable Facade - Block of Adamantium
 appliedenergistics2:facade:0, Cable Facade - Block of Cosmic Neutronium
-appliedenergistics2:facade:0, Cable Facade - Block of Infinity
-appliedenergistics2:facade:0, Cable Facade - Block of Eternal
-appliedenergistics2:facade:0, Cable Facade - Block of Temporally Constrained Anti-Matter
-appliedenergistics2:facade:0, Cable Facade - Block of Cataclysm Induced Mixed-Matter
+appliedenergistics2:facade:0, Cable Facade - Block of 
+appliedenergistics2:facade:0, Cable Facade - Block of 
+appliedenergistics2:facade:0, Cable Facade - Block of Temporally Constrained Anti Matter
+appliedenergistics2:facade:0, Cable Facade - Block of Cataclysm Induced Mixed Matter
+appliedenergistics2:facade:0, Cable Facade - Block of Pikyonium
 appliedenergistics2:facade:0, Cable Facade - Block of Stellite-100
 appliedenergistics2:facade:0, Cable Facade - Block of Watertight Steel
 appliedenergistics2:facade:0, Cable Facade - Block of Maraging Steel 300
@@ -1738,22 +1751,22 @@ appliedenergistics2:facade:0, Cable Facade - Block of Nomex
 appliedenergistics2:facade:0, Cable Facade - Block of Gadolinite
 appliedenergistics2:facade:0, Cable Facade - Block of Silver Alloy
 appliedenergistics2:facade:0, Cable Facade - Block of Sintered Silver
-appliedenergistics2:facade:0, Cable Facade - Block of Alumin
+appliedenergistics2:facade:0, Cable Facade - Block of Alumina
 appliedenergistics2:facade:0, Cable Facade - Block of Zircon
 appliedenergistics2:facade:0, Cable Facade - Block of Epoxid Circuit Board Base
 appliedenergistics2:facade:0, Cable Facade - Block of Precious Metal
 appliedenergistics2:facade:0, Cable Facade - Block of Eglin Steel
 appliedenergistics2:facade:0, Cable Facade - Block of Low Quality Steel
 appliedenergistics2:facade:0, Cable Facade - Block of Purified Silicon Carbide
-appliedenergistics2:facade:0, Cable Facade - Block of Kevlar
+appliedenergistics2:facade:0, Cable Facade - Block of Cubic Zirconia
 appliedenergistics2:facade:0, Cable Facade - Block of Kapton K
 appliedenergistics2:facade:0, Cable Facade - Block of Kapton E
-appliedenergistics2:facade:0, Cable Facade - Block of Pikyonium
+appliedenergistics2:facade:0, Cable Facade - Block of Kevlar
 appliedenergistics2:facade:0, Cable Facade - Block of Chromatic Glass
-appliedenergistics2:facade:0, Cable Facade - Block of Cubic Zirconia
-appliedenergistics2:facade:0, Cable Facade - Nitinol 60 Frame Box
+appliedenergistics2:facade:0, Cable Facade - Block of Degenerate Rhenium
+appliedenergistics2:facade:0, Cable Facade - Block of Crystal Fluix
+appliedenergistics2:facade:0, Cable Facade - Block of Pig Iron
 appliedenergistics2:facade:0, Cable Facade - Aluminium Frame Box
-appliedenergistics2:facade:0, Cable Facade - Darmstadtium Frame Box
 appliedenergistics2:facade:0, Cable Facade - Europium Frame Box
 appliedenergistics2:facade:0, Cable Facade - Iridium Frame Box
 appliedenergistics2:facade:0, Cable Facade - Iron Frame Box
@@ -1762,7 +1775,6 @@ appliedenergistics2:facade:0, Cable Facade - Titanium Frame Box
 appliedenergistics2:facade:0, Cable Facade - Tungsten Frame Box
 appliedenergistics2:facade:0, Cable Facade - Neutronium Frame Box
 appliedenergistics2:facade:0, Cable Facade - Tritanium Frame Box
-appliedenergistics2:facade:0, Cable Facade - Duranium Frame Box
 appliedenergistics2:facade:0, Cable Facade - Brass Frame Box
 appliedenergistics2:facade:0, Cable Facade - Bronze Frame Box
 appliedenergistics2:facade:0, Cable Facade - Invar Frame Box
@@ -1771,7 +1783,6 @@ appliedenergistics2:facade:0, Cable Facade - Ruridit Frame Box
 appliedenergistics2:facade:0, Cable Facade - Stainless Steel Frame Box
 appliedenergistics2:facade:0, Cable Facade - Steel Frame Box
 appliedenergistics2:facade:0, Cable Facade - Ultimet Frame Box
-appliedenergistics2:facade:0, Cable Facade - Wrought Iron Frame Box
 appliedenergistics2:facade:0, Cable Facade - Tungstencarbide Frame Box
 appliedenergistics2:facade:0, Cable Facade - Polytetrafluoroethylene (PTFE) Frame Box
 appliedenergistics2:facade:0, Cable Facade - Wood Frame Box
@@ -1779,7 +1790,6 @@ appliedenergistics2:facade:0, Cable Facade - Treated Wood Frame Box
 appliedenergistics2:facade:0, Cable Facade - Black Steel Frame Box
 appliedenergistics2:facade:0, Cable Facade - Tungstensteel Frame Box
 appliedenergistics2:facade:0, Cable Facade - Naquadah Alloy Frame Box
-appliedenergistics2:facade:0, Cable Facade - Rhodium Plated Palladium Frame Box
 appliedenergistics2:facade:0, Cable Facade - Blue Steel Frame Box
 appliedenergistics2:facade:0, Cable Facade - HSS-G Frame Box
 appliedenergistics2:facade:0, Cable Facade - HSS-E Frame Box
@@ -1797,12 +1807,8 @@ appliedenergistics2:facade:0, Cable Facade - Eglin Steel Frame Box
 appliedenergistics2:facade:0, Cable Facade - Low Quality Steel Frame Box
 appliedenergistics2:facade:0, Cable Facade - Purified Silicon Carbide Frame Box
 appliedenergistics2:facade:0, Cable Facade - Adamantium Frame Box
-appliedenergistics2:facade:0, Cable Facade - Adamantium Ore
-appliedenergistics2:facade:0, Cable Facade - Nether Adamantium Ore
-appliedenergistics2:facade:0, Cable Facade - End Adamantium Ore
-appliedenergistics2:facade:0, Cable Facade - Quantium Ore
-appliedenergistics2:facade:0, Cable Facade - Nether Quantium Ore
-appliedenergistics2:facade:0, Cable Facade - End Quantium Ore
+appliedenergistics2:facade:0, Cable Facade - Polyetheretherketone Frame Box
+appliedenergistics2:facade:0, Cable Facade - Degenerate Rhenium Frame Box
 appliedenergistics2:facade:0, Cable Facade - Aluminium Ore
 appliedenergistics2:facade:0, Cable Facade - Nether Aluminium Ore
 appliedenergistics2:facade:0, Cable Facade - End Aluminium Ore
@@ -1836,9 +1842,6 @@ appliedenergistics2:facade:0, Cable Facade - End Neodymium Ore
 appliedenergistics2:facade:0, Cable Facade - Nickel Ore
 appliedenergistics2:facade:0, Cable Facade - Nether Nickel Ore
 appliedenergistics2:facade:0, Cable Facade - End Nickel Ore
-appliedenergistics2:facade:0, Cable Facade - Niobium Ore
-appliedenergistics2:facade:0, Cable Facade - Nether Niobium Ore
-appliedenergistics2:facade:0, Cable Facade - End Niobium Ore
 appliedenergistics2:facade:0, Cable Facade - Palladium Ore
 appliedenergistics2:facade:0, Cable Facade - Nether Palladium Ore
 appliedenergistics2:facade:0, Cable Facade - End Palladium Ore
@@ -1860,12 +1863,9 @@ appliedenergistics2:facade:0, Cable Facade - End Thorium Ore
 appliedenergistics2:facade:0, Cable Facade - Tin Ore
 appliedenergistics2:facade:0, Cable Facade - Nether Tin Ore
 appliedenergistics2:facade:0, Cable Facade - End Tin Ore
-appliedenergistics2:facade:0, Cable Facade - Titanium Ore
-appliedenergistics2:facade:0, Cable Facade - Nether Titanium Ore
-appliedenergistics2:facade:0, Cable Facade - End Titanium Ore
-appliedenergistics2:facade:0, Cable Facade - Ytterbium Ore
-appliedenergistics2:facade:0, Cable Facade - Nether Ytterbium Ore
-appliedenergistics2:facade:0, Cable Facade - End Ytterbium Ore
+appliedenergistics2:facade:0, Cable Facade - Zinc Ore
+appliedenergistics2:facade:0, Cable Facade - Nether Zinc Ore
+appliedenergistics2:facade:0, Cable Facade - End Zinc Ore
 appliedenergistics2:facade:0, Cable Facade - Naquadah Ore
 appliedenergistics2:facade:0, Cable Facade - Nether Naquadah Ore
 appliedenergistics2:facade:0, Cable Facade - End Naquadah Ore
@@ -1875,6 +1875,9 @@ appliedenergistics2:facade:0, Cable Facade - End Certus Quartz Ore
 appliedenergistics2:facade:0, Cable Facade - Almandine Ore
 appliedenergistics2:facade:0, Cable Facade - Nether Almandine Ore
 appliedenergistics2:facade:0, Cable Facade - End Almandine Ore
+appliedenergistics2:facade:0, Cable Facade - Andradite Ore
+appliedenergistics2:facade:0, Cable Facade - Nether Andradite Ore
+appliedenergistics2:facade:0, Cable Facade - End Andradite Ore
 appliedenergistics2:facade:0, Cable Facade - Asbestos Ore
 appliedenergistics2:facade:0, Cable Facade - Nether Asbestos Ore
 appliedenergistics2:facade:0, Cable Facade - End Asbestos Ore
@@ -1950,6 +1953,9 @@ appliedenergistics2:facade:0, Cable Facade - End Magnetite Ore
 appliedenergistics2:facade:0, Cable Facade - Molybdenite Ore
 appliedenergistics2:facade:0, Cable Facade - Nether Molybdenite Ore
 appliedenergistics2:facade:0, Cable Facade - End Molybdenite Ore
+appliedenergistics2:facade:0, Cable Facade - Phosphate Ore
+appliedenergistics2:facade:0, Cable Facade - Nether Phosphate Ore
+appliedenergistics2:facade:0, Cable Facade - End Phosphate Ore
 appliedenergistics2:facade:0, Cable Facade - Powellite Ore
 appliedenergistics2:facade:0, Cable Facade - Nether Powellite Ore
 appliedenergistics2:facade:0, Cable Facade - End Powellite Ore
@@ -2142,9 +2148,18 @@ appliedenergistics2:facade:0, Cable Facade - End Garnet Sand Ore
 appliedenergistics2:facade:0, Cable Facade - Basaltic Mineral Sand Ore
 appliedenergistics2:facade:0, Cable Facade - Nether Basaltic Mineral Sand Ore
 appliedenergistics2:facade:0, Cable Facade - End Basaltic Mineral Sand Ore
+appliedenergistics2:facade:0, Cable Facade - Tennanite Ore
+appliedenergistics2:facade:0, Cable Facade - Nether Tennanite Ore
+appliedenergistics2:facade:0, Cable Facade - End Tennanite Ore
+appliedenergistics2:facade:0, Cable Facade - Xenotime Ore
+appliedenergistics2:facade:0, Cable Facade - Nether Xenotime Ore
+appliedenergistics2:facade:0, Cable Facade - End Xenotime Ore
 appliedenergistics2:facade:0, Cable Facade - Gadolinite Ore
 appliedenergistics2:facade:0, Cable Facade - Nether Gadolinite Ore
 appliedenergistics2:facade:0, Cable Facade - End Gadolinite Ore
+appliedenergistics2:facade:0, Cable Facade - Alumina Ore
+appliedenergistics2:facade:0, Cable Facade - Nether Alumina Ore
+appliedenergistics2:facade:0, Cable Facade - End Alumina Ore
 appliedenergistics2:facade:0, Cable Facade - Zircon Ore
 appliedenergistics2:facade:0, Cable Facade - Nether Zircon Ore
 appliedenergistics2:facade:0, Cable Facade - End Zircon Ore
@@ -2157,6 +2172,69 @@ appliedenergistics2:facade:0, Cable Facade - End Columbite Ore
 appliedenergistics2:facade:0, Cable Facade - Celestine Ore
 appliedenergistics2:facade:0, Cable Facade - Nether Celestine Ore
 appliedenergistics2:facade:0, Cable Facade - End Celestine Ore
+appliedenergistics2:facade:0, Cable Facade - Rhodocrosite Ore
+appliedenergistics2:facade:0, Cable Facade - Nether Rhodocrosite Ore
+appliedenergistics2:facade:0, Cable Facade - End Rhodocrosite Ore
+appliedenergistics2:facade:0, Cable Facade - Platinum Metallic Powder Ore
+appliedenergistics2:facade:0, Cable Facade - Nether Platinum Metallic Powder Ore
+appliedenergistics2:facade:0, Cable Facade - End Platinum Metallic Powder Ore
+appliedenergistics2:facade:0, Cable Facade - Palladium Metallic Powder Ore
+appliedenergistics2:facade:0, Cable Facade - Nether Palladium Metallic Powder Ore
+appliedenergistics2:facade:0, Cable Facade - End Palladium Metallic Powder Ore
+appliedenergistics2:facade:0, Cable Facade - Aluminium Salt Ore
+appliedenergistics2:facade:0, Cable Facade - Nether Aluminium Salt Ore
+appliedenergistics2:facade:0, Cable Facade - End Aluminium Salt Ore
+appliedenergistics2:facade:0, Cable Facade - Hematite Ore
+appliedenergistics2:facade:0, Cable Facade - Nether Hematite Ore
+appliedenergistics2:facade:0, Cable Facade - End Hematite Ore
+appliedenergistics2:facade:0, Cable Facade - Enargite Ore
+appliedenergistics2:facade:0, Cable Facade - Nether Enargite Ore
+appliedenergistics2:facade:0, Cable Facade - End Enargite Ore
+appliedenergistics2:facade:0, Cable Facade - Carrolite Ore
+appliedenergistics2:facade:0, Cable Facade - Nether Carrolite Ore
+appliedenergistics2:facade:0, Cable Facade - End Carrolite Ore
+appliedenergistics2:facade:0, Cable Facade - Vermiculite Ore
+appliedenergistics2:facade:0, Cable Facade - Nether Vermiculite Ore
+appliedenergistics2:facade:0, Cable Facade - End Vermiculite Ore
+appliedenergistics2:facade:0, Cable Facade - Dolomite Ore
+appliedenergistics2:facade:0, Cable Facade - Nether Dolomite Ore
+appliedenergistics2:facade:0, Cable Facade - End Dolomite Ore
+appliedenergistics2:facade:0, Cable Facade - Wollastonite Ore
+appliedenergistics2:facade:0, Cable Facade - Nether Wollastonite Ore
+appliedenergistics2:facade:0, Cable Facade - End Wollastonite Ore
+appliedenergistics2:facade:0, Cable Facade - Nickeliferous Limonite Ore
+appliedenergistics2:facade:0, Cable Facade - Nether Nickeliferous Limonite Ore
+appliedenergistics2:facade:0, Cable Facade - End Nickeliferous Limonite Ore
+appliedenergistics2:facade:0, Cable Facade - Serpentine Ore
+appliedenergistics2:facade:0, Cable Facade - Nether Serpentine Ore
+appliedenergistics2:facade:0, Cable Facade - End Serpentine Ore
+appliedenergistics2:facade:0, Cable Facade - Prasolite Ore
+appliedenergistics2:facade:0, Cable Facade - Nether Prasolite Ore
+appliedenergistics2:facade:0, Cable Facade - End Prasolite Ore
+appliedenergistics2:facade:0, Cable Facade - Tenorite Ore
+appliedenergistics2:facade:0, Cable Facade - Nether Tenorite Ore
+appliedenergistics2:facade:0, Cable Facade - End Tenorite Ore
+appliedenergistics2:facade:0, Cable Facade - Cuprite Ore
+appliedenergistics2:facade:0, Cable Facade - Nether Cuprite Ore
+appliedenergistics2:facade:0, Cable Facade - End Cuprite Ore
+appliedenergistics2:facade:0, Cable Facade - Witherite Ore
+appliedenergistics2:facade:0, Cable Facade - Nether Witherite Ore
+appliedenergistics2:facade:0, Cable Facade - End Witherite Ore
+appliedenergistics2:facade:0, Cable Facade - Lignite Coal Ore
+appliedenergistics2:facade:0, Cable Facade - Nether Lignite Coal Ore
+appliedenergistics2:facade:0, Cable Facade - End Lignite Coal Ore
+appliedenergistics2:facade:0, Cable Facade - Anthracite Ore
+appliedenergistics2:facade:0, Cable Facade - Nether Anthracite Ore
+appliedenergistics2:facade:0, Cable Facade - End Anthracite Ore
+appliedenergistics2:facade:0, Cable Facade - Kaolinite Ore
+appliedenergistics2:facade:0, Cable Facade - Nether Kaolinite Ore
+appliedenergistics2:facade:0, Cable Facade - End Kaolinite Ore
+appliedenergistics2:facade:0, Cable Facade - Sylvanite Ore
+appliedenergistics2:facade:0, Cable Facade - Nether Sylvanite Ore
+appliedenergistics2:facade:0, Cable Facade - End Sylvanite Ore
+appliedenergistics2:facade:0, Cable Facade - Fluorite Ore
+appliedenergistics2:facade:0, Cable Facade - Nether Fluorite Ore
+appliedenergistics2:facade:0, Cable Facade - End Fluorite Ore
 appliedenergistics2:facade:0, Cable Facade - Crushing Wheels
 appliedenergistics2:facade:0, Cable Facade - Slicing Blades
 appliedenergistics2:facade:0, Cable Facade - Electrolytic Cell
@@ -2219,7 +2297,7 @@ appliedenergistics2:facade:0, Cable Facade - Coconut Planks
 appliedenergistics2:facade:0, Cable Facade - Climate Proof Casing
 appliedenergistics2:facade:0, Cable Facade - Quantum Casing
 appliedenergistics2:facade:0, Cable Facade - Quantum Glass
-appliedenergistics2:facade:0, Cable Facade - tile.gtb_multiblock_casing.perfectly_sealed_vacuum_casing.name
+appliedenergistics2:facade:0, Cable Facade - Perfectly Sealed Vacuum Casing
 appliedenergistics2:facade:0, Cable Facade - tile.gtb_multiblock_casing.engraver_casing.name
 appliedenergistics2:facade:0, Cable Facade - Substrate Casing
 appliedenergistics2:facade:0, Cable Facade - Basic Structural Casing
@@ -2229,6 +2307,7 @@ appliedenergistics2:facade:0, Cable Facade - Silicon Carbide Casing
 appliedenergistics2:facade:0, Cable Facade - Biologically Sterile Casing
 appliedenergistics2:facade:0, Cable Facade - Fullerene Polymer Tetrix Casing
 appliedenergistics2:facade:0, Cable Facade - Gravity Separator Rotor Block
+appliedenergistics2:facade:0, Cable Facade - Corrosion Proof Carbon Steel Casing
 appliedenergistics2:facade:0, Cable Facade - Dimensional Casing
 appliedenergistics2:facade:0, Cable Facade - Field Generator Casing
 appliedenergistics2:facade:0, Cable Facade - High Energy Coil
@@ -2248,145 +2327,10 @@ appliedenergistics2:facade:0, Cable Facade - Tungsten Crucible
 appliedenergistics2:facade:0, Cable Facade - Graphite Crucible
 appliedenergistics2:facade:0, Cable Facade - Boron Nitride Crucible
 appliedenergistics2:facade:0, Cable Facade - Silver Alloy Cooling Coil
+appliedenergistics2:facade:0, Cable Facade - tile.gtb_log.palm_log.name
 appliedenergistics2:facade:0, Cable Facade - Illuminant Block
 appliedenergistics2:facade:0, Cable Facade - Illuminant Block (Inverted)
 appliedenergistics2:facade:0, Cable Facade - Inventory Cable
-appliedenergistics2:facade:0, Cable Facade - Beech Log
-appliedenergistics2:facade:0, Cable Facade - Beech parquet
-appliedenergistics2:facade:0, Cable Facade - Beech planks
-appliedenergistics2:facade:0, Cable Facade - Beech leaves
-appliedenergistics2:facade:0, Cable Facade - Redwood Log
-appliedenergistics2:facade:0, Cable Facade - Redwood parquet
-appliedenergistics2:facade:0, Cable Facade - Redwood planks
-appliedenergistics2:facade:0, Cable Facade - Redwood leaves
-appliedenergistics2:facade:0, Cable Facade - Eucalyptus Log
-appliedenergistics2:facade:0, Cable Facade - Eucalyptus parquet
-appliedenergistics2:facade:0, Cable Facade - Eucalyptus planks
-appliedenergistics2:facade:0, Cable Facade - Eucalyptus leaves
-appliedenergistics2:facade:0, Cable Facade - Hornbeam Log
-appliedenergistics2:facade:0, Cable Facade - Hornbeam parquet
-appliedenergistics2:facade:0, Cable Facade - Hornbeam planks
-appliedenergistics2:facade:0, Cable Facade - Hornbeam leaves
-appliedenergistics2:facade:0, Cable Facade - Pear Log
-appliedenergistics2:facade:0, Cable Facade - Pear parquet
-appliedenergistics2:facade:0, Cable Facade - Pear planks
-appliedenergistics2:facade:0, Cable Facade - Pear leaves
-appliedenergistics2:facade:0, Cable Facade - Apple Log
-appliedenergistics2:facade:0, Cable Facade - Apple parquet
-appliedenergistics2:facade:0, Cable Facade - Apple planks
-appliedenergistics2:facade:0, Cable Facade - Apple leaves
-appliedenergistics2:facade:0, Cable Facade - Jacaranda Log
-appliedenergistics2:facade:0, Cable Facade - Jacaranda parquet
-appliedenergistics2:facade:0, Cable Facade - Jacaranda planks
-appliedenergistics2:facade:0, Cable Facade - Jacaranda leaves
-appliedenergistics2:facade:0, Cable Facade - Rowan Log
-appliedenergistics2:facade:0, Cable Facade - Rowan parquet
-appliedenergistics2:facade:0, Cable Facade - Rowan planks
-appliedenergistics2:facade:0, Cable Facade - Rowan leaves
-appliedenergistics2:facade:0, Cable Facade - Fir Log
-appliedenergistics2:facade:0, Cable Facade - Fir parquet
-appliedenergistics2:facade:0, Cable Facade - Fir Planks
-appliedenergistics2:facade:0, Cable Facade - Fir leaves
-appliedenergistics2:facade:0, Cable Facade - Hazel Log
-appliedenergistics2:facade:0, Cable Facade - Hazel Parquet
-appliedenergistics2:facade:0, Cable Facade - Hazel Planks
-appliedenergistics2:facade:0, Cable Facade - Hazel leaves
-appliedenergistics2:facade:0, Cable Facade - Cherry Log
-appliedenergistics2:facade:0, Cable Facade - Cherry parquet
-appliedenergistics2:facade:0, Cable Facade - Cherry planks
-appliedenergistics2:facade:0, Cable Facade - Pink Cherry leaves
-appliedenergistics2:facade:0, Cable Facade - White Cherry leaves
-appliedenergistics2:facade:0, Cable Facade - Baobab Log
-appliedenergistics2:facade:0, Cable Facade - Baobab parquet
-appliedenergistics2:facade:0, Cable Facade - Baobab planks
-appliedenergistics2:facade:0, Cable Facade - Baobab leaves
-appliedenergistics2:facade:0, Cable Facade - Ebony Log
-appliedenergistics2:facade:0, Cable Facade - Ebony parquet
-appliedenergistics2:facade:0, Cable Facade - Ebony planks
-appliedenergistics2:facade:0, Cable Facade - Ebony leaves
-appliedenergistics2:facade:0, Cable Facade - Pine Log
-appliedenergistics2:facade:0, Cable Facade - Pine parquet
-appliedenergistics2:facade:0, Cable Facade - Pine planks
-appliedenergistics2:facade:0, Cable Facade - Pine leaves
-appliedenergistics2:facade:0, Cable Facade - Palm Log
-appliedenergistics2:facade:0, Cable Facade - Palm parquet
-appliedenergistics2:facade:0, Cable Facade - Palm planks
-appliedenergistics2:facade:0, Cable Facade - Palm leaves
-appliedenergistics2:facade:0, Cable Facade - Mahogany Log
-appliedenergistics2:facade:0, Cable Facade - Mahogany parquet
-appliedenergistics2:facade:0, Cable Facade - Mahogany planks
-appliedenergistics2:facade:0, Cable Facade - Mahogany leaves
-appliedenergistics2:facade:0, Cable Facade - Cedar Log
-appliedenergistics2:facade:0, Cable Facade - Cedar parquet
-appliedenergistics2:facade:0, Cable Facade - Cedar planks
-appliedenergistics2:facade:0, Cable Facade - Cedar leaves
-appliedenergistics2:facade:0, Cable Facade - Willow Log
-appliedenergistics2:facade:0, Cable Facade - Willow parquet
-appliedenergistics2:facade:0, Cable Facade - Willow planks
-appliedenergistics2:facade:0, Cable Facade - Willow leaves
-appliedenergistics2:facade:0, Cable Facade - Red Autumn leaves
-appliedenergistics2:facade:0, Cable Facade - Orange Autumn leaves
-appliedenergistics2:facade:0, Cable Facade - Yellow Autumn leaves
-appliedenergistics2:facade:0, Cable Facade - Rotten leaves
-appliedenergistics2:facade:0, Cable Facade - Rotten Log
-appliedenergistics2:facade:0, Cable Facade - Dead Log
-appliedenergistics2:facade:0, Cable Facade - Brown Grass Block
-appliedenergistics2:facade:0, Cable Facade - Mold Grass Block
-appliedenergistics2:facade:0, Cable Facade - Desert Grass Block
-appliedenergistics2:facade:0, Cable Facade - Dried Grass Block
-appliedenergistics2:facade:0, Cable Facade - Overgrown Stone
-appliedenergistics2:facade:0, Cable Facade - Brown Dirt
-appliedenergistics2:facade:0, Cable Facade - Mold Dirt
-appliedenergistics2:facade:0, Cable Facade - Desert Dirt
-appliedenergistics2:facade:0, Cable Facade - Dried Dirt
-appliedenergistics2:facade:0, Cable Facade - Frozen Dirt
-appliedenergistics2:facade:0, Cable Facade - Brown podzol
-appliedenergistics2:facade:0, Cable Facade - Mold podzol
-appliedenergistics2:facade:0, Cable Facade - Brown mycelium
-appliedenergistics2:facade:0, Cable Facade - Mold mycelium
-appliedenergistics2:facade:0, Cable Facade - tile.mud.name
-appliedenergistics2:facade:0, Cable Facade - Dried sand
-appliedenergistics2:facade:0, Cable Facade - Ash Block
-appliedenergistics2:facade:0, Cable Facade - White Sand
-appliedenergistics2:facade:0, Cable Facade - Ash
-appliedenergistics2:facade:0, Cable Facade - Dark Stone
-appliedenergistics2:facade:0, Cable Facade - Hardened Sandstone
-appliedenergistics2:facade:0, Cable Facade - Red Hardened Sandstone
-appliedenergistics2:facade:0, Cable Facade - Frozen Stone
-appliedenergistics2:facade:0, Cable Facade - Basalt
-appliedenergistics2:facade:0, Cable Facade - Carbonatite
-appliedenergistics2:facade:0, Cable Facade - Chalk
-appliedenergistics2:facade:0, Cable Facade - Conglomerate
-appliedenergistics2:facade:0, Cable Facade - Dolomite
-appliedenergistics2:facade:0, Cable Facade - Epidosite
-appliedenergistics2:facade:0, Cable Facade - Gabbro
-appliedenergistics2:facade:0, Cable Facade - Gneiss
-appliedenergistics2:facade:0, Cable Facade - Gypsum
-appliedenergistics2:facade:0, Cable Facade - Limestone
-appliedenergistics2:facade:0, Cable Facade - Marble
-appliedenergistics2:facade:0, Cable Facade - Monzonite
-appliedenergistics2:facade:0, Cable Facade - Pegmatite
-appliedenergistics2:facade:0, Cable Facade - Phyllite
-appliedenergistics2:facade:0, Cable Facade - Pumice
-appliedenergistics2:facade:0, Cable Facade - Pyroxenite
-appliedenergistics2:facade:0, Cable Facade - Rhyolite
-appliedenergistics2:facade:0, Cable Facade - Slate
-appliedenergistics2:facade:0, Cable Facade - Syenite
-appliedenergistics2:facade:0, Cable Facade - Umber
-appliedenergistics2:facade:0, Cable Facade - Frozen Cobblestone
-appliedenergistics2:facade:0, Cable Facade - Block of Amethyst
-appliedenergistics2:facade:0, Cable Facade - Amethyst Ore
-appliedenergistics2:facade:0, Cable Facade - Block of Amber
-appliedenergistics2:facade:0, Cable Facade - Amber Ore
-appliedenergistics2:facade:0, Cable Facade - Block of Ruby
-appliedenergistics2:facade:0, Cable Facade - Ruby Ore
-appliedenergistics2:facade:0, Cable Facade - Block of Silver
-appliedenergistics2:facade:0, Cable Facade - Silver Ore
-appliedenergistics2:facade:0, Cable Facade - Block of Malachite
-appliedenergistics2:facade:0, Cable Facade - Malachite Ore
-appliedenergistics2:facade:0, Cable Facade - Block of Sapphire
-appliedenergistics2:facade:0, Cable Facade - Sapphire Ore
-appliedenergistics2:facade:0, Cable Facade - Block of Steel
 appliedenergistics2:facade:0, Cable Facade - Xtone Tile
 appliedenergistics2:facade:0, Cable Facade - Agon 1
 appliedenergistics2:facade:0, Cable Facade - Azur 1
@@ -2421,51 +2365,9 @@ appliedenergistics2:facade:0, Cable Facade - Zone 1
 appliedenergistics2:facade:0, Cable Facade - Zorg 1
 appliedenergistics2:facade:0, Cable Facade - Ztyl 1
 appliedenergistics2:facade:0, Cable Facade - Zyth 1
-appliedenergistics2:facade:0, Cable Facade - Advanced Iridium Plated Machine Casing
-appliedenergistics2:facade:0, Cable Facade - Component Assembly Line Casing (ULV)
-appliedenergistics2:facade:0, Cable Facade - Component Assembly Line Casing (LV)
-appliedenergistics2:facade:0, Cable Facade - Component Assembly Line Casing (MV)
-appliedenergistics2:facade:0, Cable Facade - Component Assembly Line Casing (HV)
-appliedenergistics2:facade:0, Cable Facade - Component Assembly Line Casing (EV)
-appliedenergistics2:facade:0, Cable Facade - Component Assembly Line Casing (IV)
-appliedenergistics2:facade:0, Cable Facade - Component Assembly Line Casing (LuV)
-appliedenergistics2:facade:0, Cable Facade - Component Assembly Line Casing (ZPM)
-appliedenergistics2:facade:0, Cable Facade - Component Assembly Line Casing (UV)
-appliedenergistics2:facade:0, Cable Facade - Component Assembly Line Casing (UHV)
-appliedenergistics2:facade:0, Cable Facade - Component Assembly Line Casing (UEV)
-appliedenergistics2:facade:0, Cable Facade - Component Assembly Line Casing (UIV)
-appliedenergistics2:facade:0, Cable Facade - Component Assembly Line Casing (UXV)
-appliedenergistics2:facade:0, Cable Facade - Component Assembly Line Casing (OpV)
-appliedenergistics2:facade:0, Cable Facade - Component Assembly Line Casing (MAX)
-appliedenergistics2:facade:0, Cable Facade - Imprecise Electronic Unit Casing
-appliedenergistics2:facade:0, Cable Facade - Precise Electronic Unit Casing Mk-I
-appliedenergistics2:facade:0, Cable Facade - Precise Electronic Unit Casing Mk-II
-appliedenergistics2:facade:0, Cable Facade - Precise Electronic Unit Casing Mk-III
-appliedenergistics2:facade:0, Cable Facade - Precise Electronic Unit Casing Mk-IV
-appliedenergistics2:facade:0, Cable Facade - Fluid Cell Block T1
-appliedenergistics2:facade:0, Cable Facade - Fluid Cell Block T2
-appliedenergistics2:facade:0, Cable Facade - Fluid Cell Block T3
-appliedenergistics2:facade:0, Cable Facade - Fluid Cell Block T4
-appliedenergistics2:facade:0, Cable Facade - Fluid Cell Block T5
-appliedenergistics2:facade:0, Cable Facade - Fluid Cell Block T6
-appliedenergistics2:facade:0, Cable Facade - Fluid Cell Block T7
-appliedenergistics2:facade:0, Cable Facade - Fluid Cell Block T8
-appliedenergistics2:facade:0, Cable Facade - Fluid Cell Block T9
-appliedenergistics2:facade:0, Cable Facade - Fluid Cell Block T10
-appliedenergistics2:facade:0, Cable Facade - YOTTank Casing
-appliedenergistics2:facade:0, Cable Facade - Ameliorated Superconductor Coil
-appliedenergistics2:facade:0, Cable Facade - Compact Fusion Coil
-appliedenergistics2:facade:0, Cable Facade - Advanced Compact Fusion Coil
-appliedenergistics2:facade:0, Cable Facade - Compact Fusion Coil MK-II Prototype
-appliedenergistics2:facade:0, Cable Facade - Compact Fusion Coil MK-II Finaltype
-appliedenergistics2:facade:0, Cable Facade - Volcanus Casing
-appliedenergistics2:facade:0, Cable Facade - Advanced Cryogenic Casing
-appliedenergistics2:facade:0, Cable Facade - Molecular Casing
-appliedenergistics2:facade:0, Cable Facade - Molecular Coil
-appliedenergistics2:facade:0, Cable Facade - Hollow Casing
-appliedenergistics2:facade:0, Cable Facade - Creative Heating Coil
 appliedenergistics2:facade:0, Cable Facade - Treated Wood Trim
 appliedenergistics2:facade:0, Cable Facade - Rubber Wood Trim
+appliedenergistics2:facade:0, Cable Facade - Compact Raw Porkchop
 appliedenergistics2:crystal_seed:0, Certus Quartz Seed
 appliedenergistics2:crystal_seed:600, Nether Quartz Seed
 appliedenergistics2:crystal_seed:1200, Fluix Seed
@@ -2695,8 +2597,11 @@ appliedenergistics2:part:220, ME Storage Bus
 appliedenergistics2:part:400, ME Storage Monitor
 appliedenergistics2:part:380, ME Terminal
 appliedenergistics2:part:80, ME Toggle Bus
-morphtool:tool, item.tool.name
 baubles:ring:0, Miner's Ring
+ae2wtlib:infinity_booster_card, Infinity Booster Card
+ae2wtlib:wut, Wireless Ultimate Terminal
+ae2wtlib:wut_creative, Creative Wireless Ultimate Terminal
+morphtool:tool, item.tool.name
 betterquesting:placeholder, Item Placeholder
 betterquesting:extra_life:0, Extra Life
 betterquesting:extra_life:1, Half Heart
@@ -2705,11 +2610,11 @@ betterquesting:guide_book, Better Questing Starter Guide
 bq_standard:loot_chest, Loot Chest
 betterquesting:quest_book, Quest Book
 betterquesting:submit_station, Object Submission Station (OSS)
-catwalks:blowtorch, Blowtorch
 catwalks:cable, Classic Support Cables
 catwalks:catwalk, tile.catwalks.catwalk.name
 catwalks:ladder, Classic Ladder
 catwalks:stair, WORK IN PROGRESS
+catwalks:blowtorch, Blowtorch
 craftingstation:crafting_station, Crafting Station
 theoneprobe:probe, The One Probe
 theoneprobe:creativeprobe, The Creative Probe
@@ -2748,6 +2653,126 @@ elevatorid:elevator_brown, Brown Elevator
 elevatorid:elevator_green, Green Elevator
 elevatorid:elevator_red, Red Elevator
 elevatorid:elevator_black, Black Elevator
+extendedcrafting:storage:0, Block of Black Iron
+extendedcrafting:storage:1, Block of Luminessence
+extendedcrafting:storage:2, Block of Nether Stars
+extendedcrafting:storage:3, Block of Crystaltine
+extendedcrafting:storage:4, Block of The Ultimate
+extendedcrafting:storage:5, Block of Ender
+extendedcrafting:storage:6, Block of Ender Stars
+extendedcrafting:storage:7, Block of Enhanced Ender
+extendedcrafting:frame, Black Iron Frame
+extendedcrafting:lamp:0, Black Iron Lamp
+extendedcrafting:lamp:1, Black Iron Lamp
+extendedcrafting:trimmed:0, Block of Black Iron
+extendedcrafting:trimmed:1, Block of Black Iron
+extendedcrafting:trimmed:2, Block of Black Iron
+extendedcrafting:trimmed:3, Block of Black Iron
+extendedcrafting:trimmed:4, Block of Black Iron
+extendedcrafting:trimmed:5, Block of Black Iron
+extendedcrafting:crafting_table, Crafting Table
+extendedcrafting:pedestal, Pedestal
+extendedcrafting:crafting_core, Crafting Core
+extendedcrafting:interface, Automation Interface
+extendedcrafting:table_basic, Basic Crafting Table
+extendedcrafting:table_advanced, Advanced Crafting Table
+extendedcrafting:table_elite, Elite Crafting Table
+extendedcrafting:table_ultimate, Ultimate Crafting Table
+extendedcrafting:compressor, Quantum Compressor
+extendedcrafting:ender_alternator, Ender Alternator
+extendedcrafting:ender_crafter, Ender Crafter
+extendedcrafting:guide, Extended Crafting Guide
+extendedcrafting:material:0, Black Iron Ingot
+extendedcrafting:material:1, Black Iron Nugget
+extendedcrafting:material:2, Black Iron Slate
+extendedcrafting:material:3, Black Iron Rod
+extendedcrafting:material:7, Luminessence
+extendedcrafting:material:8, Basic Catalyst
+extendedcrafting:material:9, Advanced Catalyst
+extendedcrafting:material:10, Elite Catalyst
+extendedcrafting:material:11, Ultimate Catalyst
+extendedcrafting:material:12, Crystaltine Catalyst
+extendedcrafting:material:13, The Ultimate Catalyst
+extendedcrafting:material:14, Basic Component
+extendedcrafting:material:15, Advanced Component
+extendedcrafting:material:16, Elite Component
+extendedcrafting:material:17, Ultimate Component
+extendedcrafting:material:18, Crystaltine Component
+extendedcrafting:material:19, The Ultimate Component
+extendedcrafting:material:24, Crystaltine Ingot
+extendedcrafting:material:25, Crystaltine Nugget
+extendedcrafting:material:32, The Ultimate Ingot
+extendedcrafting:material:33, The Ultimate Nugget
+extendedcrafting:material:36, Ender Ingot
+extendedcrafting:material:37, Ender Nugget
+extendedcrafting:material:40, Ender Star
+extendedcrafting:material:41, Ender Star Nugget
+extendedcrafting:material:48, Enhanced Ender Ingot
+extendedcrafting:material:49, Enhanced Ender Nugget
+extendedcrafting:material:128, Diamond Nugget
+extendedcrafting:material:129, Emerald Nugget
+extendedcrafting:material:140, Nether Star Nugget
+extendedcrafting:handheld_table, Handheld Crafting Table
+extendedcrafting:recipe_maker:0, Recipe Maker
+extendedcrafting:singularity:0, Coal Singularity
+extendedcrafting:singularity:1, Iron Singularity
+extendedcrafting:singularity:2, Lapis Lazuli Singularity
+extendedcrafting:singularity:3, Redstone Singularity
+extendedcrafting:singularity:4, Glowstone Singularity
+extendedcrafting:singularity:5, Gold Singularity
+extendedcrafting:singularity:6, Diamond Singularity
+extendedcrafting:singularity:7, Emerald Singularity
+extendedcrafting:singularity:16, Aluminum Singularity
+extendedcrafting:singularity:17, Copper Singularity
+extendedcrafting:singularity:18, Tin Singularity
+extendedcrafting:singularity:19, Bronze Singularity
+extendedcrafting:singularity:20, Zinc Singularity
+extendedcrafting:singularity:21, Brass Singularity
+extendedcrafting:singularity:22, Silver Singularity
+extendedcrafting:singularity:23, Lead Singularity
+extendedcrafting:singularity:24, Steel Singularity
+extendedcrafting:singularity:25, Nickel Singularity
+extendedcrafting:singularity:26, Constantan Singularity
+extendedcrafting:singularity:27, Electrum Singularity
+extendedcrafting:singularity:28, Invar Singularity
+extendedcrafting:singularity:29, Mithril Singularity
+extendedcrafting:singularity:30, Tungsten Singularity
+extendedcrafting:singularity:31, Titanium Singularity
+extendedcrafting:singularity:32, Uranium Singularity
+extendedcrafting:singularity:33, Chrome Singularity
+extendedcrafting:singularity:34, Platinum Singularity
+extendedcrafting:singularity:35, Iridium Singularity
+extendedcrafting:singularity:48, Signalum Singularity
+extendedcrafting:singularity:49, Lumium Singularity
+extendedcrafting:singularity:50, Enderium Singularity
+extendedcrafting:singularity:64, Ardite Singularity
+extendedcrafting:singularity:65, Cobalt Singularity
+extendedcrafting:singularity:66, Manyullyn Singularity
+extendedcrafting:singularity_ultimate, The Ultimate Singularity
+retro_sophisticated_backpacks:backpack_leather, Leather Backpack
+retro_sophisticated_backpacks:backpack_iron, Iron Backpack
+retro_sophisticated_backpacks:backpack_gold, Gold Backpack
+retro_sophisticated_backpacks:backpack_diamond, Diamond Backpack
+retro_sophisticated_backpacks:backpack_obsidian, Obsidian Backpack
+retro_sophisticated_backpacks:upgrade_base, Upgrade Base
+retro_sophisticated_backpacks:stack_upgrade_starter_tier, Stack Upgrade Starter Tier
+retro_sophisticated_backpacks:exponential_stack_upgrade, Exponential Stack Upgrade
+retro_sophisticated_backpacks:stack_upgrade_tier_1, Stack Upgrade Tier 1
+retro_sophisticated_backpacks:stack_upgrade_tier_2, Stack Upgrade Tier 2
+retro_sophisticated_backpacks:stack_upgrade_tier_3, Stack Upgrade Tier 3
+retro_sophisticated_backpacks:stack_upgrade_tier_4, Stack Upgrade Tier 4
+retro_sophisticated_backpacks:crafting_upgrade, Crafting Upgrade
+retro_sophisticated_backpacks:inception_upgrade, Inception Upgrade
+retro_sophisticated_backpacks:pickup_upgrade, Pickup Upgrade
+retro_sophisticated_backpacks:advanced_pickup_upgrade, Advanced Pickup Upgrade
+retro_sophisticated_backpacks:feeding_upgrade, Feeding Upgrade
+retro_sophisticated_backpacks:advanced_feeding_upgrade, Advanced Feeding Upgrade
+retro_sophisticated_backpacks:deposit_upgrade, Deposit Upgrade
+retro_sophisticated_backpacks:advanced_deposit_upgrade, Advanced Deposit Upgrade
+retro_sophisticated_backpacks:restock_upgrade, Restock Upgrade
+retro_sophisticated_backpacks:advanced_restock_upgrade, Advanced Restock Upgrade
+retro_sophisticated_backpacks:filter_upgrade, Filter Upgrade
+retro_sophisticated_backpacks:advanced_filter_upgrade, Advanced Filter Upgrade
 gregtech:sword, item.gt.tool.sword.name.name
 gregtech:pickaxe, item.gt.tool.pickaxe.name.name
 gregtech:shovel, item.gt.tool.shovel.name.name
@@ -3851,16 +3876,22 @@ gregtech:machine:3034, Burner Reactor
 gregtech:machine:3035, Dilution Refrigerator
 gregtech:machine:3036, Gravity Separator
 gregtech:machine:3037, Sintering Oven
-gregtech:machine:3038, Enzymatic Hydrolisis Tank
-gregtech:machine:3039, gtb.machine.curing_oven.name
-gregtech:machine:3040, gtb.machine.catalytic_cracking_unit.name
-gregtech:machine:3041, gtb.machine.vulcanized_press.name
-gregtech:machine:3042, gtb.machine.gravity_settler_tank.name
-gregtech:machine:3043, gtb.machine.vis_breaker.name
-gregtech:machine:3044, gtb.machine.vacuum_metalizer.name
-gregtech:machine:3045, gtb.machine.oxidation_furnace.name
-gregtech:machine:3046, gtb.machine.mocvd_unit.name
-gregtech:machine:3047, gtb.machine.high_temp_polymerization_tank.name
+gregtech:machine:3038, Enzymatic Hydrolysis Tank
+gregtech:machine:3039, Curing Oven
+gregtech:machine:3040, Catalytic Cracking Unit
+gregtech:machine:3042, Gravity Settler Tank
+gregtech:machine:3043, Vis Breaker
+gregtech:machine:3044, Vacuum Metallizer
+gregtech:machine:3045, Oxidation Furnace
+gregtech:machine:3046, MOCVD Unit
+gregtech:machine:3047, High-Temperature Polymerization Tank
+gregtech:machine:3048, Electrowinning Cell
+gregtech:machine:3049, Hot Tower
+gregtech:machine:3050, Cold Tower
+gregtech:machine:3051, Sealed Reaction Chamber
+gregtech:machine:3052, Meteorite Prediction Matrix
+gregtech:machine:3053, Meteorite Mining Station
+gregtech:machine:3054, Fractional Distillation Unit
 gregtech:machine:4012, Basic Crystallizer
 gregtech:machine:4013, Advanced Crystallizer
 gregtech:machine:4014, Advanced Crystallizer II
@@ -3869,12 +3900,12 @@ gregtech:machine:4016, Elite Crystallizer
 gregtech:machine:4017, Elite Crystallizer II
 gregtech:machine:4018, Elite Crystallizer III
 gregtech:machine:4019, Ultimate Crystallizer
-gregtech:machine:4020, gtb.machine.crystallizers.uhv.name
-gregtech:machine:4021, gtb.machine.crystallizers.uev.name
-gregtech:machine:4022, gtb.machine.crystallizers.uiv.name
-gregtech:machine:4023, gtb.machine.crystallizers.uxv.name
-gregtech:machine:4024, gtb.machine.crystallizers.opv.name
-gregtech:machine:4025, gtb.machine.crystallizers.max.name
+gregtech:machine:4020, Epic Crystallizer
+gregtech:machine:4021, Epic Crystallizer II
+gregtech:machine:4022, Epic Crystallizer III
+gregtech:machine:4023, Epic Crystallizer IV
+gregtech:machine:4024, Legendary Crystallizer
+gregtech:machine:4025, Legendary Crystallizer II
 gregtech:machine:4028, Basic Dehydrator
 gregtech:machine:4029, Advanced Dehydrator
 gregtech:machine:4030, Advanced Dehydrator II
@@ -3883,12 +3914,12 @@ gregtech:machine:4032, Elite Dehydrator
 gregtech:machine:4033, Elite Dehydrator II
 gregtech:machine:4034, Elite Dehydrator III
 gregtech:machine:4035, Ultimate Dehydrator
-gregtech:machine:4036, gtb.machine.dehydrator.uhv.name
-gregtech:machine:4037, gtb.machine.dehydrator.uev.name
-gregtech:machine:4038, gtb.machine.dehydrator.uiv.name
-gregtech:machine:4039, gtb.machine.dehydrator.uxv.name
-gregtech:machine:4040, gtb.machine.dehydrator.opv.name
-gregtech:machine:4041, gtb.machine.dehydrator.max.name
+gregtech:machine:4036, Epic Dehydrator
+gregtech:machine:4037, Epic Dehydrator II
+gregtech:machine:4038, Epic Dehydrator III
+gregtech:machine:4039, Epic Dehydrator IV
+gregtech:machine:4040, Legendary Dehydrator
+gregtech:machine:4041, Legendary Dehydrator II
 gregtech:machine:4044, Basic Microscope
 gregtech:machine:4045, Advanced Microscope
 gregtech:machine:4046, Advanced Microscope II
@@ -3897,12 +3928,12 @@ gregtech:machine:4048, Elite Microscope
 gregtech:machine:4049, Elite Microscope II
 gregtech:machine:4050, Elite Microscope III
 gregtech:machine:4051, Ultimate Microscope
-gregtech:machine:4052, gtb.machine.microscope.uhv.name
-gregtech:machine:4053, gtb.machine.microscope.uev.name
-gregtech:machine:4054, gtb.machine.microscope.uiv.name
-gregtech:machine:4055, gtb.machine.microscope.uxv.name
-gregtech:machine:4056, gtb.machine.microscope.opv.name
-gregtech:machine:4057, gtb.machine.microscope.max.name
+gregtech:machine:4052, Epic Microscope
+gregtech:machine:4053, Epic Microscope II
+gregtech:machine:4054, Epic Microscope III
+gregtech:machine:4055, Epic Microscope IV
+gregtech:machine:4056, Legendary Microscope
+gregtech:machine:4057, Legendary Microscope II
 gregtech:machine:4060, Basic Rotary Evaporator
 gregtech:machine:4061, Advanced Rotary Evaporator
 gregtech:machine:4062, Advanced Rotary Evaporator II
@@ -3911,12 +3942,12 @@ gregtech:machine:4064, Elite Rotary Evaporator
 gregtech:machine:4065, Elite Rotary Evaporator II
 gregtech:machine:4066, Elite Rotary Evaporator III
 gregtech:machine:4067, Ultimate Rotary Evaporator
-gregtech:machine:4068, gtb.machine.rotary_evaporator.uhv.name
-gregtech:machine:4069, gtb.machine.rotary_evaporator.uev.name
-gregtech:machine:4070, gtb.machine.rotary_evaporator.uiv.name
-gregtech:machine:4071, gtb.machine.rotary_evaporator.uxv.name
-gregtech:machine:4072, gtb.machine.rotary_evaporator.opv.name
-gregtech:machine:4073, gtb.machine.rotary_evaporator.max.name
+gregtech:machine:4068, Epic Rotary Evaporator
+gregtech:machine:4069, Epic Rotary Evaporator II
+gregtech:machine:4070, Epic Rotary Evaporator III
+gregtech:machine:4071, Epic Rotary Evaporator IV
+gregtech:machine:4072, Legendary Rotary Evaporator
+gregtech:machine:4073, Legendary Rotary Evaporator II
 gregtech:machine:4090, Basic CVD Unit
 gregtech:machine:4091, Advanced CVD Unit
 gregtech:machine:4092, Advanced CVD Unit II
@@ -3925,12 +3956,12 @@ gregtech:machine:4094, Elite CVD Unit
 gregtech:machine:4095, Elite CVD Unit II
 gregtech:machine:4096, Elite CVD Unit III
 gregtech:machine:4097, Ultimate CVD Unit
-gregtech:machine:4098, gtb.machine.cvd_unit.uhv.name
-gregtech:machine:4099, gtb.machine.cvd_unit.uev.name
-gregtech:machine:4100, gtb.machine.cvd_unit.uiv.name
-gregtech:machine:4101, gtb.machine.cvd_unit.uxv.name
-gregtech:machine:4102, gtb.machine.cvd_unit.opv.name
-gregtech:machine:4103, gtb.machine.cvd_unit.max.name
+gregtech:machine:4098, Epic CVD Unit
+gregtech:machine:4099, Epic CVD Unit II
+gregtech:machine:4100, Epic CVD Unit III
+gregtech:machine:4101, Epic CVD Unit IV
+gregtech:machine:4102, Legendary CVD Unit
+gregtech:machine:4103, Legendary CVD Unit II
 gregtech:machine:4110, Basic Ion Implanter
 gregtech:machine:4111, Advanced Ion Implanter
 gregtech:machine:4112, Advanced Ion Implanter II
@@ -3939,12 +3970,12 @@ gregtech:machine:4114, Elite Ion Implanter
 gregtech:machine:4115, Elite Ion Implanter II
 gregtech:machine:4116, Elite Ion Implanter III
 gregtech:machine:4117, Ultimate Ion Implanter
-gregtech:machine:4118, gtb.machine.ion_implanter.uhv.name
-gregtech:machine:4119, gtb.machine.ion_implanter.uev.name
-gregtech:machine:4120, gtb.machine.ion_implanter.uiv.name
-gregtech:machine:4121, gtb.machine.ion_implanter.uxv.name
-gregtech:machine:4122, gtb.machine.ion_implanter.opv.name
-gregtech:machine:4123, gtb.machine.ion_implanter.max.name
+gregtech:machine:4118, Epic Ion Implanter
+gregtech:machine:4119, Epic Ion Implanter II
+gregtech:machine:4120, Epic Ion Implanter III
+gregtech:machine:4121, Epic Ion Implanter IV
+gregtech:machine:4122, Legendary Ion Implanter
+gregtech:machine:4123, Legendary Ion Implanter II
 gregtech:machine:4130, Basic Roaster
 gregtech:machine:4131, Advanced Roaster
 gregtech:machine:4132, Advanced Roaster II
@@ -3953,12 +3984,12 @@ gregtech:machine:4134, Elite Roaster
 gregtech:machine:4135, Elite Roaster II
 gregtech:machine:4136, Elite Roaster III
 gregtech:machine:4137, Ultimate Roaster
-gregtech:machine:4138, gtb.machine.roaster.uhv.name
-gregtech:machine:4139, gtb.machine.roaster.uev.name
-gregtech:machine:4140, gtb.machine.roaster.uiv.name
-gregtech:machine:4141, gtb.machine.roaster.uxv.name
-gregtech:machine:4142, gtb.machine.roaster.opv.name
-gregtech:machine:4143, gtb.machine.roaster.max.name
+gregtech:machine:4138, Epic Roaster
+gregtech:machine:4139, Epic Roaster II
+gregtech:machine:4140, Epic Roaster III
+gregtech:machine:4141, Epic Roaster IV
+gregtech:machine:4142, Legendary Roaster
+gregtech:machine:4143, Legendary Roaster II
 gregtech:machine:4150, Basic Dryer
 gregtech:machine:4151, Advanced Dryer
 gregtech:machine:4152, Advanced Dryer  II
@@ -3967,12 +3998,12 @@ gregtech:machine:4154, Elite Dryer
 gregtech:machine:4155, Elite Dryer II
 gregtech:machine:4156, Elite Dryer III
 gregtech:machine:4157, Ultimate Dryer
-gregtech:machine:4158, gtb.machine.dryer.uhv.name
-gregtech:machine:4159, gtb.machine.dryer.uev.name
-gregtech:machine:4160, gtb.machine.dryer.uiv.name
-gregtech:machine:4161, gtb.machine.dryer.uxv.name
-gregtech:machine:4162, gtb.machine.dryer.opv.name
-gregtech:machine:4163, gtb.machine.dryer.max.name
+gregtech:machine:4158, Epic Dryer
+gregtech:machine:4159, Epic Dryer II
+gregtech:machine:4160, Epic Dryer III
+gregtech:machine:4161, Epic Dryer IV
+gregtech:machine:4162, Legendary Dryer
+gregtech:machine:4163, Legendary Dryer II
 gregtech:machine:4170, Basic Electron Beam Lithographer
 gregtech:machine:4171, Advanced Electron Beam Lithographer
 gregtech:machine:4172, Advanced Electron Beam Lithographer II
@@ -3981,12 +4012,12 @@ gregtech:machine:4174, Elite Electron Beam Lithographer
 gregtech:machine:4175, Elite Electron Beam Lithographer II
 gregtech:machine:4176, Elite Electron Beam Lithographer III
 gregtech:machine:4177, Ultimate Electron Beam Lithographer
-gregtech:machine:4178, gtb.machine.electron_beam_lithographer.uhv.name
-gregtech:machine:4179, gtb.machine.electron_beam_lithographer.uev.name
-gregtech:machine:4180, gtb.machine.electron_beam_lithographer.uiv.name
-gregtech:machine:4181, gtb.machine.electron_beam_lithographer.uxv.name
-gregtech:machine:4182, gtb.machine.electron_beam_lithographer.opv.name
-gregtech:machine:4183, gtb.machine.electron_beam_lithographer.max.name
+gregtech:machine:4178, Epic Electron Beam Lithographer
+gregtech:machine:4179, Epic Electron Beam Lithographer II
+gregtech:machine:4180, Epic Electron Beam Lithographer III
+gregtech:machine:4181, Epic Electron Beam Lithographer IV
+gregtech:machine:4182, Legendary Electron Beam Lithographer
+gregtech:machine:4183, Legendary Electron Beam Lithographer II
 gregtech:machine:4190, Basic Bio Reactor
 gregtech:machine:4191, Advanced Bio Reactor
 gregtech:machine:4192, Advanced Bio Reactor II
@@ -3995,62 +4026,76 @@ gregtech:machine:4194, Elite Bio Reactor
 gregtech:machine:4200, Basic Vacuum Ejector
 gregtech:machine:4201, Advanced Vacuum Ejector
 gregtech:machine:4202, Advanced Vacuum Ejector II
-gregtech:machine:4220, gtb.machine.ion_exchange_unit.lv.name
-gregtech:machine:4221, gtb.machine.ion_exchange_unit.mv.name
-gregtech:machine:4222, gtb.machine.ion_exchange_unit.hv.name
-gregtech:machine:4223, gtb.machine.ion_exchange_unit.ev.name
-gregtech:machine:4224, gtb.machine.ion_exchange_unit.iv.name
-gregtech:machine:4225, gtb.machine.ion_exchange_unit.luv.name
-gregtech:machine:4226, gtb.machine.ion_exchange_unit.zpm.name
-gregtech:machine:4227, gtb.machine.ion_exchange_unit.uv.name
-gregtech:machine:4228, gtb.machine.ion_exchange_unit.uhv.name
-gregtech:machine:4229, gtb.machine.ion_exchange_unit.uev.name
-gregtech:machine:4230, gtb.machine.ion_exchange_unit.uiv.name
-gregtech:machine:4231, gtb.machine.ion_exchange_unit.uxv.name
-gregtech:machine:4232, gtb.machine.ion_exchange_unit.opv.name
-gregtech:machine:4233, gtb.machine.ion_exchange_unit.max.name
-gregtech:machine:4240, gtb.machine.uv_light.lv.name
-gregtech:machine:4241, gtb.machine.uv_light.mv.name
-gregtech:machine:4242, gtb.machine.uv_light.hv.name
-gregtech:machine:4243, gtb.machine.uv_light.ev.name
-gregtech:machine:4244, gtb.machine.uv_light.iv.name
-gregtech:machine:4245, gtb.machine.uv_light.luv.name
-gregtech:machine:4246, gtb.machine.uv_light.zpm.name
-gregtech:machine:4247, gtb.machine.uv_light.uv.name
-gregtech:machine:4248, gtb.machine.uv_light.uhv.name
-gregtech:machine:4249, gtb.machine.uv_light.uev.name
-gregtech:machine:4250, gtb.machine.uv_light.uiv.name
-gregtech:machine:4251, gtb.machine.uv_light.uxv.name
-gregtech:machine:4252, gtb.machine.uv_light.opv.name
-gregtech:machine:4253, gtb.machine.uv_light.max.name
-gregtech:machine:4260, gtb.machine.fluid_compressor.lv.name
-gregtech:machine:4261, gtb.machine.fluid_compressor.mv.name
-gregtech:machine:4262, gtb.machine.fluid_compressor.hv.name
-gregtech:machine:4263, gtb.machine.fluid_compressor.ev.name
-gregtech:machine:4264, gtb.machine.fluid_compressor.iv.name
-gregtech:machine:4265, gtb.machine.fluid_compressor.luv.name
-gregtech:machine:4266, gtb.machine.fluid_compressor.zpm.name
-gregtech:machine:4267, gtb.machine.fluid_compressor.uv.name
-gregtech:machine:4268, gtb.machine.fluid_compressor.uhv.name
-gregtech:machine:4269, gtb.machine.fluid_compressor.uev.name
-gregtech:machine:4270, gtb.machine.fluid_compressor.uiv.name
-gregtech:machine:4271, gtb.machine.fluid_compressor.uxv.name
-gregtech:machine:4272, gtb.machine.fluid_compressor.opv.name
-gregtech:machine:4273, gtb.machine.fluid_compressor.max.name
-gregtech:machine:4280, gtb.machine.plasma_etcher.lv.name
-gregtech:machine:4281, gtb.machine.plasma_etcher.mv.name
-gregtech:machine:4282, gtb.machine.plasma_etcher.hv.name
-gregtech:machine:4283, gtb.machine.plasma_etcher.ev.name
-gregtech:machine:4284, gtb.machine.plasma_etcher.iv.name
-gregtech:machine:4285, gtb.machine.plasma_etcher.luv.name
-gregtech:machine:4286, gtb.machine.plasma_etcher.zpm.name
-gregtech:machine:4287, gtb.machine.plasma_etcher.uv.name
-gregtech:machine:4288, gtb.machine.plasma_etcher.uhv.name
-gregtech:machine:4289, gtb.machine.plasma_etcher.uev.name
-gregtech:machine:4290, gtb.machine.plasma_etcher.uiv.name
-gregtech:machine:4291, gtb.machine.plasma_etcher.uxv.name
-gregtech:machine:4292, gtb.machine.plasma_etcher.opv.name
-gregtech:machine:4293, gtb.machine.plasma_etcher.max.name
+gregtech:machine:4220, Basic Ion Exchange Unit
+gregtech:machine:4221, Advanced Ion Exchange Unit
+gregtech:machine:4222, Advanced Ion Exchange Unit II
+gregtech:machine:4223, Advanced Ion Exchange Unit III
+gregtech:machine:4224, Elite Ion Exchange Unit
+gregtech:machine:4225, Elite Ion Exchange Unit II
+gregtech:machine:4226, Elite Ion Exchange Unit III
+gregtech:machine:4227, Ultimate Ion Exchange Unit
+gregtech:machine:4228, Epic Ion Exchange Unit
+gregtech:machine:4229, Epic Ion Exchange Unit II
+gregtech:machine:4230, Epic Ion Exchange Unit III
+gregtech:machine:4231, Epic Ion Exchange Unit IV
+gregtech:machine:4232, Legendary Ion Exchange Unit
+gregtech:machine:4233, Legendary Ion Exchange Unit II
+gregtech:machine:4240, Basic UV-Light
+gregtech:machine:4241, Advanced UV-Light
+gregtech:machine:4242, Advanced UV-Light II
+gregtech:machine:4243, Advanced UV-Light III
+gregtech:machine:4244, Elite UV-Light
+gregtech:machine:4245, Elite UV-Light II
+gregtech:machine:4246, Elite UV-Light III
+gregtech:machine:4247, Ultimate UV-Light
+gregtech:machine:4248, Epic UV-Light
+gregtech:machine:4249, Epic UV-Light II
+gregtech:machine:4250, Epic UV-Light III
+gregtech:machine:4251, Epic UV-Light IV
+gregtech:machine:4252, Legendary UV-Light
+gregtech:machine:4253, Legendary UV-Light II
+gregtech:machine:4260, Basic Fluid Compressor
+gregtech:machine:4261, Advanced Fluid Compressor
+gregtech:machine:4262, Advanced Fluid Compressor  II
+gregtech:machine:4263, Advanced Fluid Compressor III
+gregtech:machine:4264, Elite Fluid Compressor
+gregtech:machine:4265, Elite Fluid Compressor II
+gregtech:machine:4266, Elite Fluid Compressor III
+gregtech:machine:4267, Ultimate Fluid Compressor
+gregtech:machine:4268, Epic Fluid Compressor
+gregtech:machine:4269, Epic Fluid Compressor II
+gregtech:machine:4270, Epic Fluid Compressor III
+gregtech:machine:4271, Epic Fluid Compressor IV
+gregtech:machine:4272, Legendary Fluid Compressor
+gregtech:machine:4273, Legendary Fluid Compressor II
+gregtech:machine:4280, Basic Plasma Etcher
+gregtech:machine:4281, Advanced Plasma Etcher
+gregtech:machine:4282, Advanced Plasma Etcher II
+gregtech:machine:4283, Advanced Plasma Etcher III
+gregtech:machine:4284, Elite Plasma Etcher
+gregtech:machine:4285, Elite Plasma Etcher II
+gregtech:machine:4286, Elite Plasma Etcher III
+gregtech:machine:4287, Ultimate Plasma Etcher
+gregtech:machine:4288, Epic Plasma Etcher
+gregtech:machine:4289, Epic Plasma Etcher II
+gregtech:machine:4290, Epic Plasma Etcher III
+gregtech:machine:4291, Epic Plasma Etcher IV
+gregtech:machine:4292, Legendary Plasma Etcher
+gregtech:machine:4293, Legendary Plasma Etcher II
+gregtech:machine:4300, Basic Space Component Assembler
+gregtech:machine:4301, Advanced Space Component Assembler
+gregtech:machine:4302, Advanced Space Component Assembler II
+gregtech:machine:4303, Advanced Space Component Assembler III
+gregtech:machine:4304, Elite Space Component Assembler
+gregtech:machine:4305, Elite Space Component Assembler II
+gregtech:machine:4306, Elite Space Component Assembler III
+gregtech:machine:4307, Ultimate Space Component Assembler
+gregtech:machine:4308, Epic Space Component Assembler
+gregtech:machine:4309, Epic Space Component Assembler II
+gregtech:machine:4310, Epic Space Component Assembler III
+gregtech:machine:4311, Epic Space Component Assembler IV
+gregtech:machine:4312, Legendary Space Component Assembler
+gregtech:machine:4313, Legendary Space Component Assembler II
 gregtech:machine:8503, Basic Slicing Machine
 gregtech:machine:8504, Advanced Slicing Machine
 gregtech:machine:8505, Advanced Slicing Machine II
@@ -4461,55 +4506,6 @@ gregtech:machine:14325, 1048576A Wireless Dynamo Hatch（§2UIV§r）
 gregtech:machine:14326, 1048576A Wireless Dynamo Hatch（§eUXV§r）
 gregtech:machine:14327, 1048576A Wireless Dynamo Hatch（§9OpV§r）
 gregtech:machine:14328, 1048576A Wireless Dynamo Hatch（§c§lMAX§r）
-gregtech:machine:18019, Pyrotheum Heating Vent
-gregtech:machine:18020, Cryotheum Cooling Hatch
-gregtech:machine:18021, ULV RF Energy Hatch
-gregtech:machine:18022, LV RF Energy Hatch
-gregtech:machine:18023, MV RF Energy Hatch
-gregtech:machine:18024, HV RF Energy Hatch
-gregtech:machine:18025, EV RF Energy Hatch
-gregtech:machine:18026, IV RF Energy Hatch
-gregtech:machine:18027, LuV RF Energy Hatch
-gregtech:machine:18028, ZPM RF Energy Hatch
-gregtech:machine:18029, UV RF Energy Hatch
-gregtech:machine:18030, UHV RF Energy Hatch
-gregtech:machine:18031, UEV RF Energy Hatch
-gregtech:machine:18032, UIV RF Energy Hatch
-gregtech:machine:18033, UXV RF Energy Hatch
-gregtech:machine:18034, OpV RF Energy Hatch
-gregtech:machine:18035, ULV RF Dynamo Hatch
-gregtech:machine:18036, LV RF Dynamo Hatch
-gregtech:machine:18037, MV RF Dynamo Hatch
-gregtech:machine:18038, HV RF Dynamo Hatch
-gregtech:machine:18039, EV RF Dynamo Hatch
-gregtech:machine:18040, IV RF Dynamo Hatch
-gregtech:machine:18041, LuV RF Dynamo Hatch
-gregtech:machine:18042, ZPM RF Dynamo Hatch
-gregtech:machine:18043, UV RF Dynamo Hatch
-gregtech:machine:18044, UHV RF Dynamo Hatch
-gregtech:machine:18045, UEV RF Dynamo Hatch
-gregtech:machine:18046, UIV RF Dynamo Hatch
-gregtech:machine:18047, UXV RF Dynamo Hatch
-gregtech:machine:18048, OpV RF Dynamo Hatch
-gregtech:machine:18071, Volcanus
-gregtech:machine:18072, Cryogenic Freezer
-gregtech:machine:18073, Industrial Primitive Blast Furnace
-gregtech:machine:18074, Energy Infuser
-zbgt:wire_single:10000, 1x Fluxed Electrum Wire
-zbgt:wire_single:5006, 1x Lumium Wire
-zbgt:wire_double:10000, 2x Fluxed Electrum Wire
-zbgt:wire_double:5006, 2x Lumium Wire
-zbgt:wire_quadruple:10000, 4x Fluxed Electrum Wire
-zbgt:wire_quadruple:5006, 4x Lumium Wire
-zbgt:wire_octal:10000, 8x Fluxed Electrum Wire
-zbgt:wire_octal:5006, 8x Lumium Wire
-zbgt:wire_hex:10000, 16x Fluxed Electrum Wire
-zbgt:wire_hex:5006, 16x Lumium Wire
-zbgt:cable_single:10000, 1x Fluxed Electrum Cable
-zbgt:cable_double:10000, 2x Fluxed Electrum Cable
-zbgt:cable_quadruple:10000, 4x Fluxed Electrum Cable
-zbgt:cable_octal:10000, 8x Fluxed Electrum Cable
-zbgt:cable_hex:10000, 16x Fluxed Electrum Cable
 gregtech:wire_single:2, 1x Aluminium Wire
 gregtech:wire_single:252, 1x Annealed Copper Wire
 gregtech:wire_single:2011, 1x Black Steel Wire
@@ -4532,12 +4528,10 @@ gregtech:wire_single:424, 1x Manganese Phosphide Wire
 gregtech:wire_single:426, 1x Mercury Barium Calcium Cuprate Wire
 gregtech:wire_single:124, 1x Naquadah Wire
 gregtech:wire_single:2042, 1x Naquadah Alloy Wire
-gregtech:wire_single:1602, 1x Nether Star Wire
 gregtech:wire_single:294, 1x Nichrome Wire
 gregtech:wire_single:69, 1x Nickel Wire
 gregtech:wire_single:295, 1x Niobium Nitride Wire
 gregtech:wire_single:296, 1x Niobium-Titanium Wire
-gregtech:wire_single:344, 1x Osmiridium Wire
 gregtech:wire_single:75, 1x Osmium Wire
 gregtech:wire_single:80, 1x Platinum Wire
 gregtech:wire_single:2517, 1x Red Alloy Wire
@@ -4547,7 +4541,6 @@ gregtech:wire_single:428, 1x Samarium Iron Arsenic Oxide Wire
 gregtech:wire_single:100, 1x Silver Wire
 gregtech:wire_single:324, 1x Steel Wire
 gregtech:wire_single:112, 1x Tin Wire
-gregtech:wire_single:113, 1x Titanium Wire
 gregtech:wire_single:130, 1x Trinium Wire
 gregtech:wire_single:128, 1x Tritanium Wire
 gregtech:wire_single:115, 1x Tungsten Wire
@@ -4578,12 +4571,10 @@ gregtech:wire_double:424, 2x Manganese Phosphide Wire
 gregtech:wire_double:426, 2x Mercury Barium Calcium Cuprate Wire
 gregtech:wire_double:124, 2x Naquadah Wire
 gregtech:wire_double:2042, 2x Naquadah Alloy Wire
-gregtech:wire_double:1602, 2x Nether Star Wire
 gregtech:wire_double:294, 2x Nichrome Wire
 gregtech:wire_double:69, 2x Nickel Wire
 gregtech:wire_double:295, 2x Niobium Nitride Wire
 gregtech:wire_double:296, 2x Niobium-Titanium Wire
-gregtech:wire_double:344, 2x Osmiridium Wire
 gregtech:wire_double:75, 2x Osmium Wire
 gregtech:wire_double:80, 2x Platinum Wire
 gregtech:wire_double:2517, 2x Red Alloy Wire
@@ -4593,7 +4584,6 @@ gregtech:wire_double:428, 2x Samarium Iron Arsenic Oxide Wire
 gregtech:wire_double:100, 2x Silver Wire
 gregtech:wire_double:324, 2x Steel Wire
 gregtech:wire_double:112, 2x Tin Wire
-gregtech:wire_double:113, 2x Titanium Wire
 gregtech:wire_double:130, 2x Trinium Wire
 gregtech:wire_double:128, 2x Tritanium Wire
 gregtech:wire_double:115, 2x Tungsten Wire
@@ -4624,12 +4614,10 @@ gregtech:wire_quadruple:424, 4x Manganese Phosphide Wire
 gregtech:wire_quadruple:426, 4x Mercury Barium Calcium Cuprate Wire
 gregtech:wire_quadruple:124, 4x Naquadah Wire
 gregtech:wire_quadruple:2042, 4x Naquadah Alloy Wire
-gregtech:wire_quadruple:1602, 4x Nether Star Wire
 gregtech:wire_quadruple:294, 4x Nichrome Wire
 gregtech:wire_quadruple:69, 4x Nickel Wire
 gregtech:wire_quadruple:295, 4x Niobium Nitride Wire
 gregtech:wire_quadruple:296, 4x Niobium-Titanium Wire
-gregtech:wire_quadruple:344, 4x Osmiridium Wire
 gregtech:wire_quadruple:75, 4x Osmium Wire
 gregtech:wire_quadruple:80, 4x Platinum Wire
 gregtech:wire_quadruple:2517, 4x Red Alloy Wire
@@ -4639,7 +4627,6 @@ gregtech:wire_quadruple:428, 4x Samarium Iron Arsenic Oxide Wire
 gregtech:wire_quadruple:100, 4x Silver Wire
 gregtech:wire_quadruple:324, 4x Steel Wire
 gregtech:wire_quadruple:112, 4x Tin Wire
-gregtech:wire_quadruple:113, 4x Titanium Wire
 gregtech:wire_quadruple:130, 4x Trinium Wire
 gregtech:wire_quadruple:128, 4x Tritanium Wire
 gregtech:wire_quadruple:115, 4x Tungsten Wire
@@ -4670,12 +4657,10 @@ gregtech:wire_octal:424, 8x Manganese Phosphide Wire
 gregtech:wire_octal:426, 8x Mercury Barium Calcium Cuprate Wire
 gregtech:wire_octal:124, 8x Naquadah Wire
 gregtech:wire_octal:2042, 8x Naquadah Alloy Wire
-gregtech:wire_octal:1602, 8x Nether Star Wire
 gregtech:wire_octal:294, 8x Nichrome Wire
 gregtech:wire_octal:69, 8x Nickel Wire
 gregtech:wire_octal:295, 8x Niobium Nitride Wire
 gregtech:wire_octal:296, 8x Niobium-Titanium Wire
-gregtech:wire_octal:344, 8x Osmiridium Wire
 gregtech:wire_octal:75, 8x Osmium Wire
 gregtech:wire_octal:80, 8x Platinum Wire
 gregtech:wire_octal:2517, 8x Red Alloy Wire
@@ -4685,7 +4670,6 @@ gregtech:wire_octal:428, 8x Samarium Iron Arsenic Oxide Wire
 gregtech:wire_octal:100, 8x Silver Wire
 gregtech:wire_octal:324, 8x Steel Wire
 gregtech:wire_octal:112, 8x Tin Wire
-gregtech:wire_octal:113, 8x Titanium Wire
 gregtech:wire_octal:130, 8x Trinium Wire
 gregtech:wire_octal:128, 8x Tritanium Wire
 gregtech:wire_octal:115, 8x Tungsten Wire
@@ -4716,12 +4700,10 @@ gregtech:wire_hex:424, 16x Manganese Phosphide Wire
 gregtech:wire_hex:426, 16x Mercury Barium Calcium Cuprate Wire
 gregtech:wire_hex:124, 16x Naquadah Wire
 gregtech:wire_hex:2042, 16x Naquadah Alloy Wire
-gregtech:wire_hex:1602, 16x Nether Star Wire
 gregtech:wire_hex:294, 16x Nichrome Wire
 gregtech:wire_hex:69, 16x Nickel Wire
 gregtech:wire_hex:295, 16x Niobium Nitride Wire
 gregtech:wire_hex:296, 16x Niobium-Titanium Wire
-gregtech:wire_hex:344, 16x Osmiridium Wire
 gregtech:wire_hex:75, 16x Osmium Wire
 gregtech:wire_hex:80, 16x Platinum Wire
 gregtech:wire_hex:2517, 16x Red Alloy Wire
@@ -4731,7 +4713,6 @@ gregtech:wire_hex:428, 16x Samarium Iron Arsenic Oxide Wire
 gregtech:wire_hex:100, 16x Silver Wire
 gregtech:wire_hex:324, 16x Steel Wire
 gregtech:wire_hex:112, 16x Tin Wire
-gregtech:wire_hex:113, 16x Titanium Wire
 gregtech:wire_hex:130, 16x Trinium Wire
 gregtech:wire_hex:128, 16x Tritanium Wire
 gregtech:wire_hex:115, 16x Tungsten Wire
@@ -4757,12 +4738,10 @@ gregtech:cable_single:288, 1x Kanthal Cable
 gregtech:cable_single:55, 1x Lead Cable
 gregtech:cable_single:124, 1x Naquadah Cable
 gregtech:cable_single:2042, 1x Naquadah Alloy Cable
-gregtech:cable_single:1602, 1x Nether Star Cable
 gregtech:cable_single:294, 1x Nichrome Cable
 gregtech:cable_single:69, 1x Nickel Cable
 gregtech:cable_single:295, 1x Niobium Nitride Cable
 gregtech:cable_single:296, 1x Niobium-Titanium Cable
-gregtech:cable_single:344, 1x Osmiridium Cable
 gregtech:cable_single:75, 1x Osmium Cable
 gregtech:cable_single:80, 1x Platinum Cable
 gregtech:cable_single:2517, 1x Red Alloy Cable
@@ -4770,7 +4749,6 @@ gregtech:cable_single:451, 1x RTM Alloy Cable
 gregtech:cable_single:100, 1x Silver Cable
 gregtech:cable_single:324, 1x Steel Cable
 gregtech:cable_single:112, 1x Tin Cable
-gregtech:cable_single:113, 1x Titanium Cable
 gregtech:cable_single:130, 1x Trinium Cable
 gregtech:cable_single:128, 1x Tritanium Cable
 gregtech:cable_single:115, 1x Tungsten Cable
@@ -4794,12 +4772,10 @@ gregtech:cable_double:288, 2x Kanthal Cable
 gregtech:cable_double:55, 2x Lead Cable
 gregtech:cable_double:124, 2x Naquadah Cable
 gregtech:cable_double:2042, 2x Naquadah Alloy Cable
-gregtech:cable_double:1602, 2x Nether Star Cable
 gregtech:cable_double:294, 2x Nichrome Cable
 gregtech:cable_double:69, 2x Nickel Cable
 gregtech:cable_double:295, 2x Niobium Nitride Cable
 gregtech:cable_double:296, 2x Niobium-Titanium Cable
-gregtech:cable_double:344, 2x Osmiridium Cable
 gregtech:cable_double:75, 2x Osmium Cable
 gregtech:cable_double:80, 2x Platinum Cable
 gregtech:cable_double:2517, 2x Red Alloy Cable
@@ -4807,7 +4783,6 @@ gregtech:cable_double:451, 2x RTM Alloy Cable
 gregtech:cable_double:100, 2x Silver Cable
 gregtech:cable_double:324, 2x Steel Cable
 gregtech:cable_double:112, 2x Tin Cable
-gregtech:cable_double:113, 2x Titanium Cable
 gregtech:cable_double:130, 2x Trinium Cable
 gregtech:cable_double:128, 2x Tritanium Cable
 gregtech:cable_double:115, 2x Tungsten Cable
@@ -4831,12 +4806,10 @@ gregtech:cable_quadruple:288, 4x Kanthal Cable
 gregtech:cable_quadruple:55, 4x Lead Cable
 gregtech:cable_quadruple:124, 4x Naquadah Cable
 gregtech:cable_quadruple:2042, 4x Naquadah Alloy Cable
-gregtech:cable_quadruple:1602, 4x Nether Star Cable
 gregtech:cable_quadruple:294, 4x Nichrome Cable
 gregtech:cable_quadruple:69, 4x Nickel Cable
 gregtech:cable_quadruple:295, 4x Niobium Nitride Cable
 gregtech:cable_quadruple:296, 4x Niobium-Titanium Cable
-gregtech:cable_quadruple:344, 4x Osmiridium Cable
 gregtech:cable_quadruple:75, 4x Osmium Cable
 gregtech:cable_quadruple:80, 4x Platinum Cable
 gregtech:cable_quadruple:2517, 4x Red Alloy Cable
@@ -4844,7 +4817,6 @@ gregtech:cable_quadruple:451, 4x RTM Alloy Cable
 gregtech:cable_quadruple:100, 4x Silver Cable
 gregtech:cable_quadruple:324, 4x Steel Cable
 gregtech:cable_quadruple:112, 4x Tin Cable
-gregtech:cable_quadruple:113, 4x Titanium Cable
 gregtech:cable_quadruple:130, 4x Trinium Cable
 gregtech:cable_quadruple:128, 4x Tritanium Cable
 gregtech:cable_quadruple:115, 4x Tungsten Cable
@@ -4868,12 +4840,10 @@ gregtech:cable_octal:288, 8x Kanthal Cable
 gregtech:cable_octal:55, 8x Lead Cable
 gregtech:cable_octal:124, 8x Naquadah Cable
 gregtech:cable_octal:2042, 8x Naquadah Alloy Cable
-gregtech:cable_octal:1602, 8x Nether Star Cable
 gregtech:cable_octal:294, 8x Nichrome Cable
 gregtech:cable_octal:69, 8x Nickel Cable
 gregtech:cable_octal:295, 8x Niobium Nitride Cable
 gregtech:cable_octal:296, 8x Niobium-Titanium Cable
-gregtech:cable_octal:344, 8x Osmiridium Cable
 gregtech:cable_octal:75, 8x Osmium Cable
 gregtech:cable_octal:80, 8x Platinum Cable
 gregtech:cable_octal:2517, 8x Red Alloy Cable
@@ -4881,7 +4851,6 @@ gregtech:cable_octal:451, 8x RTM Alloy Cable
 gregtech:cable_octal:100, 8x Silver Cable
 gregtech:cable_octal:324, 8x Steel Cable
 gregtech:cable_octal:112, 8x Tin Cable
-gregtech:cable_octal:113, 8x Titanium Cable
 gregtech:cable_octal:130, 8x Trinium Cable
 gregtech:cable_octal:128, 8x Tritanium Cable
 gregtech:cable_octal:115, 8x Tungsten Cable
@@ -4905,12 +4874,10 @@ gregtech:cable_hex:288, 16x Kanthal Cable
 gregtech:cable_hex:55, 16x Lead Cable
 gregtech:cable_hex:124, 16x Naquadah Cable
 gregtech:cable_hex:2042, 16x Naquadah Alloy Cable
-gregtech:cable_hex:1602, 16x Nether Star Cable
 gregtech:cable_hex:294, 16x Nichrome Cable
 gregtech:cable_hex:69, 16x Nickel Cable
 gregtech:cable_hex:295, 16x Niobium Nitride Cable
 gregtech:cable_hex:296, 16x Niobium-Titanium Cable
-gregtech:cable_hex:344, 16x Osmiridium Cable
 gregtech:cable_hex:75, 16x Osmium Cable
 gregtech:cable_hex:80, 16x Platinum Cable
 gregtech:cable_hex:2517, 16x Red Alloy Cable
@@ -4918,7 +4885,6 @@ gregtech:cable_hex:451, 16x RTM Alloy Cable
 gregtech:cable_hex:100, 16x Silver Cable
 gregtech:cable_hex:324, 16x Steel Cable
 gregtech:cable_hex:112, 16x Tin Cable
-gregtech:cable_hex:113, 16x Titanium Cable
 gregtech:cable_hex:130, 16x Trinium Cable
 gregtech:cable_hex:128, 16x Tritanium Cable
 gregtech:cable_hex:115, 16x Tungsten Cable
@@ -5099,142 +5065,142 @@ gregtech:fluid_pipe_nonuple:115, Nonuple Tungsten Fluid Pipe
 gregtech:fluid_pipe_nonuple:396, Nonuple Tungstencarbide Fluid Pipe
 gregtech:fluid_pipe_nonuple:2013, Nonuple Tungstensteel Fluid Pipe
 gregtech:fluid_pipe_nonuple:2036, Nonuple Vanadiumsteel Fluid Pipe
-gregtech:item_pipe_small:69, Small Nickel Item Pipe
-gregtech:item_pipe_small:112, Small Tin Item Pipe
-gregtech:item_pipe_small:3, Small Americium Item Pipe
-gregtech:item_pipe_small:259, Small Brass Item Pipe
-gregtech:item_pipe_small:331, Small Ultimet Item Pipe
-gregtech:item_pipe_small:75, Small Osmium Item Pipe
-gregtech:item_pipe_small:274, Small Cupronickel Item Pipe
-gregtech:item_pipe_small:80, Small Platinum Item Pipe
-gregtech:item_pipe_small:302, Small Black Bronze Item Pipe
-gregtech:item_pipe_small:344, Small Osmiridium Item Pipe
-gregtech:item_pipe_small:290, Small Magnalium Item Pipe
-gregtech:item_pipe_small:301, Small Rose Gold Item Pipe
-gregtech:item_pipe_small:300, Small Sterling Silver Item Pipe
-gregtech:item_pipe_small:23, Small Cobalt Item Pipe
-gregtech:item_pipe_small:2014, Small Cobalt Brass Item Pipe
 gregtech:item_pipe_small:277, Small Electrum Item Pipe
+gregtech:item_pipe_small:259, Small Brass Item Pipe
+gregtech:item_pipe_small:3, Small Americium Item Pipe
+gregtech:item_pipe_small:344, Small Osmiridium Item Pipe
+gregtech:item_pipe_small:112, Small Tin Item Pipe
+gregtech:item_pipe_small:274, Small Cupronickel Item Pipe
+gregtech:item_pipe_small:302, Small Black Bronze Item Pipe
+gregtech:item_pipe_small:80, Small Platinum Item Pipe
+gregtech:item_pipe_small:301, Small Rose Gold Item Pipe
+gregtech:item_pipe_small:290, Small Magnalium Item Pipe
+gregtech:item_pipe_small:331, Small Ultimet Item Pipe
+gregtech:item_pipe_small:300, Small Sterling Silver Item Pipe
+gregtech:item_pipe_small:2014, Small Cobalt Brass Item Pipe
+gregtech:item_pipe_small:23, Small Cobalt Item Pipe
+gregtech:item_pipe_small:69, Small Nickel Item Pipe
 gregtech:item_pipe_small:1007, Small Polyvinyl Chloride (PVC) Item Pipe
-gregtech:item_pipe_normal:69, Nickel Item Pipe
-gregtech:item_pipe_normal:112, Tin Item Pipe
-gregtech:item_pipe_normal:3, Americium Item Pipe
-gregtech:item_pipe_normal:259, Brass Item Pipe
-gregtech:item_pipe_normal:331, Ultimet Item Pipe
-gregtech:item_pipe_normal:75, Osmium Item Pipe
-gregtech:item_pipe_normal:274, Cupronickel Item Pipe
-gregtech:item_pipe_normal:80, Platinum Item Pipe
-gregtech:item_pipe_normal:302, Black Bronze Item Pipe
-gregtech:item_pipe_normal:344, Osmiridium Item Pipe
-gregtech:item_pipe_normal:290, Magnalium Item Pipe
-gregtech:item_pipe_normal:301, Rose Gold Item Pipe
-gregtech:item_pipe_normal:300, Sterling Silver Item Pipe
-gregtech:item_pipe_normal:23, Cobalt Item Pipe
-gregtech:item_pipe_normal:2014, Cobalt Brass Item Pipe
+gregtech:item_pipe_small:75, Small Osmium Item Pipe
 gregtech:item_pipe_normal:277, Electrum Item Pipe
+gregtech:item_pipe_normal:259, Brass Item Pipe
+gregtech:item_pipe_normal:3, Americium Item Pipe
+gregtech:item_pipe_normal:344, Osmiridium Item Pipe
+gregtech:item_pipe_normal:112, Tin Item Pipe
+gregtech:item_pipe_normal:274, Cupronickel Item Pipe
+gregtech:item_pipe_normal:302, Black Bronze Item Pipe
+gregtech:item_pipe_normal:80, Platinum Item Pipe
+gregtech:item_pipe_normal:301, Rose Gold Item Pipe
+gregtech:item_pipe_normal:290, Magnalium Item Pipe
+gregtech:item_pipe_normal:331, Ultimet Item Pipe
+gregtech:item_pipe_normal:300, Sterling Silver Item Pipe
+gregtech:item_pipe_normal:2014, Cobalt Brass Item Pipe
+gregtech:item_pipe_normal:23, Cobalt Item Pipe
+gregtech:item_pipe_normal:69, Nickel Item Pipe
 gregtech:item_pipe_normal:1007, Polyvinyl Chloride (PVC) Item Pipe
-gregtech:item_pipe_large:69, Large Nickel Item Pipe
-gregtech:item_pipe_large:112, Large Tin Item Pipe
-gregtech:item_pipe_large:3, Large Americium Item Pipe
-gregtech:item_pipe_large:259, Large Brass Item Pipe
-gregtech:item_pipe_large:331, Large Ultimet Item Pipe
-gregtech:item_pipe_large:75, Large Osmium Item Pipe
-gregtech:item_pipe_large:274, Large Cupronickel Item Pipe
-gregtech:item_pipe_large:80, Large Platinum Item Pipe
-gregtech:item_pipe_large:302, Large Black Bronze Item Pipe
-gregtech:item_pipe_large:344, Large Osmiridium Item Pipe
-gregtech:item_pipe_large:290, Large Magnalium Item Pipe
-gregtech:item_pipe_large:301, Large Rose Gold Item Pipe
-gregtech:item_pipe_large:300, Large Sterling Silver Item Pipe
-gregtech:item_pipe_large:23, Large Cobalt Item Pipe
-gregtech:item_pipe_large:2014, Large Cobalt Brass Item Pipe
+gregtech:item_pipe_normal:75, Osmium Item Pipe
 gregtech:item_pipe_large:277, Large Electrum Item Pipe
+gregtech:item_pipe_large:259, Large Brass Item Pipe
+gregtech:item_pipe_large:3, Large Americium Item Pipe
+gregtech:item_pipe_large:344, Large Osmiridium Item Pipe
+gregtech:item_pipe_large:112, Large Tin Item Pipe
+gregtech:item_pipe_large:274, Large Cupronickel Item Pipe
+gregtech:item_pipe_large:302, Large Black Bronze Item Pipe
+gregtech:item_pipe_large:80, Large Platinum Item Pipe
+gregtech:item_pipe_large:301, Large Rose Gold Item Pipe
+gregtech:item_pipe_large:290, Large Magnalium Item Pipe
+gregtech:item_pipe_large:331, Large Ultimet Item Pipe
+gregtech:item_pipe_large:300, Large Sterling Silver Item Pipe
+gregtech:item_pipe_large:2014, Large Cobalt Brass Item Pipe
+gregtech:item_pipe_large:23, Large Cobalt Item Pipe
+gregtech:item_pipe_large:69, Large Nickel Item Pipe
 gregtech:item_pipe_large:1007, Large Polyvinyl Chloride (PVC) Item Pipe
-gregtech:item_pipe_huge:69, Huge Nickel Item Pipe
-gregtech:item_pipe_huge:112, Huge Tin Item Pipe
-gregtech:item_pipe_huge:3, Huge Americium Item Pipe
-gregtech:item_pipe_huge:259, Huge Brass Item Pipe
-gregtech:item_pipe_huge:331, Huge Ultimet Item Pipe
-gregtech:item_pipe_huge:75, Huge Osmium Item Pipe
-gregtech:item_pipe_huge:274, Huge Cupronickel Item Pipe
-gregtech:item_pipe_huge:80, Huge Platinum Item Pipe
-gregtech:item_pipe_huge:302, Huge Black Bronze Item Pipe
-gregtech:item_pipe_huge:344, Huge Osmiridium Item Pipe
-gregtech:item_pipe_huge:290, Huge Magnalium Item Pipe
-gregtech:item_pipe_huge:301, Huge Rose Gold Item Pipe
-gregtech:item_pipe_huge:300, Huge Sterling Silver Item Pipe
-gregtech:item_pipe_huge:23, Huge Cobalt Item Pipe
-gregtech:item_pipe_huge:2014, Huge Cobalt Brass Item Pipe
+gregtech:item_pipe_large:75, Large Osmium Item Pipe
 gregtech:item_pipe_huge:277, Huge Electrum Item Pipe
+gregtech:item_pipe_huge:259, Huge Brass Item Pipe
+gregtech:item_pipe_huge:3, Huge Americium Item Pipe
+gregtech:item_pipe_huge:344, Huge Osmiridium Item Pipe
+gregtech:item_pipe_huge:112, Huge Tin Item Pipe
+gregtech:item_pipe_huge:274, Huge Cupronickel Item Pipe
+gregtech:item_pipe_huge:302, Huge Black Bronze Item Pipe
+gregtech:item_pipe_huge:80, Huge Platinum Item Pipe
+gregtech:item_pipe_huge:301, Huge Rose Gold Item Pipe
+gregtech:item_pipe_huge:290, Huge Magnalium Item Pipe
+gregtech:item_pipe_huge:331, Huge Ultimet Item Pipe
+gregtech:item_pipe_huge:300, Huge Sterling Silver Item Pipe
+gregtech:item_pipe_huge:2014, Huge Cobalt Brass Item Pipe
+gregtech:item_pipe_huge:23, Huge Cobalt Item Pipe
+gregtech:item_pipe_huge:69, Huge Nickel Item Pipe
 gregtech:item_pipe_huge:1007, Huge Polyvinyl Chloride (PVC) Item Pipe
-gregtech:item_pipe_small_restrictive:69, Small Restrictive Nickel Item Pipe
-gregtech:item_pipe_small_restrictive:112, Small Restrictive Tin Item Pipe
-gregtech:item_pipe_small_restrictive:3, Small Restrictive Americium Item Pipe
-gregtech:item_pipe_small_restrictive:259, Small Restrictive Brass Item Pipe
-gregtech:item_pipe_small_restrictive:331, Small Restrictive Ultimet Item Pipe
-gregtech:item_pipe_small_restrictive:75, Small Restrictive Osmium Item Pipe
-gregtech:item_pipe_small_restrictive:274, Small Restrictive Cupronickel Item Pipe
-gregtech:item_pipe_small_restrictive:80, Small Restrictive Platinum Item Pipe
-gregtech:item_pipe_small_restrictive:302, Small Restrictive Black Bronze Item Pipe
-gregtech:item_pipe_small_restrictive:344, Small Restrictive Osmiridium Item Pipe
-gregtech:item_pipe_small_restrictive:290, Small Restrictive Magnalium Item Pipe
-gregtech:item_pipe_small_restrictive:301, Small Restrictive Rose Gold Item Pipe
-gregtech:item_pipe_small_restrictive:300, Small Restrictive Sterling Silver Item Pipe
-gregtech:item_pipe_small_restrictive:23, Small Restrictive Cobalt Item Pipe
-gregtech:item_pipe_small_restrictive:2014, Small Restrictive Cobalt Brass Item Pipe
+gregtech:item_pipe_huge:75, Huge Osmium Item Pipe
 gregtech:item_pipe_small_restrictive:277, Small Restrictive Electrum Item Pipe
+gregtech:item_pipe_small_restrictive:259, Small Restrictive Brass Item Pipe
+gregtech:item_pipe_small_restrictive:3, Small Restrictive Americium Item Pipe
+gregtech:item_pipe_small_restrictive:344, Small Restrictive Osmiridium Item Pipe
+gregtech:item_pipe_small_restrictive:112, Small Restrictive Tin Item Pipe
+gregtech:item_pipe_small_restrictive:274, Small Restrictive Cupronickel Item Pipe
+gregtech:item_pipe_small_restrictive:302, Small Restrictive Black Bronze Item Pipe
+gregtech:item_pipe_small_restrictive:80, Small Restrictive Platinum Item Pipe
+gregtech:item_pipe_small_restrictive:301, Small Restrictive Rose Gold Item Pipe
+gregtech:item_pipe_small_restrictive:290, Small Restrictive Magnalium Item Pipe
+gregtech:item_pipe_small_restrictive:331, Small Restrictive Ultimet Item Pipe
+gregtech:item_pipe_small_restrictive:300, Small Restrictive Sterling Silver Item Pipe
+gregtech:item_pipe_small_restrictive:2014, Small Restrictive Cobalt Brass Item Pipe
+gregtech:item_pipe_small_restrictive:23, Small Restrictive Cobalt Item Pipe
+gregtech:item_pipe_small_restrictive:69, Small Restrictive Nickel Item Pipe
 gregtech:item_pipe_small_restrictive:1007, Small Restrictive Polyvinyl Chloride (PVC) Item Pipe
-gregtech:item_pipe_normal_restrictive:69, Restrictive Nickel Item Pipe
-gregtech:item_pipe_normal_restrictive:112, Restrictive Tin Item Pipe
-gregtech:item_pipe_normal_restrictive:3, Restrictive Americium Item Pipe
-gregtech:item_pipe_normal_restrictive:259, Restrictive Brass Item Pipe
-gregtech:item_pipe_normal_restrictive:331, Restrictive Ultimet Item Pipe
-gregtech:item_pipe_normal_restrictive:75, Restrictive Osmium Item Pipe
-gregtech:item_pipe_normal_restrictive:274, Restrictive Cupronickel Item Pipe
-gregtech:item_pipe_normal_restrictive:80, Restrictive Platinum Item Pipe
-gregtech:item_pipe_normal_restrictive:302, Restrictive Black Bronze Item Pipe
-gregtech:item_pipe_normal_restrictive:344, Restrictive Osmiridium Item Pipe
-gregtech:item_pipe_normal_restrictive:290, Restrictive Magnalium Item Pipe
-gregtech:item_pipe_normal_restrictive:301, Restrictive Rose Gold Item Pipe
-gregtech:item_pipe_normal_restrictive:300, Restrictive Sterling Silver Item Pipe
-gregtech:item_pipe_normal_restrictive:23, Restrictive Cobalt Item Pipe
-gregtech:item_pipe_normal_restrictive:2014, Restrictive Cobalt Brass Item Pipe
+gregtech:item_pipe_small_restrictive:75, Small Restrictive Osmium Item Pipe
 gregtech:item_pipe_normal_restrictive:277, Restrictive Electrum Item Pipe
+gregtech:item_pipe_normal_restrictive:259, Restrictive Brass Item Pipe
+gregtech:item_pipe_normal_restrictive:3, Restrictive Americium Item Pipe
+gregtech:item_pipe_normal_restrictive:344, Restrictive Osmiridium Item Pipe
+gregtech:item_pipe_normal_restrictive:112, Restrictive Tin Item Pipe
+gregtech:item_pipe_normal_restrictive:274, Restrictive Cupronickel Item Pipe
+gregtech:item_pipe_normal_restrictive:302, Restrictive Black Bronze Item Pipe
+gregtech:item_pipe_normal_restrictive:80, Restrictive Platinum Item Pipe
+gregtech:item_pipe_normal_restrictive:301, Restrictive Rose Gold Item Pipe
+gregtech:item_pipe_normal_restrictive:290, Restrictive Magnalium Item Pipe
+gregtech:item_pipe_normal_restrictive:331, Restrictive Ultimet Item Pipe
+gregtech:item_pipe_normal_restrictive:300, Restrictive Sterling Silver Item Pipe
+gregtech:item_pipe_normal_restrictive:2014, Restrictive Cobalt Brass Item Pipe
+gregtech:item_pipe_normal_restrictive:23, Restrictive Cobalt Item Pipe
+gregtech:item_pipe_normal_restrictive:69, Restrictive Nickel Item Pipe
 gregtech:item_pipe_normal_restrictive:1007, Restrictive Polyvinyl Chloride (PVC) Item Pipe
-gregtech:item_pipe_large_restrictive:69, Large Restrictive Nickel Item Pipe
-gregtech:item_pipe_large_restrictive:112, Large Restrictive Tin Item Pipe
-gregtech:item_pipe_large_restrictive:3, Large Restrictive Americium Item Pipe
-gregtech:item_pipe_large_restrictive:259, Large Restrictive Brass Item Pipe
-gregtech:item_pipe_large_restrictive:331, Large Restrictive Ultimet Item Pipe
-gregtech:item_pipe_large_restrictive:75, Large Restrictive Osmium Item Pipe
-gregtech:item_pipe_large_restrictive:274, Large Restrictive Cupronickel Item Pipe
-gregtech:item_pipe_large_restrictive:80, Large Restrictive Platinum Item Pipe
-gregtech:item_pipe_large_restrictive:302, Large Restrictive Black Bronze Item Pipe
-gregtech:item_pipe_large_restrictive:344, Large Restrictive Osmiridium Item Pipe
-gregtech:item_pipe_large_restrictive:290, Large Restrictive Magnalium Item Pipe
-gregtech:item_pipe_large_restrictive:301, Large Restrictive Rose Gold Item Pipe
-gregtech:item_pipe_large_restrictive:300, Large Restrictive Sterling Silver Item Pipe
-gregtech:item_pipe_large_restrictive:23, Large Restrictive Cobalt Item Pipe
-gregtech:item_pipe_large_restrictive:2014, Large Restrictive Cobalt Brass Item Pipe
+gregtech:item_pipe_normal_restrictive:75, Restrictive Osmium Item Pipe
 gregtech:item_pipe_large_restrictive:277, Large Restrictive Electrum Item Pipe
+gregtech:item_pipe_large_restrictive:259, Large Restrictive Brass Item Pipe
+gregtech:item_pipe_large_restrictive:3, Large Restrictive Americium Item Pipe
+gregtech:item_pipe_large_restrictive:344, Large Restrictive Osmiridium Item Pipe
+gregtech:item_pipe_large_restrictive:112, Large Restrictive Tin Item Pipe
+gregtech:item_pipe_large_restrictive:274, Large Restrictive Cupronickel Item Pipe
+gregtech:item_pipe_large_restrictive:302, Large Restrictive Black Bronze Item Pipe
+gregtech:item_pipe_large_restrictive:80, Large Restrictive Platinum Item Pipe
+gregtech:item_pipe_large_restrictive:301, Large Restrictive Rose Gold Item Pipe
+gregtech:item_pipe_large_restrictive:290, Large Restrictive Magnalium Item Pipe
+gregtech:item_pipe_large_restrictive:331, Large Restrictive Ultimet Item Pipe
+gregtech:item_pipe_large_restrictive:300, Large Restrictive Sterling Silver Item Pipe
+gregtech:item_pipe_large_restrictive:2014, Large Restrictive Cobalt Brass Item Pipe
+gregtech:item_pipe_large_restrictive:23, Large Restrictive Cobalt Item Pipe
+gregtech:item_pipe_large_restrictive:69, Large Restrictive Nickel Item Pipe
 gregtech:item_pipe_large_restrictive:1007, Large Restrictive Polyvinyl Chloride (PVC) Item Pipe
-gregtech:item_pipe_huge_restrictive:69, Huge Restrictive Nickel Item Pipe
-gregtech:item_pipe_huge_restrictive:112, Huge Restrictive Tin Item Pipe
-gregtech:item_pipe_huge_restrictive:3, Huge Restrictive Americium Item Pipe
-gregtech:item_pipe_huge_restrictive:259, Huge Restrictive Brass Item Pipe
-gregtech:item_pipe_huge_restrictive:331, Huge Restrictive Ultimet Item Pipe
-gregtech:item_pipe_huge_restrictive:75, Huge Restrictive Osmium Item Pipe
-gregtech:item_pipe_huge_restrictive:274, Huge Restrictive Cupronickel Item Pipe
-gregtech:item_pipe_huge_restrictive:80, Huge Restrictive Platinum Item Pipe
-gregtech:item_pipe_huge_restrictive:302, Huge Restrictive Black Bronze Item Pipe
-gregtech:item_pipe_huge_restrictive:344, Huge Restrictive Osmiridium Item Pipe
-gregtech:item_pipe_huge_restrictive:290, Huge Restrictive Magnalium Item Pipe
-gregtech:item_pipe_huge_restrictive:301, Huge Restrictive Rose Gold Item Pipe
-gregtech:item_pipe_huge_restrictive:300, Huge Restrictive Sterling Silver Item Pipe
-gregtech:item_pipe_huge_restrictive:23, Huge Restrictive Cobalt Item Pipe
-gregtech:item_pipe_huge_restrictive:2014, Huge Restrictive Cobalt Brass Item Pipe
+gregtech:item_pipe_large_restrictive:75, Large Restrictive Osmium Item Pipe
 gregtech:item_pipe_huge_restrictive:277, Huge Restrictive Electrum Item Pipe
+gregtech:item_pipe_huge_restrictive:259, Huge Restrictive Brass Item Pipe
+gregtech:item_pipe_huge_restrictive:3, Huge Restrictive Americium Item Pipe
+gregtech:item_pipe_huge_restrictive:344, Huge Restrictive Osmiridium Item Pipe
+gregtech:item_pipe_huge_restrictive:112, Huge Restrictive Tin Item Pipe
+gregtech:item_pipe_huge_restrictive:274, Huge Restrictive Cupronickel Item Pipe
+gregtech:item_pipe_huge_restrictive:302, Huge Restrictive Black Bronze Item Pipe
+gregtech:item_pipe_huge_restrictive:80, Huge Restrictive Platinum Item Pipe
+gregtech:item_pipe_huge_restrictive:301, Huge Restrictive Rose Gold Item Pipe
+gregtech:item_pipe_huge_restrictive:290, Huge Restrictive Magnalium Item Pipe
+gregtech:item_pipe_huge_restrictive:331, Huge Restrictive Ultimet Item Pipe
+gregtech:item_pipe_huge_restrictive:300, Huge Restrictive Sterling Silver Item Pipe
+gregtech:item_pipe_huge_restrictive:2014, Huge Restrictive Cobalt Brass Item Pipe
+gregtech:item_pipe_huge_restrictive:23, Huge Restrictive Cobalt Item Pipe
+gregtech:item_pipe_huge_restrictive:69, Huge Restrictive Nickel Item Pipe
 gregtech:item_pipe_huge_restrictive:1007, Huge Restrictive Polyvinyl Chloride (PVC) Item Pipe
+gregtech:item_pipe_huge_restrictive:75, Huge Restrictive Osmium Item Pipe
 gregtech:optical_pipe_normal:0, Optical Fiber Cable
 gregtech:laser_pipe_normal:0, Laser Transmitting Cable
 gregtech:ld_item_pipe, Long Distance Item Pipe
@@ -5767,39 +5733,13 @@ gregtech:rubber_leaves, Rubber Tree Leaves
 gregtech:rubber_sapling, Rubber Tree Sapling
 gregtech:powderbarrel, Powderbarrel
 gregtech:itnt, Industrial TNT
-zbgt:meta_block_compressed_0:1, Block of Quantium
-zbgt:meta_block_compressed_31:4, Block of Indalloy 140
-zbgt:meta_block_compressed_31:5, Block of MAR-M200 Steel
-zbgt:meta_block_compressed_31:6, Block of Tanmolyium Beta-C
-zbgt:meta_block_compressed_31:7, Block of Precious Metals Alloy
-zbgt:meta_block_compressed_31:8, Block of Adamantium Alloy
-zbgt:meta_block_compressed_31:12, Block of High Durability Compound Steel
-zbgt:meta_block_compressed_31:13, Block of Ardite
-zbgt:meta_block_compressed_31:14, Block of Enderium
-zbgt:meta_block_compressed_31:15, Block of Energetic Alloy
-zbgt:meta_block_compressed_32:2, Block of Inconel-792
-zbgt:meta_block_compressed_32:6, Block of Grisium
-zbgt:meta_block_compressed_32:7, Block of Nitinol 60
-zbgt:meta_block_compressed_32:8, Block of Hastelloy-N
-zbgt:meta_block_compressed_32:9, Block of Hastelloy-W
-zbgt:meta_block_compressed_32:10, Block of Maraging Steel 250
-zbgt:meta_block_compressed_312:8, Block of MAR-Ce-M200
-zbgt:meta_block_compressed_312:9, Block of Artherium-Sn
-zbgt:meta_block_compressed_312:10, Block of Dalisenite
-zbgt:meta_block_compressed_312:11, Block of Manyullyn
-zbgt:meta_block_compressed_312:12, Block of Signalum
-zbgt:meta_block_compressed_312:13, Block of Vibrant Alloy
-zbgt:meta_block_compressed_312:14, Block of Lumium
-zbgt:meta_block_compressed_312:15, Block of Eglin Steel
-zbgt:meta_block_compressed_625:0, Block of Fluxed Electrum
-zbgt:meta_block_compressed_625:1, Block of Hikarium
-zbgt:meta_block_compressed_625:2, Block of Pikyonium 64B
 gregtech:meta_block_compressed_0:2, Block of Aluminium
 gregtech:meta_block_compressed_0:3, Block of Americium
 gregtech:meta_block_compressed_0:4, Block of Antimony
+gregtech:meta_block_compressed_0:8, Block of Barium
 gregtech:meta_block_compressed_0:10, Block of Beryllium
 gregtech:meta_block_compressed_0:11, Block of Bismuth
-gregtech:meta_block_compressed_1:4, Block of Cerium
+gregtech:meta_block_compressed_1:3, Block of Cadmium
 gregtech:meta_block_compressed_1:6, Block of Chrome
 gregtech:meta_block_compressed_1:7, Block of Cobalt
 gregtech:meta_block_compressed_1:9, Block of Copper
@@ -5966,10 +5906,11 @@ gregtech:meta_block_compressed_157:15, Block of Blue Alloy
 gregtech:meta_block_compressed_162:9, Block of Awakened Draconium
 gregtech:meta_block_compressed_162:10, Block of Adamantium
 gregtech:meta_block_compressed_162:11, Block of Cosmic Neutronium
-gregtech:meta_block_compressed_162:12, Block of Infinity
-gregtech:meta_block_compressed_162:13, Block of Eternal
-gregtech:meta_block_compressed_162:14, Block of Temporally Constrained Anti-Matter
-gregtech:meta_block_compressed_162:15, Block of Cataclysm Induced Mixed-Matter
+gregtech:meta_block_compressed_162:12, Block of 
+gregtech:meta_block_compressed_162:13, Block of 
+gregtech:meta_block_compressed_162:14, Block of Temporally Constrained Anti Matter
+gregtech:meta_block_compressed_162:15, Block of Cataclysm Induced Mixed Matter
+gregtech:meta_block_compressed_163:0, Block of Pikyonium
 gregtech:meta_block_compressed_187:8, Block of Stellite-100
 gregtech:meta_block_compressed_187:9, Block of Watertight Steel
 gregtech:meta_block_compressed_187:10, Block of Maraging Steel 300
@@ -5983,34 +5924,34 @@ gregtech:meta_block_compressed_188:1, Block of Molybdenum Disilicide
 gregtech:meta_block_compressed_188:12, Block of HSLA Steel
 gregtech:meta_block_compressed_188:13, Block of Titanium Tungsten Carbide
 gregtech:meta_block_compressed_188:14, Block of Incoloy-MA956
-gregtech:meta_block_compressed_1504:8, Block of Barium Titanate
-gregtech:meta_block_compressed_1504:14, Block of Fullerene Polymer Matrix
-gregtech:meta_block_compressed_1504:15, Block of Fullerene Polymer Tetrix
-gregtech:meta_block_compressed_1506:7, Block of Grisium
-gregtech:meta_block_compressed_1508:2, Block of Polyurethane
-gregtech:meta_block_compressed_1508:3, Block of Polystyrene
-gregtech:meta_block_compressed_1508:4, Block of Lithium Titanate
-gregtech:meta_block_compressed_1508:15, Block of Zylon
-gregtech:meta_block_compressed_1510:6, Block of Nomex
-gregtech:meta_block_compressed_1516:2, Block of Gadolinite
-gregtech:meta_block_compressed_1517:4, Block of Silver Alloy
-gregtech:meta_block_compressed_1517:5, Block of Sintered Silver
-gregtech:meta_block_compressed_1520:10, Block of Alumin
-gregtech:meta_block_compressed_1520:11, Block of Zircon
-gregtech:meta_block_compressed_1522:1, Block of Epoxid Circuit Board Base
-gregtech:meta_block_compressed_1523:10, Block of Precious Metal
-gregtech:meta_block_compressed_1523:12, Block of Eglin Steel
-gregtech:meta_block_compressed_1523:14, Block of Low Quality Steel
-gregtech:meta_block_compressed_1523:15, Block of Purified Silicon Carbide
-gregtech:meta_block_compressed_1563:3, Block of Kevlar
-gregtech:meta_block_compressed_1563:12, Block of Kapton K
-gregtech:meta_block_compressed_1563:15, Block of Kapton E
-gregtech:meta_block_compressed_1588:0, Block of Pikyonium
-gregtech:meta_block_compressed_1590:10, Block of Chromatic Glass
-gregtech:meta_block_compressed_1899:13, Block of Cubic Zirconia
-zbgt:meta_block_frame_32:7, Nitinol 60 Frame Box
+gregtech:meta_block_compressed_505:8, Block of Barium Titanate
+gregtech:meta_block_compressed_505:14, Block of Fullerene Polymer Matrix
+gregtech:meta_block_compressed_505:15, Block of Fullerene Polymer Tetrix
+gregtech:meta_block_compressed_507:7, Block of Grisium
+gregtech:meta_block_compressed_509:2, Block of Polyurethane
+gregtech:meta_block_compressed_509:3, Block of Polystyrene
+gregtech:meta_block_compressed_509:4, Block of Lithium Titanate
+gregtech:meta_block_compressed_509:15, Block of Zylon
+gregtech:meta_block_compressed_511:6, Block of Nomex
+gregtech:meta_block_compressed_517:2, Block of Gadolinite
+gregtech:meta_block_compressed_518:4, Block of Silver Alloy
+gregtech:meta_block_compressed_518:5, Block of Sintered Silver
+gregtech:meta_block_compressed_521:10, Block of Alumina
+gregtech:meta_block_compressed_521:11, Block of Zircon
+gregtech:meta_block_compressed_523:1, Block of Epoxid Circuit Board Base
+gregtech:meta_block_compressed_524:9, Block of Precious Metal
+gregtech:meta_block_compressed_524:11, Block of Eglin Steel
+gregtech:meta_block_compressed_524:13, Block of Low Quality Steel
+gregtech:meta_block_compressed_524:14, Block of Purified Silicon Carbide
+gregtech:meta_block_compressed_527:11, Block of Cubic Zirconia
+gregtech:meta_block_compressed_626:0, Block of Kapton K
+gregtech:meta_block_compressed_626:2, Block of Kapton E
+gregtech:meta_block_compressed_626:5, Block of Kevlar
+gregtech:meta_block_compressed_629:13, Block of Chromatic Glass
+gregtech:meta_block_compressed_875:1, Block of Degenerate Rhenium
+gregtech:meta_block_compressed_875:13, Block of Crystal Fluix
+gregtech:meta_block_compressed_1001:11, Block of Pig Iron
 gregtech:meta_block_frame_0:2, Aluminium Frame Box
-gregtech:meta_block_frame_1:11, Darmstadtium Frame Box
 gregtech:meta_block_frame_2:1, Europium Frame Box
 gregtech:meta_block_frame_3:2, Iridium Frame Box
 gregtech:meta_block_frame_3:3, Iron Frame Box
@@ -6019,7 +5960,6 @@ gregtech:meta_block_frame_7:1, Titanium Frame Box
 gregtech:meta_block_frame_7:3, Tungsten Frame Box
 gregtech:meta_block_frame_7:15, Neutronium Frame Box
 gregtech:meta_block_frame_8:0, Tritanium Frame Box
-gregtech:meta_block_frame_8:1, Duranium Frame Box
 gregtech:meta_block_frame_16:3, Brass Frame Box
 gregtech:meta_block_frame_16:4, Bronze Frame Box
 gregtech:meta_block_frame_17:15, Invar Frame Box
@@ -6028,7 +5968,6 @@ gregtech:meta_block_frame_19:6, Ruridit Frame Box
 gregtech:meta_block_frame_20:3, Stainless Steel Frame Box
 gregtech:meta_block_frame_20:4, Steel Frame Box
 gregtech:meta_block_frame_20:11, Ultimet Frame Box
-gregtech:meta_block_frame_20:15, Wrought Iron Frame Box
 gregtech:meta_block_frame_24:12, Tungstencarbide Frame Box
 gregtech:meta_block_frame_63:8, Polytetrafluoroethylene (PTFE) Frame Box
 gregtech:meta_block_frame_101:1, Wood Frame Box
@@ -6036,7 +5975,6 @@ gregtech:meta_block_frame_103:0, Treated Wood Frame Box
 gregtech:meta_block_frame_125:11, Black Steel Frame Box
 gregtech:meta_block_frame_125:13, Tungstensteel Frame Box
 gregtech:meta_block_frame_127:10, Naquadah Alloy Frame Box
-gregtech:meta_block_frame_128:14, Rhodium Plated Palladium Frame Box
 gregtech:meta_block_frame_156:15, Blue Steel Frame Box
 gregtech:meta_block_frame_157:4, HSS-G Frame Box
 gregtech:meta_block_frame_157:7, HSS-E Frame Box
@@ -6047,19 +5985,15 @@ gregtech:meta_block_frame_187:11, Hastelloy-C276 Frame Box
 gregtech:meta_block_frame_187:12, Hastelloy-X Frame Box
 gregtech:meta_block_frame_188:12, HSLA Steel Frame Box
 gregtech:meta_block_frame_188:14, Incoloy-MA956 Frame Box
-gregtech:meta_block_frame_1504:14, Fullerene Polymer Matrix Frame Box
-gregtech:meta_block_frame_1504:15, Fullerene Polymer Tetrix Frame Box
-gregtech:meta_block_frame_1506:7, Grisium Frame Box
-gregtech:meta_block_frame_1523:12, Eglin Steel Frame Box
-gregtech:meta_block_frame_1523:14, Low Quality Steel Frame Box
-gregtech:meta_block_frame_1523:15, Purified Silicon Carbide Frame Box
-gregtech:meta_block_frame_1625:1, Adamantium Frame Box
-gregtech:ore_adamantium_0:0, Adamantium Ore
-gregtech:ore_adamantium_0:1, Nether Adamantium Ore
-gregtech:ore_adamantium_0:2, End Adamantium Ore
-gregtech:ore_quantium_0:0, Quantium Ore
-gregtech:ore_quantium_0:1, Nether Quantium Ore
-gregtech:ore_quantium_0:2, End Quantium Ore
+gregtech:meta_block_frame_505:14, Fullerene Polymer Matrix Frame Box
+gregtech:meta_block_frame_505:15, Fullerene Polymer Tetrix Frame Box
+gregtech:meta_block_frame_507:7, Grisium Frame Box
+gregtech:meta_block_frame_524:11, Eglin Steel Frame Box
+gregtech:meta_block_frame_524:13, Low Quality Steel Frame Box
+gregtech:meta_block_frame_524:14, Purified Silicon Carbide Frame Box
+gregtech:meta_block_frame_530:1, Adamantium Frame Box
+gregtech:meta_block_frame_625:10, Polyetheretherketone Frame Box
+gregtech:meta_block_frame_875:1, Degenerate Rhenium Frame Box
 gregtech:ore_aluminium_0:0, Aluminium Ore
 gregtech:ore_aluminium_0:1, Nether Aluminium Ore
 gregtech:ore_aluminium_0:2, End Aluminium Ore
@@ -6093,9 +6027,6 @@ gregtech:ore_neodymium_0:2, End Neodymium Ore
 gregtech:ore_nickel_0:0, Nickel Ore
 gregtech:ore_nickel_0:1, Nether Nickel Ore
 gregtech:ore_nickel_0:2, End Nickel Ore
-gregtech:ore_niobium_0:0, Niobium Ore
-gregtech:ore_niobium_0:1, Nether Niobium Ore
-gregtech:ore_niobium_0:2, End Niobium Ore
 gregtech:ore_palladium_0:0, Palladium Ore
 gregtech:ore_palladium_0:1, Nether Palladium Ore
 gregtech:ore_palladium_0:2, End Palladium Ore
@@ -6117,12 +6048,9 @@ gregtech:ore_thorium_0:2, End Thorium Ore
 gregtech:ore_tin_0:0, Tin Ore
 gregtech:ore_tin_0:1, Nether Tin Ore
 gregtech:ore_tin_0:2, End Tin Ore
-gregtech:ore_titanium_0:0, Titanium Ore
-gregtech:ore_titanium_0:1, Nether Titanium Ore
-gregtech:ore_titanium_0:2, End Titanium Ore
-gregtech:ore_ytterbium_0:0, Ytterbium Ore
-gregtech:ore_ytterbium_0:1, Nether Ytterbium Ore
-gregtech:ore_ytterbium_0:2, End Ytterbium Ore
+gregtech:ore_zinc_0:0, Zinc Ore
+gregtech:ore_zinc_0:1, Nether Zinc Ore
+gregtech:ore_zinc_0:2, End Zinc Ore
 gregtech:ore_naquadah_0:0, Naquadah Ore
 gregtech:ore_naquadah_0:1, Nether Naquadah Ore
 gregtech:ore_naquadah_0:2, End Naquadah Ore
@@ -6132,6 +6060,9 @@ gregtech:ore_certus_quartz_0:2, End Certus Quartz Ore
 gregtech:ore_almandine_0:0, Almandine Ore
 gregtech:ore_almandine_0:1, Nether Almandine Ore
 gregtech:ore_almandine_0:2, End Almandine Ore
+gregtech:ore_andradite_0:0, Andradite Ore
+gregtech:ore_andradite_0:1, Nether Andradite Ore
+gregtech:ore_andradite_0:2, End Andradite Ore
 gregtech:ore_asbestos_0:0, Asbestos Ore
 gregtech:ore_asbestos_0:1, Nether Asbestos Ore
 gregtech:ore_asbestos_0:2, End Asbestos Ore
@@ -6207,6 +6138,9 @@ gregtech:ore_magnetite_0:2, End Magnetite Ore
 gregtech:ore_molybdenite_0:0, Molybdenite Ore
 gregtech:ore_molybdenite_0:1, Nether Molybdenite Ore
 gregtech:ore_molybdenite_0:2, End Molybdenite Ore
+gregtech:ore_phosphate_0:0, Phosphate Ore
+gregtech:ore_phosphate_0:1, Nether Phosphate Ore
+gregtech:ore_phosphate_0:2, End Phosphate Ore
 gregtech:ore_powellite_0:0, Powellite Ore
 gregtech:ore_powellite_0:1, Nether Powellite Ore
 gregtech:ore_powellite_0:2, End Powellite Ore
@@ -6399,9 +6333,18 @@ gregtech:ore_garnet_sand_0:2, End Garnet Sand Ore
 gregtech:ore_basaltic_mineral_sand_0:0, Basaltic Mineral Sand Ore
 gregtech:ore_basaltic_mineral_sand_0:1, Nether Basaltic Mineral Sand Ore
 gregtech:ore_basaltic_mineral_sand_0:2, End Basaltic Mineral Sand Ore
+gregtech:ore_tennanite_0:0, Tennanite Ore
+gregtech:ore_tennanite_0:1, Nether Tennanite Ore
+gregtech:ore_tennanite_0:2, End Tennanite Ore
+gregtech:ore_xenotime_0:0, Xenotime Ore
+gregtech:ore_xenotime_0:1, Nether Xenotime Ore
+gregtech:ore_xenotime_0:2, End Xenotime Ore
 gregtech:ore_gadolinite_0:0, Gadolinite Ore
 gregtech:ore_gadolinite_0:1, Nether Gadolinite Ore
 gregtech:ore_gadolinite_0:2, End Gadolinite Ore
+gregtech:ore_alumina_0:0, Alumina Ore
+gregtech:ore_alumina_0:1, Nether Alumina Ore
+gregtech:ore_alumina_0:2, End Alumina Ore
 gregtech:ore_zircon_0:0, Zircon Ore
 gregtech:ore_zircon_0:1, Nether Zircon Ore
 gregtech:ore_zircon_0:2, End Zircon Ore
@@ -6414,30 +6357,69 @@ gregtech:ore_columbite_0:2, End Columbite Ore
 gregtech:ore_celestine_0:0, Celestine Ore
 gregtech:ore_celestine_0:1, Nether Celestine Ore
 gregtech:ore_celestine_0:2, End Celestine Ore
-retro_sophisticated_backpacks:backpack_leather, Leather Backpack
-retro_sophisticated_backpacks:backpack_iron, Iron Backpack
-retro_sophisticated_backpacks:backpack_gold, Gold Backpack
-retro_sophisticated_backpacks:backpack_diamond, Diamond Backpack
-retro_sophisticated_backpacks:backpack_obsidian, Obsidian Backpack
-retro_sophisticated_backpacks:upgrade_base, Upgrade Base
-retro_sophisticated_backpacks:stack_upgrade_starter_tier, Stack Upgrade Starter Tier
-retro_sophisticated_backpacks:exponential_stack_upgrade, Exponential Stack Upgrade
-retro_sophisticated_backpacks:stack_upgrade_tier_1, Stack Upgrade Tier 1
-retro_sophisticated_backpacks:stack_upgrade_tier_2, Stack Upgrade Tier 2
-retro_sophisticated_backpacks:stack_upgrade_tier_3, Stack Upgrade Tier 3
-retro_sophisticated_backpacks:stack_upgrade_tier_4, Stack Upgrade Tier 4
-retro_sophisticated_backpacks:crafting_upgrade, Crafting Upgrade
-retro_sophisticated_backpacks:inception_upgrade, Inception Upgrade
-retro_sophisticated_backpacks:pickup_upgrade, Pickup Upgrade
-retro_sophisticated_backpacks:advanced_pickup_upgrade, Advanced Pickup Upgrade
-retro_sophisticated_backpacks:feeding_upgrade, Feeding Upgrade
-retro_sophisticated_backpacks:advanced_feeding_upgrade, Advanced Feeding Upgrade
-retro_sophisticated_backpacks:deposit_upgrade, Deposit Upgrade
-retro_sophisticated_backpacks:advanced_deposit_upgrade, Advanced Deposit Upgrade
-retro_sophisticated_backpacks:restock_upgrade, Restock Upgrade
-retro_sophisticated_backpacks:advanced_restock_upgrade, Advanced Restock Upgrade
-retro_sophisticated_backpacks:filter_upgrade, Filter Upgrade
-retro_sophisticated_backpacks:advanced_filter_upgrade, Advanced Filter Upgrade
+gregtech:ore_rhodocrosite_0:0, Rhodocrosite Ore
+gregtech:ore_rhodocrosite_0:1, Nether Rhodocrosite Ore
+gregtech:ore_rhodocrosite_0:2, End Rhodocrosite Ore
+gregtech:ore_platinum_metallic_powder_0:0, Platinum Metallic Powder Ore
+gregtech:ore_platinum_metallic_powder_0:1, Nether Platinum Metallic Powder Ore
+gregtech:ore_platinum_metallic_powder_0:2, End Platinum Metallic Powder Ore
+gregtech:ore_palladium_metallic_powder_0:0, Palladium Metallic Powder Ore
+gregtech:ore_palladium_metallic_powder_0:1, Nether Palladium Metallic Powder Ore
+gregtech:ore_palladium_metallic_powder_0:2, End Palladium Metallic Powder Ore
+gregtech:ore_aluminium_salt_0:0, Aluminium Salt Ore
+gregtech:ore_aluminium_salt_0:1, Nether Aluminium Salt Ore
+gregtech:ore_aluminium_salt_0:2, End Aluminium Salt Ore
+gregtech:ore_hematite_0:0, Hematite Ore
+gregtech:ore_hematite_0:1, Nether Hematite Ore
+gregtech:ore_hematite_0:2, End Hematite Ore
+gregtech:ore_enargite_0:0, Enargite Ore
+gregtech:ore_enargite_0:1, Nether Enargite Ore
+gregtech:ore_enargite_0:2, End Enargite Ore
+gregtech:ore_carrolite_0:0, Carrolite Ore
+gregtech:ore_carrolite_0:1, Nether Carrolite Ore
+gregtech:ore_carrolite_0:2, End Carrolite Ore
+gregtech:ore_vermiculite_0:0, Vermiculite Ore
+gregtech:ore_vermiculite_0:1, Nether Vermiculite Ore
+gregtech:ore_vermiculite_0:2, End Vermiculite Ore
+gregtech:ore_dolomite_0:0, Dolomite Ore
+gregtech:ore_dolomite_0:1, Nether Dolomite Ore
+gregtech:ore_dolomite_0:2, End Dolomite Ore
+gregtech:ore_wollastonite_0:0, Wollastonite Ore
+gregtech:ore_wollastonite_0:1, Nether Wollastonite Ore
+gregtech:ore_wollastonite_0:2, End Wollastonite Ore
+gregtech:ore_nickeliferous_limonite_0:0, Nickeliferous Limonite Ore
+gregtech:ore_nickeliferous_limonite_0:1, Nether Nickeliferous Limonite Ore
+gregtech:ore_nickeliferous_limonite_0:2, End Nickeliferous Limonite Ore
+gregtech:ore_serpentine_0:0, Serpentine Ore
+gregtech:ore_serpentine_0:1, Nether Serpentine Ore
+gregtech:ore_serpentine_0:2, End Serpentine Ore
+gregtech:ore_prasolite_0:0, Prasolite Ore
+gregtech:ore_prasolite_0:1, Nether Prasolite Ore
+gregtech:ore_prasolite_0:2, End Prasolite Ore
+gregtech:ore_tenorite_0:0, Tenorite Ore
+gregtech:ore_tenorite_0:1, Nether Tenorite Ore
+gregtech:ore_tenorite_0:2, End Tenorite Ore
+gregtech:ore_cuprite_0:0, Cuprite Ore
+gregtech:ore_cuprite_0:1, Nether Cuprite Ore
+gregtech:ore_cuprite_0:2, End Cuprite Ore
+gregtech:ore_witherite_0:0, Witherite Ore
+gregtech:ore_witherite_0:1, Nether Witherite Ore
+gregtech:ore_witherite_0:2, End Witherite Ore
+gregtech:ore_lignite_coal_0:0, Lignite Coal Ore
+gregtech:ore_lignite_coal_0:1, Nether Lignite Coal Ore
+gregtech:ore_lignite_coal_0:2, End Lignite Coal Ore
+gregtech:ore_anthracite_0:0, Anthracite Ore
+gregtech:ore_anthracite_0:1, Nether Anthracite Ore
+gregtech:ore_anthracite_0:2, End Anthracite Ore
+gregtech:ore_kaolinite_0:0, Kaolinite Ore
+gregtech:ore_kaolinite_0:1, Nether Kaolinite Ore
+gregtech:ore_kaolinite_0:2, End Kaolinite Ore
+gregtech:ore_sylvanite_0:0, Sylvanite Ore
+gregtech:ore_sylvanite_0:1, Nether Sylvanite Ore
+gregtech:ore_sylvanite_0:2, End Sylvanite Ore
+gregtech:ore_fluorite_0:0, Fluorite Ore
+gregtech:ore_fluorite_0:1, Nether Fluorite Ore
+gregtech:ore_fluorite_0:2, End Fluorite Ore
 gcym:unique_casing:0, Crushing Wheels
 gcym:unique_casing:1, Slicing Blades
 gcym:unique_casing:2, Electrolytic Cell
@@ -6577,7 +6559,7 @@ gtb:gtb_explosive:0, Naquadria Charge
 gtb:gtb_multiblock_casing:0, Climate Proof Casing
 gtb:gtb_multiblock_casing:1, Quantum Casing
 gtb:gtb_multiblock_casing:2, Quantum Glass
-gtb:gtb_multiblock_casing:3, tile.gtb_multiblock_casing.perfectly_sealed_vacuum_casing.name
+gtb:gtb_multiblock_casing:3, Perfectly Sealed Vacuum Casing
 gtb:gtb_multiblock_casing:4, tile.gtb_multiblock_casing.engraver_casing.name
 gtb:gtb_multiblock_casing:5, Substrate Casing
 gtb:gtb_multiblock_casing:6, Basic Structural Casing
@@ -6587,6 +6569,7 @@ gtb:gtb_multiblock_casing:9, Silicon Carbide Casing
 gtb:gtb_multiblock_casing:10, Biologically Sterile Casing
 gtb:gtb_multiblock_casing:11, Fullerene Polymer Tetrix Casing
 gtb:gtb_multiblock_casing:12, Gravity Separator Rotor Block
+gtb:gtb_multiblock_casing:13, Corrosion Proof Carbon Steel Casing
 gtb:gtb_multiblock_active_casing:0, Dimensional Casing
 gtb:gtb_multiblock_active_casing:1, Field Generator Casing
 gtb:gtb_multiblock_active_casing:2, High Energy Coil
@@ -6605,6 +6588,7 @@ gtb:crucible:1, Tungsten Crucible
 gtb:crucible:2, Graphite Crucible
 gtb:crucible:3, Boron Nitride Crucible
 gtb:cooling_coil:0, Silver Alloy Cooling Coil
+gtb:gtb_log:0, tile.gtb_log.palm_log.name
 ironchest:iron_gold_chest_upgrade, Iron to Gold Chest Upgrade
 ironchest:gold_diamond_chest_upgrade, Gold to Diamond Chest Upgrade
 ironchest:copper_silver_chest_upgrade, Copper to Silver Chest Upgrade
@@ -6782,325 +6766,9 @@ superfactorymanager:cable_bud, Block Detector
 superfactorymanager:cable_breaker, Block Gate
 superfactorymanager:cable_sign, Sign Updater
 superfactorymanager:disk, Memory Disc
-wildnature:green_apple, Green Apple
-wildnature:pear, Pear
-wildnature:rowanberry_red, Red Rowanberry
-wildnature:rowanberry_orange, Orange Rowanberry
-wildnature:cherry, Cherry
-wildnature:acorn, Acorn
-wildnature:corn, Corn
-wildnature:raw_boar, Raw Boar
-wildnature:cooked_boar, Cooked Boar
-wildnature:raw_goat, Raw Goat
-wildnature:cooked_goat, Cooked Goat
-wildnature:raw_bison, Raw Bison
-wildnature:cooked_bison, Cooked Bison
-wildnature:raw_camel, Raw Camel
-wildnature:cooked_camel, Cooked Camel
-wildnature:duck_male_feather, Duck male feather
-wildnature:duck_female_feather, Duck female feather
-wildnature:duck_baby_feather, Baby duck feather
-wildnature:pebble, Pebble
-wildnature:amethyst, Amethyst Crystal
-wildnature:amethyst_shard, Amethyst Shard
-wildnature:amethyst_sword, Amethyst sword
-wildnature:amethyst_hoe, Amethyst hoe
-wildnature:amethyst_axe, Amethyst axe
-wildnature:amethyst_pickaxe, Amethyst pickaxe
-wildnature:amethyst_shovel, Amethyst shovel
-wildnature:sapphire, Sapphire Crystal
-wildnature:sapphire_shard, Sapphire Shard
-wildnature:sapphire_sword, Sapphire sword
-wildnature:sapphire_hoe, Sapphire hoe
-wildnature:sapphire_axe, Sapphire axe
-wildnature:sapphire_pickaxe, Sapphire pickaxe
-wildnature:sapphire_shovel, Sapphire
-wildnature:ruby, Ruby Crystal
-wildnature:ruby_shard, Ruby Shard
-wildnature:ruby_sword, Ruby sword
-wildnature:ruby_hoe, Ruby hoe
-wildnature:ruby_axe, Ruby axe
-wildnature:ruby_pickaxe, Ruby pickaxe
-wildnature:ruby_shovel, Ruby shovel
-wildnature:amber, Amber Crystal
-wildnature:amber_sword, Amber sword
-wildnature:amber_hoe, Amber hoe
-wildnature:amber_axe, Amber axe
-wildnature:amber_pickaxe, Amber pickaxe
-wildnature:amber_shovel, Amber shovel
-wildnature:malachite, Malachite Crystal
-wildnature:malachite_shard, Malachite Shard
-wildnature:malachite_sword, Malachite sword
-wildnature:malachite_hoe, Malachite hoe
-wildnature:malachite_axe, Malachite axe
-wildnature:malachite_pickaxe, Malachite pickaxe
-wildnature:malachite_shovel, Malachite shovel
-wildnature:steel_ingot, Steel ingot
-wildnature:steel_rod, Steel rod
-wildnature:steel_sword, Steel sword
-wildnature:steel_hoe, Steel hoe
-wildnature:steel_axe, Steel axe
-wildnature:steel_pickaxe, Steel pickaxe
-wildnature:steel_shovel, Steel shovel
-wildnature:silver_ingot, Silver ingot
-wildnature:silver_rod, Silver rod
-wildnature:silver_sword, Silver sword
-wildnature:silver_hoe, Silver hoe
-wildnature:silver_axe, Silver axe
-wildnature:silver_pickaxe, Silver pickaxe
-wildnature:silver_shovel, Silver shovel
-wildnature:diamond_rod, Diamond rod
-wildnature:beech_log, Beech Log
-wildnature:beech_parquet, Beech parquet
-wildnature:beech_planks, Beech planks
-wildnature:beech_leaves, Beech leaves
-wildnature:beech_stairs_planks, Beech planks stairs
-wildnature:beech_stairs_parquet, Beech parquet stairs
-wildnature:beech_sapling, Beech sapling
-wildnature:beech_slab_half:0, Beech slab
-wildnature:redwood_log, Redwood Log
-wildnature:redwood_parquet, Redwood parquet
-wildnature:redwood_planks, Redwood planks
-wildnature:redwood_leaves, Redwood leaves
-wildnature:redwood_stairs_planks, Redwood planks stairs
-wildnature:redwood_stairs_parquet, Redwood parquet stairs
-wildnature:redwood_sapling, Redwood sapling
-wildnature:redwood_slab_half:0, Redwood slab
-wildnature:eucalyptus_log, Eucalyptus Log
-wildnature:eucalyptus_parquet, Eucalyptus parquet
-wildnature:eucalyptus_planks, Eucalyptus planks
-wildnature:eucalyptus_leaves, Eucalyptus leaves
-wildnature:eucalyptus_stairs_planks, Eucalyptus planks stairs
-wildnature:eucalyptus_stairs_parquet, Eucalyptus parquet stairs
-wildnature:eucalyptus_sapling, Eucalyptus sapling
-wildnature:eucalyptus_slab_half:0, Eucalyptus slab
-wildnature:hornbeam_log, Hornbeam Log
-wildnature:hornbeam_parquet, Hornbeam parquet
-wildnature:hornbeam_planks, Hornbeam planks
-wildnature:hornbeam_leaves, Hornbeam leaves
-wildnature:hornbeam_stairs_planks, Hornbeam planks stairs
-wildnature:hornbeam_stairs_parquet, Hornbeam parquet stairs
-wildnature:hornbeam_sapling, Hornbeam sapling
-wildnature:hornbeam_slab_half:0, Hornbeam slab
-wildnature:pear_log, Pear Log
-wildnature:pear_parquet, Pear parquet
-wildnature:pear_planks, Pear planks
-wildnature:pear_leaves, Pear leaves
-wildnature:pear_stairs_planks, Pear planks stairs
-wildnature:pear_stairs_parquet, Pear parquet stairs
-wildnature:pear_sapling, Pear sapling
-wildnature:pear_slab_half:0, Pear slab
-wildnature:apple_log, Apple Log
-wildnature:apple_parquet, Apple parquet
-wildnature:apple_planks, Apple planks
-wildnature:apple_leaves, Apple leaves
-wildnature:apple_stairs_planks, Apple planks stairs
-wildnature:apple_stairs_parquet, Apple parquet stairs
-wildnature:apple_sapling, Apple sapling
-wildnature:apple_slab_half:0, Apple slab
-wildnature:jacaranda_log, Jacaranda Log
-wildnature:jacaranda_parquet, Jacaranda parquet
-wildnature:jacaranda_planks, Jacaranda planks
-wildnature:jacaranda_leaves, Jacaranda leaves
-wildnature:jacaranda_stairs_planks, Jacaranda planks stairs
-wildnature:jacaranda_stairs_parquet, Jacaranda parquet stairs
-wildnature:jacaranda_sapling, Jacaranda sapling
-wildnature:jacaranda_slab_half:0, Jacaranda slab
-wildnature:rowan_log, Rowan Log
-wildnature:rowan_parquet, Rowan parquet
-wildnature:rowan_planks, Rowan planks
-wildnature:rowan_leaves, Rowan leaves
-wildnature:rowan_stairs_planks, Rowan planks stairs
-wildnature:rowan_stairs_parquet, Rowan parquet stairs
-wildnature:rowan_sapling, Rowan sapling
-wildnature:rowan_slab_half:0, Rowan slab
-wildnature:fir_log, Fir Log
-wildnature:fir_parquet, Fir parquet
-wildnature:fir_planks, Fir Planks
-wildnature:fir_leaves, Fir leaves
-wildnature:fir_stairs_planks, Fir planks stairs
-wildnature:fir_stairs_parquet, Fir parquet stairs
-wildnature:fir_sapling, Fir sapling
-wildnature:fir_slab_half:0, Fir slab
-wildnature:hazel_log, Hazel Log
-wildnature:hazel_parquet, Hazel Parquet
-wildnature:hazel_planks, Hazel Planks
-wildnature:hazel_leaves, Hazel leaves
-wildnature:hazel_stairs_planks, Hazel planks stairs
-wildnature:hazel_stairs_parquet, Hazel parquet stairs
-wildnature:hazel_sapling, Hazel sapling
-wildnature:hazel_slab_half:0, Hazel slab
-wildnature:cherry_log, Cherry Log
-wildnature:cherry_parquet, Cherry parquet
-wildnature:cherry_planks, Cherry planks
-wildnature:cherry_pink_leaves, Pink Cherry leaves
-wildnature:cherry_white_leaves, White Cherry leaves
-wildnature:cherry_stairs_planks, Cherry planks stairs
-wildnature:cherry_stairs_parquet, Cherry parquet stairs
-wildnature:cherry_pink_sapling, Pink Cherry sapling
-wildnature:cherry_white_sapling, White Cherry sapling
-wildnature:cherry_slab_half:0, Cherry slab
-wildnature:baobab_log, Baobab Log
-wildnature:baobab_parquet, Baobab parquet
-wildnature:baobab_planks, Baobab planks
-wildnature:baobab_leaves, Baobab leaves
-wildnature:baobab_stairs_planks, Baobab planks stairs
-wildnature:baobab_stairs_parquet, Baobab parquet stairs
-wildnature:baobab_sapling, Baobab sapling
-wildnature:baobab_slab_half:0, Baobab slab
-wildnature:ebony_log, Ebony Log
-wildnature:ebony_parquet, Ebony parquet
-wildnature:ebony_planks, Ebony planks
-wildnature:ebony_leaves, Ebony leaves
-wildnature:ebony_stairs_planks, Ebony planks stairs
-wildnature:ebony_stairs_parquet, Ebony parquet stairs
-wildnature:ebony_sapling, Ebony sapling
-wildnature:ebony_slab_half:0, Ebony slab
-wildnature:pine_log, Pine Log
-wildnature:pine_parquet, Pine parquet
-wildnature:pine_planks, Pine planks
-wildnature:pine_leaves, Pine leaves
-wildnature:pine_stairs_planks, Pine planks stairs
-wildnature:pine_stairs_parquet, Pine parquet stairs
-wildnature:pine_sapling, Pine sapling
-wildnature:pine_slab_half:0, Pine slab
-wildnature:palm_log, Palm Log
-wildnature:palm_parquet, Palm parquet
-wildnature:palm_planks, Palm planks
-wildnature:palm_leaves, Palm leaves
-wildnature:palm_stairs_planks, Palm planks stairs
-wildnature:palm_stairs_parquet, Palm parquet stairs
-wildnature:palm_sapling, Palm sapling
-wildnature:palm_slab_half:0, Palm slab
-wildnature:mahogany_log, Mahogany Log
-wildnature:mahogany_parquet, Mahogany parquet
-wildnature:mahogany_planks, Mahogany planks
-wildnature:mahogany_leaves, Mahogany leaves
-wildnature:mahogany_stairs_planks, Mahogany planks stairs
-wildnature:mahogany_stairs_parquet, Mahogany parquet stairs
-wildnature:mahogany_sapling, Mahogany sapling
-wildnature:mahogany_slab_half:0, Mahogany slab
-wildnature:cedar_log, Cedar Log
-wildnature:cedar_parquet, Cedar parquet
-wildnature:cedar_planks, Cedar planks
-wildnature:cedar_leaves, Cedar leaves
-wildnature:cedar_stairs_planks, Cedar planks stairs
-wildnature:cedar_stairs_parquet, Cedar parquet stairs
-wildnature:cedar_sapling, Cedar sapling
-wildnature:cedar_slab_half:0, Cedar slab
-wildnature:willow_log, Willow Log
-wildnature:willow_parquet, Willow parquet
-wildnature:willow_planks, Willow planks
-wildnature:willow_leaves, Willow leaves
-wildnature:willow_stairs_planks, Willow planks stairs
-wildnature:willow_stairs_parquet, Willow parquet stairs
-wildnature:willow_sapling, Willow sapling
-wildnature:willow_slab_half:0, Willow slab
-wildnature:red_autumn_leaves, Red Autumn leaves
-wildnature:orange_autumn_leaves, Orange Autumn leaves
-wildnature:yellow_autumn_leaves, Yellow Autumn leaves
-wildnature:rotten_leaves, Rotten leaves
-wildnature:rotten_log, Rotten Log
-wildnature:dead_log, Dead Log
-wildnature:small_grass, Short Grass
-wildnature:dead_short_grass, Dead Short Grass
-wildnature:desert_grass, Desert Grass
-wildnature:tallgrass_wheat, Grass with wheat
-wildnature:tallgrass_thistle, Thistle
-wildnature:tallgrass_flower, Floral Grass
-wildnature:tallgrass_fernsprout, Fernsprout
-wildnature:wild_wheat, Wild Wheat
-wildnature:leaf_pile, Leaf Pile
-wildnature:dead_leaf_pile, Dead Leaf Pile
-wildnature:corn_bush, tile.corn_bush.name
-wildnature:jacaranda_flower, Jacaranda Flower
-wildnature:cherry_flower, Cherry Flower
-wildnature:daisy, Daisy
-wildnature:clover, Clover
-wildnature:medium_grass, Medium Grass
-wildnature:bluebell, Bluebell
-wildnature:pulsatilla, Pasque
-wildnature:heather_purple, Purple Heather
-wildnature:heather_pink, Pink Heather
-wildnature:heather_white, White Heather
-wildnature:lupine_violet, Violet lupine
-wildnature:lupine_blue, Blue lupine
-wildnature:lupine_red, Red lupine
-wildnature:lupine_pink, Pink lupine
-wildnature:lupine_yellow, Yellow lupine
-wildnature:iris_violet, Violet iris
-wildnature:iris_purple, Purple iris
-wildnature:forget_me_not_blue, Blue forget-me-not
-wildnature:forget_me_not_pink, Pink forget-me-not
-wildnature:brown_grass_block, Brown Grass Block
-wildnature:mold_grass_block, Mold Grass Block
-wildnature:desert_grass_block, Desert Grass Block
-wildnature:dried_grass_block, Dried Grass Block
-wildnature:overgrown_stone, Overgrown Stone
-wildnature:browndirt, Brown Dirt
-wildnature:molddirt, Mold Dirt
-wildnature:desertdirt, Desert Dirt
-wildnature:drieddirt, Dried Dirt
-wildnature:frozen_dirt, Frozen Dirt
-wildnature:brown_podzol, Brown podzol
-wildnature:mold_podzol, Mold podzol
-wildnature:brown_mycelium, Brown mycelium
-wildnature:mold_mycelium, Mold mycelium
-wildnature:mud, tile.mud.name
-wildnature:dried_sand, Dried sand
-wildnature:ash_block, Ash Block
-wildnature:white_sand, White Sand
-wildnature:ash, Ash
-wildnature:darkstone, Dark Stone
-wildnature:hardened_sandstone, Hardened Sandstone
-wildnature:red_hardened_sandstone, Red Hardened Sandstone
-wildnature:frozen_stone, Frozen Stone
-wildnature:basalt, Basalt
-wildnature:carbonatite, Carbonatite
-wildnature:chalk, Chalk
-wildnature:conglomerate, Conglomerate
-wildnature:dolomite, Dolomite
-wildnature:epidosite, Epidosite
-wildnature:gabbro, Gabbro
-wildnature:gneiss, Gneiss
-wildnature:gypsum, Gypsum
-wildnature:limestone, Limestone
-wildnature:marble, Marble
-wildnature:monzonite, Monzonite
-wildnature:pegmatite, Pegmatite
-wildnature:phyllite, Phyllite
-wildnature:pumice, Pumice
-wildnature:pyroxenite, Pyroxenite
-wildnature:rhyolite, Rhyolite
-wildnature:slate, Slate
-wildnature:syenite, Syenite
-wildnature:umber, Umber
-wildnature:frozen_cobblestone, Frozen Cobblestone
-wildnature:amethyst_block, Block of Amethyst
-wildnature:amethyst_ore, Amethyst Ore
-wildnature:amber_block, Block of Amber
-wildnature:amber_ore, Amber Ore
-wildnature:ruby_block, Block of Ruby
-wildnature:ruby_ore, Ruby Ore
-wildnature:silver_block, Block of Silver
-wildnature:silver_ore, Silver Ore
-wildnature:malachite_block, Block of Malachite
-wildnature:malachite_ore, Malachite Ore
-wildnature:sapphire_block, Block of Sapphire
-wildnature:sapphire_ore, Sapphire Ore
-wildnature:steel_block, Block of Steel
-wildnature:mushroom_1, Porcino
-wildnature:mushroom_8, Boletus
-wildnature:mushroom_7, Orange birch bolete
-wildnature:mushroom_2, Slippery jack
-wildnature:mushroom_6, Saffron Milk cap
-wildnature:mushroom_5, Toadstool
-wildnature:mushroom_4, Death Cap
-wildnature:mushroom_3, Champignon
-wildnature:mushroom_9, Chanterelle
-wildnature:ironworks, Ironworks
-wildnature:steel_ladder, Steel ladder
-wildnature:mb_water, tile.mb_water.name
+wct:wct, Wireless Crafting Terminal
+wct:wct_creative, Creative Wireless Crafting Terminal
+wct:magnet_card, Magnet Card
 xtones:base, Xtone Tile
 xtones:lamp_flat, Flat Lamp
 xtones:agon:0, Agon 1
@@ -7647,54 +7315,12 @@ xtones:zyth:12, Zyth 13
 xtones:zyth:13, Zyth 14
 xtones:zyth:14, Zyth 15
 xtones:zyth:15, Zyth 16
-zbgt:multiblock_casing:0, Advanced Iridium Plated Machine Casing
-zbgt:coal_casing:0, Component Assembly Line Casing (ULV)
-zbgt:coal_casing:1, Component Assembly Line Casing (LV)
-zbgt:coal_casing:2, Component Assembly Line Casing (MV)
-zbgt:coal_casing:3, Component Assembly Line Casing (HV)
-zbgt:coal_casing:4, Component Assembly Line Casing (EV)
-zbgt:coal_casing:5, Component Assembly Line Casing (IV)
-zbgt:coal_casing:6, Component Assembly Line Casing (LuV)
-zbgt:coal_casing:7, Component Assembly Line Casing (ZPM)
-zbgt:coal_casing:8, Component Assembly Line Casing (UV)
-zbgt:coal_casing:9, Component Assembly Line Casing (UHV)
-zbgt:coal_casing:10, Component Assembly Line Casing (UEV)
-zbgt:coal_casing:11, Component Assembly Line Casing (UIV)
-zbgt:coal_casing:12, Component Assembly Line Casing (UXV)
-zbgt:coal_casing:13, Component Assembly Line Casing (OpV)
-zbgt:coal_casing:14, Component Assembly Line Casing (MAX)
-zbgt:precise_casing:0, Imprecise Electronic Unit Casing
-zbgt:precise_casing:1, Precise Electronic Unit Casing Mk-I
-zbgt:precise_casing:2, Precise Electronic Unit Casing Mk-II
-zbgt:precise_casing:3, Precise Electronic Unit Casing Mk-III
-zbgt:precise_casing:4, Precise Electronic Unit Casing Mk-IV
-zbgt:yottank_cell:0, Fluid Cell Block T1
-zbgt:yottank_cell:1, Fluid Cell Block T2
-zbgt:yottank_cell:2, Fluid Cell Block T3
-zbgt:yottank_cell:3, Fluid Cell Block T4
-zbgt:yottank_cell:4, Fluid Cell Block T5
-zbgt:yottank_cell:5, Fluid Cell Block T6
-zbgt:yottank_cell:6, Fluid Cell Block T7
-zbgt:yottank_cell:7, Fluid Cell Block T8
-zbgt:yottank_cell:8, Fluid Cell Block T9
-zbgt:yottank_cell:9, Fluid Cell Block T10
-zbgt:misc_casing:0, YOTTank Casing
-zbgt:misc_casing:1, Ameliorated Superconductor Coil
-zbgt:misc_casing:2, Compact Fusion Coil
-zbgt:misc_casing:3, Advanced Compact Fusion Coil
-zbgt:misc_casing:4, Compact Fusion Coil MK-II Prototype
-zbgt:misc_casing:5, Compact Fusion Coil MK-II Finaltype
-zbgt:misc_casing:6, Volcanus Casing
-zbgt:misc_casing:7, Advanced Cryogenic Casing
-zbgt:misc_casing:8, Molecular Casing
-zbgt:misc_casing:9, Molecular Coil
-zbgt:misc_casing:10, Hollow Casing
-zbgt:creative_heating_coil:0, Creative Heating Coil
 architecturecraft:sawblade, Circular Saw Blade
 architecturecraft:largepulley, Large Pulley
 architecturecraft:chisel, Architect's Chisel
 architecturecraft:hammer, Architect's Hammer
 architecturecraft:sawbench, Architect's Sawbench
+base:wrench, Wrench
 betterbuilderswands:wandstone, Stone Wand
 betterbuilderswands:wandiron, Iron Wand
 betterbuilderswands:wanddiamond, Diamond Wand
@@ -7730,33 +7356,7 @@ gregtechdrawers:basicdrawers_gregtech_rubber_wood:2, Basic Drawers 2x2
 gregtechdrawers:basicdrawers_gregtech_rubber_wood:3, Half Drawers 1x2
 gregtechdrawers:basicdrawers_gregtech_rubber_wood:4, Half Drawers 2x2
 gregtechdrawers:trim_gregtech_rubber_wood, Trim
-threng:material:0, Fluix Steel Ingot
-threng:material:1, Carbonic Fluix Complex
-threng:material:2, Fluix-Plated Iron Ingot
-threng:material:3, Coal Dust
-threng:material:4, Fluix Logic Unit
-threng:material:5, Resonating Crystal
-threng:material:6, Massively Parallel Processor
-threng:material:7, Speculation Core (1x)
-threng:material:8, Speculation Core (2x)
-threng:material:9, Speculation Core (4x)
-threng:material:10, Speculation Core (8x)
-threng:material:11, Speculation Core (16x)
-threng:material:12, Speculation Core (32x)
-threng:material:13, Speculation Core (64x)
-threng:material:14, Speculative Processor
-threng:machine:0, Fluix Aggregator
-threng:machine:1, Pulse Centrifuge
-threng:machine:2, ME Circuit Etcher
-threng:machine:3, Preemptive Assembly Unit
-threng:machine:4, ME Level Maintainer
-threng:machine:5, Crystal Energizer
-threng:big_assembler:0, Mass Assembler Frame
-threng:big_assembler:1, Mass Assembler Vent
-threng:big_assembler:2, Mass Assembler Controller
-threng:big_assembler:3, MA Pattern Provider
-threng:big_assembler:4, MA Crafting Coprocessor
-threng:big_assembler:5, Mass Assembler IO Port
+ichunutil:compact_porkchop, Compact Raw Porkchop
 nae2:material:0, ME Void Storage Component
 nae2:material:1, §c256k§r ME Storage Component
 nae2:material:2, §61024k§r ME Storage Component
@@ -7792,3 +7392,8 @@ nae2:coprocessor_4x, §b4x§r Crafting Co-Processing Unit
 nae2:coprocessor_16x, §d16x§r Crafting Co-Processing Unit
 nae2:coprocessor_64x, §964x§r Crafting Co-Processing Unit
 nae2:exposer, ME Storage Exposer
+silkarmor:silk_helmet, Silk Turban
+silkarmor:silk_body, Silk Robe
+silkarmor:silk_legs, Silk Pants
+silkarmor:silk_boots, Silk Slippers
+silkarmor:silk_cloth, Silk Cloth
