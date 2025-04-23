@@ -656,6 +656,27 @@ public class SecondDegreeMaterials {
                 .dust()
                 .color(0x95B876)
                 .build().setFormula("Ba(OH)2", true);
+        
+        VacuumFlashedCoalTar = new Material.Builder(10119, GTBUtil.gtb("vacuum_flashed_coal_tar"))
+                .fluid()
+                .color(0x1F1A1A)
+                .build();
+        
+        VacuumFlashedWoodTar = new Material.Builder(10120, GTBUtil.gtb("vacuum_flashed_wood_tar"))
+                .fluid()
+                .color(0x594A48)
+                .build();
+        
+        DecokedCoalTar = new Material.Builder(10121, GTBUtil.gtb("vacuum_flashed_coal_tar"))
+                .fluid()
+                .color(0x0D0A09)
+                .build();
+        
+        DecokedWoodTar = new Material.Builder(10122, GTBUtil.gtb("vacuum_flashed_wood_tar"))
+                .fluid()
+                .color(0x3C2C28)
+                .build();
+
 
 
 

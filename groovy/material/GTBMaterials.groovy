@@ -291,6 +291,10 @@ class GTBMaterials {
         public static Material ChromiumIIIOxide;
         public static Material IronCalciumHydroxides;
         public static Material HighPurityCadmium;
+        public static Material DecokedCoalTar;
+        public static Material DecokedWoodTar;
+        public static Material VacuumFlashedCoalTar;
+        public static Material VacuumFlashedWoodTar;
 
 
         //Biology Materials
