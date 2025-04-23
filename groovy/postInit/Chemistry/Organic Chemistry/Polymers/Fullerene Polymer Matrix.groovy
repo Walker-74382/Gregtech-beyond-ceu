@@ -3,7 +3,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
 
         LARGE_CHEMICAL_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('naphthalene')*1000)
-                .fluidInputs(fluid('sodium_cyanide')*1000)
+                .inputs(item('gregtechfoodoption:gtfo_oredict_item', 1138))
                 .fluidInputs(fluid('bromine')*2000)
                 .outputs(metaitem('dustSodiumBromide')*2)
                 .notConsumable(metaitem('uva_halide_lamp'))
@@ -159,7 +159,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .buildAndRegister();
 
         CHEMICAL_RECIPES.recipeBuilder()
-                .fluidInputs(fluid('hydrogen_cyanide')*1000)
+                .fluidInputs(fluid('gtfo_hydrogen_cyanide')*1000)
                 .fluidInputs(fluid('potassium_hydroxide')*1000)
                 .circuitMeta(1)
                 .outputs(metaitem('dustPotassiumCyanide')*3)

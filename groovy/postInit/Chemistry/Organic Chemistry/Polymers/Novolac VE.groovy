@@ -58,7 +58,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
 
 
     CHEMICAL_RECIPES.recipeBuilder()
-            .fluidInputs(fluid('hydrogen_cyanide')*1000)
+            .fluidInputs(fluid('gtfo_hydrogen_cyanide')*1000)
             .fluidInputs(fluid('acetone')*1000)
             .fluidOutputs(fluid('acetone_cyanohydrin')*1000)
             .duration(400)
