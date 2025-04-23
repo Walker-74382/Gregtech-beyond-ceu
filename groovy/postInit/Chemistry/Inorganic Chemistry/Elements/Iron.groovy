@@ -129,7 +129,7 @@ mods.gregtech.electrolyzer.removeByInput(30, [metaitem('dustBandedIron') * 5], n
         BLAST_RECIPES.recipeBuilder() //REDUCTION FURNACE
                 .fluidInputs(fluid('iron_2_chloride')*1000)
                 .fluidInputs(fluid('hydrogen')*2000)
-                .outputs(metaitem('ingotIron')) //IRON SPONGE
+                .outputs(item('minecraft:iron_ingot')) //IRON SPONGE
                 .fluidOutputs(fluid('hydrogen_chloride')*2000)
                 .blastFurnaceTemp(1100)
                 .duration(220)
