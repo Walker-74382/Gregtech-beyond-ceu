@@ -64,3 +64,7 @@ mods.gregtech.large_chemical_reactor.removeByInput(30, [metaitem('circuit.integr
 mods.gregtech.chemical_reactor.removeByInput(30, [metaitem('circuit.integrated').withNbt(['Configuration': 1])], [fluid('air') * 1000 * 1000, fluid('vinyl_chloride') * 144 * 144])
 // Liquid Polyvinyl Chloride (PVC) * 216
 mods.gregtech.chemical_reactor.removeByInput(30, [metaitem('circuit.integrated').withNbt(['Configuration': 1])], [fluid('oxygen') * 1000 * 1000, fluid('vinyl_chloride') * 144 * 144])
+// Liquid Polyvinyl Chloride (PVC) * 144
+mods.gregtech.large_chemical_reactor.removeByInput(30, [metaitem('circuit.integrated').withNbt(['Configuration': 1])], [fluid('air') * 1000 * 1000, fluid('vinyl_chloride') * 144 * 144])
+// Liquid Polyvinyl Chloride (PVC) * 216
+mods.gregtech.large_chemical_reactor.removeByInput(30, [metaitem('circuit.integrated').withNbt(['Configuration': 1])], [fluid('oxygen') * 1000 * 1000, fluid('vinyl_chloride') * 144 * 144])
