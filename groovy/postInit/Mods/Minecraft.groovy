@@ -67,38 +67,6 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .buildAndRegister();
 
         ASSEMBLER_RECIPES.recipeBuilder()
-                .inputs(metaitem('plateIron')*4)
-                .circuitMeta(4)
-                .outputs(item('minecraft:iron_boots'))
-                .duration(200)
-                .EUt(8)
-                .buildAndRegister();
-
-        ASSEMBLER_RECIPES.recipeBuilder()
-                .inputs(metaitem('plateIron')*7)
-                .circuitMeta(7)
-                .outputs(item('minecraft:iron_leggings'))
-                .duration(200)
-                .EUt(8)
-                .buildAndRegister();
-
-        ASSEMBLER_RECIPES.recipeBuilder()
-                .inputs(metaitem('plateIron')*5)
-                .circuitMeta(5)
-                .outputs(item('minecraft:iron_helmet'))
-                .duration(200)
-                .EUt(8)
-                .buildAndRegister();
-
-        ASSEMBLER_RECIPES.recipeBuilder()
-                .inputs(metaitem('plateIron')*8)
-                .circuitMeta(8)
-                .outputs(item('minecraft:iron_chestplate'))
-                .duration(200)
-                .EUt(8)
-                .buildAndRegister();
-
-        ASSEMBLER_RECIPES.recipeBuilder()
                 .inputs(metaitem('ringIron')*4)
                 .circuitMeta(4)
                 .outputs(item('minecraft:chainmail_boots'))
@@ -129,3 +97,27 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .duration(200)
                 .EUt(8)
                 .buildAndRegister();
+
+
+crafting.remove('minecraft:furnace');
+
+// Furnace * 1
+mods.gregtech.assembler.removeByInput(7, [metaitem('circuit.integrated').withNbt(['Configuration': 8]), item('minecraft:mossy_cobblestone:*') * 8 * 8], null)
+
+
+crafting.addShaped("furnace",  item('minecraft:furnace'), [
+[ore('plateStone'), ore('plateStone'), ore('plateStone')], 
+[ore('plateStone'), item('pyrotech:furnace_core'), ore('plateStone')], 
+[ore('plateStone'), ore('plateStone'), ore('plateStone')]
+])
+
+crafting.remove('minecraft:chest');
+crafting.remove('minecraft:crafting_table');
+crafting.remove('minecraft:bow')
+crafting.remove('minecraft:arrow')
+crafting.remove('minecraft:boat')
+crafting.remove('minecraft:acacia_boat')
+crafting.remove('minecraft:spruce_boat')
+crafting.remove('minecraft:birch_boat')
+crafting.remove('minecraft:jungle_boat')
+crafting.remove('minecraft:dark_oak_boat')
