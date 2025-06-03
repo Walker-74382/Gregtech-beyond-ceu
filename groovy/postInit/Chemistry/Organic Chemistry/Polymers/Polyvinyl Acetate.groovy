@@ -62,3 +62,13 @@ mods.gregtech.chemical_reactor.removeByInput(30, [metaitem('circuit.integrated')
 mods.gregtech.chemical_reactor.removeByInput(30, [metaitem('circuit.integrated').withNbt(['Configuration': 2])], [fluid('oxygen') * 7500 * 7500, fluid('vinyl_acetate') * 2160 * 2160, fluid('titanium_tetrachloride') * 100 * 100])
 // Polyvinyl Acetate * 216
 mods.gregtech.chemical_reactor.removeByInput(30, [metaitem('circuit.integrated').withNbt(['Configuration': 1])], [fluid('oxygen') * 1000 * 1000, fluid('vinyl_acetate') * 144 * 144])
+// Polyvinyl Acetate * 144
+mods.gregtech.large_chemical_reactor.removeByInput(30, [metaitem('circuit.integrated').withNbt(['Configuration': 1])], [fluid('air') * 1000 * 1000, fluid('vinyl_acetate') * 144 * 144])
+// Polyvinyl Acetate * 216
+mods.gregtech.large_chemical_reactor.removeByInput(30, [metaitem('circuit.integrated').withNbt(['Configuration': 1])], [fluid('oxygen') * 1000 * 1000, fluid('vinyl_acetate') * 144 * 144])
+// Polyvinyl Acetate * 4320
+mods.gregtech.large_chemical_reactor.removeByInput(30, [metaitem('circuit.integrated').withNbt(['Configuration': 2])], [fluid('oxygen') * 7500 * 7500, fluid('vinyl_acetate') * 2160 * 2160, fluid('titanium_tetrachloride') * 100 * 100])
+// Polyvinyl Acetate * 3240
+mods.gregtech.chemical_reactor.removeByInput(30, [metaitem('circuit.integrated').withNbt(['Configuration': 2])], [fluid('air') * 7500 * 7500, fluid('vinyl_acetate') * 2160 * 2160, fluid('titanium_tetrachloride') * 100 * 100])
+// Polyvinyl Acetate * 3240
+mods.gregtech.large_chemical_reactor.removeByInput(30, [metaitem('circuit.integrated').withNbt(['Configuration': 2])], [fluid('air') * 7500 * 7500, fluid('vinyl_acetate') * 2160 * 2160, fluid('titanium_tetrachloride') * 100 * 100])
