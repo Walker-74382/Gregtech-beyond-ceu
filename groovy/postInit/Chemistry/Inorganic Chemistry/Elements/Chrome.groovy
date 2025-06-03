@@ -77,3 +77,15 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
 mods.gregtech.electrolyzer.removeByInput(60, [metaitem('dustChromite') * 7], null)
 // Chrome Dust * 1
 mods.gregtech.electrolyzer.removeByInput(30, [metaitem('dustChromiumTrioxide') * 4], null)
+
+// Potassium Dust * 2
+mods.gregtech.electrolyzer.removeByInput(60, [metaitem('dustPotassiumDichromate') * 11], null)
+
+        ROASTER_RECIPES.recipeBuilder()
+                .EUt(800)
+                .duration(200)
+                .inputs(metaitem('dustPotassiumDichromate') * 11)
+                .fluidOutputs(fluid('oxygen')*7000)
+                .outputs(metaitem('dustChrome')*2)
+                .outputs(metaitem('dustPotassium')*2)
+                .buildAndRegister();
