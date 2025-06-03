@@ -85,3 +85,5 @@ mods.gregtech.chemical_bath.removeByInput(960, [metaitem('dustTungstate') * 7], 
 
 // Tungsten Dust * 1
 mods.gregtech.electrolyzer.removeByInput(960, [metaitem('dustTungsticAcid') * 7], null)
+// Tungstic Acid Dust * 7
+mods.gregtech.chemical_bath.removeByInput(960, [metaitem('dustScheelite') * 6], [fluid('hydrochloric_acid') * 2000 * 2000])
