@@ -48,6 +48,7 @@ public class MaterialPropertyAddition {
             Phosphate.setProperty(PropertyKey.ORE, new OreProperty());
             Andradite.setProperty(PropertyKey.ORE, new OreProperty());
             Zinc.setProperty(PropertyKey.ORE, new OreProperty());
+            Rutile.setProperty(PropertyKey.ORE, new OreProperty());
       
       }
   }

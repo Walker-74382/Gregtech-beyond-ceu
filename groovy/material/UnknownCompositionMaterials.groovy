@@ -796,6 +796,13 @@ public class UnknownCompositionMaterials {
                 .color(0x3B3B3B)
                 .build().setFormula("Cd?", true);
 
+        MasonryBrick = new Material.Builder(14664, GTBUtil.gtb("masonry_brick"))
+                .ingot()
+                .dust()
+                .flags(GENERATE_PLATE)
+                .color(0x737373)
+                .build();
+
   }
 
 }
