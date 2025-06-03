@@ -51,6 +51,16 @@ mods.gregtech.electrolyzer.removeByInput(30, [metaitem('dustCalciumChloride') * 
                 .duration(200)
                 .buildAndRegister();
 
+        ELECTROLYZER_RECIPES.recipeBuilder()
+                .notConsumable(metaitem('stickIron'))
+                .notConsumable(metaitem('stickGold'))
+                .inputs(metaitem('dustZincChloride')*3)
+                .fluidOutputs(fluid('chlorine')*2000)
+                .outputs(metaitem('dustZinc'))
+                .EUt(40)
+                .duration(200)
+                .buildAndRegister();
+
         CHEMICAL_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('nitrobenzene')*1000)
                 .fluidInputs(fluid('hydrogen')*3000)
