@@ -95,7 +95,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
             .fluidInputs(fluid('chlorosulfonic_acid')*1000)
             .fluidOutputs(fluid('hydrochloric_acid')*1000)
             .fluidOutputs(fluid('water')*1000)
-            .fluidOutputs(fluid('p_toluenesulfonic_acid'))
+            .fluidOutputs(fluid('p_toluenesulfonic_acid')*1000)
             .fluidInputs(fluid('sulfuric_acid')*1000)
             .fluidInputs(fluid('toluene')*1000)
             .duration(200)
