@@ -163,6 +163,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .fluidInputs(fluid('refinery_gas')*8000).notConsumable(metaitem('dustCobaltOxide')* 1)
                 .outputs(metaitem('paraffin_wax')* 1).fluidOutputs(fluid('diesel')*1000)
                 .fluidOutputs(fluid('gasoline')*500).fluidOutputs(fluid('water')*2000)
+                .fluidOutputs(fluid('tridecane')*400)
                 .fluidOutputs(fluid('sulfuric_acid')*1000).fluidOutputs(fluid('ethylene')*1500)
                 .fluidOutputs(fluid('ethanol')*1500).fluidOutputs(fluid('methane')*2000)
                 .fluidOutputs(fluid('formaldehyde')*500).duration(200).EUt(5000).buildAndRegister();
