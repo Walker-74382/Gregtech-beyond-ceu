@@ -265,6 +265,13 @@ eventManager.listen {
         customMetaItems.addItem(253, "satellite");
         customMetaItems.addItem(254, "fume_hood");
         customMetaItems.addItem(255, "carbon_lined_cathode");
+        customMetaItems.addItem(256, "ceramic_water_bucket");
+        customMetaItems.addItem(257, "treated_leather");
+        customMetaItems.addItem(258, "copper_ore_slag");
+        customMetaItems.addItem(259, "tin_ore_slag");
+        customMetaItems.addItem(260, "doped_ulpic_wafer");
+        customMetaItems.addItem(261, "dowex_50_exchange_beads");
+        customMetaItems.addItem(262, "condensated_dowex_50");
         customMetaItems.addItem(300, "entropycore");
         customMetaItems.addItem(301, "boule.fluix");
         customMetaItems.addItem(302, "wafer.fluix");
@@ -274,6 +281,35 @@ eventManager.listen {
         customMetaItems.addItem(306, "plate.simple_fluix_systematic_chip");
         customMetaItems.addItem(307, "plate.basic_fluix_systematic_chip");
         customMetaItems.addItem(308, "plate.complex_fluix_systematic_chip");
+        customMetaItems.addItem(400, "p_doped_ga_as_wafer");
+        customMetaItems.addItem(401, "diode_lithography_mask");
+        customMetaItems.addItem(402, "doped_ga_as_wafer");
+        customMetaItems.addItem(403, "engraved_ga_as_wafer");
+        customMetaItems.addItem(404, "au_ge_ni_alloy_stack");
+        customMetaItems.addItem(405, "etched_ga_as_wafer");
+        customMetaItems.addItem(406, "passivated_epitaxial_ga_as_wafer");
+        customMetaItems.addItem(407, "nano_smd_diode_wafer");
+        customMetaItems.addItem(408, "ga_as_seed_crystal");
+        customMetaItems.addItem(409, "ga_as_boule");
+        customMetaItems.addItem(410, "ga_as_wafer");
+        customMetaItems.addItem(411, "layered_ga_as_wafer");
+        customMetaItems.addItem(412, "coated_layered_ga_as_wafer");
+        customMetaItems.addItem(413, "masked_ga_as_wafer");
+        customMetaItems.addItem(414, "sputtered_ga_as_wafer");
+        customMetaItems.addItem(415, "spincoated_ga_as_wafer");
+        customMetaItems.addItem(416, "etched_spincoated_ga_as_wafer");
+        customMetaItems.addItem(417, "passivated_spincoated_ga_as_wafer");
+        customMetaItems.addItem(418, "bonded_ga_as_wafer");
+        customMetaItems.addItem(419, "ga_as_wafer_die");
+        customMetaItems.addItem(420, "gallium_arsenide_substrate");
+        customMetaItems.addItem(421, "sputtered_ga_as_substrate");
+        customMetaItems.addItem(422, "removed_ga_as_substrate");
+        customMetaItems.addItem(423, "coated_ga_as_substrate");
+        customMetaItems.addItem(424, "gold_electrode");
+        customMetaItems.addItem(425, "silver_electrode");
+        customMetaItems.addItem(426, "electrode_deposited_ga_as_substrate");
+        customMetaItems.addItem(427, "dielectric_film");
+        customMetaItems.addItem(428, "spincoated_ga_as_substrate");
 
 
 }
