@@ -82,7 +82,7 @@ mods.gregtech.electrolyzer.removeByInput(60, [metaitem('dustTantalite') * 9], nu
                 .EUt(800)
                 .buildAndRegister();
 
-        CHEMICAL_RECIPES.recipeBuilder()
+        CENTRIFUGE_RECIPES.recipeBuilder()
                 .fluidInputs(fluid('fluorotantalic_acid')*10000)
                 .fluidInputs(fluid('nb_ta_separation_mixture') * 1000)
                 .fluidOutputs(fluid('oxypentafluoroniobate') * 1000)
