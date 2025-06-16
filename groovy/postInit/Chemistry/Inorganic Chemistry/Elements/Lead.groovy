@@ -48,3 +48,7 @@ mods.gregtech.electrolyzer.removeByInput(30, [metaitem('dustGalena') * 2], null)
                 .duration(250)
                 .EUt(20)
                 .buildAndRegister()
+
+furnace.removeByInput(item('gregtech:ore_lead_0'))
+furnace.removeByInput(item('gregtech:ore_lead_0', 1))
+furnace.removeByInput(item('gregtech:ore_lead_0', 2))
