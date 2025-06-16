@@ -677,6 +677,11 @@ public class SecondDegreeMaterials {
                 .color(0x3C2C28)
                 .build();
 
+        PmmaPolymerizationMix = new Material.Builder(10123, GTBUtil.gtb("pmma_polymerization_mix"))
+                .fluid()
+                .color(0x98B3C8)
+                .build();
+
 
 
 
