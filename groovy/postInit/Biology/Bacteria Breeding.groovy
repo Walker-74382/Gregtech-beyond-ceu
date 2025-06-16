@@ -43,3 +43,11 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .duration(800)
                 .EUt(20000)
                 .buildAndRegister();
+
+        MICROSCOPE_RECIPES.recipeBuilder()
+                .inputs(item('minecraft:dirt', 2))
+                .outputs(metaitem('dustDirt'))
+                .chancedOutput(metaitem('dustCupriavidusNecatorBacteriaSample')*1, 200, 0)
+                .duration(1200)
+                .EUt(400)
+                .buildAndRegister();
