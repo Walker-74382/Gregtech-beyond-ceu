@@ -41,13 +41,12 @@ mods.gregtech.centrifuge.removeByInput(30, [metaitem('dustRealgar') * 2], null)
 // Arsenic Dust * 2
 mods.gregtech.electrolyzer.removeByInput(30, [metaitem('dustArsenicTrioxide') * 5], null)
 
-        BLAST_RECIPES.recipeBuilder()
+        ROASTER_RECIPES.recipeBuilder()
                 .inputs(metaitem('dustArsenicTrioxide')*5)
                 .inputs(metaitem('dustCarbon')*3)
                 .outputs(metaitem('dustArsenic')*2)
                 .fluidOutputs(fluid('carbon_dioxide')*3000)
                 .duration(50)
-                .blastFurnaceTemp(1200)
                 .EUt(70)
                 .buildAndRegister();
 
@@ -72,3 +71,6 @@ mods.gregtech.electrolyzer.removeByInput(30, [metaitem('dustArsenicTrioxide') * 
                 .duration(250)
                 .EUt(270)
                 .buildAndRegister();
+
+// Cobalt Dust * 1
+mods.gregtech.electrolyzer.removeByInput(60, [metaitem('dustCobaltite') * 3], null)
