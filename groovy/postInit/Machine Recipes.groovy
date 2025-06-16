@@ -5,7 +5,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
         ASSEMBLER_RECIPES.recipeBuilder()
                 .duration(200)
                 .EUt(20)
-                .outputs(item('gtb:gtb_multiblock_casing', 8))
+                .outputs(item('gtb:gtb_multiblock_casing', 9))
                 .inputs(metaitem('boltSilver'))
                 .inputs(metaitem('frameIron'))
                 .fluidInputs(fluid('alumino_silicate_wool_solution')*288)
@@ -53,25 +53,25 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .inputs(item('gregtech:metal_casing', 4))
                 .inputs(metaitem('item_casingStainlessSteel')*4)
                 .fluidInputs(fluid('novolac_epoxy_vinyl_ester') * 250)
-                .outputs(item('gtb:gtb_multiblock_casing', 13))
+                .outputs(item('gtb:gtb_multiblock_casing', 14))
                 .duration(240)
                 .EUt(220)
                 .buildAndRegister();
 
         crafting.addShaped("gregtech:hot_tower", item('gregtech:machine', 3049),[
                 [metaitem('circuit.nano_processor'), metaitem('electric.pump.hv'), metaitem('circuit.nano_processor')],
-                [item('gtb:gtb_multiblock_casing', 13) , item('gregtech:wire_coil', 2), item('gtb:gtb_multiblock_casing', 13) ],
+                [item('gtb:gtb_multiblock_casing', 14) , item('gregtech:wire_coil', 2), item('gtb:gtb_multiblock_casing', 14) ],
                 [metaitem('circuit.nano_processor'), metaitem('electric.pump.hv') ,metaitem('circuit.nano_processor')]])
 
         crafting.addShaped("gregtech:cold_tower", item('gregtech:machine', 3050),[
                 [metaitem('circuit.nano_processor'), metaitem('electric.pump.hv'), metaitem('circuit.nano_processor')],
-                [item('gtb:gtb_multiblock_casing', 13) , item('gtb:cooling_coil'), item('gtb:gtb_multiblock_casing', 13) ],
+                [item('gtb:gtb_multiblock_casing', 14) , item('gtb:cooling_coil'), item('gtb:gtb_multiblock_casing', 14) ],
                 [metaitem('circuit.nano_processor'), metaitem('electric.pump.hv') ,metaitem('circuit.nano_processor')]])
 
         crafting.addShaped("gregtech:vacuum_furnace", item('gregtech:machine', 3003), [
-                [ore('circuitMv'), item('gtb:gtb_multiblock_casing', 8) , ore('circuitMv')],
-                [item('gtb:gtb_multiblock_casing', 8), item('gregtech:machine', 986) , item('gtb:gtb_multiblock_casing', 8)],
-                [ore('circuitMv'), item('gtb:gtb_multiblock_casing', 8) , ore('circuitMv')]])
+                [ore('circuitMv'), item('gtb:gtb_multiblock_casing', 9) , ore('circuitMv')],
+                [item('gtb:gtb_multiblock_casing', 9), item('gregtech:machine', 986) , item('gtb:gtb_multiblock_casing', 9)],
+                [ore('circuitMv'), item('gtb:gtb_multiblock_casing', 9) , ore('circuitMv')]])
 
         crafting.addShaped("gregtech:solar_thermal_concentrator", item('gregtech:machine', 3001), [
                 [metaitem('pipeNormalFluidBronze'), metaitem('plateSteel') , metaitem('pipeNormalFluidBronze')],
@@ -221,3 +221,27 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 [ore('circuitIv'), item('gregtech:meta_item_1', 206), ore('circuitIv')], 
                 [item('gregtech:meta_item_1', 146), item('gregtech:machine', 990), item('gregtech:meta_item_1', 146)], 
                 [ore('circuitIv'), item('gregtech:meta_item_1', 206), ore('circuitIv')]])
+
+        ASSEMBLER_RECIPES.recipeBuilder()
+                .inputs(metaitem('hull.hv'))
+                .inputs(ore('circuitHv')*2)
+                .inputs(metaitem('plateGold')* 2)
+                .inputs(metaitem('robot.arm.ev')*2)
+                .inputs(metaitem('electric.motor.ev')*2)
+                .inputs(metaitem('electric.piston.ev')*2)
+                .inputs(item('gregtech:transparent_casing') * 2)
+                .outputs(metaitem('gtb:textile_factory'))
+                .duration(200)
+                .EUt(120)
+                .buildAndRegister();
+
+        ASSEMBLER_RECIPES.recipeBuilder()
+                .inputs(metaitem('voltage_coil.hv')*2)
+                .inputs(ore('circuitHv')*2)
+                .inputs(metaitem('hull.hv'))
+                .inputs(metaitem('electric.pump.hv')*2)
+                .inputs(metaitem('electric.motor.hv')* 2)
+                .outputs(metaitem('gtb:phase_separator'))
+                .duration(200)
+                .EUt(700)
+                .buildAndRegister();
