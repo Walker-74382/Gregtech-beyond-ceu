@@ -135,9 +135,9 @@ mods.gregtech.electrolyzer.removeByInput(60, [metaitem('dustBauxite') * 15], nul
                 .buildAndRegister()
 
         CENTRIFUGE_RECIPES.recipeBuilder()
-                .inputs(metaitem('dustMetakaolin'))
-                .fluidOutputs(fluid('chlorine')*3000)
-                .outputs(metaitem('dustSiliconDioxide'))
+                .inputs(metaitem('dustMetakaolin')*2)
+                .fluidOutputs(fluid('chlorine')*300)
+                .chancedOutput(metaitem('dustSiliconDioxide')*1, 2000, 1000)
                 .outputs(metaitem('dustAlumina'))
                 .EUt(120)
                 .duration(200)
@@ -180,3 +180,26 @@ mods.gregtech.electrolyzer.removeByInput(60, [metaitem('dustBauxite') * 15], nul
 mods.gregtech.electrolyzer.removeByInput(60, [metaitem('dustClay') * 13], null)
 // Aluminium Dust * 2
 mods.gregtech.electrolyzer.removeByInput(30, [metaitem('dustSapphire') * 5], null)
+
+
+        //Aluminium Sulfite Production
+
+        CHEMICAL_RECIPES.recipeBuilder()
+                .notConsumable(metaitem('fume_hood'))
+                .inputs(metaitem('dustAluminium')*2)
+                .fluidInputs(fluid('diluted_sulfuric_acid')*1000)
+                .fluidOutputs(fluid('hydrogen')*3000)
+                .outputs(metaitem('dustAluminiumSulfate')*2)
+                .EUt(370)
+                .duration(250)
+                .buildAndRegister()
+
+        CHEMICAL_RECIPES.recipeBuilder() //CSTR
+                .fluidInputs(fluid('distilled_water')*2000)
+                .notConsumable(metaitem('fume_hood'))
+                .inputs(metaitem('dustAluminiumSulfate')*2)
+                .fluidOutputs(fluid('sulfur_dioxide')*3000)
+                .outputs(metaitem('dustAluminiumSulfite')*2)
+                .duration(400)
+                .EUt(180)
+                .buildAndRegister();

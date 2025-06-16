@@ -241,7 +241,6 @@ eventManager.listen {
         customMetaItems.addItem(229, "nano_smd_capacitor");
         customMetaItems.addItem(230, "nano_smd_inductor");
         customMetaItems.addItem(231, "nano_smd_resistor");
-        customMetaItems.addItem(232, "gdsii_lithography_mask");
         customMetaItems.addItem(233, "gdsii_masked_wafer");
         customMetaItems.addItem(234, "doped_gdsii_wafer");
         customMetaItems.addItem(235, "thin_copper_sheet");
@@ -265,7 +264,6 @@ eventManager.listen {
         customMetaItems.addItem(253, "satellite");
         customMetaItems.addItem(254, "fume_hood");
         customMetaItems.addItem(255, "carbon_lined_cathode");
-        customMetaItems.addItem(256, "ceramic_water_bucket");
         customMetaItems.addItem(257, "treated_leather");
         customMetaItems.addItem(258, "copper_ore_slag");
         customMetaItems.addItem(259, "tin_ore_slag");
@@ -310,6 +308,39 @@ eventManager.listen {
         customMetaItems.addItem(426, "electrode_deposited_ga_as_substrate");
         customMetaItems.addItem(427, "dielectric_film");
         customMetaItems.addItem(428, "spincoated_ga_as_substrate");
-
+        customMetaItems.addItem(429, "transistor_lithography_mask");
+        customMetaItems.addItem(430, "dried_ga_as_substrate");
+        customMetaItems.addItem(431, "chromium_shadow_mask");
+        customMetaItems.addItem(432, "exposed_ga_as_substrate");
+        customMetaItems.addItem(433, "spincoated_dried_ga_as_substrate");
+        customMetaItems.addItem(434, "cured_ga_as_substrate");
+        customMetaItems.addItem(435, "nano_smd_resistor_substrate");
+        customMetaItems.addItem(436, "fused_quartz");
+        customMetaItems.addItem(437, "alumina_based_sio2_wafer");
+        customMetaItems.addItem(438, "patterned_alumina_wafer");
+        customMetaItems.addItem(439, "exposed_alumina_wafer");
+        customMetaItems.addItem(440, "etched_alumina_wafer");
+        customMetaItems.addItem(441, "electroplated_alumina_wafer");
+        customMetaItems.addItem(443, "passivated_alumina_wafer");
+        customMetaItems.addItem(444, "inductor_lithography_mask");
+        customMetaItems.addItem(445, "deposited_alumina_wafer");
+        customMetaItems.addItem(446, "insulated_alumina_wafer");
+        customMetaItems.addItem(447, "silicon_dioxide_substrate");
+        customMetaItems.addItem(448, "spincoated_silicon_dioxide_substrate");
+        customMetaItems.addItem(449, "deposited_silicon_dioxide_substrate");
+        customMetaItems.addItem(450, "gated_silicon_dioxide_substrate");
+        customMetaItems.addItem(451, "buffered_silicon_dioxide_substrate");
+        customMetaItems.addItem(452, "fet");
+        customMetaItems.addItem(453, "fet_wafer");
+        customMetaItems.addItem(454, "electrode_placed_sio_wafer");
+        customMetaItems.addItem(455, "lifted_sio_wafer");
+        customMetaItems.addItem(456, "deposited_sio_wafer");
+        customMetaItems.addItem(457, "gated_sio_wafer");
+        customMetaItems.addItem(459, "carbon_nanotube_grown_substrate");
+        customMetaItems.addItem(460, "chrome_deposited_wafer");
+        customMetaItems.addItem(461, "spincoated_chrome_wafer");
+        customMetaItems.addItem(462, "exposed_chrome_wafer");
+        customMetaItems.addItem(463, "developed_chrome_wafer");
+        customMetaItems.addItem(464, "etched_chrome_wafer");
 
 }

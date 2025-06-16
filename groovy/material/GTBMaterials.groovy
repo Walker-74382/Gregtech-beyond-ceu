@@ -61,6 +61,11 @@ class GTBMaterials {
         public static Material FusedMetakaolin;
         public static Material PurifiedXenotimeSlurry;
         public static Material ImpureXenotimeSlurry;
+        public static Material AluminiumSulfate;
+        public static Material Dirt;
+        public static Material CadmiumOleate;
+        public static Material MonodisperseQuantumDots;
+        public static Material QuantumDots;
 
         //Unknown Materials
 
@@ -307,6 +312,11 @@ class GTBMaterials {
         public static Material BCl_Cl2_Ar;
         public static Material ArsenicTrichloride;
         public static Material Arsine;
+        public static Material DielectricPaste;
+        public static Material SiliconNitride;
+        public static Material PyromelliticDianhydrideOxydianilin;
+        public static Material PyromelliticDianhydrideSolution;
+
 
         //Biology Materials
 
@@ -513,7 +523,21 @@ class GTBMaterials {
 
 
         //Second Degree Material
-
+        public static Material StearicAcid;
+        public static Material PalladiumCarbonMixture;
+        public static Material CericAmmoniumNitrate;
+        public static Material GlacialAceticAcid;
+        public static Material ChromiumEtchant;
+        public static Material TetramethylammoniumHydroxide;
+        public static Material TetramethylammoniumIodide;
+        public static Material DilutedTMAH;
+        public static Material SilverHydroxide;
+        public static Material MethylIodide;
+        public static Material ReducedPalladiumCarbonMixture;
+        public static Material ActivatedCarbonSuspension;
+        public static Material PalladiumChloride;
+        public static Material PalladiumOnCarbon;
+        public static Material PmmaPolymerizationMix;
         public static Material AmmoniumBisulfate;
         public static Material PToluenesulfonicAcid;
         public static Material PhenolFormaldehydePrecursor;
@@ -1031,6 +1055,8 @@ class GTBMaterials {
         public static Material SinteredSilver;
         public static Material CopperSulfateSolution;
         public static Material MasonryBrick;
+        public static Material Pmma;
+
 
         //Fantasy Materials
 

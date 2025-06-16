@@ -1240,3 +1240,6 @@ FORMING_PRESS_RECIPES.recipeBuilder()
     .EUt(20)
     .duration(200)
     .buildAndRegister();
+
+crafting.remove('appliedenergistics2:materials/advancedcard')
+

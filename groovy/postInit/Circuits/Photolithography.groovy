@@ -1835,3 +1835,96 @@ mods.gregtech.large_chemical_reactor.removeByInput(120, [metaitem('wafer.ultra_h
                 .duration(200)
                 .EUt(12)
                 .buildAndRegister();
+
+        //Chrome Shadow Maks
+
+        HIGH_VACUUM_EVAPORATION_RECIPES.recipeBuilder()
+                .inputs(metaitem('wafer.silicon'))
+                .inputs(metaitem('dustChrome'))
+                .outputs(metaitem('chrome_deposited_wafer'))
+                .duration(200)
+                .EUt(212)
+                .buildAndRegister();
+
+        SPINCOATER_RECIPES.recipeBuilder()
+                .inputs(metaitem('chrome_deposited_wafer'))
+                .fluidInputs(fluid('pmma')*100)
+                .outputs(metaitem('spincoated_chrome_wafer'))
+                .duration(300)
+                .EUt(180)
+                .buildAndRegister();
+
+        UV_LIGHT_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('novolacs_photoresist')*20)
+                .inputs(metaitem('spincoated_chrome_wafer'))
+                .inputs(metaitem('lithography_base_mask'))
+                .outputs(metaitem('exposed_chrome_wafer'))
+                .duration(300)
+                .EUt(220)
+                .buildAndRegister();
+
+        CHEMICAL_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('trimethylamine')*1000)
+                .fluidInputs(fluid('methyl_iodide')*1000)
+                .fluidOutputs(fluid('tetramethylammonium_iodide')*1000)
+                .duration(300)
+                .EUt(220)
+                .buildAndRegister();
+
+        ION_EXCHANGE_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('tetramethylammonium_iodide')*1000)
+                .fluidOutputs(fluid('tetramethylammonium_hydroxide')*1000)
+                .duration(300)
+                .EUt(220)
+                .buildAndRegister();
+
+        MIXER_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('tetramethylammonium_hydroxide')*1000)
+                .fluidInputs(fluid('distilled_water')*3000)
+                .fluidOutputs(fluid('diluted_tmah')*4000)
+                .duration(300)
+                .EUt(220)
+                .buildAndRegister();
+
+        CHEMICAL_BATH_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('diluted_tmah')*500)
+                .inputs(metaitem('exposed_chrome_wafer'))
+                .outputs(metaitem('developed_chrome_wafer'))
+                .duration(300)
+                .EUt(220)
+                .buildAndRegister();
+
+        LARGE_CHEMICAL_RECIPES.recipeBuilder() //CSTR
+                .inputs(metaitem('dustCeriumOxide'))
+                .fluidInputs(fluid('glacial_acetic_acid')*1000)
+                .fluidInputs(fluid('nitric_acid')*1000)
+                .fluidInputs(fluid('ammonium_nitrate')*1000)
+                .fluidInputs(fluid('deionized_water')*1000)
+                .fluidOutputs(fluid('ceric_ammonium_nitrate')*1000)
+                .duration(500)
+                .EUt(400)
+                .buildAndRegister();
+
+        CHEMICAL_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('ceric_ammonium_nitrate')*1000)
+                .fluidInputs(fluid('glacial_acetic_acid')*1000)
+                .fluidOutputs(fluid('chromium_etchant')*1000)
+                .duration(300)
+                .EUt(200)
+                .buildAndRegister();
+
+        REACTIVE_ION_ETCHER_RECIPES.recipeBuilder()
+                .inputs(metaitem('developed_chrome_wafer'))
+                .outputs(metaitem('etched_chrome_wafer'))
+                .fluidInputs(fluid('chromium_etchant')*200)
+                .duration(400)
+                .EUt(450)
+                .buildAndRegister();
+
+        CHEMICAL_BATH_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('acetone')*100)
+                .inputs(metaitem('etched_chrome_wafer'))
+                .outputs(metaitem('chromium_shadow_mask'))
+                .duration(400)
+                .EUt(450)
+                .buildAndRegister();
