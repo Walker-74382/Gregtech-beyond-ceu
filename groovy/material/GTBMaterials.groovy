@@ -317,6 +317,7 @@ class GTBMaterials {
         public static Material PyromelliticDianhydrideOxydianilin;
         public static Material PyromelliticDianhydrideSolution;
 
+
         //Biology Materials
 
         public static Material ZirkeliteSlurry;
@@ -1055,6 +1056,7 @@ class GTBMaterials {
         public static Material CopperSulfateSolution;
         public static Material MasonryBrick;
         public static Material Pmma;
+
 
         //Fantasy Materials
 

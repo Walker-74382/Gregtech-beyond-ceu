@@ -1660,3 +1660,4 @@ recipemap.enzymatic_hydrolysis_recipes.name=Enzymatic Hydrolysis
 recipemap.tube_in_tube_reactor_recipes.name=Tube in Tube Reaction
 recipemap.spincoater_recipes.name=Spincoating
 recipemap.automatic_wire_bonder_recipes.name=Automatic Wire Bonding
+recipemap.fractional_distillation_recipes.name=Fractional Distillation

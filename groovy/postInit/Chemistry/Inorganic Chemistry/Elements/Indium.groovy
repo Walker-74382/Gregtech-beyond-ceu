@@ -206,5 +206,5 @@ mods.gregtech.centrifuge.removeByInput(30, null, [fluid('lead_zinc_solution') * 
 
 // Indium Dust * 1
 mods.gregtech.large_chemical_reactor.removeByInput(600, [metaitem('circuit.integrated').withNbt(['Configuration': 4]), metaitem('dustAluminium') * 16], [fluid('indium_concentrate') * 4000 * 4000])
-// Small Pile of Indium Dust * 1
 mods.gregtech.large_chemical_reactor.removeByInput(600, [metaitem('circuit.integrated').withNbt(['Configuration': 1]), metaitem('dustAluminium') * 4], [fluid('indium_concentrate') * 1000 * 1000])
+

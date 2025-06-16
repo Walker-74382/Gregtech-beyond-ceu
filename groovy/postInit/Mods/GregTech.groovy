@@ -5,6 +5,7 @@ crafting.remove('gregtech:compressed_clay')
 furnace.removeByInput(metaitem('dustTinAlloy'));
 furnace.removeByInput(metaitem('dustCerium'));
 
+
 VACUUM_FURNACE_RECIPES.recipeBuilder()
     .inputs(metaitem('dustTinAlloy'))
     .outputs(metaitem('ingotTinAlloy'))

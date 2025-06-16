@@ -1242,3 +1242,4 @@ FORMING_PRESS_RECIPES.recipeBuilder()
     .buildAndRegister();
 
 crafting.remove('appliedenergistics2:materials/advancedcard')
+

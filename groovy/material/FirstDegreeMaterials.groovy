@@ -2812,6 +2812,60 @@ public class FirstDegreeMaterials {
                 .color(0x498288)
                 .build().setFormula("C18H36O2", true);
 
+        HafniumFluoride = new Material.Builder(8528, GTBUtil.gtb("hafnium_fluoride"))
+                .fluid()
+                .color(0x798586)
+                .build().setFormula("HfF2",true);
+
+        Alamine_336 = new Material.Builder(8529, GTBUtil.gtb("alamine_336"))
+                .fluid()
+                .color(0xC18FCA)
+                .build().setFormula("C24H51N",true);
+
+        Cyanex_923 = new Material.Builder(8530, GTBUtil.gtb("cyanex_923"))
+                .fluid()
+                .color(0x83B7E2)
+                .build().setFormula("C24H51OP",true);
+
+        TrioctylphosphineSolution = new Material.Builder(8531, GTBUtil.gtb("trioctylphosphine_solution"))
+                .fluid()
+                .color(0x4AA3AB)
+                .build().setFormula("C24H51P?",true);
+
+        TridecylphosphineSolution = new Material.Builder(8532, GTBUtil.gtb("tridecylphosphine_solution"))
+                .fluid()
+                .color(0x72368C)
+                .build().setFormula("C13H29P?",true);
+
+        Trioctylphosphine = new Material.Builder(8533, GTBUtil.gtb("trioctylphosphine"))
+                .fluid()
+                .color(0x408D93)
+                .build().setFormula("C24H51P",true);
+
+        Tridecylphosphine = new Material.Builder(8534, GTBUtil.gtb("tridecylphosphine"))
+                .fluid()
+                .color(0x5F2C75)
+                .build().setFormula("C13H29P",true);
+
+        TrioctylphosphineOxide = new Material.Builder(8535, GTBUtil.gtb("trioctylphosphine_oxide"))
+                .fluid()
+                .color(0x81BCC1)
+                .build().setFormula("C24H51OP",true);
+
+        TridecylphosphineOxide = new Material.Builder(8536, GTBUtil.gtb("tridecylphosphine_oxide"))
+                .fluid()
+                .color(0x5B356B)
+                .build().setFormula("C13H29PO",true);
+
+        Tridecylamine = new Material.Builder(8537, GTBUtil.gtb("tridecylamine"))
+                .fluid()
+                .color(0x9E81AA)
+                .build().setFormula("C13H29N",true);
+
+        Trioctylamine = new Material.Builder(8538, GTBUtil.gtb("trioctylamine"))
+                .fluid()
+                .color(0x2B6B71)
+                .build().setFormula("C24H51N",true);
 
 
 
