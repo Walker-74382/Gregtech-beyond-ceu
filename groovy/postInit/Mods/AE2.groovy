@@ -43,6 +43,12 @@ crafting.remove('appliedenergistics2:network/cells/fluid_storage_cell_16k')
 crafting.remove('appliedenergistics2:network/cells/fluid_storage_cell_64k_storage')
 crafting.remove('appliedenergistics2:network/cells/fluid_storage_cell_64k')
 
+
+crafting.remove('nae2:block/crafting/storage_256k')
+crafting.remove('nae2:block/crafting/storage_1024k')
+crafting.remove('nae2:block/crafting/storage_4096k')
+crafting.remove('nae2:block/crafting/storage_16384k')
+
 //Removing AE2 related GT items
 crafting.remove('gregtech:bolt_saw_CrystalFluix')
 crafting.remove('gregtech:screw_CrystalFluix')
@@ -482,7 +488,7 @@ FORMING_PRESS_RECIPES.recipeBuilder()
 
 FORMING_PRESS_RECIPES.recipeBuilder()
     .inputs(ore('plateGold'))
-    .notConsumable(item('appliedenergistics2:material:13'))
+    .notConsumable(item('appliedenergistics2:material:15'))
     .outputs(item('appliedenergistics2:material:18'))
     .duration(100) 
     .EUt(96)
@@ -498,7 +504,7 @@ FORMING_PRESS_RECIPES.recipeBuilder()
 
 FORMING_PRESS_RECIPES.recipeBuilder()
     .inputs(ore('plateCertusQuartz'))
-    .notConsumable(item('appliedenergistics2:material:15'))
+    .notConsumable(item('appliedenergistics2:material:13'))
     .outputs(item('appliedenergistics2:material:16'))
     .duration(100) 
     .EUt(96)
@@ -856,7 +862,7 @@ MIXER_RECIPES.recipeBuilder()
 
 //Fluix wafers
 BLAST_RECIPES.recipeBuilder() //boule
-    .inputs(ore('dustCrystalFluix')*16, ore('oreDustSmallGalliumArsenide'))
+    .inputs(ore('dustCrystalFluix')*16, ore('dustGalliumArsenide'))
     .fluidInputs(fluid('nitrogen') * 2000)
     .outputs(fboule)
     .duration(6000)
@@ -1217,3 +1223,22 @@ mods.appliedenergistics2.grinder.recipeBuilder()
     .output(metaitem('dustCertusQuartz'))
     .turns(3)
     .register()
+
+crafting.remove('appliedenergistics2:network/blocks/storage_device')
+crafting.remove('appliedenergistics2:misc/grindstone')
+
+crafting.addShaped("ae2_grindstone", item('appliedenergistics2:grindstone'), [
+[ore('boltSteel'), ore('gearSteel'), ore('boltSteel')], 
+[ore('gemQuartz'), item('gregtech:machine', 985), ore('gemQuartz')], 
+[ore('stoneCobble'), ore('gemQuartz'), ore('stoneCobble')]
+])
+
+FORMING_PRESS_RECIPES.recipeBuilder()
+    .inputs(metaitem('plateDiamond'))
+    .notConsumable(item('appliedenergistics2:material', 14))
+    .outputs(item('appliedenergistics2:material', 17))
+    .EUt(20)
+    .duration(200)
+    .buildAndRegister();
+
+crafting.remove('appliedenergistics2:materials/advancedcard')
