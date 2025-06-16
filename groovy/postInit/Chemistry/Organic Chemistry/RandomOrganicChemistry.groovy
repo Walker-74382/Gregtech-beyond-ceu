@@ -238,3 +238,5 @@ mods.gregtech.chemical_reactor.removeByInput(7, null, [fluid('chlorine') * 1000 
                 .fluidOutputs(fluid('hydrogen')*2000)
                 .fluidOutputs(fluid('styrene')*1000)
                 .buildAndRegister();
+
+        
