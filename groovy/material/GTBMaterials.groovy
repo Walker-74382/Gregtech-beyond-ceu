@@ -64,12 +64,16 @@ class GTBMaterials {
 
         //Unknown Materials
 
+        public static Material EthylToluene;
+        public static Material EthylChloride;
+        public static Material VinylToluene;
+        public static Material DivinylbenzeneMixture;
+        public static Material OneThreeDivinylbenzene;
         public static Material DryDiethylEther;
         public static Material MethylmagnesiumBromide;
         public static Material MethylBromide;
         public static Material CadmiumRichZinc;
         public static Material CrudeZinc;
-        public static Material LiquidOxygen;
         public static Material ColdAir;
         public static Material SupercooledLiquidNitrogen;
         public static Material UntreatedLiquidOxygen;
@@ -295,10 +299,19 @@ class GTBMaterials {
         public static Material DecokedWoodTar;
         public static Material VacuumFlashedCoalTar;
         public static Material VacuumFlashedWoodTar;
-
+        public static Material GalliumVapor;
+        public static Material Dimethylzinc;
+        public static Material Trimethylgallium;
+        public static Material BoronTrichloride;
+        public static Material IndiumGalliumArsenide;
+        public static Material BCl_Cl2_Ar;
+        public static Material ArsenicTrichloride;
+        public static Material Arsine;
 
         //Biology Materials
 
+        public static Material ZirkeliteSlurry;
+        public static Material ImpureZirkeliteSlurry;
         public static Material CupriavidusNecator;
         public static Material BacterialGrowthMedium;
         public static Material DepletedBacterialGrowthMedium;
@@ -413,6 +426,44 @@ class GTBMaterials {
         public static Material ChlorineVapor;
         public static Material Diamminesilver;
         public static Material IronOxide;
+        public static Material ImpureCrystalFluix;
+        public static Material ImpureCrystalFluixSolution;
+        public static Material ElectricalSteel;
+        public static Material ZirconiumHafniumFluorides;
+        public static Material ThoriumFluoride;
+        public static Material CeriumFluoride;
+        public static Material MoltenCalciumSalts;
+        public static Material ZirconiumHafniumFluorideSolution;
+        public static Material ZirconiumHafniumExtractionMixture;
+        public static Material ZirconiumHafniumFluorideExtract;
+        public static Material ZirconiumFluorideSolution;
+        public static Material HafniumFluorideSolution;
+        public static Material ZirconiumFluorideExtract;
+        public static Material HafniumFluorideExtract;
+        public static Material ZirconiumFluoride;
+        public static Material HafniumFluoride;
+        public static Material Alamine_336;
+        public static Material Cyanex_923;
+        public static Material Trioctylamine;
+        public static Material Tridecylamine;
+        public static Material TridecylphosphineOxide;
+        public static Material TrioctylphosphineOxide;
+        public static Material Tridecylphosphine;
+        public static Material Trioctylphosphine;
+        public static Material TridecylphosphineSolution;
+        public static Material TrioctylphosphineSolution;
+        public static Material Bromotridecane;
+        public static Material Tridecanol;
+        public static Material TridecanoicAcid;
+        public static Material Tridecane;
+        public static Material Bromooctane;
+        public static Material Dowex_50;
+        public static Material Dowex_50_Solution;
+        public static Material Oleum;
+        public static Material Dowex_50_Suspension;
+        public static Material DriedDowex_50_Suspension;
+        public static Material Divinylbenzene;
+        public static Material RockSaltSolution;
 
         //First Degree Materials
 
@@ -979,6 +1030,7 @@ class GTBMaterials {
         public static Material SodiumIodate;
         public static Material SinteredSilver;
         public static Material CopperSulfateSolution;
+        public static Material MasonryBrick;
 
         //Fantasy Materials
 

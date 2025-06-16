@@ -175,3 +175,8 @@ mods.gregtech.electrolyzer.removeByInput(60, [metaitem('dustBauxite') * 15], nul
                 .EUt(70)
                 .duration(250)
                 .buildAndRegister()
+
+// Sodium Dust * 2
+mods.gregtech.electrolyzer.removeByInput(60, [metaitem('dustClay') * 13], null)
+// Aluminium Dust * 2
+mods.gregtech.electrolyzer.removeByInput(30, [metaitem('dustSapphire') * 5], null)

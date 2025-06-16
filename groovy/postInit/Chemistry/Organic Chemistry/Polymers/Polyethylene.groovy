@@ -7,7 +7,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .fluidInputs(fluid('ethylene')*144)
                 .fluidOutputs(fluid('plastic')*144)
                 .duration(500)
-                .EUt(800)
+                .EUt(20)
                 .buildAndRegister();
 
         POLYMERIZATION_TANK_RECIPES.recipeBuilder()
@@ -15,7 +15,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .fluidInputs(fluid('ethylene')*144)
                 .fluidOutputs(fluid('plastic')*144)
                 .duration(500)
-                .EUt(800)
+                .EUt(20)
                 .buildAndRegister();
 
         POLYMERIZATION_TANK_RECIPES.recipeBuilder()
@@ -23,7 +23,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .fluidInputs(fluid('ethylene')*144)
                 .fluidOutputs(fluid('plastic')*576)
                 .duration(500)
-                .EUt(800)
+                .EUt(20)
                 .buildAndRegister();
 
         POLYMERIZATION_TANK_RECIPES.recipeBuilder()
@@ -31,7 +31,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .fluidInputs(fluid('ethylene')*144)
                 .fluidOutputs(fluid('plastic')*288)
                 .duration(500)
-                .EUt(800)
+                .EUt(20)
                 .buildAndRegister();
 
         POLYMERIZATION_TANK_RECIPES.recipeBuilder()
@@ -39,7 +39,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
                 .fluidInputs(fluid('ethylene')*144)
                 .fluidOutputs(fluid('plastic')*432)
                 .duration(500)
-                .EUt(800)
+                .EUt(20)
                 .buildAndRegister();
 
 

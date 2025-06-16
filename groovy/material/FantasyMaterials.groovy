@@ -63,6 +63,18 @@ public class FantasyMaterials {
                         .components(material('silicon')*1, material('redstone')*1, material('nether_quartz')*1, material('certus_quartz')*1)
                         .build();
 
+        ImpureCrystalFluix = new Material.Builder(14014, GTBUtil.gtb("impure_crystal_fluix"))
+                        .gem()
+                        .color(0x6C3584).iconSet("certus") //make it a bit brighter
+                        .components(material('silicon')*1, material('redstone')*1, material('nether_quartz')*1, material('certus_quartz')*1)
+                        .build();
+
+        ImpureCrystalFluixSolution = new Material.Builder(14015, GTBUtil.gtb("impure_crystal_fluix_solution"))
+                        .fluid()
+                        .color(0x8D54A4).iconSet("certus") //make it a bit brighter
+                        .components(material('silicon')*1, material('redstone')*1, material('nether_quartz')*1, material('certus_quartz')*1)
+                        .build();
+
 
 
 

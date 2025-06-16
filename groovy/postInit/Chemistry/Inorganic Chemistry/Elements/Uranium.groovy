@@ -94,7 +94,7 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
         BURNER_REACTOR_RECIPES.recipeBuilder()
                 .inputs(metaitem('dustUraniumResidues')*2)
                 .fluidInputs(fluid('oxygen')*1000)
-                .chancedOutput(metaitem('dustUraniumDioxide')*1,200,100)
+                .chancedOutput(metaitem('dustUraniumDioxide')*1,2000,1000)
                 .duration(200)
                 .EUt(80)
                 .buildAndRegister();
