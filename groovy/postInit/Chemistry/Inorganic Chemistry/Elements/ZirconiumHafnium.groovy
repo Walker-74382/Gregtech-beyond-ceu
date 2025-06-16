@@ -114,3 +114,243 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
 
 // Hafnium Dust * 1
 mods.gregtech.electrolyzer.removeByInput(80, [metaitem('dustHafniumOxide') * 2], null)
+
+
+        //Extraction Mixture
+
+        CHEMICAL_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('tridecane')*1000)
+                .fluidInputs(fluid('oxygen')*1000)
+                .fluidOutputs(fluid('tridecanoic_acid')*1000)
+                .duration(120)
+                .EUt(50)
+                .buildAndRegister();
+
+        ROASTER_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('tridecanoic_acid')*1000)
+                .fluidInputs(fluid('hydrogen')*2000)
+                .notConsumable(metaitem('dustNickel'))
+                .fluidOutputs(fluid('tridecanol')*1000)
+                .fluidOutputs(fluid('water')*1000)
+                .duration(400)
+                .EUt(20)
+                .buildAndRegister();
+
+        CHEMICAL_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('tridecanol')*1000)
+                .fluidInputs(fluid('hydrobromic_acid')*1000)
+                .fluidOutputs(fluid('bromotridecane')*100)
+                .fluidOutputs(fluid('water')*1000)
+                .duration(120)
+                .EUt(50)
+                .buildAndRegister();
+
+        CHEMICAL_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('bromotridecane')*3000)
+                .fluidInputs(fluid('toluene')*1000)
+                .fluidInputs(fluid('phosphorus_trichloride')*1000)
+                .inputs(metaitem('dustSodiumHydroxide')*3)
+                .fluidOutputs(fluid('tridecylphosphine_solution')*1000)
+                .duration(320)
+                .EUt(250)
+                .buildAndRegister();
+        
+        DISTILLATION_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('tridecylphosphine_solution')*1000)
+                .outputs(metaitem('dustSodiumHydroxide')*3)
+                .fluidOutputs(fluid('toluene')*1000)
+                .fluidOutputs(fluid('tridecylphosphine')*1000)
+                .duration(120)
+                .EUt(140)
+                .buildAndRegister();
+
+        CHEMICAL_RECIPES.recipeBuilder() //CSTR
+                .fluidInputs(fluid('tridecylphosphine')*1000)
+                .fluidInputs(fluid('oxygen')*1000)
+                .fluidOutputs(fluid('tridecylphosphine_oxide')*1000)
+                .duration(160)
+                .EUt(150)
+                .buildAndRegister();
+
+        CHEMICAL_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('hydrobromic_acid')*1000)
+                .fluidInputs(fluid('octanol')*1000)
+                .fluidOutputs(fluid('bromooctane')*1000)
+                .fluidOutputs(fluid('water')*1000)
+                .duration(160)
+                .EUt(150)
+                .buildAndRegister();
+
+        CHEMICAL_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('bromooctane')*3000)
+                .fluidInputs(fluid('toluene')*1000)
+                .fluidInputs(fluid('phosphorus_trichloride')*1000)
+                .inputs(metaitem('dustSodiumHydroxide')*3)
+                .fluidOutputs(fluid('trioctylphosphine_solution')*1000)
+                .duration(320)
+                .EUt(250)
+                .buildAndRegister();
+        
+        DISTILLATION_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('trioctylphosphine_solution')*1000)
+                .outputs(metaitem('dustSodiumHydroxide')*3)
+                .fluidOutputs(fluid('toluene')*1000)
+                .fluidOutputs(fluid('trioctylphosphine')*1000)
+                .duration(120)
+                .EUt(140)
+                .buildAndRegister();
+
+        CHEMICAL_RECIPES.recipeBuilder() //CSTR
+                .fluidInputs(fluid('trioctylphosphine')*1000)
+                .fluidInputs(fluid('oxygen')*1000)
+                .fluidOutputs(fluid('trioctylphosphine_oxide')*1000)
+                .duration(160)
+                .EUt(150)
+                .buildAndRegister();
+
+        MIXER_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('trioctylphosphine_oxide')*1000)
+                .fluidInputs(fluid('tridecylphosphine_oxide')*1000)
+                .fluidOutputs(fluid('cyanex_923')*2000)
+                .duration(260)
+                .EUt(150)
+                .buildAndRegister();
+
+        MIXER_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('trioctylamine')*1000)
+                .fluidInputs(fluid('bromotridecane')*1000)
+                .fluidOutputs(fluid('alamine_336')*2000)
+                .duration(260)
+                .EUt(150)
+                .buildAndRegister();
+
+        MIXER_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('cyanex_923')*1000)
+                .fluidInputs(fluid('alamine_336')*1000)
+                .fluidOutputs(fluid('zirconium_hafnium_extraction_mixture')*2000)
+                .duration(260)
+                .EUt(150)
+                .buildAndRegister();
+
+        //Zirkelite
+
+        GRAVITY_SEPARATOR_RECIPES.recipeBuilder()
+                .inputs(metaitem('dustZirkelite'))
+                .outputs(metaitem('siftedZirkelite'))
+                .duration(200)
+                .EUt(180)
+                .buildAndRegister();
+
+        MIXER_RECIPES.recipeBuilder()
+                .inputs(metaitem('siftedZirkelite')*6)
+                .fluidInputs(fluid('water')*1000)
+                .fluidOutputs(fluid('impure_zirkelite_slurry')*1000)
+                .duration(200)
+                .EUt(180)
+                .buildAndRegister();
+
+        FROTH_FLOTATION_UNIT_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('impure_zirkelite_slurry')*1000)
+                .inputs(metaitem('dustCalciumHydroxide')*3)
+                .notConsumable(metaitem('dustSodiumEthylXanthate'))
+                .notConsumable(fluid('methyl_isobutyl_carbonyl'))
+                .fluidOutputs(fluid('zirkelite_slurry')*1000)
+                .duration(300)
+                .EUt(180)
+                .buildAndRegister();
+
+        CLARIFIER_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('zirkelite_slurry')*1000)
+                .outputs(metaitem('dustCalciumHydroxide')*3)
+                .fluidOutputs(fluid('waste_water')*1000)
+                .outputs(metaitem('floatedZirkelite')*8)
+                .duration(300)
+                .EUt(180)
+                .buildAndRegister();
+
+        CENTRIFUGE_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('hydrofluoric_acid')*68000)
+                .inputs(metaitem('floatedZirkelite')*58)
+                .outputs(metaitem('dustFluorite')*6)
+                .outputs(metaitem('dustZirconiumHafniumFluorides')*35)
+                .outputs(metaitem('dustThoriumFluoride')*10)
+                .outputs(metaitem('dustCeriumFluoride')*5)
+                .duration(800)
+                .EUt(480)
+                .buildAndRegister();
+
+        MIXER_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('distilled_water')*1000)
+                .inputs(metaitem('dustZirconiumHafniumFluorides')*5)
+                .fluidOutputs(fluid('zirconium_hafnium_fluoride_solution')*1000)
+                .duration(800)
+                .EUt(480)
+                .buildAndRegister();
+
+        CENTRIFUGE_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('zirconium_hafnium_fluoride_solution')*1000)
+                .fluidInputs(fluid('zirconium_hafnium_extraction_mixture')*2000)
+                .fluidOutputs(fluid('zirconium_hafnium_fluoride_extract')*1000)
+                .duration(800)
+                .EUt(480)
+                .buildAndRegister();
+
+        FRACTIONAL_DISTILLATION_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('zirconium_hafnium_fluoride_extract')*1000)
+                .fluidOutputs(fluid('zirconium_fluoride_solution')*1000)
+                .fluidOutputs(fluid('hafnium_fluoride_solution')*1000)
+                .duration(800)
+                .EUt(480)
+                .buildAndRegister();
+
+        ION_EXCHANGE_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('hafnium_fluoride_solution')*1000)
+                .notConsumable(metaitem('dowex_50_exchange_beads'))
+                .fluidOutputs(fluid('hafnium_fluoride_extract')*1000)
+                .duration(800)
+                .EUt(480)
+                .buildAndRegister();
+
+        ION_EXCHANGE_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('zirconium_fluoride_solution')*1000)
+                .notConsumable(metaitem('dowex_50_exchange_beads'))
+                .fluidOutputs(fluid('zirconium_fluoride_extract')*1000)
+                .duration(800)
+                .EUt(480)
+                .buildAndRegister();
+
+        DISTILLATION_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('zirconium_fluoride_extract')*1000)
+                .fluidOutputs(fluid('zirconium_fluoride')*1000)
+                .fluidOutputs(fluid('zirconium_hafnium_extraction_mixture')*1000)
+                .duration(500)
+                .EUt(350)
+                .buildAndRegister();
+
+        DISTILLATION_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('hafnium_fluoride_extract')*1000)
+                .fluidOutputs(fluid('hafnium_fluoride')*1000)
+                .fluidOutputs(fluid('zirconium_hafnium_extraction_mixture')*1000)
+                .duration(500)
+                .EUt(350)
+                .buildAndRegister();
+
+        BLAST_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('hafnium_fluoride')*1000)
+                .inputs(metaitem('dustMagnesium')*2)
+                .outputs(metaitem('dustMagnesiumChloride')*4)
+                .outputs(metaitem('dustHafnium'))
+                .duration(200)
+                .EUt(330)
+                .blastFurnaceTemp(1500)
+                .buildAndRegister();
+
+        BLAST_RECIPES.recipeBuilder()
+                .fluidInputs(fluid('zirconium_fluoride')*1000)
+                .inputs(metaitem('dustMagnesium')*2)
+                .outputs(metaitem('dustMagnesiumChloride')*4)
+                .outputs(metaitem('dustZirconium'))
+                .duration(200)
+                .EUt(330)
+                .blastFurnaceTemp(1500)
+                .buildAndRegister();
