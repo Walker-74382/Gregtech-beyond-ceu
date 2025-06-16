@@ -19,6 +19,7 @@ public class MaterialPropertyAddition {
             Flerovium.setProperty(PropertyKey.DUST, new DustProperty());
             Barium.setProperty(PropertyKey.INGOT, new IngotProperty());
             Cadmium.setProperty(PropertyKey.INGOT, new IngotProperty());
+            Cerium.setProperty(PropertyKey.INGOT, new IngotProperty());
             NetherQuartz.setProperty(PropertyKey.FLUID, new FluidProperty(FluidStorageKeys.LIQUID, new FluidBuilder()));
             CertusQuartz.setProperty(PropertyKey.FLUID, new FluidProperty(FluidStorageKeys.LIQUID, new FluidBuilder()));
             Quartzite.setProperty(PropertyKey.FLUID, new FluidProperty(FluidStorageKeys.LIQUID, new FluidBuilder()));
@@ -39,6 +40,7 @@ public class MaterialPropertyAddition {
             NetherQuartz.addFlags(GENERATE_LENS);
 
             BlueAlloy.addFlags(GENERATE_FINE_WIRE);
+            Cerium.addFlags(GENERATE_FINE_WIRE);
 
 
 
@@ -48,6 +50,7 @@ public class MaterialPropertyAddition {
             Phosphate.setProperty(PropertyKey.ORE, new OreProperty());
             Andradite.setProperty(PropertyKey.ORE, new OreProperty());
             Zinc.setProperty(PropertyKey.ORE, new OreProperty());
+            Rutile.setProperty(PropertyKey.ORE, new OreProperty());
       
       }
   }
