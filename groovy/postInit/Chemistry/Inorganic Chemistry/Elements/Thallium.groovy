@@ -15,11 +15,11 @@ import static gtb.api.recipes.GTBRecipeMaps.*;
         ROASTER_RECIPES.recipeBuilder()
                 .inputs(metaitem('dustGalena')* 4)
                 .fluidInputs(fluid('oxygen')*6000)
-                .outputs(metaitem('ingotLead'))
+                .outputs(metaitem('ingotLead')*2)
                 .chancedOutput(metaitem('dustThalliumSulfate')*7 , 200, 0)
                 .fluidOutputs(fluid('sulfur_dioxide')*1000)
                 .duration(100)
-                .EUt(320)
+                .EUt(12)
                 .buildAndRegister();
 
         ELECTROLYZER_RECIPES.recipeBuilder()
