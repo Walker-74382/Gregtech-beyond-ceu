@@ -166,7 +166,7 @@ mods.gregtech.mixer.removeByInput(1920, [metaitem('crushedGreenSapphire') * 2], 
         CHEMICAL_RECIPES.recipeBuilder()    
                 .fluidInputs(fluid('mesityl_oxide')*1000)
                 .fluidInputs(fluid('hydrogen')*2000)
-                .fluidOutputs(fluid('MethylIsobutylCarbinol')*1000)
+                .fluidOutputs(fluid('methyl_isobutyl_carbinol')*1000)
                 .duration(300)
                 .EUt(800)
                 .buildAndRegister();
