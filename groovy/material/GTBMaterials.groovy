@@ -66,6 +66,12 @@ class GTBMaterials {
         public static Material CadmiumOleate;
         public static Material MonodisperseQuantumDots;
         public static Material QuantumDots;
+        public static Material DriedVermiculite;
+        public static Material ExfoliatedVermiculite;
+        public static Material ImpureSylvaniteSlurry;
+        public static Material SlyvaniteSlurry;
+        public static Material FloatedSylvanite;
+        public static Material RoatedSylvanite;
 
         //Unknown Materials
 
@@ -520,6 +526,19 @@ class GTBMaterials {
         public static Material PotassiumFluorotantalateSolution;
         public static Material PotassiumFluoroniobateSolution;
         public static Material PhosphorylChloride;
+        public static Material Iron3Sulfate;
+        public static Material OrthosilicicAcid;
+        public static Material SodiumDiisobutyldithiophosphinate;
+        public static Material MethylIsobutylCarbinol;
+        public static Material SodiumDihydrogenPhosphate;
+        public static Material SodiumHexametaphosphate;
+        public static Material Isobutanol;
+        public static Material Isobutyraldehyde;
+        public static Material CobaltTetracarbonylHydride;
+        public static Material DiisobutylPhosphite;
+        public static Material DiisobutylDithiophosphinicAcid;
+        public static Material DiisobutylDithiophosphinicAcid;
+        public static Material DicobaltOctacarbonyl;
 
 
         //Second Degree Material

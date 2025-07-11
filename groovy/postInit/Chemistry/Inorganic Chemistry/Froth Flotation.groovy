@@ -138,3 +138,35 @@ mods.gregtech.mixer.removeByInput(1920, [metaitem('crushedGreenSapphire') * 2], 
                 .duration(300)
                 .EUt(800)
                 .buildAndRegister();
+
+//Sodium Hexametaphosphate
+
+        CHEMICAL_RECIPES.recipeBuilder()    
+                .fluidInputs(fluid('phosphoric_acid')*6000)
+                .inputs(metaitem('dustSodaAsh')*6)
+                .outputs(metaitem('dustSodiumDihydrogenPhosphate')*6)
+                .fluidOutputs(fluid("water")*3000)
+                .duration(300)
+                .EUt(800)
+                .buildAndRegister();
+
+        POLYMERIZATION_TANK_RECIPES.recipeBuilder()
+                .inputs(metaitem('dustSodiumDihydrogenPhosphate')*6)
+                .outputs(metaitem('dustSodiumHexametaphosphate'))
+                .fluidOutputs(fluid('water')*6000)
+                .duration(4000)
+                .EUt(280)
+                .buildAndRegister();
+
+//Sodium Diisobutyldithiophosphinate WIP
+
+
+//Methyl Isobutyl Carbinol 
+
+        CHEMICAL_RECIPES.recipeBuilder()    
+                .fluidInputs(fluid('mesityl_oxide')*1000)
+                .fluidInputs(fluid('hydrogen')*2000)
+                .fluidOutputs(fluid('MethylIsobutylCarbinol')*1000)
+                .duration(300)
+                .EUt(800)
+                .buildAndRegister();

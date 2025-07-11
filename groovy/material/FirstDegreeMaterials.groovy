@@ -2867,6 +2867,75 @@ public class FirstDegreeMaterials {
                 .color(0x2B6B71)
                 .build().setFormula("C24H51N",true);
 
+        Iron3Sulfate = new Material.Builder(8539, GTBUtil.gtb("ironiii_sulfate"))
+                .dust()
+                .iconSet(METALLIC)
+                .color(0xC2D66D)
+                .build().setFormula("Fe2(SO4)3", true);
+
+        OrthosilicicAcid = new Material.Builder(8540, GTBUtil.gtb("silicicacid"))
+                .fluid()
+                .color(0xF4FEFE)
+                .build().setFormula("H4SiO4", true);
+
+
+        SodiumDiisobutyldithiophosphinate = new Material.Builder(8541, GTBUtil.gtb("sodiumdiisobutyldithiophosphinate"))
+                .fluid()
+                .color(0xf2e88c)
+                .build().setFormula("C8H18NAPS2", true);
+
+        MethylIsobutylCarbinol = new Material.Builder(8542, GTBUtil.gtb("methylisobutylcarbinol"))
+                .fluid()
+                .color(0xf2e88c)
+                .build().setFormula("C6H14O", true);
+
+        SodiumDihydrogenPhosphate = new Material.Builder(8543, GTBUtil.gtb("sodiumdihydrogenphosphate"))
+                .dust()
+                .iconSet(FINE)
+                .color(0xe0e0dd)
+                .build().setFormula("NaH2PO4", true);
+
+        SodiumHexametaphosphate = new Material.Builder(8544, GTBUtil.gtb("sodiumhexametaphosphate"))
+                .dust()
+                .iconSet(SHINY)
+                .color(0xdcdcdc)
+                .build().setFormula("(NaPO3)6", true);
+        
+        Isobutanol = new Material.Builder(8545, GTBUtil.gtb("isobutanol"))
+                .fluid()
+                .color(0xd8d8d0)
+                .build().setFormula("C4H10O", true);
+
+        Isobutyraldehyde = new Material.Builder(8546, GTBUtil.gtb("isobutylraldehyde"))
+                .fluid()
+                .color(0xd4d4c8)
+                .build().setFormula("C4H8O", true);
+
+        CobaltTetracarbonylHydride = new Material.Builder(8547, GTBUtil.gtb("cobalttetracarbonylhydride"))
+                .fluid()
+                .color(0xf0e6b8)
+                .build().setFormula("HCo(CO)4", true);
+
+        DiisobutylPhosphite = new Material.Builder(8548, GTBUtil.gtb(diisobutylphosphite))
+                .fluid()
+                .color(0xe2e2d4)
+                .build().setFormula("(CH3)2(CHCH2O)3P", true);
+
+        DiisobutylDithiophosphinicAcid = new Material.Builder(8549, GTBUtil.gtb(diisobutyldithiophosphinicacid))
+                .fluid()
+                .color(0xe2e2d4)
+                .build().setFormula("(i-Bu)2P(S)SH", true);
+
+        DicobaltOctacarbonyl = new Material.Builder(8560, GTBUtil.gtb(dicobaltoctacarbonyl))
+                .dust()
+                .iconSet(FINE)
+                .color(0xf0a030)
+                .build().setFormula("HCo(CO)4", true);
+
+        
+
+        
+
 
 
     }

@@ -194,6 +194,7 @@ public class OreMaterials {
         Sylvanite = new Material.Builder(16034, GTBUtil.gtb("sylvanite"))
                 .ore()
                 .dust()
+                .flags(GENERATE_FLOATED, GENERATE_SIFTED)
                 .color(0x717171)
                 .build().setFormula('AuAgTe4', true);
 
@@ -271,6 +272,41 @@ public class OreMaterials {
                 .color(0x3E3D3D)
                 .build().setFormula('CaC2', true);
 
+        DriedVermiculite = new Material.Builder(16049, GTBUtil.gtb("dried_vermiculite"))
+                .dust()
+                .iconSet(ROUGH)
+                .color(0xCC9966)
+                .build().setFormula('Fe3Al4Si4H2O12', true);
+
+        ExfoliatedVermiculite = new Material.Builder(16050, GTBUtil.gtb("exfoliated_vermiculite"))
+                .dust()
+                .iconSet(ROUGH)
+                .color(0xD4AF7F) 
+                .build().setFormula('Fe3Al4Si4O12', true);
+
+        ImpureSylvaniteSlurry = new Material.Builder(16051,GTBUtil.gtb("impure_sylvanite_slurry"))
+                .fluid()
+                .color(0xb8b8a0)
+                .build().setFormula("?", true);
+
+        SlyvaniteSlurry = new Material.Builder(16052,GTBUtil.gtb("sylvanite_slurry"))
+                .fluid()
+                .color(0x7f7f6b)
+                .build().setFormula("?", true);
+
+        FloatedSylvanite = new Material.Builder(16053,GTBUtil.gtb("slyvanite_floated"))
+                .dust()
+                .iconSet(METALLIC)
+                .color(0x7f7f6b)
+                .build().setFormula("AuAgTe4", true);
+
+        RoatedSylvanite = new Material.Builder(16054,GTBUtil.gtb("sylvanite_roasted"))
+                .dust()
+                .iconSet(FINE)
+                .color(0x7b7260)
+                .build().setFormula("AuAg(TeO2)4", true);
+
+        
 
 
 
